@@ -1,0 +1,47 @@
+
+---Downloaded files---
+The import files for: Landing 2 were successfully downloaded!
+Initial max execution time = 180
+Files info:
+Site URL = http://www.24jan.in
+Data file = /home/nexstbvk/public_html/24jan.in/wp-content/uploads/2018/12/demo-content-import-file_2018-12-26__10-14-53.xml
+Widget file = /home/nexstbvk/public_html/24jan.in/wp-content/uploads/2018/12/demo-widgets-import-file_2018-12-26__10-14-53.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+Custom Framework file loaded.
+
+---Importing widgets---
+Blog Widgets : 
+
+Search - No Title - Imported
+Categories - No Title - Imported
+Shufflehound Portfolio - Latest Projects - Imported
+
+Footer Widgets : 
+
+Shufflehound Information - No Title - Imported
+Shufflehound Recent Posts - No Title - Imported
+Shufflehound Portfolio - Latest Projects - Imported
+
+WooCommerce Widgets : 
+
+Product Search - No Title - Imported
+Filter Products by Price - No Title - Imported
+Product Categories - Product Categories - Imported
+Products by Rating - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+

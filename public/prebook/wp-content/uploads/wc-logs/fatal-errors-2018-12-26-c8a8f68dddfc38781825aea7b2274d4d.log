@@ -1,0 +1,9 @@
+2018-12-26T10:19:34+00:00 CRITICAL Uncaught Error: Call to a member function get_url() on null in /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/includes/object-library.class.php:62
+Stack trace:
+#0 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/admin/revslider-admin.class.php(118): RevSliderObjectLibrary->_get_list()
+#1 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/admin/revslider-admin.class.php(44): RevSliderAdmin->init()
+#2 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/revslider.php(168): RevSliderAdmin->__construct('/home/nexstbvk/...')
+#3 /home/nexstbvk/public_html/24jan.in/wp-admin/includes/plugin.php(555): include_once('/home/nexstbvk/...')
+#4 /home/nexstbvk/public_html/24jan.in/wp-content/themes/jevelin/inc/plugins/TGM-Plugin-Activation/class-tgm-plugin-activation.php(1042): activate_plugin('revslider/revsl...')
+#5 /home/nexstbvk/public_html/24jan.in/wp-content/themes/jevelin/inc/plugins/TGM-Plugin-Activation/class-tgm-plugin-activation.php(923): TGM_Plugin_Activ in /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/includes/object-library.class.php on line 62
+

@@ -1,0 +1,254 @@
+id,code,name_en,name_tc,name_sc
+1,HK,Hong Kong SAR China,中華人民共和國香港特別行政區,中国香港特别行政区
+2,AF,Afghanistan,阿富汗,阿富汗
+3,AX,Åland Islands,奧蘭群島,奥兰群岛
+4,AL,Albania,阿爾巴尼亞,阿尔巴尼亚
+5,DZ,Algeria,阿爾及利亞,阿尔及利亚
+6,AS,American Samoa,美屬薩摩亞群島,美属萨摩亚
+7,AD,Andorra,安道爾,安道尔
+8,AO,Angola,安哥拉,安哥拉
+9,AI,Anguilla,安圭拉島,安圭拉
+10,AQ,Antarctica,南極洲,南极洲
+11,AG,Antigua & Barbuda,安地卡及巴布達,安提瓜和巴布达
+12,AR,Argentina,阿根廷,阿根廷
+13,AM,Armenia,亞美尼亞,亚美尼亚
+14,AW,Aruba,阿路巴,阿鲁巴
+15,AC,Ascension Island,阿森松島,阿森松岛
+16,AU,Australia,澳洲,澳大利亚
+17,AT,Austria,奧地利,奥地利
+18,AZ,Azerbaijan,亞塞拜然,阿塞拜疆
+19,BS,Bahamas,巴哈馬,巴哈马
+20,BH,Bahrain,巴林,巴林
+21,BD,Bangladesh,孟加拉,孟加拉国
+22,BB,Barbados,巴貝多,巴巴多斯
+23,BY,Belarus,白俄羅斯,白俄罗斯
+24,BE,Belgium,比利時,比利时
+25,BZ,Belize,貝里斯,伯利兹
+26,BJ,Benin,貝南,贝宁
+27,BM,Bermuda,百慕達,百慕大
+28,BT,Bhutan,不丹,不丹
+29,BO,Bolivia,玻利維亞,玻利维亚
+30,BA,Bosnia & Herzegovina,波士尼亞與赫塞格維納,波斯尼亚和黑塞哥维那
+31,BW,Botswana,波札那,博茨瓦纳
+32,BR,Brazil,巴西,巴西
+33,IO,British Indian Ocean Territory,英屬印度洋領土,英属印度洋领地
+34,VG,British Virgin Islands,英屬維京群島,英属维京群岛
+35,BN,Brunei,汶萊,文莱
+36,BG,Bulgaria,保加利亞,保加利亚
+37,BF,Burkina Faso,布吉納法索,布基纳法索
+38,BI,Burundi,蒲隆地,布隆迪
+39,KH,Cambodia,柬埔寨,柬埔寨
+40,CM,Cameroon,喀麥隆,喀麦隆
+41,CA,Canada,加拿大,加拿大
+42,IC,Canary Islands,加那利群島,加纳利群岛
+43,CV,Cape Verde,維德角,佛得角
+44,BQ,Caribbean Netherlands,荷蘭加勒比區,荷兰加勒比区
+45,KY,Cayman Islands,開曼群島,开曼群岛
+46,CF,Central African Republic,中非共和國,中非共和国
+47,EA,Ceuta & Melilla,休達與梅利利亞,休达及梅利利亚
+48,TD,Chad,查德,乍得
+49,CL,Chile,智利,智利
+50,CN,China,中華人民共和國,中国
+51,CX,Christmas Island,聖誕島,圣诞岛
+52,CC,Cocos (Keeling) Islands,可可斯群島,科科斯（基林）群岛
+53,CO,Colombia,哥倫比亞,哥伦比亚
+54,KM,Comoros,葛摩,科摩罗
+55,CG,Congo - Brazzaville,剛果（布拉薩）,刚果（布）
+56,CD,Congo - Kinshasa,剛果（金夏沙）,刚果（金）
+57,CK,Cook Islands,庫克群島,库克群岛
+58,CR,Costa Rica,哥斯大黎加,哥斯达黎加
+59,CI,Côte d’Ivoire,象牙海岸,科特迪瓦
+60,HR,Croatia,克羅埃西亞,克罗地亚
+61,CU,Cuba,古巴,古巴
+62,CW,Curaçao,庫拉索,库拉索
+63,CY,Cyprus,賽普勒斯,塞浦路斯
+64,CZ,Czech Republic,捷克共和國,捷克共和国
+65,DK,Denmark,丹麥,丹麦
+66,DG,Diego Garcia,迪亞哥加西亞島,迪戈加西亚岛
+67,DJ,Djibouti,吉布地,吉布提
+68,DM,Dominica,多米尼克,多米尼克
+69,DO,Dominican Republic,多明尼加共和國,多米尼加共和国
+70,EC,Ecuador,厄瓜多,厄瓜多尔
+71,EG,Egypt,埃及,埃及
+72,SV,El Salvador,薩爾瓦多,萨尔瓦多
+73,GQ,Equatorial Guinea,赤道幾內亞,赤道几内亚
+74,ER,Eritrea,厄利垂亞,厄立特里亚
+75,EE,Estonia,愛沙尼亞,爱沙尼亚
+76,ET,Ethiopia,衣索比亞,埃塞俄比亚
+77,FK,Falkland Islands,福克蘭群島,福克兰群岛
+78,FO,Faroe Islands,法羅群島,法罗群岛
+79,FJ,Fiji,斐濟,斐济
+80,FI,Finland,芬蘭,芬兰
+81,FR,France,法國,法国
+82,GF,French Guiana,法屬圭亞那,法属圭亚那
+83,PF,French Polynesia,法屬玻里尼西亞,法属波利尼西亚
+84,TF,French Southern Territories,法屬南方屬地,法属南部领地
+85,GA,Gabon,加彭,加蓬
+86,GM,Gambia,甘比亞,冈比亚
+87,GE,Georgia,喬治亞共和國,格鲁吉亚
+88,DE,Germany,德國,德国
+89,GH,Ghana,迦納,加纳
+90,GI,Gibraltar,直布羅陀,直布罗陀
+91,GR,Greece,希臘,希腊
+92,GL,Greenland,格陵蘭,格陵兰
+93,GD,Grenada,格瑞那達,格林纳达
+94,GP,Guadeloupe,瓜地洛普,瓜德罗普
+95,GU,Guam,關島,关岛
+96,GT,Guatemala,瓜地馬拉,危地马拉
+97,GG,Guernsey,根西島,根西岛
+98,GN,Guinea,幾內亞,几内亚
+99,GW,Guinea-Bissau,幾內亞比紹,几内亚比绍
+100,GY,Guyana,蓋亞那,圭亚那
+101,HT,Haiti,海地,海地
+102,HN,Honduras,宏都拉斯,洪都拉斯
+103,HU,Hungary,匈牙利,匈牙利
+104,IS,Iceland,冰島,冰岛
+105,IN,India,印度,印度
+106,ID,Indonesia,印尼,印度尼西亚
+107,IR,Iran,伊朗,伊朗
+108,IQ,Iraq,伊拉克,伊拉克
+109,IE,Ireland,愛爾蘭,爱尔兰
+110,IM,Isle of Man,曼島,曼岛
+111,IL,Israel,以色列,以色列
+112,IT,Italy,義大利,意大利
+113,JM,Jamaica,牙買加,牙买加
+114,JP,Japan,日本,日本
+115,JE,Jersey,澤西島,泽西岛
+116,JO,Jordan,約旦,约旦
+117,KZ,Kazakhstan,哈薩克,哈萨克斯坦
+118,KE,Kenya,肯亞,肯尼亚
+119,KI,Kiribati,吉里巴斯,基里巴斯
+120,XK,Kosovo,科索沃,科索沃
+121,KW,Kuwait,科威特,科威特
+122,KG,Kyrgyzstan,吉爾吉斯,吉尔吉斯斯坦
+123,LA,Laos,寮國,老挝
+124,LV,Latvia,拉脫維亞,拉脱维亚
+125,LB,Lebanon,黎巴嫩,黎巴嫩
+126,LS,Lesotho,賴索托,莱索托
+127,LR,Liberia,賴比瑞亞,利比里亚
+128,LY,Libya,利比亞,利比亚
+129,LI,Liechtenstein,列支敦斯登,列支敦士登
+130,LT,Lithuania,立陶宛,立陶宛
+131,LU,Luxembourg,盧森堡,卢森堡
+132,MO,Macau SAR China,中華人民共和國澳門特別行政區,中国澳门特别行政区
+133,MK,Macedonia,馬其頓,马其顿
+134,MG,Madagascar,馬達加斯加,马达加斯加
+135,MW,Malawi,馬拉威,马拉维
+136,MY,Malaysia,馬來西亞,马来西亚
+137,MV,Maldives,馬爾地夫,马尔代夫
+138,ML,Mali,馬利,马里
+139,MT,Malta,馬爾他,马耳他
+140,MH,Marshall Islands,馬紹爾群島,马绍尔群岛
+141,MQ,Martinique,馬丁尼克島,马提尼克
+142,MR,Mauritania,茅利塔尼亞,毛里塔尼亚
+143,MU,Mauritius,模里西斯,毛里求斯
+144,YT,Mayotte,馬約特,马约特
+145,MX,Mexico,墨西哥,墨西哥
+146,FM,Micronesia,密克羅尼西亞群島,密克罗尼西亚
+147,MD,Moldova,摩爾多瓦,摩尔多瓦
+148,MC,Monaco,摩納哥,摩纳哥
+149,MN,Mongolia,蒙古,蒙古
+150,ME,Montenegro,蒙特內哥羅,黑山共和国
+151,MS,Montserrat,蒙哲臘,蒙特塞拉特
+152,MA,Morocco,摩洛哥,摩洛哥
+153,MZ,Mozambique,莫三比克,莫桑比克
+154,MM,Myanmar (Burma),緬甸,缅甸
+155,NA,Namibia,納米比亞,纳米比亚
+156,NR,Nauru,諾魯,瑙鲁
+157,NP,Nepal,尼泊爾,尼泊尔
+158,NL,Netherlands,荷蘭,荷兰
+159,NC,New Caledonia,新喀里多尼亞群島,新喀里多尼亚
+160,NZ,New Zealand,紐西蘭,新西兰
+161,NI,Nicaragua,尼加拉瓜,尼加拉瓜
+162,NE,Niger,尼日,尼日尔
+163,NG,Nigeria,奈及利亞,尼日利亚
+164,NU,Niue,紐埃島,纽埃
+165,NF,Norfolk Island,諾福克島,诺福克岛
+166,KP,North Korea,北韓,朝鲜
+167,MP,Northern Mariana Islands,北馬里亞納群島,北马里亚纳群岛
+168,NO,Norway,挪威,挪威
+169,OM,Oman,阿曼王國,阿曼
+170,PK,Pakistan,巴基斯坦,巴基斯坦
+171,PW,Palau,帛琉,帕劳
+172,PS,Palestinian Territories,巴勒斯坦自治區,巴勒斯坦领土
+173,PA,Panama,巴拿馬,巴拿马
+174,PG,Papua New Guinea,巴布亞紐幾內亞,巴布亚新几内亚
+175,PY,Paraguay,巴拉圭,巴拉圭
+176,PE,Peru,秘魯,秘鲁
+177,PH,Philippines,菲律賓,菲律宾
+178,PN,Pitcairn Islands,皮特肯群島,皮特凯恩群岛
+179,PL,Poland,波蘭,波兰
+180,PT,Portugal,葡萄牙,葡萄牙
+181,PR,Puerto Rico,波多黎各,波多黎各
+182,QA,Qatar,卡達,卡塔尔
+183,RE,Réunion,留尼旺,留尼汪
+184,RO,Romania,羅馬尼亞,罗马尼亚
+185,RU,Russia,俄羅斯,俄罗斯
+186,RW,Rwanda,盧安達,卢旺达
+187,WS,Samoa,薩摩亞群島,萨摩亚
+188,SM,San Marino,聖馬利諾,圣马力诺
+189,ST,São Tomé & Príncipe,聖多美及普林西比,圣多美和普林西比
+190,SA,Saudi Arabia,沙烏地阿拉伯,沙特阿拉伯
+191,SN,Senegal,塞內加爾,塞内加尔
+192,RS,Serbia,塞爾維亞,塞尔维亚
+193,SC,Seychelles,塞席爾,塞舌尔
+194,SL,Sierra Leone,獅子山,塞拉利昂
+195,SG,Singapore,新加坡,新加坡
+196,SX,Sint Maarten,荷屬聖馬丁,荷属圣马丁
+197,SK,Slovakia,斯洛伐克,斯洛伐克
+198,SI,Slovenia,斯洛維尼亞,斯洛文尼亚
+199,SB,Solomon Islands,索羅門群島,所罗门群岛
+200,SO,Somalia,索馬利亞,索马里
+201,ZA,South Africa,南非,南非
+202,GS,South Georgia & South Sandwich Islands,南喬治亞與南三明治群島,南乔治亚岛和南桑威齐群岛
+203,KR,South Korea,南韓,韩国
+204,SS,South Sudan,南蘇丹,南苏丹
+205,ES,Spain,西班牙,西班牙
+206,LK,Sri Lanka,斯里蘭卡,斯里兰卡
+207,BL,St. Barthélemy,聖巴瑟米,圣巴泰勒米
+208,SH,St. Helena,聖赫勒拿島,圣赫勒拿
+209,KN,St. Kitts & Nevis,聖克里斯多福及尼維斯,圣基茨和尼维斯
+210,LC,St. Lucia,聖露西亞,圣卢西亚
+211,MF,St. Martin,法屬聖馬丁,法属圣马丁
+212,PM,St. Pierre & Miquelon,聖皮埃爾和密克隆群島,圣皮埃尔和密克隆群岛
+213,VC,St. Vincent & Grenadines,聖文森及格瑞那丁,圣文森特和格林纳丁斯
+214,SD,Sudan,蘇丹,苏丹
+215,SR,Suriname,蘇利南,苏里南
+216,SJ,Svalbard & Jan Mayen,冷岸及央麥恩群島,斯瓦尔巴特和扬马延
+217,SZ,Swaziland,史瓦濟蘭,斯威士兰
+218,SE,Sweden,瑞典,瑞典
+219,CH,Switzerland,瑞士,瑞士
+220,SY,Syria,敘利亞,叙利亚
+221,TW,Taiwan,台灣,台湾
+222,TJ,Tajikistan,塔吉克,塔吉克斯坦
+223,TZ,Tanzania,坦尚尼亞,坦桑尼亚
+224,TH,Thailand,泰國,泰国
+225,TL,Timor-Leste,東帝汶,东帝汶
+226,TG,Togo,多哥共和國,多哥
+227,TK,Tokelau,托克勞群島,托克劳
+228,TO,Tonga,東加,汤加
+229,TT,Trinidad & Tobago,千里達及托巴哥,特立尼达和多巴哥
+230,TA,Tristan da Cunha,特里斯坦達庫尼亞群島,特里斯坦-达库尼亚群岛
+231,TN,Tunisia,突尼西亞,突尼斯
+232,TR,Turkey,土耳其,土耳其
+233,TM,Turkmenistan,土庫曼,土库曼斯坦
+234,TC,Turks & Caicos Islands,土克斯及開科斯群島,特克斯和凯科斯群岛
+235,TV,Tuvalu,吐瓦魯,图瓦卢
+236,UM,U.S. Outlying Islands,美國本土外小島嶼,美国本土外小岛屿
+237,VI,U.S. Virgin Islands,美屬維京群島,美属维京群岛
+238,UG,Uganda,烏干達,乌干达
+239,UA,Ukraine,烏克蘭,乌克兰
+240,AE,United Arab Emirates,阿拉伯聯合大公國,阿拉伯联合酋长国
+241,GB,United Kingdom,英國,英国
+242,US,United States,美國,美国
+243,UY,Uruguay,烏拉圭,乌拉圭
+244,UZ,Uzbekistan,烏茲別克,乌兹别克斯坦
+245,VU,Vanuatu,萬那杜,瓦努阿图
+246,VA,Vatican City,梵蒂岡,梵蒂冈
+247,VE,Venezuela,委內瑞拉,委内瑞拉
+248,VN,Vietnam,越南,越南
+249,WF,Wallis & Futuna,瓦利斯和富圖納群島,瓦利斯和富图纳
+250,EH,Western Sahara,西撒哈拉,西撒哈拉
+251,YE,Yemen,葉門,也门
+252,ZM,Zambia,尚比亞,赞比亚
+253,ZW,Zimbabwe,辛巴威,津巴布韦

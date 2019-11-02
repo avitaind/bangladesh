@@ -1,0 +1,73 @@
+<li class="nav-item hidden-sm-down">
+                @if( $user = Auth::user( ) )
+                    <!-- <li class="nav-item hidden-sm-down"> -->
+                        <a class="user-toggle fa fa-user-o" href="#"></a>
+                    <!-- </li> -->
+                @else
+                    <!-- <li class="nav-item hidden-sm-down"> -->
+                        <a class="" href="{{ route('login') }}"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                    <!-- </li> -->
+                @endif
+                @if( $user = Auth::user( ) )
+                    <aside class="navbar-user-warp hidden-sm-down">
+                        <div class="navbar-user navbar-md-user">
+                            <div class="user-header pt-2 px-4">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <div class="username">{{ $user->name }}</div>
+                                    <div class="ml-auto">
+                                        <a href="" onclick="event.preventDefault();">
+                                            <span aria-hidden="true" class="close">&#10005;</span>
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-content px-3">
+                                <div class="align-items-center px-2 pb-2">
+                                    <!-- <img src="../images/icon-member-small.jpg" alt=""> -->
+                                    <div class="col-12 px-0 pb-3 useremail-border small"><a href="#" class="useremail pl-4">{{ $user->email }}</a></div>
+                                    <div class="col-12 px-0 mt-3 member-center"><a href="{{ route('member.profile') }}" class=" pl-4">@lang('site.member_center')</a></div>
+                                </div>
+                                <div class="justify-content-center">
+                                    <a class="px-4" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                        <i class="" aria-hidden="true"><button type="submit" class="btn btn-primary my-3">@lang('site.logout')</button></i>
+                                    </a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        {{ csrf_field() }}
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                @endif
+                </li>
+
+                @if ( count( $supported_languages ) > 1 )
+
+                    @foreach( $supported_languages  as $selected_lang  )
+
+                        @if( $selected_lang != $lang )
+                        <li class="nav-item hidden-sm-down">
+
+                            <a class="" href="{{ route('lang.switch', $selected_lang) }}">
+
+                                @if( $selected_lang == 'tc' )
+                                    中
+                                @elseif ( $selected_lang == 'en')
+                                    ENG
+                                @elseif ( $selected_lang == 'th')
+                                    ภาษาไทย
+                                @elseif ( $selected_lang == 'id')
+                                    Bahasa Indonesia
+                                @else
+                                    {{ $selected_lang }}
+                                @endif
+
+                            </a>
+                        </li>
+                        @endif
+                    @endforeach
+                @endif

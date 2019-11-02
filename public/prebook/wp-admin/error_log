@@ -1,0 +1,20 @@
+[26-Dec-2018 10:12:59 UTC] PHP Warning:  sprintf(): Too few arguments in /home/nexstbvk/public_html/24jan.in/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Dec-2018 10:12:59 UTC] PHP Warning:  sprintf(): Too few arguments in /home/nexstbvk/public_html/24jan.in/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Dec-2018 10:13:00 UTC] PHP Warning:  sprintf(): Too few arguments in /home/nexstbvk/public_html/24jan.in/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Dec-2018 10:13:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_url() on null in /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/includes/template.class.php:136
+Stack trace:
+#0 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/admin/revslider-admin.class.php(112): RevSliderTemplate->_get_template_list()
+#1 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/admin/revslider-admin.class.php(44): RevSliderAdmin->init()
+#2 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/revslider.php(168): RevSliderAdmin->__construct('/home/nexstbvk/...')
+#3 /home/nexstbvk/public_html/24jan.in/wp-admin/includes/plugin.php(555): include_once('/home/nexstbvk/...')
+#4 /home/nexstbvk/public_html/24jan.in/wp-content/themes/jevelin/inc/plugins/TGM-Plugin-Activation/class-tgm-plugin-activation.php(3457): activate_plugin('revslider/revsl...')
+#5 /home/nexstbvk/public_html/24jan.in/wp-includes/class-wp-hook.php(288): TGMPA_Bulk_Installer->auto_activate(true)
+#6 /home/nexstbvk/public_html/24jan.i in /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/includes/template.class.php on line 136
+[26-Dec-2018 10:19:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_url() on null in /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/includes/object-library.class.php:62
+Stack trace:
+#0 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/admin/revslider-admin.class.php(118): RevSliderObjectLibrary->_get_list()
+#1 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/admin/revslider-admin.class.php(44): RevSliderAdmin->init()
+#2 /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/revslider.php(168): RevSliderAdmin->__construct('/home/nexstbvk/...')
+#3 /home/nexstbvk/public_html/24jan.in/wp-admin/includes/plugin.php(555): include_once('/home/nexstbvk/...')
+#4 /home/nexstbvk/public_html/24jan.in/wp-content/themes/jevelin/inc/plugins/TGM-Plugin-Activation/class-tgm-plugin-activation.php(1042): activate_plugin('revslider/revsl...')
+#5 /home/nexstbvk/public_html/24jan.in/wp-content/themes/jevelin/inc/plugins/TGM-Plugin-Activation/class-tgm-plugin-activation.php(923): TGM_Plugin_Activ in /home/nexstbvk/public_html/24jan.in/wp-content/plugins/revslider/includes/object-library.class.php on line 62

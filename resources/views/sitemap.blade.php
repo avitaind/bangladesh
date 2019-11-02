@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://avita-india.com/in</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/login</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/liber12</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/liber</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/imago</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/modus</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/news</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/liber/where_to_buy</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/support</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/liber/spec</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/aboutus</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/contact_us</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/repair_tnc</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/tnc</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/entry</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/register?</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/password/reset</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/liber/support</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/product/imago/spec</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://avita-india.com/in/news/detail/14</loc>
+  <lastmod>2019-01-27T13:46:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
