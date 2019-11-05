@@ -67,7 +67,6 @@
                             </form>
                                 
                         <br/>
-                        <img src="/images/contact.png" style="width:350px;">
 
                         </div>
 
@@ -82,11 +81,8 @@
 
                 <div class="container">
 
-                    @if ( $country == 'tw' )
-                        <div class="h3 section-title mb-3 ls-0">維修中心</div>
-                    @else
                         <div class="h3 section-title mb-3 ls-0">@lang('site.support_title_2')</div>
-                    @endif
+
 
 
                     @foreach( $serviceCenters as $center )

@@ -34,14 +34,14 @@ Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallba
 
 
 
-Route::get('/entry', function (){
+Route::get('/bd/entry', function (){
          return view('global');
       });
       
       
-Route::get('/aboutus', 'HomeController@getAboutUs');
-Route::get('/contact_us', 'HomeController@getContact_us');
-Route::get('/tnc', 'HomeController@getTerms');
+Route::get('/bd/aboutus', 'HomeController@getAboutUs');
+Route::get('/bd/contact_us', 'HomeController@getContact_us');
+Route::get('/bd/tnc', 'HomeController@getTerms');
 
 // Route::get('/imago', 'HomeController@getImago')->name('imago');
 // Route::get('/imago/spec', 'HomeController@getImagoSpec')->name('imago.spec');

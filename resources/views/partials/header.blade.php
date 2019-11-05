@@ -82,25 +82,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            
-
-                            
-                            
-                            <li class="nav-item has-dropdown">
-                                <input id="header_product_device" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4"><label for="header_product_device" class="d-block mb-0">@lang('site.accessories')</label></a>
-                                <div class="dropdown">
-                                    <ul class="list-unstyled">
-                                 
-                               <li class="nav-item">
-                              <a class="nav-link px-md-4 py-2" href="http://avitain.ashplanmedia.com/in/accessories/mouse">@lang('site.mouse')</a>
-                                    </li>
-                        
-                                    </ul>
-                                </div>
-                            </li>
-
-                           </ul>
+                         </ul>
                     </div>
 
                 </li>
@@ -118,39 +100,11 @@
                         <a class="nav-link" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
                     </li>
                 @endif
-              <!----      
-                
-                --->
-      
-                
 
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a>
                 </li>
               
-                             <li class="nav-item has-dropdown">
-                                <input id="header_product_device" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">Buy Online</label></a>
-                                <div class="dropdown">
-                                    <ul class="list-unstyled">
-                                 
-                               <li class="nav-item">
-                             
-                          <a class="nav-link px-md-4 py-2" href="https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=avita">Amazon</a>
-                          </li>
-                          <li class="nav-item">
-                          <a class="nav-link px-md-4 py-2" href="">Flipkart</a>
-                          </li>
-                          <li class="nav-item">
-                          <a class="nav-link px-md-4 py-2" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2">Paytm Mall</a>
-                          </li>
-                          <li class="nav-item">
-                          <a class="nav-link px-md-4 py-2" href="https://www.tatacliq.com/search/?searchCategory=all&text=avita">Tata Cliq</a>
-                                    </li>
-                        
-                                    </ul>
-                                </div>
-                            </li>
             </ul>
         </div>
 

@@ -30,12 +30,12 @@
     <div class="footer-info py-0 py-md-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-5 py-3 py-md-0 text-left">
+                <div class="col-12 col-md-6 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
                             <a href="{{ route('products') }}" class="my-1">@lang('site.products')</a>
                             <a href="{{ route('news') }}" class="my-1">@lang('site.news')</a>
-                            <a href="/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
+                            <a href="/bd/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
@@ -45,7 +45,7 @@
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
                             @endif
 
-                            <a href="/contact_us" class="my-1">@lang('site.footer_contact')</a>
+                            <a href="/bd/contact_us" class="my-1">@lang('site.footer_contact')</a>
          
                         
                         </div>
@@ -60,7 +60,7 @@
                         <div class="d-flex flex-column mr-5 small-lsm-little">
                             <a href="{{ route('products') }}" class="my-1">@lang('site.products')</a>
                             <a href="{{ route('news') }}" class="my-1">@lang('site.news')</a>
-                            <a href="/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
+                            <a href="/bd/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
                             <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
 
                             @if( $storeURL )
@@ -71,7 +71,7 @@
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
 
-                            <a href="/avita/contact_us" class="my-1">@lang('site.footer_contact')</a>
+                            <a href="/bd/contact_us" class="my-1">@lang('site.footer_contact')</a>
 
                             <a href="{{ route('support') }}" class="my-1">@lang('site.productnav_support')</a>
 
@@ -83,31 +83,11 @@
                         </div>
                     </div>
                 </div>
-                <!---
-                
-                --->
-                
-                   <div class="col-12 col-md-3 py-3 py-md-0 text-left">
-                    <div class="d-flex justify-content-between hidden-xs-down">
-                        <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
-                            <strong>Available On</strong>
-                            <a href="https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=avita" class="my-1">Amazon</a>
-                            <a href="#" class="my-1">Flipkart</a>
-                            <a href="https://www.tatacliq.com/search/?searchCategory=all&text=avita" class="my-1">Tata Cliq</a>
-                            <a href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2" class="my-1">Paytm Mall</a>
-                        </div>
-                        
-            
-                    </div>
-            
-                </div>
-                <!----
-                
-                ---->
-                <div class="col-12 col-md-4 pb-3 py-md-0 text-md-right">
+
+                <div class="col-12 col-md-6 pb-3 py-md-0 text-md-right">
                     <div class="d-flex flex-wrap h-100 align-content-between">
                         <div class="col-12 info-lang w-100 px-0 hidden-sm-down">
-                            <a class="col-6 px-0" href="http://avitain.ashplanmedia.com/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">INDIA</span></a>
+                            <a class="col-6 px-0" href="/bd/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">BANGLADESH</span></a>
                         </div>
 
 

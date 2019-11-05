@@ -14,7 +14,7 @@
                                      style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-tc.jpg')"></div>
                             @endif
                             <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/banner3_mob.jpeg')"></div>
+                                 style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
                         </a>
                     </div>
                 </div>

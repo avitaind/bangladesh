@@ -5,7 +5,7 @@
 
     RewriteEngine On
     RewriteBase /
-    RewriteRule ^in$ /$1 [L,NC,R=301]
+    #RewriteRule ^bd$ /$1 [L,NC,R=301]
     
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
