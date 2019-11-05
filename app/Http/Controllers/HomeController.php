@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Country;
+use    App\Country;
 use App\Product;
 use App\ProductModel;
 use App\RepairTerm;
@@ -13,16 +13,9 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-
-    public function redirectToHome( ) {
-
+   public function redirectToHome( ) {
         return view('home');
-
-
     }
-
-
-
     public function getTerms( ){
 
         $locale = app()->getLocale();
@@ -56,7 +49,7 @@ class HomeController extends Controller
 
         $this->validate($request, [
             'product_number'   => 'required',
-//            'product_model'  => 'required',
+//           'product_model'  => 'required',
             'type'             => 'required',
             'series'           => 'required',
             'marketing_number' => 'required',

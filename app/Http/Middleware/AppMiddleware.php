@@ -21,7 +21,7 @@ class AppMiddleware
         if ( $country == 'us') {
             return redirect('https://avita-americas.com/');
         } else if ( !$country ) {
-            return redirect('/hk');
+            return redirect('/bd');
         }
 
         $this->handleLocale($request);

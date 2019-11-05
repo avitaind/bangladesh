@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.4.36 on 2019-01-22 14:08:06.
+ * Generated for Laravel 5.4.36 on 2019-11-04 15:30:17.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -7118,7 +7118,7 @@ namespace Illuminate\Support\Facades {
          *
          * @return string|null The client IP address
          * @see getClientIps()
-         * @see http://en.wikipedia.org/wiki/X-Forwarded-For
+         * @see https://wikipedia.org/wiki/X-Forwarded-For
          * @static 
          */ 
         public static function getClientIp()
@@ -7163,7 +7163,7 @@ namespace Illuminate\Support\Facades {
         /**
          * Returns the root path from which this request is executed.
          * 
-         * Suppose that an server.php file instantiates this request object:
+         * Suppose that an index.php file instantiates this request object:
          * 
          *  * http://localhost/index.php         returns an empty string
          *  * http://localhost/index.php/page    returns an empty string
@@ -7185,7 +7185,7 @@ namespace Illuminate\Support\Facades {
          * The base URL never ends with a /.
          * 
          * This is similar to getBasePath(), except that it also includes the
-         * script filename (e.g. server.php) if one exists.
+         * script filename (e.g. index.php) if one exists.
          *
          * @return string The raw URL (i.e. not urldecoded)
          * @static 
@@ -7523,7 +7523,7 @@ namespace Illuminate\Support\Facades {
          *  * $default
          *
          * @param string|null $default The default format
-         * @return string The request format
+         * @return string|null The request format
          * @static 
          */ 
         public static function getRequestFormat($default = 'html')
@@ -7779,7 +7779,7 @@ namespace Illuminate\Support\Facades {
          * It works if your JavaScript library sets an X-Requested-With HTTP header.
          * It is known to work with common JavaScript frameworks:
          *
-         * @see http://en.wikipedia.org/wiki/List_of_Ajax_frameworks#JavaScript
+         * @see https://wikipedia.org/wiki/List_of_Ajax_frameworks#JavaScript
          * @return bool true if the request is an XMLHttpRequest, false otherwise
          * @static 
          */ 
@@ -13958,6 +13958,142 @@ namespace Torann\GeoIP\Facades {
  
 }
 
+namespace FarhanWazir\GoogleMaps\Facades { 
+
+    class GMapsFacade {
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function initialize($config = array())
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::initialize($config);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function add_marker($params = array())
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::add_marker($params);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function add_polyline($params = array())
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::add_polyline($params);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function add_polygon($params = array())
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::add_polygon($params);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function add_circle($params = array())
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::add_circle($params);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function add_rectangle($params = array())
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::add_rectangle($params);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function add_ground_overlay($params = array())
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::add_ground_overlay($params);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function create_map()
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::create_map();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function is_lat_long($input)
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::is_lat_long($input);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function get_lat_long_from_address($address, $attempts = 0)
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::get_lat_long_from_address($address, $attempts);
+        }
+        
+        /**
+         * This method will check markers are inside geofence or not
+         *
+         * @param $polygon array() -- polygon first and last value of array should be same otherwise result will be accurate
+         * @param $latlngs array()
+         * 
+         * return @array
+         * 
+         * EXAMPLE:::
+         * $latlngs = array("50,70","70,40","-20,30","100,10","-10,-10","40,-20","110,-20");
+         * $polygon = array("-50,30","50,70","100,50","80,10","110,-10","110,-30","-20,-50","-30,-40","10,-10","-10,10","-30,-20","-50,30");
+         * @static 
+         */ 
+        public static function isMarkerInsideGeofence($polygon, $latlngs)
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::isMarkerInsideGeofence($polygon, $latlngs);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function getMapName()
+        {
+            return \FarhanWazir\GoogleMaps\GMaps::getMapName();
+        }
+         
+    }
+ 
+}
+
 
 namespace  { 
 
@@ -16062,6 +16198,8 @@ namespace  {
     class Excel extends \Maatwebsite\Excel\Facades\Excel {}
 
     class GeoIP extends \Torann\GeoIP\Facades\GeoIP {}
+
+    class GMaps extends \FarhanWazir\GoogleMaps\Facades\GMapsFacade {}
  
 }
 

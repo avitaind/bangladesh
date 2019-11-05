@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2019-01-22 14:08:07.
+    * Generated on 2019-11-04 15:30:18.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -38,6 +38,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'GMaps' => \FarhanWazir\GoogleMaps\GMaps::class,
         'geoip' => \Torann\GeoIP\GeoIP::class,
         'JeroenNoten\LaravelAdminLte\AdminLte' => \JeroenNoten\LaravelAdminLte\AdminLte::class,
         'alert' => \Vinkla\Alert\Alert::class,
@@ -177,6 +178,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'GMaps' => \FarhanWazir\GoogleMaps\GMaps::class,
         'geoip' => \Torann\GeoIP\GeoIP::class,
         'JeroenNoten\LaravelAdminLte\AdminLte' => \JeroenNoten\LaravelAdminLte\AdminLte::class,
         'alert' => \Vinkla\Alert\Alert::class,
@@ -316,6 +318,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'GMaps' => \FarhanWazir\GoogleMaps\GMaps::class,
         'geoip' => \Torann\GeoIP\GeoIP::class,
         'JeroenNoten\LaravelAdminLte\AdminLte' => \JeroenNoten\LaravelAdminLte\AdminLte::class,
         'alert' => \Vinkla\Alert\Alert::class,
@@ -455,6 +458,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'GMaps' => \FarhanWazir\GoogleMaps\GMaps::class,
         'geoip' => \Torann\GeoIP\GeoIP::class,
         'JeroenNoten\LaravelAdminLte\AdminLte' => \JeroenNoten\LaravelAdminLte\AdminLte::class,
         'alert' => \Vinkla\Alert\Alert::class,
@@ -594,6 +598,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'GMaps' => \FarhanWazir\GoogleMaps\GMaps::class,
         'geoip' => \Torann\GeoIP\GeoIP::class,
         'JeroenNoten\LaravelAdminLte\AdminLte' => \JeroenNoten\LaravelAdminLte\AdminLte::class,
         'alert' => \Vinkla\Alert\Alert::class,
@@ -733,6 +738,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'GMaps' => \FarhanWazir\GoogleMaps\GMaps::class,
         'geoip' => \Torann\GeoIP\GeoIP::class,
         'JeroenNoten\LaravelAdminLte\AdminLte' => \JeroenNoten\LaravelAdminLte\AdminLte::class,
         'alert' => \Vinkla\Alert\Alert::class,
@@ -872,6 +878,7 @@ namespace PHPSTORM_META {
         'view' => \Illuminate\View\Factory::class,
         'view.finder' => \Illuminate\View\FileViewFinder::class,
         'view.engine.resolver' => \Illuminate\View\Engines\EngineResolver::class,
+        'GMaps' => \FarhanWazir\GoogleMaps\GMaps::class,
         'geoip' => \Torann\GeoIP\GeoIP::class,
         'JeroenNoten\LaravelAdminLte\AdminLte' => \JeroenNoten\LaravelAdminLte\AdminLte::class,
         'alert' => \Vinkla\Alert\Alert::class,

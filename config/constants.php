@@ -24,6 +24,7 @@ return [
         'vn' => 'Vietnam',
         'id' => 'Indonesia',
         'in' => 'India',
+        'bd' => 'Bangladesh',
     ]
 
 ];
