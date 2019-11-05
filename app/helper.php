@@ -19,7 +19,7 @@ function supported_language( $country ) {
 
     switch ( $country ) {
         case 'bd':
-            return ['en', 'tc'];
+            return ['en'];
     }
 
 }

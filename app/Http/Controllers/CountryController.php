@@ -24,9 +24,9 @@ class CountryController extends Controller
         if ( $country && array_key_exists( $country, $countries) ) {
             Session::put('country', $country );
 
-            return redirect('/'.$country);
+            return redirect('/bd'.$country);
         }
         
-        return redirect( '/' );
+        return redirect( '/bd' );
     }
 }
