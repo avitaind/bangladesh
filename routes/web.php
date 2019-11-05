@@ -48,10 +48,10 @@ Route::get('/tnc', 'HomeController@getTerms');
 // Route::get('/modus', 'HomeController@getModus')->name('modus');
 
 //redirect to https://avita-americas.com/
-Route::get('/us', function(){
+/*Route::get('/us', function(){
     return redirect('https://avita-americas.com/');
 });
-
+*/
 
 // User Login
 Route::get('/member/profile', 'MemberController@showProfile')->middleware(['auth'])->name('member.profile');
