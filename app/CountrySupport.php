@@ -13,6 +13,6 @@ trait CountrySupport
 {
 
     public function countryString( ) {
-        return config('constants.countries.'.$this->country, "bd");
+        return config('constants.countries.'.$this->country, "");
     }
 }

@@ -1,5 +1,4 @@
-# public_html/public/.htaccess
-
+# public_html/public/.htaccess-1
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews

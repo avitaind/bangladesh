@@ -21,7 +21,7 @@ Route::get('/sitemap.xml',function(){
 });
 
 Route::get('/lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
-//Route::get('/country/{country}', ['as' => 'country.switch', 'uses' => 'CountryController@switchCountry']);
+Route::get('/country/{country}', ['as' => 'country.switch', 'uses' => 'CountryController@switchCountry']);
 
 
 // OAuth Routes
