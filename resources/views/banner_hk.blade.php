@@ -5,7 +5,6 @@
             <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
-<a href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
                                      style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
@@ -15,7 +14,7 @@
                             @endif
                             <div class="banner-bg hidden-md-up"
                                  style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
-                        </a>
+
                     </div>
                 </div>
             </div>
