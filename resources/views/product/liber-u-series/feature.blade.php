@@ -186,7 +186,6 @@
                     <div class="row no-gutters">
                         <div class="col-12 col-lg-5">
                             <div class="banner-info  mx-auto">
-
                                 <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Full Battery for All-day Menu</div></div>
                                 <div class="banner-para ls-0">
                                     <span class="d-lg-block">From the first news feed you get in the morning, </span>
@@ -194,6 +193,8 @@
                                     <span class="d-lg-block">some entertainment before sleep, </span>
                                     <span class="d-lg-block">LIBER can stay cordless for up to 10 hours*</span>
                                     <span class="d-lg-block">to handle all of your daytime activities.</span>
+                                    
+
                                 </div>
                             </div>
                             <!-- <img class="ac-computer-image ac-computer-1" src="/images/liber/liber_u_feature/sc5_fimg1.jpg"> -->

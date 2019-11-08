@@ -85,8 +85,6 @@
                                     </ul>
                                 </div>
                             </li>
-
-
                         </ul>
                     </div>
 
@@ -112,16 +110,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo e(route('support')); ?>"><?php echo app('translator')->getFromJson('site.service'); ?></a>
                 </li>
-
+<!---
                 <li class="nav-item hidden-sm-down">
                 <?php if( $user = Auth::user( ) ): ?>
-                    <!-- <li class="nav-item hidden-sm-down"> -->
+                 <li class="nav-item hidden-sm-down">
                         <a class="user-toggle fa fa-user-o" href="#"></a>
-                    <!-- </li> -->
+                     </li>
                 <?php else: ?>
-                    <!-- <li class="nav-item hidden-sm-down"> -->
+                     <li class="nav-item hidden-sm-down">
                         <a class="" href="<?php echo e(route('login')); ?>"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-                    <!-- </li> -->
+                    </li>
                 <?php endif; ?>
                 <?php if( $user = Auth::user( ) ): ?>
                     <aside class="navbar-user-warp hidden-sm-down">
@@ -137,9 +135,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="user-content px-3">
+                      <div class="user-content px-3">
                                 <div class="align-items-center px-2 pb-2">
-                                    <!-- <img src="../images/icon-member-small.jpg" alt=""> -->
+                                    <img src="../images/icon-member-small.jpg" alt="">
                                     <div class="col-12 px-0 pb-3 useremail-border small"><a href="#" class="useremail pl-4"><?php echo e($user->email); ?></a></div>
                                     <div class="col-12 px-0 mt-3 member-center"><a href="<?php echo e(route('member.profile')); ?>" class=" pl-4"><?php echo app('translator')->getFromJson('site.member_center'); ?></a></div>
                                 </div>
@@ -155,12 +153,13 @@
 
                                 </div>
                             </div>
+
                         </div>
                     </aside>
 
                 <?php endif; ?>
                 </li>
-
+--->
 
             </ul>
         </div>

@@ -95,7 +95,7 @@
 
                         </div>
 
-                        <div class="info-copyright w-100"><a target="_blank" href="http://www.nexstgo.com">©Nexstgo Company Ltd.</a> All rights reserved.</div>
+                        <div class="info-copyright w-100"><a target="_blank" href="http://www.nexstgo.com/">©Nexstgo Company Ltd.</a> All rights reserved.</div>
                     </div>
                 </div>
             </div>

@@ -61,7 +61,7 @@ function facebookLinkForCountry( $country ) {
         case 'vn':
         case 'id':
         case 'uk':
-        case 'mu': return 'https://www.facebook.com/AVITAMau/';
+        case 'mu': return 'https://www.facebook.com/';
         default:    return "";
     }
 }
@@ -79,7 +79,7 @@ function instagramLinkForCountry( $country ) {
         case 'vn':
         case 'id':
         case 'uk':
-        case 'mu':  return 'https://www.instagram.com/avitamauritius/';
+        case 'mu':  return 'https://www.instagram.com/';
         default:    return "";
     }
 }
@@ -97,7 +97,7 @@ function twitterLinkForCountry( $country ) {
         case 'vn':
         case 'id':
         case 'uk':
-        case 'mu': return 'https://twitter.com/AvitaMauritius';
+        case 'mu': return 'https://twitter.com/';
         default:    return "";
     }
 }

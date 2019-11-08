@@ -192,8 +192,13 @@
     								<span class="d-lg-block">some entertainment before sleep, </span>
     								<span class="d-lg-block">LIBER can stay cordless for up to 10 hours*</span>
     								<span class="d-lg-block">to handle all of your daytime activities.</span>
+
                                 </div>
+
+                                <span class="d-lg-block"><small>* Up to 8 hours on MobileMark 2014 (Up to 10 hours in the condition of Wi-Fi, Bluetooth, audio are off, brightness as 20, and Power in Battery saver mode)</small></span>
+
                             </div>
+
                             <!-- <img class="ac-computer-image ac-computer-1" src="/images/liber/sc5_fimg1.jpg"> -->
                         </div>
                         <div class="col-12 col-lg-7">
@@ -347,13 +352,13 @@
                                     <div class="badge-image"><img src="/images/liber/sc8_img1.png"></div>
                                 </div>
                                 <div class="data-card col-6 col-sm-4 my-2 my-sm-3">
-                                    <div class="badge-value">72%</div>
-                                    <div class="badge-caption">NTSC</div>
+                                    <div class="badge-value">1920x1080</div>
+                                    <div class="badge-caption">Resolution</div>
                                 </div>
 
                                 <div class="data-card col-6 col-sm-5 my-2 my-sm-3">
-                                    <div class="badge-value">1920x1080</div>
-                                    <div class="badge-caption">Resolution</div>
+                                    <div class="badge-value"></div>
+                                    <div class="badge-caption"></div>
                                 </div>
 
                                 <div class="col-12 clearfix"></div>

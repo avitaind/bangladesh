@@ -343,11 +343,11 @@
                                     <div class="badge-image"><img src="/images/liber/liber12_feature/sc8_img1.png"></div>
                                 </div>
 
-                                <div class="data-card col-6 col-sm-4 my-2 my-sm-3">
+                                <!--<div class="data-card col-6 col-sm-4 my-2 my-sm-3">
                                     <div class="badge-value">72%</div>
                                     <div class="badge-caption">NTSC</div>
                                 </div>
-
+                                ---->
                                 <div class="data-card col-6 col-sm-5 my-2 my-sm-3">
                                     <div class="badge-value">1920x1080</div>
                                     <div class="badge-caption">Resolution</div>

@@ -74,7 +74,7 @@
                 -->
             </div>
         </form>
-        <p style="text-align: center;"><a href="/Avita-Bangladesh-Brochure.pdf" target="_blank" download="/Avita-Bangladesh-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
+        <p style="text-align: center;"><a href="/" target="_blank" download="/"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
     </section>
 
 @endsection

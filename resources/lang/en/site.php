@@ -65,7 +65,7 @@ return [
 
     'productnav_overview'           => 'Overview',
     'productnav_overview_12'        => 'Overview 12.5"',
-    'productnav_overview_13'        => 'Overview 14"',
+    'productnav_overview_13'        => 'Overview 13.3" & 14"',
     'productnav_overview_u_series'  => 'Overview AVITA LIBER 13.3" & 14" New Generation',
 
     'productnav_spec'               => 'Tech Spec',
@@ -79,7 +79,7 @@ return [
         'The AVITA product series which ranges from PC, smart home and IoT devices has come to realization based on three core values: Liberty, Diversity and Individualism for an exceptional and highly personal experience to the new generation of tech users.',
         'Your ideas, passions, personal style and what makes you uniquely you inspires us. And we believe that your choice in technology shouldn\'t define you, it should reflect you.',
         'Our team is comprised of talented individuals who, before starting up AVITA, worked in product development for some big name tech companies. It was their collective enthusiasm for outstanding design and meaningful technology that brought them together to form AVITA. You can learn more about the company behind AVITA here.',
-        '“Live it up” is more than a tagline to us, it’s a part of our ethos and company DNA.',
+        'As a team we truly live by our ethos to ‘live it up’ - this is part of our company DNA and what makes our products like no other.',
     ],
 
 

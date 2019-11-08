@@ -85,8 +85,6 @@
                                     </ul>
                                 </div>
                             </li>
-
-
                         </ul>
                     </div>
 
@@ -112,16 +110,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a>
                 </li>
-
+<!---
                 <li class="nav-item hidden-sm-down">
                 @if( $user = Auth::user( ) )
-                    <!-- <li class="nav-item hidden-sm-down"> -->
+                 <li class="nav-item hidden-sm-down">
                         <a class="user-toggle fa fa-user-o" href="#"></a>
-                    <!-- </li> -->
+                     </li>
                 @else
-                    <!-- <li class="nav-item hidden-sm-down"> -->
+                     <li class="nav-item hidden-sm-down">
                         <a class="" href="{{ route('login') }}"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-                    <!-- </li> -->
+                    </li>
                 @endif
                 @if( $user = Auth::user( ) )
                     <aside class="navbar-user-warp hidden-sm-down">
@@ -137,9 +135,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="user-content px-3">
+                      <div class="user-content px-3">
                                 <div class="align-items-center px-2 pb-2">
-                                    <!-- <img src="../images/icon-member-small.jpg" alt=""> -->
+                                    <img src="../images/icon-member-small.jpg" alt="">
                                     <div class="col-12 px-0 pb-3 useremail-border small"><a href="#" class="useremail pl-4">{{ $user->email }}</a></div>
                                     <div class="col-12 px-0 mt-3 member-center"><a href="{{ route('member.profile') }}" class=" pl-4">@lang('site.member_center')</a></div>
                                 </div>
@@ -154,12 +152,13 @@
 
                                 </div>
                             </div>
+
                         </div>
                     </aside>
 
                 @endif
                 </li>
-
+--->
 
             </ul>
         </div>
