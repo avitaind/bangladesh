@@ -2,16 +2,20 @@
 
 namespace Watson\BootstrapForm;
 
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
 use Collective\Html\FormBuilder;
 use Collective\Html\HtmlBuilder;
-use Illuminate\Contracts\Config\Repository as Config;
-use Illuminate\Session\SessionManager as Session;
 use Illuminate\Support\HtmlString;
-use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Traits\Macroable;
+use Illuminate\Session\SessionManager as Session;
+use Illuminate\Contracts\Config\Repository as Config;
 
 class BootstrapForm
 {
+    use Macroable;
+
     /**
      * Illuminate HtmlBuilder instance.
      *
@@ -62,11 +66,26 @@ class BootstrapForm
     protected $rightColumnClass;
 
     /**
-     * The errorbag that is used for validation (multiple forms)
+     * The icon prefix.
      *
      * @var string
      */
-    protected $errorBag = 'default';
+    protected $iconPrefix;
+
+    /**
+     * The errorbag that is used for validation (multiple forms).
+     *
+     * @var string
+     */
+    protected $errorBag;
+
+    /**
+     * The error class.
+     *
+     * @var string
+     */
+    protected $errorClass;
+
 
     /**
      * Construct the class.
@@ -113,7 +132,7 @@ class BootstrapForm
             $this->setRightColumnClass($options['right_column_class']);
         }
 
-        array_forget($options, [
+        Arr::forget($options, [
             'left_column_class',
             'left_column_offset_class',
             'right_column_class'
@@ -156,23 +175,29 @@ class BootstrapForm
 
         if (isset($options['url'])) {
             // If we're explicity passed a URL, we'll use that.
-            array_forget($options, ['model', 'update', 'store']);
+            Arr::forget($options, ['model', 'update', 'store']);
             $options['method'] = isset($options['method']) ? $options['method'] : 'GET';
 
+            return $this->form->model($model, $options);
+        }
+
+        // If we're not provided store/update actions then let the form submit to itself.
+        if (!isset($options['store']) && !isset($options['update'])) {
+            Arr::forget($options, 'model');
             return $this->form->model($model, $options);
         }
 
         if (!is_null($options['model']) && $options['model']->exists) {
             // If the form is passed a model, we'll use the update route to update
             // the model using the PUT method.
-            $name = is_array($options['update']) ? array_first($options['update']) : $options['update'];
+            $name = is_array($options['update']) ? Arr::first($options['update']) : $options['update'];
             $route = Str::contains($name, '@') ? 'action' : 'route';
 
             $options[$route] = array_merge((array) $options['update'], [$options['model']->getRouteKey()]);
             $options['method'] = 'PUT';
         } else {
             // Otherwise, we're storing a brand new model using the POST method.
-            $name = is_array($options['store']) ? array_first($options['store']) : $options['store'];
+            $name = is_array($options['store']) ? Arr::first($options['store']) : $options['store'];
             $route = Str::contains($name, '@') ? 'action' : 'route';
 
             $options[$route] = $options['store'];
@@ -180,7 +205,7 @@ class BootstrapForm
         }
 
         // Forget the routes provided to the input.
-        array_forget($options, ['model', 'update', 'store']);
+        Arr::forget($options, ['model', 'update', 'store']);
 
         return $this->form->model($model, $options);
     }
@@ -236,8 +261,14 @@ class BootstrapForm
     {
         $options = array_merge(['class' => 'form-control-static'], $options);
 
+        if (is_array($value) and isset($value['html'])) {
+            $value = $value['html'];
+        } else {
+            $value = e($value);
+        }
+
         $label = $this->getLabelTitle($label, $name);
-        $inputElement = '<p' . $this->html->attributes($options) . '>' . e($value) . '</p>';
+        $inputElement = '<p' . $this->html->attributes($options) . '>' . $value . '</p>';
 
         $wrapperOptions = $this->isHorizontal() ? ['class' => $this->getRightColumnClass()] : [];
         $wrapperElement = '<div' . $this->html->attributes($wrapperOptions) . '>' . $inputElement . $this->getFieldError($name) . $this->getHelpText($name, $options) . '</div>';
@@ -611,13 +642,72 @@ class BootstrapForm
     {
         $label = $this->getLabelTitle($label, $name);
 
-        $options = $this->getFieldOptions($options, $name);
-        $inputElement = $type === 'password' ? $this->form->password($name, $options) : $this->form->{$type}($name, $value, $options);
+        $optionsField = $this->getFieldOptions(Arr::except($options, ['suffix', 'prefix']), $name);
+
+        $inputElement = '';
+
+         if(isset($options['prefix'])) {
+            $inputElement = $options['prefix'];
+        }
+
+        $inputElement .= $type === 'password' ? $this->form->password($name, $optionsField) : $this->form->{$type}($name, $value, $optionsField);
+
+         if(isset($options['suffix'])) {
+            $inputElement .= $options['suffix'];
+        }
+
+         if(isset($options['prefix']) || isset($options['suffix'])) {
+            $inputElement = '<div class="input-group">' . $inputElement . '</div>';
+        }
 
         $wrapperOptions = $this->isHorizontal() ? ['class' => $this->getRightColumnClass()] : [];
-        $wrapperElement = '<div' . $this->html->attributes($wrapperOptions) . '>' . $inputElement . $this->getFieldError($name) . $this->getHelpText($name, $options) . '</div>';
+        $wrapperElement = '<div' . $this->html->attributes($wrapperOptions) . '>' . $inputElement . $this->getFieldError($name) . $this->getHelpText($name, $optionsField) . '</div>';
 
         return $this->getFormGroup($name, $label, $wrapperElement);
+    }
+
+    /**
+     * Create an addon button element.
+     *
+     * @param  string  $label
+     * @param  array  $options
+     * @return string
+     */
+    public function addonButton($label, $options = [])
+    {
+        $attributes = array_merge(['class' => 'btn', 'type' => 'button'], $options);
+
+        if (isset($options['class'])) {
+            $attributes['class'] .= ' btn';
+        }
+
+        return '<div class="input-group-btn"><button ' . $this->html->attributes($attributes) . '>'.$label.'</button></div>';
+    }
+
+    /**
+     * Create an addon text element.
+     *
+     * @param  string  $text
+     * @param  array  $options
+     * @return string
+     */
+    public function addonText($text, $options = [])
+    {
+        return '<div class="input-group-addon"><span ' . $this->html->attributes($options) . '>'.$text.'</span></div>';
+    }
+
+    /**
+     * Create an addon icon element.
+     *
+     * @param  string  $icon
+     * @param  array  $options
+     * @return string
+     */
+    public function addonIcon($icon, $options = [])
+    {
+        $prefix = Arr::get($options, 'prefix', $this->getIconPrefix());
+
+        return '<div class="input-group-addon"><span ' . $this->html->attributes($options) . '><i class="'.$prefix.$icon.'"></i></span></div>';
     }
 
     /**
@@ -647,13 +737,35 @@ class BootstrapForm
     {
         $label = $this->getLabelTitle($label, $name);
 
+        $inputElement = isset($options['prefix']) ? $options['prefix'] : '';
+
         $options = $this->getFieldOptions($options, $name);
-        $inputElement = $this->form->select($name, $list, $selected, $options);
+        $inputElement .= $this->form->select($name, $list, $selected, $options);
+
+        if (isset($options['suffix'])) {
+            $inputElement .= $options['suffix'];
+        }
+
+        if (isset($options['prefix']) || isset($options['suffix'])) {
+            $inputElement = '<div class="input-group">' . $inputElement . '</div>';
+        }
 
         $wrapperOptions = $this->isHorizontal() ? ['class' => $this->getRightColumnClass()] : [];
         $wrapperElement = '<div' . $this->html->attributes($wrapperOptions) . '>' . $inputElement . $this->getFieldError($name) . $this->getHelpText($name, $options) . '</div>';
 
         return $this->getFormGroup($name, $label, $wrapperElement);
+    }
+
+
+    /**
+     * Wrap the content in Laravel's HTML string class.
+     *
+     * @param  string  $html
+     * @return \Illuminate\Support\HtmlString
+     */
+    protected function toHtmlString($html)
+    {
+        return new HtmlString($html);
     }
 
     /**
@@ -682,13 +794,13 @@ class BootstrapForm
      *
      * @param  string  $name
      * @param  string  $element
-     * @return string
+     * @return \Illuminate\Support\HtmlString
      */
     protected function getFormGroupWithoutLabel($name, $element)
     {
         $options = $this->getFormGroupOptions($name);
 
-        return '<div' . $this->html->attributes($options) . '>' . $element . '</div>';
+        return $this->toHtmlString('<div' . $this->html->attributes($options) . '>' . $element . '</div>');
     }
 
     /**
@@ -697,13 +809,13 @@ class BootstrapForm
      * @param  string  $name
      * @param  string  $value
      * @param  string  $element
-     * @return string
+     * @return \Illuminate\Support\HtmlString
      */
     protected function getFormGroupWithLabel($name, $value, $element)
     {
         $options = $this->getFormGroupOptions($name);
 
-        return '<div' . $this->html->attributes($options) . '>' . $this->label($name, $value) . $element . '</div>';
+        return $this->toHtmlString('<div' . $this->html->attributes($options) . '>' . $this->label($name, $value) . $element . '</div>');
     }
 
     /**
@@ -770,7 +882,7 @@ class BootstrapForm
      */
     protected function getFieldOptionsClass(array $options = [])
     {
-        return array_get($options, 'class');
+        return Arr::get($options, 'class');
     }
 
     /**
@@ -885,13 +997,33 @@ class BootstrapForm
     }
 
     /**
+     * Get the icon prefix.
+     *
+     * @return string
+     */
+    public function getIconPrefix()
+    {
+        return $this->iconPrefix ?: $this->config->get('bootstrap_form.icon_prefix');
+    }
+
+     /**
+     * Get the error class.
+     *
+     * @return string
+     */
+    public function getErrorClass()
+    {
+        return $this->errorClass ?: $this->config->get('bootstrap_form.error_class');
+    }
+
+    /**
      * Get the error bag.
      *
      * @return string
      */
     protected function getErrorBag()
     {
-        return $this->errorBag;
+        return $this->errorBag ?: $this->config->get('bootstrap_form.error_bag');
     }
 
     /**
@@ -947,7 +1079,11 @@ class BootstrapForm
         if ($this->getErrors()) {
             $allErrors = $this->config->get('bootstrap_form.show_all_errors');
 
-            $errorBag = $this->getErrors()->{$this->getErrorBag()};
+            if ($this->getErrorBag()) {
+                $errorBag = $this->getErrors()->{$this->getErrorBag()};
+            } else {
+                $errorBag = $this->getErrors();
+            }
 
             if ($allErrors) {
                 return implode('', $errorBag->get($field, $format));
@@ -965,9 +1101,9 @@ class BootstrapForm
      * @param  string  $class
      * @return string
      */
-    protected function getFieldErrorClass($field, $class = 'has-error')
+    protected function getFieldErrorClass($field)
     {
-        return $this->getFieldError($field) ? $class : null;
+        return $this->getFieldError($field) ? $this->getErrorClass() : null;
     }
 
     /**
@@ -975,12 +1111,12 @@ class BootstrapForm
      *
      * @param  string  $field
      * @param  array   $options
-     * @return string
+     * @return \Illuminate\Support\HtmlString
      */
     protected function getHelpText($field, array $options = [])
     {
         if (array_key_exists('help_text', $options)) {
-            return '<span class="help-block">' . e($options['help_text']) . '</span>';
+            return $this->toHtmlString('<span class="help-block">' . e($options['help_text']) . '</span>');
         }
 
         return '';
