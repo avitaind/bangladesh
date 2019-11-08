@@ -225,11 +225,26 @@
         	</div>
         </section>
 
- <section>
+        <section>
             <div class="container">
- 
+                <div class="py-5">
+                    <h5 class="font-weight-bold my-2">{{ __('site.imago_retail_store') }}</h5>
+
+                    <div class="list-item my-1">
+                        <i class="fa fa-map icon mr-2" style="width: 16px;"></i>
+			<span>Royal Road, Plaines Magnien, Mauritius Postal Code: 51509 </span>
+
+                    </div>
+                    <div class="list-item my-1">
+                        <i class="fa fa-phone icon mr-2" style="width: 16px;"></i>
+			<span>5440-1500/5448-1500 </span>
+
+                    </div>
+
+                </div>
             </div>
         </section>
+
         <div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
         </div>

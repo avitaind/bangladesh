@@ -193,7 +193,7 @@ $(document).ready(function() {
 				$.post('/subscription', form);
 			}
 
-			alert('感謝您的訂閱!');
+			alert('Thank you for your subscription!');
 		});
 	});
 

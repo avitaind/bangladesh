@@ -13,45 +13,29 @@
 
 Route::get('/', 'HomeController@redirectToHome');
 
-//sitemap
-
-Route::get('/sitemap.xml',function(){
-    return response()->view('sitemap')
-      ->header('Content-Type', 'xml');
-});
-
 Route::get('/lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 Route::get('/country/{country}', ['as' => 'country.switch', 'uses' => 'CountryController@switchCountry']);
 
-
-// OAuth Routes
-Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider');
-Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
-
-
 // Global URLs.
 
-
-
-
-Route::get('/bd/entry', function (){
-         return view('global');
-      });
-      
-      
-Route::get('/bd/aboutus', 'HomeController@getAboutUs');
-Route::get('/bd/contact_us', 'HomeController@getContact_us');
-Route::get('/bd/tnc', 'HomeController@getTerms');
+Route::get('/entry', 'HomeController@showCountrySelections')->name('country.picker');
+Route::get('/aboutus', 'HomeController@getAboutUs');
+Route::get('/contact_us', 'HomeController@getContact_us');
+Route::get('/tnc', 'HomeController@getTerms');
 
 // Route::get('/imago', 'HomeController@getImago')->name('imago');
 // Route::get('/imago/spec', 'HomeController@getImagoSpec')->name('imago.spec');
 // Route::get('/modus', 'HomeController@getModus')->name('modus');
 
 //redirect to https://avita-americas.com/
-/*Route::get('/us', function(){
+Route::get('/us', function(){
     return redirect('https://avita-americas.com/');
 });
-*/
+
+Route::get('/accessories/mouse', function(){
+    return view('product.mouse');
+});
+
 
 // User Login
 Route::get('/member/profile', 'MemberController@showProfile')->middleware(['auth'])->name('member.profile');
@@ -71,8 +55,8 @@ Route::post('subscription', 'HomeController@handleSubscription');
 
 
 Route::auth();
-Route::get('/login/facebook', 'Auth\LoginController@redirectToFacebook');
-Route::get('/login/facebook/callback', 'Auth\LoginController@handleFacebookCallback');
+Route::get('login/facebook', 'Auth\LoginController@redirectToFacebook');
+Route::get('login/facebook/callback', 'Auth\LoginController@handleFacebookCallback');
 
 Route::get('login/google', 'Auth\LoginController@redirectToGoogle');
 Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback');
@@ -81,6 +65,7 @@ Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback')
 // API
 
 Route::get('api/drivers', 'ProductsController@showDriverComponent');
+Route::get('api/products/types', 'ProductsController@showProductTypes');
 Route::get('api/products/series', 'ProductsController@showProductSeries');
 Route::get('api/products/marketing_numbers', 'ProductsController@showProductMarketingNumbers');
 Route::get('api/products/numbers', 'ProductsController@showProductNumbers');
@@ -94,7 +79,7 @@ Route::post('/app/{app_code}/approve',  'Integration\ApplicationController@handl
 
 if ( Request::segment(1) != 'admin') {
 
-    Route::group(['prefix' => '{country}',  'middleware' => 'country' ], function() {
+   // Route::group(['prefix' => '{country}',  'middleware' => 'country' ], function() {
 
         Route::get('/', 'HomeController@redirectToHome');
 
@@ -107,28 +92,18 @@ if ( Request::segment(1) != 'admin') {
         // News
         Route::get('/news/{month?}', 'NewsController@showNewsList')->name('news');
         Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
-         Route::get('/launch', function (){
-         return view('launch');
-      });
-             
 
         // Products
         Route::get('/products', function () {
             return redirect()->route('product.overview', ['liber']);
         } )->name('products');
 
-         Route::get('/accessories/mouse', function (){
-         return view('mouse');
-             
-         });
-       
-       
-       Route::get('/product/{slug}', 'ProductsController@showProductFeatures')->name('product.overview');
+        Route::get('/product/{slug}', 'ProductsController@showProductFeatures')->name('product.overview');
         Route::get('/product/{slug}/spec', 'ProductsController@showProductSpec')->name('product.spec');
         Route::get('/product/{slug}/support', 'ProductsController@showProductSupport')->name('product.support');
         Route::get('/product/{slug}/where_to_buy', 'ProductsController@whereToBuy')->name('product.map');
 
-    });
+    //});
 
 }
 

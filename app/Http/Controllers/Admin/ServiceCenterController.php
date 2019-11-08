@@ -54,7 +54,7 @@ class ServiceCenterController extends Controller
             'phone:en'        => 'required|string',
             'fax:en'          => 'required|string',
             'email:en'        => 'required|string',
-            'country'         => 'required',
+            'country' => 'required',
         ]);
 
         $service_center = new ServiceCenter($request->all());

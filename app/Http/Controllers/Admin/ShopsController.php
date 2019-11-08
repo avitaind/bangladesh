@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Admin;
 use App\Shop;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use db;
 
 class ShopsController extends Controller
 {
@@ -16,6 +15,7 @@ class ShopsController extends Controller
      */
     public function index()
     {
+        //
         $shops = Shop::orderBy('id', 'desc')->paginate( 50 );
 
         return view('admin.shops.list')->with('shops', $shops);
@@ -41,9 +41,9 @@ class ShopsController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-              'country'    => 'required',
+            'country'    => 'required',
 //            'name:tc'    => 'required',     'address:tc' => 'required',
-              'name:en'    => 'required',     'address:en' => 'required',
+            'name:en'    => 'required',     'address:en' => 'required',
 //            'name:sc'    => 'required',     'address:sc' => 'required',
 //            'name:th'    => 'required',     'address:th' => 'required',
 //            'name:vn'    => 'required',     'address:vn' => 'required',
@@ -52,7 +52,6 @@ class ShopsController extends Controller
             'latitude'   => 'required|numeric',
             'longitude'  => 'required|numeric',
             'phone'      => 'required',
-
         ]);
 
         $shop = new Shop( $request->all() );
@@ -60,6 +59,7 @@ class ShopsController extends Controller
         $shop->save();
 
         alert('Shop Created');
+
         return redirect()->route('admin.shops.index');
     }
 

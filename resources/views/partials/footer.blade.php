@@ -35,33 +35,33 @@
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
                             <a href="{{ route('products') }}" class="my-1">@lang('site.products')</a>
                             <a href="{{ route('news') }}" class="my-1">@lang('site.news')</a>
-                            <a href="/bd/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
+                            <a href="/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
-                            <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
+                                <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
 
                             @if( $storeURL )
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
                             @endif
 
-                            <a href="/bd/contact_us" class="my-1">@lang('site.footer_contact')</a>
-         
-                        
+                            <a href="/contact_us" class="my-1">@lang('site.footer_contact')</a>
+
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
                             <a href="{{ route('support') }}" class="my-1">@lang('site.productnav_support')</a>
                             <a href="{{ route('repair_tnc') }}" class="my-1">@lang('site.footer_repair_tnc')</a>
-                            <a href="tnc" class="my-1">@lang('site.terms')</a>
-                            <a href="tnc" class="my-1">@lang('site.privacy')</a>
+                            <a href="/tnc" class="my-1">@lang('site.terms')</a>
+                            <a href="/tnc" class="my-1">@lang('site.privacy')</a>
                         </div>
                     </div>
                     <div class="d-flex hidden-sm-up">
                         <div class="d-flex flex-column mr-5 small-lsm-little">
                             <a href="{{ route('products') }}" class="my-1">@lang('site.products')</a>
                             <a href="{{ route('news') }}" class="my-1">@lang('site.news')</a>
-                            <a href="/bd/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
-                            <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
+                            <a href="/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
+
+                                <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
 
                             @if( $storeURL )
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
@@ -71,28 +71,31 @@
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
 
-                            <a href="/bd/contact_us" class="my-1">@lang('site.footer_contact')</a>
+                            <a href="/contact_us" class="my-1">@lang('site.footer_contact')</a>
 
                             <a href="{{ route('support') }}" class="my-1">@lang('site.productnav_support')</a>
 
                             <a href="{{ route('repair_tnc') }}" class="my-1">@lang('site.footer_repair_tnc')</a>
 
-                            <a href="http://avitain.ashplanmedia.com/tnc" class="my-1">@lang('site.terms')</a>
-                            <a href="http://avitain.ashplanmedia.com/tnc" class="my-1">@lang('site.privacy')</a>
+                            <a href="/tnc" class="my-1">@lang('site.terms')</a>
+                            <a href="/tnc" class="my-1">@lang('site.privacy')</a>
 
                         </div>
                     </div>
                 </div>
-
                 <div class="col-12 col-md-6 pb-3 py-md-0 text-md-right">
                     <div class="d-flex flex-wrap h-100 align-content-between">
                         <div class="col-12 info-lang w-100 px-0 hidden-sm-down">
-                            <a class="col-6 px-0" href="/bd/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">BANGLADESH</span></a>
+                            <a class="col-6 px-0" href="{{ route('country.picker') }}"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">BANGLADESH</span></a>
                         </div>
 
+                      <div class="col-12 info-lang w-100 px-0 hidden-md-up pb-sm-2">
+                            <a class="col-6 px-0" href="{{ route('country.picker') }}"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="pr-2">BANGLADESH</span></a>
 
 
-                        <div class="info-copyright w-100"><a target="_blank" href="http://www.nexstgo.com">© Nexstgo Company Ltd.</a>  All rights reserved.</div>
+                        </div>
+
+                        <div class="info-copyright w-100"><a target="_blank" href="http://www.nexstgo.com">©Nexstgo Company Ltd.</a> All rights reserved.</div>
                     </div>
                 </div>
             </div>

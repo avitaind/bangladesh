@@ -14,17 +14,23 @@
             <div class="container">
                 <h1 class="section-title mt-0 mb-5 my-md-5 font-weight-light">@lang('site.contactus_contactus') </h1>
 
-                {{--<div class="row">--}}
-                    {{--<div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">--}}
-                        {{--<div class="contact_us_card mb-4 mb-md-5">--}}
-                            {{--<h3 class="contact_us_title">General Sales Enquiry</h3>--}}
-                            {{--<div class="support_tel">+852 3725-0611</div>--}}
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">
+                        <div class="contact_us_card mb-4 mb-md-5">
+                            <h3 class="contact_us_title">General Sales Enquiry - Octagon Computer Superstore</h3>
 
-                            {{--<b>@lang('site.contactus_operating')</b><br>--}}
-                            {{--Monday to Friday: 09:00-18:00--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+                            <div class="support_tel">
+                                <a href="mailto:ocs@octagon.com.ph">ocs@octagon.com.ph</a>
+                            </div>
+
+                            {{--<p>--}}
+                                {{--<b>@lang('site.form_email')</b><br>--}}
+                                {{--<a href="mailto:ocs@octagon.com.ph">ocs@octagon.com.ph</a>--}}
+                            {{--</p>--}}
+
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row">
 
@@ -40,10 +46,14 @@
                                 {{--08:00 – 17:00 (MON - FRI)--}}
                             {{--</p>--}}
 
-                            <p>
-                                <b>@lang('site.form_email')</b><br>
+                            <div class="support_tel">
                                 <a href="mailto:globalsupport@avita.com">globalsupport@avita.com</a>
-                            </p>
+                            </div>
+
+                            {{--<p>--}}
+                                {{--<b>@lang('site.form_email')</b><br>--}}
+                                {{--<a href="mailto:globalsupport@avita.com">globalsupport@avita.com</a>--}}
+                            {{--</p>--}}
 
 
                         </div>

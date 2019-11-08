@@ -63,19 +63,25 @@ return [
     'productnav_overview'           => '概覽',
     'productnav_spec'               => '技術規格',
 
-    'productnav_overview_12'           => '12.5" 概覽',
-    'productnav_overview_13'           => '13.3" 及 14" 概覽',
+    'productnav_overview'           => '概覽',
+    'productnav_overview_12'        => '12.5" 概覽',
+    'productnav_overview_13'        => '13.3" 及 14" 概覽',
+    'productnav_overview_u_series'  => 'AVITA LIBER 13.3" & 14" New Generation 概覽',
+
+
 
     'productnav_support'            => '支援',
     'productnav_wheretobuy'         => '哪裡買',
 
     'aboutus_about'                 => '關於AVITA',
-    // 'aboutus_content_1'             => 'AVITA由前美國無線電公司（Radio Corporation of America或RCA）之產品研發及品牌團隊於2016年在美國創立，並由',
-    // 'aboutus_content_2'             => ' 全資擁有及營運。',
-    // 'aboutus_content_3'             => 'AVITA的三大核心價值為Liberty自由度、Diversity多樣性和Individualism個性化，務求為新一代的智慧科技使用者帶來優越而切身的嶄新產品體驗。',
-    'aboutus_content_1'             => '<p>At AVITA we believe in the wonder and power of the individual.  We make premium technology products that not only fit your lifestyle but are representations of you.</p><p>The AVITA product series which ranges from PC, smart home and IoT devices has come to realization based on three core values: Liberty, Diversity and Individualism for an exceptional and highly personal experience to the new generation of tech users.<p>',
-    'aboutus_content_2'             => '<p>Your ideas, passions, personal style and what makes you uniquely you inspires us. And we believe that your choice in technology shouldn’t define you, it should reflect you.</p>',
-    'aboutus_content_3'             => '<p>Our team is comprised of talented individuals who, before starting up AVITA, worked in product development for some big name tech companies.  It was their collective enthusiasm for outstanding design and meaningful technology that brought them together to form AVITA. You can learn more about the company behind AVITA here.<br><br>“Live it up” is more than a tagline to us, it’s a part of our ethos and company DNA.</p>',
+    'aboutus_content'               => [
+        'AVITA 相信奇蹟，更相信個人的力量。我們的產品不甘於只迎合你生活方式，更表現著你的個性。',
+        'AVITA 產品系列包含個人電腦、智能家居和物聯網設備，透過這些產品實現三大核心價值：自由度 (Liberty)、多樣性 (Diversity)及個性化 (Individualism)，為新世代提供卓越而有個性的用戶體驗。',
+        '你的想法、熱情、風格讓你獨一無二，我們的產品設計靈感正源於此。我們深信，你的科技產品不應規限著你，而是反映著你。',
+        '我們的團隊由不同領域的菁英組成，在AVITA創立前，他們曾在各大科技公司從事產品研發工作。憑著他們對出眾設計和領先技術的共同堅持，促成了今天的AVITA。',
+        '"Live it up" 不僅是我們的口號，更是我們公司的精神與DNA。',
+    ],
+
 
     'contactus_contactus'           => '聯絡我們',
     'contactus_operating'           => '服務時間',

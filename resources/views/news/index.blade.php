@@ -5,53 +5,53 @@
 @stop
 
 @section('content')
-    <main>
+<main>
 
-        <section class="focus-event top-nav-padding">
-            <div class="container">
-                <h3 class="section-title ls-0 my-5">@lang('site.news_title')</h3>
-                <div class="row">
-                    @foreach ($feature_news as $feature_news)
-                        @component('news.feature_news_block', ['news' => $feature_news ])
-                        @endcomponent
-                    @endforeach
-                </div>
-            </div>
-        </section>
-
-        <section class="other-event py-5">
-            <div class="container">
-                <div class="d-flex flex-wrap mb-3">
-                    <h4 class="section-title font-weight-bold align-self-end ls-3 mb-0">@lang('site.news_other_event')</h4>
-
-                    <select id="news-month-option" class="col-12 col-md-auto event-filter custom-select ml-auto mt-3 mt-md-0">
-
-                        @foreach( $months as $key => $month_name)
-                            <option value="{{ $key }}" {{ $key == $selected_month ? "selected" : "" }} >{{ $month_name }}</option>
-                        @endforeach
-
-                    </select>
-                </div>
-
-                @foreach ($news as $item)
-
-                    @component('news.news_block', ['news' => $item])
+    <section class="focus-event top-nav-padding">
+        <div class="container">
+            <h3 class="section-title ls-0 my-5">@lang('site.news_title')</h3>
+            <div class="row">
+                @foreach ($feature_news as $feature_news)
+                    @component('news.feature_news_block', ['news' => $feature_news ])
                     @endcomponent
-
                 @endforeach
-
-                <div class="text-center mt-3">
-                    {{ $news->links('vendor.pagination.bootstrap-4') }}
-                </div>
-
             </div>
-        </section>
-
-        <div class="gotop-wrap">
-            <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
         </div>
+    </section>
 
-    </main>
+    <section class="other-event py-5">
+        <div class="container">
+            <div class="d-flex flex-wrap mb-3">
+                <h4 class="section-title font-weight-bold align-self-end ls-3 mb-0">@lang('site.news_other_event')</h4>
+
+                <select id="news-month-option" class="col-12 col-md-auto event-filter custom-select ml-auto mt-3 mt-md-0">
+
+                    @foreach( $months as $key => $month_name)
+                        <option value="{{ $key }}" {{ $key == $selected_month ? "selected" : "" }} >{{ $month_name }}</option>
+                    @endforeach
+
+                </select>
+            </div>
+
+            @foreach ($news as $item)
+
+                @component('news.news_block', ['news' => $item])
+                @endcomponent
+
+            @endforeach
+
+            <div class="text-center mt-3">
+                {{ $news->links('vendor.pagination.bootstrap-4') }}
+            </div>
+
+        </div>
+    </section>
+
+    <div class="gotop-wrap">
+        <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
+    </div>
+
+</main>
 @endsection
 
 @section('js')

@@ -13,7 +13,7 @@
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
                     <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner_mobi.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner_mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             {{--<img class="mx-auto" src="/images/liber/brand.png">--}}
@@ -82,7 +82,7 @@
                             <span class="d-lg-block">LIBER offers great mobility. </span>
 							<span class="d-lg-block">Having no compromise to a silky metallic body </span>
 							<span class="d-lg-block">with the thinnest part of only 5mm and </span>
-							<span class="d-lg-block"> weight starting from 1.35kg (13.3-inch) or 1.49kg (14-inch), </span>
+							<span class="d-lg-block"> weight starting from 1.37kg (13.3-inch) or 1.49kg (14-inch), </span>
 							<span class="d-lg-block">it comes with an ultra slim and light design </span>
 							<span class="d-lg-block">that unburdens you on the go.</span>
 							<span class="d-block"><small>* Thinnest part</small></span>
@@ -100,13 +100,13 @@
                             </div>
                             <div class="data-card data-card-3 col-6 my-2 my-sm-4 pl-1 px-sm-4">
                                 <div class="badge-caption">Starting from</div>
-                                <span class="badge-value">1.35</span>
+                                <span class="badge-value">1.37</span>
 								<span class="badge-caption">kg</span>
 								<div  class="badge-caption pt-1">13.3-inch weight</div>
                             </div>
                             <div class="data-card data-card-4 col-6 my-2 my-sm-4">
                                 <div class="badge-caption">Starting from</div>
-                                <span class="badge-value">1.46</span>
+                                <span class="badge-value">1.49</span>
                                 <span class="badge-caption">kg</span>
                                 <div  class="badge-caption pt-1">14-inch weight</div>
                             </div>
@@ -135,6 +135,10 @@
 							<span class="d-md-block">handling complicated operations and visual contents.</span>
                         </div>
                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
+                            <div class="data-card my-3 text-left">
+                                <div class="badge-caption">Operating System</div>
+								<div class="badge-value">Windows 10 Home</div>
+                            </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
 								<div class="badge-value">Core i7</div>
@@ -202,7 +206,7 @@
     							<div class="data-card">
     								<div class="badge-caption">&nbsp;</div>
     								<div class="badge-value text-center">36<span class="badge-caption pl-1">Wh</span></div>
-    								<div class="badge-caption">Li-ion Battery</div>
+    								<div class="badge-caption">Li-ion battery</div>
                                 </div>
 
                                 <ul class="battery-block d-flex"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>

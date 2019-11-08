@@ -2,11 +2,12 @@
 
 return [
     // universal
+    'global_mu'                     => 'Mauritius',
+    'accessories'                   =>'Accessories',
+    'mouse'                         => 'UBIQUE MOUSE',
     'products'                      => 'Products',
     'news'                          => 'What\'s New',
     'service'                       => 'Service',
-    'support'                       => 'Support',
-    'center'                       => 'Service Centers',
     'member_center'                 => 'Member Center',
     'logout'                        => 'Logout',
     'login'                         => 'Login',
@@ -31,8 +32,6 @@ return [
     'form_mobilephone'              => 'Mobile Phone: ',
     'save'                          => 'Save',
     'contactus'                     => 'Contact Us',
-    'supportcenter'                 => 'Support Center',
-    'contactus_phone'               => 'Phone',
     'more'                          => 'Answer',
     'confirm'                       => 'Confirm',
     'share'                         => 'Share',
@@ -41,8 +40,7 @@ return [
     'smart_device'                  => 'Smart Device',
     'imago_series'                  => 'IMAGO Series Smart Mirror',
     'modus_scale'                   => 'MODUS Smart Scale',
-    'accessories'                   => 'Accessories',
-    'mouse'                         => 'UBIQUE Mouse',
+
     'gender_m'                      => 'Male',
     'gender_f'                      => 'Female',
     // universal
@@ -66,23 +64,30 @@ return [
     'home_subscribe'                => 'Subscribe Now',
 
     'productnav_overview'           => 'Overview',
-    'productnav_overview_12'           => 'Overview 12.5" (31.75 cm)',
-    'productnav_overview_13'           => 'Overview 13.3" (33.78 cm) &amp; 14" (35.56 cm)',
+    'productnav_overview_12'        => 'Overview 12.5"',
+    'productnav_overview_13'        => 'Overview 14"',
+    'productnav_overview_u_series'  => 'Overview AVITA LIBER 13.3" & 14" New Generation',
 
     'productnav_spec'               => 'Tech Spec',
     'productnav_support'            => 'Support',
     'productnav_wheretobuy'         => 'Where to buy',
+    'productnav_magus'      		=> 'AVITA MAGUS 12.2" 2-in-1 Laptop',
 
     'aboutus_about'                 => 'About AVITA',
-    'aboutus_content_1'             => 'At AVITA we believe in the wonder and power of the individual.  We make premium technology products that not only fit your lifestyle but are representations of you.<br><br>The AVITA product series which ranges from PC, smart home and IoT devices has come to realization based on three core values: Liberty, Diversity and Individualism for an exceptional and highly personal experience to the new generation of tech users.',
-    'aboutus_content_2'             => 'Your ideas, passions, personal style and what makes you uniquely you inspires us. And we believe that your choice in technology shouldn’t define you, it should reflect you.',
-    'aboutus_content_3'             => 'Our team is comprised of talented individuals who, before starting up AVITA, worked in product development for some big name tech companies.  It was their collective enthusiasm for outstanding design and meaningful technology that brought them together to form AVITA. You can learn more about the company behind AVITA here.<br><br>“Live it up” is more than a tagline to us, it’s a part of our ethos and company DNA.',
+    'aboutus_content'               => [
+        'At AVITA we believe in the wonder and power of the individual. We make premium technology products that not only fit your lifestyle but are representations of you.',
+        'The AVITA product series which ranges from PC, smart home and IoT devices has come to realization based on three core values: Liberty, Diversity and Individualism for an exceptional and highly personal experience to the new generation of tech users.',
+        'Your ideas, passions, personal style and what makes you uniquely you inspires us. And we believe that your choice in technology shouldn\'t define you, it should reflect you.',
+        'Our team is comprised of talented individuals who, before starting up AVITA, worked in product development for some big name tech companies. It was their collective enthusiasm for outstanding design and meaningful technology that brought them together to form AVITA. You can learn more about the company behind AVITA here.',
+        '“Live it up” is more than a tagline to us, it’s a part of our ethos and company DNA.',
+    ],
+
 
     'contactus_contactus'           => 'Contact Us',
-    'contactus_operating'           => 'Operating hours :',
+    'contactus_operating'           => 'Operating hours',
     'ccontactus_findus'             => 'Find Us',
     'search_result_title'           => 'Search Result',
-
+    'contactus_email'               => 'Support Email',
     // chinese language only, awaiting for the translation
 
     'product_support_1'             =>  'Driver & Tools',
@@ -128,7 +133,7 @@ return [
     'register_title'                => 'Join Now',
     'register_title_content_1'      => 'Welcome, AVITA Member! Once you have filled out the following information, you can complete your registration. The information you provide will not be used in any other way, so feel secure as you fill in your information.',
     'form_required'                 => 'Items marked with an asterisk <span class="required"> (*) </span> must be filled out.',
-    'register_checkbox_1'           => 'I agree to the AVITA “Terms of Use Notice” & AVITA “Privacy Policy” .',
+    'register_checkbox_1'           => 'I agree to the AVITA??erms of Use Notice??& AVITA??rivacy Policy??.',
     'register_checkbox_2'           => 'Keep me up to date by eDMs with AVITA news, latest product and service information.',
     'register_btn'                  => 'Join Now',
 
@@ -145,10 +150,10 @@ return [
     'success_title'                 => 'Congratulations! Your information has already been authenticated.',
     'success_content_1'             => 'In order to verify that your email address is valid, we have already sent an email to your inbox. Please open the email and click on the link to enable your AVITA Member Account.',
     'success_subtitle'              => 'Did you not receive an account verification email?',
-    'success_content_2'             => 'If you have not received an email to verify your AVITA Member Account, then check your inbox according to the following steps.',
+    'success_content_2'             => 'If you have not received an email to verify your AVITA Member Account, then?check your inbox according to the following steps.',
     'success_solution_1'            => 'If the actions above still cannot solve your problem, please send an Email to member_activereg@csc.avita.global through your registered Email account',
-    'success_solution_2'            => 'Email subject： AVITA Member Account Active',
-    'success_solution_3'            => 'Email content： leave it blank',
+    'success_solution_2'            => 'Email subject: AVITA Member Account Active',
+    'success_solution_3'            => 'Email content: leave it blank',
     'success_solution_4'            => 'We will reply your membership activation status to you after we verify your membership registration information',
     'success_content_3'             => 'Once you have completed email verification, we can provide you with the newest product information and services. Welcome to AVITA!',
     'success_btn'                   => 'I understand and will complete email verification in a little while.',
@@ -157,7 +162,7 @@ return [
     'change_pwd_title_2'            => 'To reset your password, enter the old password and new password.',
     'change_pwd_origin'             => 'Original Password: ',
     'change_pwd_new'                => 'New Password: ',
-    'change_pwd_renew'              => 'Confirm Password：',
+    'change_pwd_renew'              => 'Confirm Password?',
 
     'product_list_title'            => 'Registered Product',
     'product_list_th_1'             => 'Product',
@@ -172,7 +177,7 @@ return [
     'product_reg_success_content_1' => 'You have received an additional service for :month months of maintenance service! ',
     'product_reg_success_content_2' => 'The following is your product registration information: ',
     'product_reg_success_content_3' => 'Product number: ',
-    'product_reg_success_content_4' => 'Maintenance expiration date：',
+    'product_reg_success_content_4' => 'Maintenance expiration date?',
 
     'localization_title'            => 'Choose Your Location',
     'localization_subtitle_1'       => 'Visit the ',
@@ -180,9 +185,8 @@ return [
     'localization_subtitle_3'       => ' website, or choose your country/region below.',
 
     'news_title'                    => 'Events',
-    'news_media'                    => 'News and Media',
     'news_process'                  => 'On Going',
-    'news_other_event'              => 'News and Media',
+    'news_other_event'              => 'Other Event',
     'news_select_month'             => 'Choose the month',
 
     // News Status
@@ -229,6 +233,6 @@ return [
 
     ],
 
-    'experience_liber125_here' => '💻 Experience LIBER 12.5" here! ',
+    'experience_liber125_here' => '? Experience LIBER 12.5" here! ',
     'coming_soon' => 'Coming Soon',
 ];

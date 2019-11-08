@@ -40,19 +40,11 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-/*
 
-Login via Facebook
-
-*/
     public function redirectToFacebook( ){
         return Socialite::driver('facebook')->redirect();
     }
 
-/*
-
-
-*/
     public function handleFacebookCallback(Request $request){
 
         try {

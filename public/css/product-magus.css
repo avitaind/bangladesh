@@ -1,0 +1,1003 @@
+/****** Banner Image ******/
+.banner-bg {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.product-liber-banner .banner-bg {
+		background: url('../images/banner_mob.jpg') center/cover no-repeat;
+
+	/**/
+}
+.product-liber-computer .banner-bg{
+	background: rgb(240,240,240);
+	background: -moz-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgb(240,240,240)), color-stop(100%, rgb(240,240,240))) right -200px center / cover no-repeat, #fff;
+	background: -webkit-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -o-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -ms-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: linear-gradient(to right, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+}
+.product-liber-size .banner-bg {
+	background: #fff;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.4)), color-stop(50%, rgba(255,255,255,0.25)), color-stop(100%, rgba(0,0,0,0.1))), -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+.product-liber-performance .banner-bg  {
+	background: rgb(240,240,240);
+	background: -moz-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right 200px center / cover no-repeat, #fff;
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgb(240,240,240)), color-stop(100%, rgb(240,240,240))) right 200px center / cover no-repeat, #fff;
+	background: -webkit-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right 200px center / cover no-repeat, #fff;
+	background: -o-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right 200px center / cover no-repeat, #fff;
+	background: -ms-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right 200px center / cover no-repeat, #fff;
+	background: linear-gradient(to right, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right 200px center / cover no-repeat, #fff;
+	/*background: url('../images/liber/sc1_bg.jpg') right 300px center/cover no-repeat ,rgb(240,240,240);*/
+}
+.product-liber-power .banner-bg {
+	background-color: #fff;
+}
+.product-liber-keyboard .banner-bg {
+	background: rgb(240,240,240);
+	background: -moz-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgb(240,240,240)), color-stop(100%, rgb(240,240,240))) right -300px center / cover no-repeat, #fff;
+	background: -webkit-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -o-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -ms-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: linear-gradient(to right, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+}
+.product-liber-port .banner-bg {
+	background-color: #fff;
+}
+.product-liber-performance2 .banner-bg {
+	background: rgb(240,240,240);
+	background: -moz-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgb(240,240,240)), color-stop(100%, rgb(240,240,240))) right -300px center / cover no-repeat, #fff;
+	background: -webkit-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -o-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: -ms-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	background: linear-gradient(to right, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+}
+.product-liber-wifi .banner-bg {
+	background-color: #fff;
+}
+
+.banner-bg {
+	z-index: -1
+}
+.banner-block {
+	width: 100%;
+	height: 100%;
+}
+
+.banner-info {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.banner-para {
+	line-height: 2;
+	font-size: 1.1rem;
+}
+.lang_en .banner-para{
+	line-height: 1.9;
+}
+.banner-image {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: 0;
+	bottom: 0;
+	width: 1140px;
+	margin-left: -520px;
+}
+.badge-value {
+	font-family: "proxima-nova","myriad-pro","Helvetica Neue","Helvetica","Microsoft JhengHei","PingFang HK","Arial",sans-serif;
+}
+
+
+.product-liber-banner .banner-bg {
+	max-width: 100%;
+}
+.product-liber-banner .responsive-block:before {
+	content: '';
+	display: block;
+	padding-top: 34.375%;
+}
+.product-liber-banner .an-scroll-wrap {
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product-magus-port .banner-info {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAugAAAM1BAMAAADQoxnmAAAABGdBT…16EDr0IHToQejQg9ChB6FDD0KH/tnOR4YO/bN9HRn66x8fcTzZtlcI7wAAAABJRU5ErkJggg==);
+    width: 600px;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+@media (max-width: 767px) {
+  .product-liber-banner .responsive-block:before {
+    padding-top: 160%;
+  }
+}
+
+@media (min-width: 576px) {
+	/*.product-liber-banner .banner-bg {*/
+		/*background: url('../images/liber/sc1_bg.jpg') right 200px center/cover no-repeat ,rgb(240,240,240);*/
+	/*}*/
+	/*.product-liber-banner {
+	  min-height: 890px;
+	}*/
+}
+
+@media (max-width: 1920px) {
+	.banner-bg {
+		width: 1920px;
+	}
+}
+@media (max-width: 1199px) {
+	.banner-bg {
+		background-position: center center, center center !important;
+	}
+}
+@media (max-width: 575px) {
+	.banner-bg {
+		width: 100%;
+	}
+	.banner-header {
+	font-weight: 500;
+}
+}
+.ac-computer-wrap {
+	margin-bottom: 60px;
+}
+/*
+.an-scroll-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 1140px;
+}*/
+.an-scroll-wrap {
+	max-width: 100%;
+	/*width: 600px;*/
+	margin-left: auto;
+	text-align: center;
+	margin-top: 60px;
+}
+.an-scroll {
+	position: relative;
+	height: 50px;
+	width: 30px;
+	border-radius: 100% / 30px;
+	border: 3px solid #fff;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.an-scroll > span {
+	position: absolute;
+	background-color: #fff;
+	top: 10px;
+	left: 50%;
+	width: 3px;
+	height: 8px;
+	margin-left: -1.5px;
+	border-radius: 100%;
+}
+
+.product-liber-banner {
+  /*max-height: 100%;*/
+  /*height: -webkit-calc(100vh - 90px);*/
+  /*height: calc(100vh - 90px);*/
+}
+.product-liber-banner .banner-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+height: 100%;
+margin-top: 0;
+  /*position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 992px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 160px;
+  text-align: right;*/
+}
+.product-liber-banner .banner-info .brand, .product-liber-banner .banner-info .btn-group {
+  max-width: 100%;
+  /*width: 600px;*/
+  margin-left: auto;
+  text-align: center;
+}
+
+.product-liber-banner .banner-info h3.brand {
+	font-size: 1.2rem;
+}
+
+.product-liber-banner .banner-info h2.brand {
+	font-size: 2.2rem;
+}
+
+.product-liber-banner .banner-info .brand {
+  /*font-size: 6rem;*/
+  font-weight: bold;
+  color: #fff;
+}
+.product-liber-computer .banner-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.product-liber-computer .banner-info {
+	text-align: center;
+}
+.product-liber-computer .ac-computer-wrap {
+	position: relative;
+	padding-top: 67.068273%;
+}
+.product-liber-computer .ac-computer-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.product-liber-computer .banner-header {
+	/*margin-top: 60px;*/
+}
+.product-liber-computer .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-computer .bc-computer-1 {
+	top: 223px;
+	right: 1180px
+}
+.product-liber-computer .bc-computer-2 {
+	top: 100px;
+	right: 1003px
+}
+.product-liber-computer .bc-computer-3 {
+	top: 210px;
+	right: 790px
+}
+.product-liber-computer .bc-computer-4 {
+	top: 210px;
+	left: 710px
+}
+.product-liber-computer .bc-computer-5 {
+	top: 190px;
+	left: 910px;
+}
+.product-liber-computer .bc-computer-6 {
+	top: 162px;
+	left: 1172px;
+}
+
+.product-liber-size .banner-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.product-liber-size .banner-data {
+	color: #fba3ab;
+	line-height: 1;
+	letter-spacing: 0;
+	margin-top: 20px;
+}
+.product-liber-size .badge-value {
+	font-size: 3rem;
+	font-weight: 300;
+}
+.product-liber-size .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-size .bc-computer-1 {
+	top: 500px;
+	right: 810px;
+	z-index: 1
+}
+.product-liber-size .bc-computer-2 {
+	top: -90px;
+	left: 680px;
+	z-index: 1
+}
+.product-liber-size .bc-computer-3 {
+	top: 5px;
+	right: 900px;
+}
+.product-liber-size .bc-computer-4 {
+top: 207px;
+    left: 800px;
+}
+.product-liber-size .bc-computer-5 {
+top: 335px;
+    right: 1200px;
+}
+.product-liber-size .bc-computer-6 {
+top: 635px;
+    left: 911px;
+}
+.product-liber-size .bc-computer-7 {
+	    top: 893px;
+    right: 1052px;
+}
+.product-liber-size .bc-computer-8 {
+	top: 837px;
+	left: 907px;
+}
+
+
+.product-liber-performance .banner-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.product-liber-performance .banner-data {
+	margin-top: 20px;
+	max-width: 100%;
+	color: #afa191;
+	line-height: normal;
+	text-align: left;
+	letter-spacing: 0;
+}
+
+.product-liber-performance .badge-caption {
+	font-size: 0.9rem;
+}
+.badge-value .badge-caption {
+	font-size: 0.9rem;
+}
+.product-liber-performance .badge-value {
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.product-liber-performance .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-performance .bc-computer-1 {
+	top: 94px;
+	left: 630px;
+}
+.product-liber-performance .bc-computer-2 {
+  top: 900px;
+  left: 582px;
+}
+
+.product-liber-power .banner-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.product-liber-power .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-power .bc-computer-1 {
+	top: 406px;
+	left: -293px;
+}
+
+.product-liber-power .banner-data {
+	color: #63abe8;
+	padding-bottom: 40px;
+	position: relative;
+	/*background-image: linear-gradient(to right, #e1e1e1 60%, rgba(255,255,255,0) 0%);*/
+	/*background-position: left bottom;*/
+	/*background-size: 19px 15px;*/
+	/*background-repeat: repeat-x;*/
+	margin-left: 15px;
+	margin-right: 15px;
+	max-width: 100%;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.product-liber-power .battery-wrap {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUgAAACMCAMAAAApxMAXAAAABGdBTUEAALGPC/xhBQAAAHhQTFRF19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXAAAA4eHh19fXxmW4gAAAACZ0Uk5TkjHWLvTY+gfzu+TlkSqOCZi9LwvUlZSTLCuQDDD9/NeP+PkGOABvryUfAAABfklEQVR42u3St1UEQRQAwUNzWmu5Yvj5Zwgu7Bg7HkZ1CPV6kH6azu5VqE/V82yacg1SanZXQAVdF/MsZDOMetKek/p0bvd1LJsc5DbGT4AKuoxjl4E83qoLnKJW1e3YhXzEA01hObPBPVoyhbVx70LW0ZAp7CPqLmQEmOIyaCBBggQpkCBBghRIkCBBggQJEqRAggQJUiBBggQJEiRIkAIJEiRIgQQJUiBB/kfIr9+BBAkSpECCBAlSIEGCBAkSJEiQAgkSJEiBBAkSJEiQIEEKJEiQIAUSJEiBBAkSpECCBAkSJEiQIAUSJEiQAgkSJEiQIEGCVA7yTyBBggQpkCBBghRIkCBBggQJEqRAggQJUiBBggQJEiRIkAIJEiRIgQQJUnnIOhowhZ3jswt5j5ZMYW1supCPGJApbB+nLuThVq3QFPVS3Q5dyLSN0QVOQZdRbFMGshlGPWnXgHq1bvd1LJscZGp211D/rot5ykKmdDy9vQPq1evmdMiu+g1yN/m9MYLlTAAAAABJRU5ErkJggg==') center no-repeat;
+	width: 329px;
+	height: 190px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	color: #525252;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.product-liber-power .battery-wrap:before {
+	position: absolute;
+	top: 35px;
+	left: 10px;
+	bottom: 35px;
+	border-radius: 6px;
+	opacity: 1;
+	content: '';
+	display: block;
+	width: 0;
+	background-color: #d9534f;
+	-webkit-transition: width 1s ease-in, opacity 1s ease-in, background 1s cubic-bezier(0.68, 0.02, 0.99, 0.42);
+	-o-transition: width 1s ease-in, opacity 1s ease-in, background 1s cubic-bezier(0.68, 0.02, 0.99, 0.42);
+	transition: width 1s ease-in, opacity 1s ease-in, background 1s cubic-bezier(0.68, 0.02, 0.99, 0.42);
+}
+.product-liber-power .battery-wrap.charge:before {
+	background-color: #7fb041;
+	opacity: .3;
+	width: 291px;
+}
+
+.product-liber-power .battery-wrap .badge-caption {
+	position: relative;
+	text-align: center;
+	margin-top: -1rem;
+}
+body.lang_en .product-liber-power .battery-wrap .badge-caption {
+	position: relative;
+	text-align: center;
+	margin-top: -1rem;
+	padding-left: 102px;
+}
+
+body.lang_th .product-liber-power .battery-wrap .badge-caption {
+	position: relative;
+	text-align: center;
+	margin-top: -1rem;
+	padding-left: 92px;
+}
+
+body.lang_id .product-liber-power .battery-wrap .badge-caption {
+	position: relative;
+	text-align: center;
+	margin-top: -1rem;
+	padding-left: 102px;
+}
+
+
+
+.product-liber-power .badge-caption {
+	font-size: 0.9rem;
+}
+.product-liber-power .badge-value {
+	font-size: 3rem;
+	font-weight: 300;
+	color: #63abe8;
+	letter-spacing: 0;
+	line-height: 1;
+}
+.product-liber-power  .battery-block {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*display: flex;*/
+}
+.product-liber-power .battery-block li {
+	width: 3.333333%;
+	height: 1.25em;
+	background-color: #ccc
+}
+.product-liber-power .battery-block li + li {
+	margin-left: 3.333333%;
+}
+
+.product-liber-keyboard .banner-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.product-liber-keyboard .banner-data {
+	text-align: left;
+	color: #a79db9;
+	margin-top: 90px;
+}
+.product-liber-keyboard .badge-caption {
+	font-size: 1rem;
+}
+.product-liber-keyboard .badge-value {
+	font-size: 3rem;
+	font-weight: 300;
+	letter-spacing: 0;
+}
+.product-liber-keyboard .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-keyboard .bc-computer-1 {
+	top: 20px;
+	left: 503px;
+}
+
+.product-liber-port .banner-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.product-liber-port .banner-data {
+	text-align: center;
+	color: #9dc3bf;
+	margin-top: 30px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.8rem;
+}
+.product-liber-port .badge-value {
+	height: 25px;
+	margin-bottom: .25rem;
+}
+.product-liber-port .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-port .bc-computer-1 {
+	top: 0px;
+	right: 550px;
+}
+.product-liber-port .bc-computer-2 {
+	top: 600px;
+	right: 1103px;
+}
+.product-liber-port .bc-computer-3 {
+	top: 70px;
+	left: 1208px;
+}
+
+.product-liber-performance2 .banner-block {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.product-liber-performance2 .banner-data {
+	text-align: center;
+	color: #38afa0;
+	letter-spacing: normal;
+}
+.product-liber-performance2 .banner-data + .banner-data {
+	margin-top: 1rem;
+	height: auto;
+	/*border-top: 1px solid #c2c2c2*/
+}
+.product-liber-performance2 .data-card {
+	text-align: left;
+}
+.product-liber-performance2 .badge-value {
+	font-size: 3rem;
+	font-weight: 300;
+	letter-spacing: 0;
+	line-height: normal;
+}
+.product-liber-performance2 .badge-caption {
+	font-size: 0.9rem;
+}
+.product-liber-performance2 .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-performance2 .bc-computer-1 {
+	top: 50px;
+	right: -97px;
+}
+.product-liber-performance2 .bc-computer-2 {
+	top: 661px;
+	right: -280px;
+	z-index: 1;
+}
+
+.product-liber-performance2 .bc-computer-3 {
+	top: 1061px;
+	right: -280px;
+	z-index: 1
+}
+.product-liber-performance2 .bc-computer-4 {
+	top: 1094px;
+	right: 20px;
+	z-index: 1
+}
+.product-liber-performance2 .bc-computer-5 {
+	top: 884px;
+	right: 181px;
+	z-index: 1
+}
+.product-liber-performance2 .bc-computer-6 {
+	top: 736px;
+	right: -51px;
+	z-index: 1
+}
+.product-liber-performance2 .bc-computer-7 {
+	    top: 718px;
+    right: 178px;
+	z-index: 1
+}
+.product-liber-performance2 .bc-computer-8 {
+	    top: 661px;
+    right: 50px;
+	z-index: 1
+}
+
+
+.product-liber-wifi .banner-block {
+	padding-top: 60px;
+	padding-bottom:60px;
+}
+.product-liber-wifi .banner-info {
+	max-width: 100%;
+}
+.product-liber-wifi .banner-data {
+	margin-top: 20px;
+	color: #bb9ccf;
+}
+.product-liber-wifi .data-card {
+	text-align: left;
+	line-height: normal;
+}
+.product-liber-wifi .badge-value {
+	font-size: 3rem;
+	font-weight: 300;
+	letter-spacing: 0;
+}
+.product-liber-wifi .badge-caption {
+	font-size: 0.9rem;
+}
+/*.product-liber-wifi .banner-more {
+	margin-top: 50px;
+	max-width: 100%;
+	width: 800px;
+}*/
+.product-liber-wifi .bc-computer-image {
+	position: absolute;
+	max-width: 100%;
+}
+.product-liber-wifi .bc-computer-1 {
+	top: 50px;
+	right: 775px;
+}
+.product-liber-wifi .bc-computer-2 {
+	top: 127px;
+	right: -96px;
+	z-index: 1;
+}
+
+.product-statement .product-statement-list {
+	/*max-width: 800px;*/
+}
+
+@media (min-width: 576px) {
+
+	.product-liber-banner .banner-info {
+		/*margin-top: 340px;*/
+	}
+
+	.product-liber-banner .banner-info h3.brand {
+		font-size: 2rem;
+	}
+
+	.product-liber-banner .banner-info h2.brand {
+		font-size: 3.5rem;
+	}
+	.product-liber-size .banner-data {
+		max-width: 450px;
+		width: 100%;
+		margin-top: 50px;
+		font-size: 0.9rem;
+	}
+	.product-liber-performance .banner-data {
+		width: 500px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 80px;
+	}
+	.product-liber-port .banner-data {
+		margin-top: 90px;
+		width: 620px;
+	}
+	.product-liber-wifi .banner-data {
+		margin-top: 90px;
+	}
+}
+@media (min-width: 960px){
+	.product-liber-port .banner-data {
+		width:500px;
+	}
+}
+@media (min-width: 768px) {
+
+	.product-liber-banner .banner-info h3.brand {
+		font-size: 2.8rem;
+	}
+
+	.product-liber-banner .banner-info h2.brand {
+		font-size: 4.5rem;
+	}
+
+	/*.product-liber-banner {
+		height: -webkit-calc(100vh - 108px);
+		height: calc(100vh - 108px);
+	}*/
+
+	.product-liber-performance .data-card {
+		margin-top: 80px;
+	}
+	.product-liber-performance2 .banner-data {
+		text-align: center;
+		color: #38afa0;
+		max-width: 100%;
+		width: 570px;
+		/*height: 250px;*/
+		letter-spacing: normal;
+	}
+	.product-liber-performance2 .banner-data-block {
+		position: relative;
+		background: url('../images/liber/sc8_bg.png') center center / cover no-repeat;
+		width: 1028px;
+		height: 1028px;
+		margin-left: -240px;
+		margin-bottom: -50px;
+	}
+	.product-liber-computer .banner-info {
+		text-align: center;
+		max-width: 515px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.product-liber-size .banner-info {
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeYAAAL1BAMAAADgF1pUAAAABGdBTUEAALGPC/xhBQAAABhQTFRF19fX19fX19fX19fX19fX19fXAAAA19fXpd9uWAAAAAd0Uk5ThAODFhXUANMk9ZYAAAb6SURBVHja7dTLbVxXEEVRzjR3BkrCGVAJWIASIHpsGFD+Fv/dzfd/d1Kn1gmggIUN1MNl4J6+XyrsYeSxx//amZ9+/dPO/Pj7727mKplHmqtkHmguk3mguUzmceY6mceZ62QeZi6UeZi5UOZR5kqZR5krZR5kLpV5kLlU5jHmWpnHmGtlHmIulnmIuVjmEeZqmUeYq2UeYC6XeYC5XObz5nqZz5vrZT5tLpj5tLlg5rPmipnPmitmPmkumfmkuWTmc+aamc+Za2Y+ZS6a+ZS5aOYz5qqZz5irZj5hLpv5hLls5uPmupmPm+tmPmwunPmwuXDmo+bKmY+aK2c+aC6d+aC5dOZj5tqZj5lrZz5kLp75kPnx949u5qdfPy/dzNUzHzCXz3zAXD7zfnP9zPvN9TPvNgdk3m0OyLzXnJB5rzkh805zROad5ojM+8wZmfeZMzLvModk3mUOybzHnJJ5jzkl8w5zTOYd5pjM2805mbebczJvNgdl3mwOyrzVnJR5qzkp80ZzVOaN5qjM28xZmbeZszJvModl3mQOy7zFnJZ5izkt8wZzXOYN5rjM6+a8zOvmvMyr5sDMq+bAzGvmxMxr5sTMK+bIzCvmyMzL5szMy+bMzIvm0MyL5tDMS+bUzEvm1MwL5tjMC+bYzPPm3Mzz5tzMs+bgzLPm4Mxz5uTMc+bkzDPm6Mwz5ujM0+bszNPm7MyT5vDMk+bwzFPm9MxT5vTME+b4zBPm+MxfzfmZv5rzM38xN8j8xdwg8725Q+Z7c4fMd+YWme/MLTLfmntkvjX3yHxjbpL5xtwk87W5S+Zrc5fMV+Y2ma/MbTJ/mvtk/jT3yfxhbpT5w9wo87u5U+Z3c6fMb+ZWmd/MrTK/mntlfjX3yvxibpb5xdws87O5W+Znc7fMf8ztMv8xt8t8eeiX+fLQL/Pl4Vu7zJeHv370M18uzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzDF7+t7P/PhvO/PTr5/tzI+/fzz0y9zuh/3J3M38nLmb+TlzM/NL5mbml8y9zK+Ze5lfM7cyv2VuZX7L3Mn8nrmT+T1zI/NH5kbmj8x9zJ+Z+5g/M7cxX2VuY77K3MV8nbmL+TpzE/NN5ibmm8w9zLeZe5hvM7cw32VuYb7L3MF8n7mD+T5zA/OXzA3MXzLnm79mzjd/zRxvnsgcb57InG6eypxunsocbp7MHG6ezJxtns6cbZ7OHG2eyRxtnsmcbJ7LnGyeyxxsns0cbJ7NnGuez5xrns8ca17IHGteyJxqXsqcal7KHGpezBxqXsycaV7OnGlezhxpXskcaV7JnGhey5xoXsscaF7NHGhezZxnXs+cZ17PHGfekDnOvCFzmnlL5jTzlsxh5k2Zw8ybMmeZt2XOMm/LHGXemDnKvDFzknlr5iTz1sxB5s2Zg8ybM+eYt2fOMW/PHGPekTnGvCNzinlP5hTznswh5l2ZQ8y7MmeY92XOMO/LHGHemTnCvDNzgnlv5gTz3swB5t2ZA8y7M9c3789c37w/c3nzgczlzQcyVzcfyVzdfCRzcfOhzMXNhzLXNh/LXNt8LHNp88HMpc0HM1c2H81c2Xw0c2Hz4cyFzYcz1zUfz1zXfDxzWfOJzGXNJzJXNZ/JXNV8JnNR86nMRc2nMtc0n8tc03wuc0nzycwlzSczVzSfzVzRfDZzQfPpzAXNpzPXM5/PXM98PnM584DM5cwDMlczj8hczTwiczHzkMzFzEMy1zKPyVzLPCZzKfOgzKXMgzJXMo/KXMk8KnMh87DMhczDMtcxj8tcxzwucxnzwMxlzAMzVzGPzFzFPDJzEfPQzEXMQzMXMX8bmbmI+a+RmS//A0TbJyjxzar9AAAAAElFTkSuQmCC');
+		max-width: 100%;
+		width: 540px;
+		height: 760px;
+		padding-top: 190px;
+		padding-bottom: 180px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.lang_en .product-liber-size .banner-info{
+		height: 868px;
+	}
+	.product-liber-performance .banner-info {
+		background-image: url('data:image/png;base64,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');
+		max-width: 100%;
+		width: 636px;
+		/*height: 1014px;*/
+		/*padding-top: 190px;*/
+		padding-bottom: 90px;
+	}
+	.product-liber-power .banner-info {
+		/*background: url('data:image/png;base64,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') no-repeat;*/
+		width: 510px;
+		/*height: 550px;*/
+		padding-top: 90px;
+		/*padding-bottom: 180px;*/
+	}
+	.product-liber-power .battery-wrap {
+		position: relative;
+		width: 329px;
+		height: 190px;
+		margin-left: auto;
+		margin-right: auto;
+		color: #525252;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.product-liber-keyboard .banner-info {
+		background: url('data:image/png;base64,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') center no-repeat;
+		width: 400px;
+		height: 729px;
+		padding-top: 210px;
+		padding-bottom: 180px;
+	}
+	.product-liber-port .banner-info {
+		width: 500px;
+		padding-top: 0px;
+		padding-bottom: 80px;
+	}
+	.product-liber-performance2 .banner-info {
+		width: 470px;
+		height: 599px;
+		padding-top: 90px;
+		padding-bottom: 180px;
+	}
+	.product-liber-wifi .banner-info {
+		padding-top: 190px;
+		padding-bottom: 180px;
+		width: 500px;
+		height: 765px;
+	}
+	
+}
+@media (max-width: 991px) {
+	.bc-computer-image{
+		visibility: hidden;
+	}
+	.product-liber-performance .banner-info {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+@media (min-width: 992px) {
+	.product-liber-computer .banner-bg{
+		/*background: url('../images/liber/sc2_bg.png') left 32% top -381px no-repeat, rgb(240,240,240);
+		background: url('../images/liber/sc2_bg.png') left 32% top -381px no-repeat, -moz-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: url('../images/liber/sc2_bg.png') left 32% top -381px no-repeat, -webkit-gradient(left top, right top, color-stop(0%, rgb(240,240,240)), color-stop(100%, rgb(240,240,240))) right -200px center / cover no-repeat, #fff;
+		background: url('../images/liber/sc2_bg.png') left 32% top -381px no-repeat, -webkit-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: url('../images/liber/sc2_bg.png') left 32% top -381px no-repeat, -o-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: url('../images/liber/sc2_bg.png') left 32% top -381px no-repeat, -ms-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: url('../images/liber/sc2_bg.png') left 32% top -381px no-repeat, linear-gradient(to right, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff; */
+		background: rgb(240,240,240);
+		background: -moz-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgb(240,240,240)), color-stop(100%, rgb(240,240,240))) right -200px center / cover no-repeat, #fff;
+		background: -webkit-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: -o-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: -ms-linear-gradient(left, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+		background: linear-gradient(to right, rgb(240,240,240) 0%, rgb(240,240,240) 100%) right -200px center / cover no-repeat, #fff;
+	}
+	.product-liber-computer .banner-block {
+		padding-top: 180px;
+		padding-bottom: 180px;
+	}
+	.product-liber-size .banner-block {
+		padding-top: 200px;
+		padding-bottom: 400px;
+	}
+	.product-liber-performance .banner-block {
+		padding-top: 200px;
+		padding-bottom: 100px;
+	}
+	.product-liber-power .banner-block {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.product-liber-keyboard .banner-block {
+		padding-top: 110px;
+		padding-bottom: 110px;
+	}
+	.product-liber-port .banner-block {
+		padding-top: 100px;
+		padding-bottom: 40px;
+	}
+	.product-liber-wifi.banner-block {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.product-liber-computer .ac-computer-wrap {
+		margin-bottom: 90px;
+	}
+	/*.product-liber-computer .banner-header {
+		margin-top: 90px;
+	}*/
+
+	.product-liber-power .battery-wrap {
+    margin-top: 315px;
+		margin-bottom: 50px;
+	}
+	.product-liber-power .banner-data {
+		margin-bottom: 205px;
+	}
+
+}
+@media (max-width: 1200px) {
+	.product-liber-banner .banner-info {
+		text-align: center;
+	}
+	.product-liber-banner .banner-info .brand, .product-liber-banner .banner-info .btn-group, .an-scroll-wrap{
+		margin-right: auto;
+	}
+}
+.banner-header {
+  font-size: 2rem
+}
+@media (max-width: 575px) {
+  .banner-info {
+  	padding-left: 15px;
+  	padding-right: 15px;
+  	text-align: left;
+  }
+  .banner-header {
+  	font-size: 1.7rem
+  }
+  .product-liber-port .banner-header {
+  	/*font-size: 1.4rem*/
+  }
+  .product-liber-performance2 .banner-header {
+  	/*font-size: 1.6rem*/
+  }
+  .banner-para {
+  	text-align: left;
+  }
+  .product-liber-performance .data-card {
+  	text-align: center;
+		width: 50%;
+	}
+	.product-liber-power .data-card, .product-liber-port .data-card {
+  	text-align: center;
+		width: 50%;
+	}
+	.badge-value {
+		line-height: 1
+	}
+	.product-liber-performance2 .banner-data {
+		margin-top: 20px;
+	}
+	.product-liber-performance2 .badge-value{
+		font-size: 1.9rem;
+	}
+	.product-liber-performance2 .banner-data + .banner-data {
+		padding-top: 20px;
+	}
+	.product-statement .product-statement-list {
+		border-top: 1px solid #c2c2c2;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 0.8rem
+	}
+	.ac-computer-wrap {
+		text-align: center;
+	}
+	.ac-computer-wrap img {
+		max-width: 100%;
+	}
+	.product-liber-size .ac-computer-wrap img {
+		max-width: 70%;
+	}
+	.product-liber-performance .ac-computer-wrap {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+	.product-liber-performance .banner-block {
+		padding-top: 0;
+	}
+	.product-liber-port .ac-computer-wrap {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	.an-scroll {
+		border: 0;
+	}
+	.an-scroll > span {
+		background-color: transparent;
+	}
+	.an-scroll > span:before {
+		content: '';
+		display: block;
+		background-color: transparent;
+		top: 10px;
+		left: 50%;
+		width: 20px;
+		height: 20px;
+		border: 4px solid #FB9B6E;
+		border-top-color: transparent;
+		border-left-color: transparent;
+		margin-left: -10px;
+		border-radius: 0;
+		-webkit-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.d-lg-block img {
+		max-width: 100%;
+	}
+}

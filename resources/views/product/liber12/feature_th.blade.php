@@ -12,8 +12,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpeg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpeg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             {{--<img class="mx-auto" src="/images/liber/liber12_feature/brand.png">--}}

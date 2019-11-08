@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Shop;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -15,8 +16,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-
-        \View::composer(['partials.product-navbar', 'partials.header'], function ($view) {
+     Schema::defaultStringLength(191); 
+        \View::composer(['partials.product-navbar', 'partials.header', 'partials.footer'], function ($view) {
 
             $country = session('country');
             $shop_count = Shop::whereCountry($country)->whereEnabled(true)->count();
@@ -29,6 +30,7 @@ class AppServiceProvider extends ServiceProvider
             $lang = app()->getLocale();
 
             $storeURL = null;
+
 
             switch ( $country ) {
 
@@ -47,6 +49,14 @@ class AppServiceProvider extends ServiceProvider
                 case 'cn':
                     $storeURL = "https://avita.jd.com";
                     break;
+                case 'id':
+
+                    $storeURL = "http://www.jd.id/campaign/avita-liber-series-3162.html";
+                    break;
+                case 'th':
+                    $storeURL = "https://www.bnn.in.th/catalogsearch/result/?___store=en&q=avita&cat=";
+                    break;
+					
             }
 
             $view->with('storeURL', $storeURL);

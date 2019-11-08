@@ -91,12 +91,11 @@
                     </div>
 
                     <div class="col-12 col-lg-8 pull-lg-4 px-0">
+                <div id="bmap">
 
-                        <div id="bmap">
+                        </div> 
 
-                        </div>
-
-                        {{--<div class="map-wrap embed-responsive embed-responsive-1by1">--}}
+                       {{--<div class="map-wrap embed-responsive embed-responsive-1by1">--}}
                             {{--<div id="gmap-embed" class="embed-responsive-item">--}}
 
                             {{--</div>--}}
@@ -131,10 +130,9 @@
 
 @section('js')
 
-    <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=gLcbtpgGiUbFbe4DE6I0Ewg57gOIMkU1"></script>
-
-    <script>
-        var infowindows = [];
+ <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=gLcbtpgGiUbFbe4DE6I0Ewg57gOIMkU1"></script> 
+ 
+ var infowindows = [];
         var markers = [];
 
         function initMap() {
@@ -255,6 +253,8 @@
                     if ( title.match(search) ) {
                         $(item).css("display", "");
                     } else {
+
+
                         $(item).css("display", "none");
                     }
                 });

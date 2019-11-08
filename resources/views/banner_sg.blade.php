@@ -2,15 +2,40 @@
 
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-
+ 
+            <!--div class="carousel-item active">
+                <div class="responsive-block">
+                    <div class="banner-block responsive-item">
+                        <a href="https://www.avita.com/sg/news/detail/25">
+                            <div class="banner-bg hidden-sm-down"
+                                     style="background-image: url('/images/banner/SGITshow_1920x720.jpg')"></div>
+                            <div class="banner-bg hidden-md-up"
+                                 style="background-image: url('/images/banner/SGITshow_375x600.jpg')"></div>
+                    	</a>
+                    </div>
+                </div>
+            </div-->
+        
             <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
-                        <a href="https://goo.gl/forms/VrGwV6GqQTtp2Sr43" target="_blank">
+                        <a href="{{ route('product.overview', 'magus12-2in1-laptop') }}">
                             <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/avita_IG_1920x720.jpg')"></div>
+                                     style="background-image: url('/images/banner/magus_1920x720.jpg')"></div>
                             <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/avita_IG_375x600.jpg')"></div>
+                                 style="background-image: url('/images/banner/magus_375x600.jpg')"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="responsive-block">
+                    <div class="banner-block responsive-item">
+                        <a href="{{ route('product.overview', ['liber12']) }}">
+                            <div class="banner-bg hidden-sm-down"
+                                     style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
+                            <div class="banner-bg hidden-md-up"
+                                 style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
                         </a>
                     </div>
                 </div>
@@ -51,6 +76,8 @@
             <li data-target="#home_banner" data-slide-to="0" class="active"></li>
             <li data-target="#home_banner" data-slide-to="1"></li>
             <li data-target="#home_banner" data-slide-to="2"></li>
+            <li data-target="#home_banner" data-slide-to="3"></li>
+            <!--li data-target="#home_banner" data-slide-to="4"></li-->
         </ol>
     </div>
 </section>

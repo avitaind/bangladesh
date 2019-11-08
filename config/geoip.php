@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'service' => 'ipapi',
+    'service' => 'maxmind_database',
 
     /*
     |--------------------------------------------------------------------------
@@ -126,8 +126,8 @@ return [
 
     'default_location' => [
         'ip' => '127.0.0.0',
-        'iso_code' => 'US',
-        'country' => 'United States',
+        'iso_code' => 'HK',
+        'country' => 'Hong Kong',
         'city' => 'New Haven',
         'state' => 'CT',
         'state_name' => 'Connecticut',

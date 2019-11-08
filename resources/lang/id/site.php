@@ -7,7 +7,7 @@ return [
     'service'                       => 'Layanan',
     'member_center'                 => 'Pusat Anggota',
     'logout'                        => 'Keluar',
-    'login'                         => 'Masukan akun anggota AVITA atau kata kunci untuk masuk',
+    'login'                         => 'MASUK',
     'terms'                         => 'Syarat dan Kebijakan Penggunaan',
     'privacy'                       => 'Kebijakan Privasi',
     'terms_privacy'                 => 'Syarat Penggunaan dan Kebijakan Privasi',
@@ -43,7 +43,7 @@ return [
     // universal
 
     'header_store'                  => 'Toko AVITA',
-    'header_where_to_buy'           => 'Where To Buy',
+    'header_where_to_buy'           => 'Lokasi Penjualan',
 
     'footer_aboutus'                => 'Tentang AVITA',
     'footer_contact'                => 'Hubungi AVITA',
@@ -61,17 +61,22 @@ return [
     'home_subscribe'                => 'Daftar Sekarang.',
 
     'productnav_overview'           => 'Tinjauan',
-    'productnav_overview_12'           => 'Tinjauan 12.5"',
-    'productnav_overview_13'           => 'Tinjauan 13.3" &amp; 14"',
+    'productnav_overview_12'        => 'Tinjauan 12.5"',
+    'productnav_overview_13'        => 'Tinjauan 13.3" &amp; 14"',
+    'productnav_overview_u_series'  => 'Tinjauan New Generation',
+
 
     'productnav_spec'               => 'Spesifikasi Teknik',
     'productnav_support'            => 'Dukungan',
     'productnav_wheretobuy'         => 'Lokasi Penjualan',
 
     'aboutus_about'                 => 'Tentang AVITA',
-    'aboutus_content_1'             => 'Di AVITA kami percaya tentang keajaiban dan kekuatan individu. Kami membuat produk teknologi yang premium tidak hanya sesuai dengan gaya hidup Anda tetapi lebih menjadi representasi diri Anda.<br><br>Seri produk AVITA dimulai dari PC, Smart Home dan Perangkat IoT hadir dari 3 kekuatan, yaitu : Kebebasan, Perbedaan dan Individualisme untuk pengalaman luar biasa bagi para generasi terbaru pengguna teknologi.',
-    'aboutus_content_2'             => 'Semua gagasan, semangat, gaya individu dan semua yang membuat Anda unik telah menjadi inspirasi kami, dan kami percaya bahwa pilihan Anda dalam teknologi tidak hanya menjelaskan siapa Anda tetapi lebih kepada mencerminkan diri Anda sebenarnya.',
-    'aboutus_content_3'             => 'Terdiri dari individu berbakat, tim kami sebelum memulai AVITA telah berkecimpung dalam pengembangan produk pada perusahaan teknologi besar lainnya. Dengan gabungan antusias yang tinggi dari setiap pribadi dalam mengembangkan desain dan teknologi yang mumpuni membawa mereka bersama-sama menciptakan AVITA. Anda dapat mempelajari lebih lanjut mengenai perusahaan dibalik AVITA disini.<br><br>"Live it up" tidak hanya tagline bagi kami, tetapi lebih merupakan etos dan DNA perusahaan kami.',
+    'aboutus_content'               => [
+        'Di AVITA kami percaya tentang keajaiban dan kekuatan individu. Kami membuat produk teknologi yang premium tidak hanya sesuai dengan gaya hidup Anda tetapi lebih menjadi representasi diri Anda.<br><br>Seri produk AVITA dimulai dari PC, Smart Home dan Perangkat IoT hadir dari 3 kekuatan, yaitu : Kebebasan, Perbedaan dan Individualisme untuk pengalaman luar biasa bagi para generasi terbaru pengguna teknologi.',
+        'Semua gagasan, semangat, gaya individu dan semua yang membuat Anda unik telah menjadi inspirasi kami, dan kami percaya bahwa pilihan Anda dalam teknologi tidak hanya menjelaskan siapa Anda tetapi lebih kepada mencerminkan diri Anda sebenarnya.',
+        'Terdiri dari individu berbakat, tim kami sebelum memulai AVITA telah berkecimpung dalam pengembangan produk pada perusahaan teknologi besar lainnya. Dengan gabungan antusias yang tinggi dari setiap pribadi dalam mengembangkan desain dan teknologi yang mumpuni membawa mereka bersama-sama menciptakan AVITA. Anda dapat mempelajari lebih lanjut mengenai perusahaan dibalik AVITA disini.<br><br>"Live it up" tidak hanya tagline bagi kami, tetapi lebih merupakan etos dan DNA perusahaan kami.',
+    ],
+
 
     'contactus_contactus'           => 'Hubungi Kami',
     'contactus_operating'           => 'Jam beroperasi',

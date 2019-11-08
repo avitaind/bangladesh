@@ -53,14 +53,9 @@
 					<div class="map-search col-12 col-lg-4 push-lg-8 p-4">
 						<div class="lead">@lang('site.shops_near_you')</div>
 
-						@if( $country == 'hk')
-							<p class="mt-4">
-								@lang('site.experience_liber125_here')
-							</p>
-						@endif
 
 						<div class="input-group py-4">
-							<input type="text" name="search" placeholder="Enter Your City" class="form-control search-result-input search-input" id="map-search" required="">
+							<input type="text" name="search" class="form-control search-result-input search-input" id="map-search" required="">
 							<div class="input-group-addon search-result-button">
 								<button type="button" class=""><i class="fa fa-search" aria-hidden="true"></i></button>
 							</div>
@@ -97,6 +92,29 @@
 
 				</div>
 			</div>
+            
+            
+            <div class="container py-5 ls-0">
+                <div class="shopsList" style="display:none;">
+        
+                    @foreach( $shops as $shop )
+        
+                        <div class="col-md-6" >
+        
+                            <div class="pb-1">{{ $shop->name }}</div>
+                            <div class="">
+                                <i class="fa fa-map icon"></i>
+                                {{ $shop->address }}
+                            </div>
+                            <div class="">
+                                <i class="fa fa-phone icon"></i>
+                                {{ $shop->phone }}
+                            </div>
+        
+                        </div>
+                    @endforeach
+                </div>
+            </div><!--container-->
 
 		</section>
 
@@ -128,7 +146,7 @@
 		var markers = [];
 
 		function initMap() {
-		    var uluru = {lat: 22.313144, lng: 114.219235};
+			var uluru = {lat: 22.313144, lng: 114.219235};
 			var map = new google.maps.Map(document.getElementById('gmap-embed'), {
 				zoom: 17,
 				center: uluru
@@ -286,6 +304,5 @@
 
   </script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkjCWGYO6wojvQEwcNm09P_H7XeYoji9I&callback=initMap"></script>
-     
 
 @endsection

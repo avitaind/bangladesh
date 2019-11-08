@@ -22,13 +22,13 @@
 
 	<div class="p-0">
 		<div class="d-md-flex my-3">
-			<div class="col col-auto px-0 mb-1">
+			<!--div class="col col-auto px-0 mb-1">
 				@if( $country == 'tw' )
 					@lang('site.extra_warranty_statement', ['month' => 2])
 				@else
 					@lang('site.extra_warranty_statement', ['month' => 6])
 				@endif
-			</div>
+			</div-->
 		</div>
 
 

@@ -1922,3 +1922,27 @@ table.product-list-table th{
   margin-bottom: .5rem;
 
 }
+
+
+
+.shopsList{
+	margin-top:40px;
+}
+ 
+
+.shopsList .col-md-6{
+    display: inline-grid;
+    width: 50%;
+} 
+  
+
+.shopsList .col-md-6:nth-child(2n+1) {
+    clear: both;
+}
+
+@media (max-width: 991px) {
+  .shopsList .col-md-6{ 
+    width: 100%;
+  }
+}
+

@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 @php
+	$country = 'mu';
     $xml_lang = ($lang == 'en') ? 'en' : 'zh-hk';
 
     $keyword = metaKeywordByCountryAndLanguage( $country, $lang);
@@ -29,12 +30,14 @@
     <meta property="og:image:height" content="630">
 
     <meta property="fb:app_id" content="{{ env('FACEBOOK_CLIENT_ID') }}" />
+    
+    <meta name="google-site-verification" content="R1kH74ny5l80vabgxtYCz8X_wkcj4wW5Z-wT31L4Qrg" />
 
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
     @yield('meta')
 
-    <title>@yield('title', 'AVITA') {{ $TITLE_SUFFIX or "" }}</title>
+    <title>AVITA | AVITA BANGLADESH</title>
 
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
@@ -42,38 +45,23 @@
 
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-
+    
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-    @php
-        $ga_code = googleAnalyticCode( $country );
-    @endphp
 
-    @if( $ga_code )
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133345635-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga_code }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  gtag('config', 'UA-133345635-5');
+</script>
 
-        gtag('config', '{{ $ga_code }}');
-    </script>
 
-    @endif
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WLGC2FG');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLGC2FG"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- End  Global site tag (gtag.js) - Google Analytics  -->
 
     <!-- Facebook Pixel -->
     <script>
@@ -91,15 +79,16 @@
     <!-- End Facebook Pixel -->
 
     <!-- Facebook Pixel (noscript) -->
-    <noscript>
-        <img height="1" width="1"
+    <noscript><img height="1" width="1"
                    style="display:none" src="https://www.facebook.com/tr?id=149202439004103&ev=PageView&noscript=1"
         /></noscript>
     <!-- End Facebook Pixel (noscript) -->
 
+
+
     @stack('css')
     @yield('css')
-
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body class="lang_{{$lang}} country_{{ $country }}">
 
@@ -124,9 +113,25 @@
 
 
 
-<script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script type="text/javascript" src="{{ asset("js/demo.js") }}"></script>
+<script defer="defer" type="text/javascript" type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script defer="defer" type="text/javascript" type="text/javascript" src="{{ asset("js/demo.js") }}"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128035503-13"></script>
+
+<script>
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+
+
+
+    gtag('config', 'UA-128035503-13');
+
+</script>
 <!-- Facebook API -->
 <script>
     window.fbAsyncInit = function() {
@@ -161,6 +166,8 @@
     /* ]]> */
 </script>
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+
+
 </script>
 <noscript>
     <div style="display:inline;">

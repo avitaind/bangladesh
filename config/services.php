@@ -36,9 +36,9 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => env('520389295124993'),
-        'client_secret' => env('0a9e211024d732fedb27ff0e2535303a'),
-        'redirect' => 'http://avitain.ashplanmedia.com/in/login/facebook/callback',
+        'client_id' => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect' => env('APP_URL').'/login/facebook/callback',
     ],
 
     'google' => [

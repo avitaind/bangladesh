@@ -1,116 +1,56 @@
 @extends('layouts.app')
 
-
 @section('title')
     @lang('title.contact_us')
 @stop
 
 @section('content')
 
-<main>
+    <main>
 
-    <section class="aboutus-panel top-nav-padding ls-0">
-        <div class="aboutus-contact py-5 px-2">
-            <div class="container">
-                <h1 class="section-title mt-0 mb-5 my-md-5 font-weight-light">@lang('site.contactus_contactus') </h1>
+        <section class="aboutus-panel top-nav-padding ls-0">
+            <div class="aboutus-contact py-5 px-2">
 
-                @if( App::isLocale('en') )
-
-                    <div class="row">
-                        <div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">
-                            <div class="contact_us_card mb-4 mb-md-5">
-                                <h3 class="contact_us_title">General Sales Enquiry – Hong Kong & Macau</h3>
-                                <div class="support_tel">+852 3725-0611</div>
-
-                                <b>@lang('site.contactus_operating')</b><br>
-                                Monday to Friday: 09:00-18:00
-                            </div>
-                        </div>
-                    </div>
+                <div class="container">
+                    <h1 class="section-title mt-0 mb-5 my-md-5 font-weight-light">@lang('site.contactus_contactus') <hr/></h1>
 
                     <div class="row">
+                        <div class="col-sm-6">
+                            <h2 class="contact_us_title">Sales Enquiry :</h2>
 
-                        <div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">
+                            <div class="mb-2">+230 4633 869</div>
 
-                            <div class="contact_us_card mb-4 mb-md-5">
-                                <h3 class="contact_us_title">Repair Service and Technical support – Hong Kong</h3>
+                            <div class="mb-2"><b>Email :</b><br>
+                                info@techstation.mu</div>
 
-                                <div class="support_tel">+852 3725-0625</div>
-
-                                <p>
-                                    <b>@lang('site.contactus_operating')</b><br>
-                                    Monday to Friday: 09:00-18:00; Saturday: 09:00-13:00
-                                </p>
+                            <div><b>@lang('site.contactus_operating') :</b><br>
+                                Monday to Friday : 8:30 to 17:00</div>
 
 
-                            </div>
+                            <div class="mb-2"><b>Address :</b><br>
+                                TechStation Ltd<br/> 7, Avenue Des Orchidées, 72238 Quatre-Bornes</div>
+                         <!---
+                          <h2 class="contact_us_title">For Service :</h2>
+                            <div class="mb-2">Toll Free : 1800-22-3902</div>
+                          -------->
                         </div>
-                        <div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">
-
-                            <div class="contact_us_card mb-4 mb-md-5">
-                                <h3 class="contact_us_title">Repair Service and Technical support – Macau</h3>
-                                <div class="support_tel">+853 6281-1231</div>
-
-                                <b>@lang('site.contactus_operating')</b><br>
-                                Monday to Friday: 09:00-18:00; Saturday: 09:00-13:00
-                            </div>
-
-                        </div>
+                        <div class="col-sm-6">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.88146815096!2d57.48051591494494!3d-20.263750054007247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5b40882cf0ab%3A0x48041307c14d6ae1!2s7+Ave+Des+Orchidees%2C+Quatre+Bornes%2C+Mauritius!5e0!3m2!1sen!2sin!4v1561119288837!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                        </div>
                     </div>
+                </div>
 
-                @else
-
-                    <div class="row">
-                        <div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">
-                            <div class="contact_us_card mb-4 mb-md-5">
-                                <h3 class="contact_us_title">香港及澳門銷售查詢熱線</h3>
-                                <div class="support_tel">+852 3725-0611</div>
-
-                                <b>@lang('site.contactus_operating')</b><br>
-                                星期一至星期五: 09:00-18:00
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">
-
-                            <div class="contact_us_card mb-4 mb-md-5">
-                                <h3 class="contact_us_title">香港維修服務及技術支援熱線</h3>
-
-                                <div class="support_tel">+852 3725-0625</div>
-
-                                <b>@lang('site.contactus_operating')</b><br>
-                                星期一至星期六: 10:00-19:00
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5 mb-md-0 ls-0">
-
-                            <div class="contact_us_card mb-4 mb-md-5">
-                                <h3 class="contact_us_title">澳門維修服務及技術支援熱線</h3>
-                                <div class="support_tel">+853 6281-1231</div>
-
-                                <b>@lang('site.contactus_operating')</b><br>
-                                星期一至星期五: 09:00-12:30; 13:30 to 18:00
-                            </div>
-
-                        </div>
-                    </div>
-                @endif
 
             </div>
+        </section>
+
+        <div class="gotop-wrap">
+            <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
         </div>
-    </section>
-
-    <div class="gotop-wrap">
-        <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
-    </div>
 
 
 
 
 
-</main>
+    </main>
 
 @endsection

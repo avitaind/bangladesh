@@ -16,13 +16,13 @@ class AppMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $country = $this->handleCountry($request);
+        $country = 'mu';
 
-        if ( $country == 'us') {
+        /*if ( $country == 'us') {
             return redirect('https://avita-americas.com/');
         } else if ( !$country ) {
-            return redirect('/bd');
-        }
+            return redirect('/hk');
+        }*/
 
         $this->handleLocale($request);
 
@@ -30,18 +30,20 @@ class AppMiddleware
         $suffix = $this->getTitleSuffixByCountry( $country );
         view()->share('TITLE_SUFFIX', $suffix);
 
-        $have_liber12 = !in_array($country, ['cn', 'th']);
+        $have_liber12 = !in_array($country, ['th', 'ph']);
 
         view()->share('HAVE_LIBER_12', $have_liber12);
 
+        $have_liber_u = in_array($country, ['hk', 'tw', 'cn', 'vn']);
+
+        view()->share('HAVE_LIBER_U', $have_liber_u);
+		
+		$have_magus = in_array($country, ['hk', 'sg']);
+
+        view()->share('HAVE_MAGUS', $have_magus);
 
         // Handle Redirect for support
         $endpoint = $request->segment(1);
-
-        if ( $endpoint == 'support' ) {
-            $route = "/$country/support";
-            return redirect("/$country/support");
-        }
 
         return $next($request);
     }
@@ -76,7 +78,7 @@ class AppMiddleware
 
                 $ip_country = strtolower( $location->iso_code );
 
-                if ($ip_country == "us" && $ip != "127.0.0.0") {
+                if ($ip_country == "us") {
                     $country = 'us';
                     return 'us';
                 } else {
@@ -140,6 +142,7 @@ class AppMiddleware
                 }
 
             case 'sg':  return '| AVITA Singapore Official Website';
+			case 'mu':  return '| AVITA Mauritius Official Website';
             case 'tw':  return '| AVITA 台灣官方網站';
             case 'my':  return '| AVITA Malaysia Official Website';
             case 'th':  return '| AVITA Thailand Official Website';

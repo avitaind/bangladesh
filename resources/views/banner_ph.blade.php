@@ -6,9 +6,20 @@
             <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
+                        <a href="https://www.avita.com/ph/news/detail/26">
+                            <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/Avita_Promo_ph_1920x720.jpg')"></div>
+                            <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/Avita_Promo_ph_375x600.jpg')"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div class="responsive-block">
+                    <div class="banner-block responsive-item">
                         <a href="{{ route('product.overview', ['liber']) }}">
-                            <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpeg')"></div>
-                            <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpeg')"></div>
+                            <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpg')"></div>
+                            <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
                         </a>
                     </div>
                 </div>
@@ -49,6 +60,7 @@
             <li data-target="#home_banner" data-slide-to="0" class="active"></li>
             <li data-target="#home_banner" data-slide-to="1"></li>
             <li data-target="#home_banner" data-slide-to="2"></li>
+            <li data-target="#home_banner" data-slide-to="3"></li>
         </ol>
     </div>
 </section>

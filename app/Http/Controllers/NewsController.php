@@ -9,7 +9,7 @@ class NewsController extends Controller
 {
     public function showNewsList($selected_month = "all"){
 
-        $country = session('country');
+        $country = 'mu';
 
         $feature_news = News::whereCountry($country)->published()->featured()->get();
 

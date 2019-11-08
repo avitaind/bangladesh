@@ -21,7 +21,7 @@
                                 <div class="my-4 mx-2 ls-1">@lang('site.login_reg_content_4')</div>
                             </div>
 
-                            <a class="btn btn-register btn-opacity my-5 px-4 ls-2" href="{{ route('register', [ 'source' => Request::get('source')]) }}">@lang('site.login_reg_btn')</a>
+                            <a class="btn btn-register btn-opacity my-5 px-4 ls-2" href="https://avita.com/register?">@lang('site.login_reg_btn')</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
@@ -72,10 +72,10 @@
                                 <div class="text-center ls-1">@lang('site.login_other_way')</div>
                                 <div class="row mt-3">
                                     <div class="col-6 text-right">
-                                        <a class="login-facebook" href="/login/facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a class="login-facebook" href="https://avita.com/login/facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="col-6">
-                                        <a class="login-googleplus" href="/login/google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        <a class="login-googleplus" href="https://avita.com/login/google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>

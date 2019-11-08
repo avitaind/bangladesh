@@ -118,6 +118,13 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.product-magus-port .banner-info {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAugAAAM1BAMAAADQoxnmAAAABGdBT…16EDr0IHToQejQg9ChB6FDD0KH/tnOR4YO/bN9HRn66x8fcTzZtlcI7wAAAABJRU5ErkJggg==);
+    width: 600px;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 @media (max-width: 767px) {
   .product-liber-banner .responsive-block:before {
     padding-top: 160%;

@@ -14,17 +14,19 @@
                 <div class="row mt-0 mt-lg-5">
                     <div class="col-12 col-lg-6 ls-0 pt-lg-5">
                         <div class="aboutus-info-mob-img">
-                            <img class="hidden-lg-up " src="/images/background/aboutus-min.png"/>
+                            <img class="hidden-lg-up " src="images/background/aboutus-min.png"/>
                         </div>
                         <h1 class="section-title my-4 text-left font-weight-light">@lang('site.aboutus_about')</h1>
-                        <p class="aboutus-content">@lang('site.aboutus_content_1')</p>
-                        <p class="aboutus-content">@lang('site.aboutus_content_2')</p>
-                        <p class="aboutus-content">@lang('site.aboutus_content_3')</p>
+
+                        @foreach (data_get(__('site'), 'aboutus_content', []) as $content)
+                            <p>{!! $content !!}</p>
+                        @endforeach
+
                     </div>
                 </div>
             </div>
             <div class="hidden-md-down aboutus-image">
-                <img src="/images/background/aboutus-min.png"/>
+                <img src="images/background/aboutus-min.png"/>
             </div>
         </div>
     </section>

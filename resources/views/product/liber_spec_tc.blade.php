@@ -15,7 +15,51 @@
             <div class="nav-product-wrap">
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
-                        <a class="col text-center nav-link active" data-toggle="tab" href="#spec-3" role="tab">
+
+                        @if ($HAVE_LIBER_U)
+                        <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER New Generation</div><div class="d-sm-block">(13.3-inch)</div></div>
+                            <img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png">
+                            <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
+                                <li style="background-color: #c5c2d9" class="active" data-image="/images/liber/u13/lightpurple.png"></li>
+                                <li style="background-color: #6c55a4" data-image="/images/liber/u13/purple.png"></li>
+                                <li style="background-color: #3173b6" data-image="/images/liber/u13/blue.png"></li>
+                                <li style="background-color: #81b9db" data-image="/images/liber/u13/lightblue.png"></li>
+                                <li style="background-color: #cf346d" data-image="/images/liber/u13/pink.png"></li>
+                                <li style="background-color: #7fb041" data-image="/images/liber/u13/green.png"></li>
+                                <li style="background-color: #e1d059" data-image="/images/liber/u13/yellow.png"></li>
+                                <li style="background-color: #f58847" data-image="/images/liber/u13/orange.png"></li>
+                                <li style="background-color: #e9a1a8" data-image="/images/liber/u13/lightpink.png"></li>
+                                <li style="background-color: #dcdde2" data-image="/images/liber/u13/white.png"></li>
+                                <li style="background-color: #bea98d" data-image="/images/liber/u13/gold.png"></li>
+                                <li style="background-color: #1b1b1d" data-image="/images/liber/u13/black.png"></li>
+                                <li style="background-color: #c1c0b8" data-image="/images/liber/u13/lightsilver.png"></li>
+                                <li style="background-color: #7d7e82" data-image="/images/liber/u13/silver.png"></li>
+                            </ul>
+                        </a>
+                        <a class="col text-center nav-link" data-toggle="tab" href="#spec-5" role="tab">
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER New Generation</div><div class="d-sm-block">(14-inch)</div></div>
+                            <img class="hidden-sm-down" src="/images/liber/u14/lightpurple.png">
+                            <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4">
+                                <li style="background-color: #c5c2d9" class="active" data-image="/images/liber/u14/lightpurple.png"></li>
+                                <li style="background-color: #6c55a4" data-image="/images/liber/u14/purple.png"></li>
+                                <li style="background-color: #3173b6" data-image="/images/liber/u14/blue.png"></li>
+                                <li style="background-color: #81b9db" data-image="/images/liber/u14/lightblue.png"></li>
+                                <li style="background-color: #cf346d" data-image="/images/liber/u14/pink.png"></li>
+                                <li style="background-color: #7fb041" data-image="/images/liber/u14/green.png"></li>
+                                <li style="background-color: #e1d059" data-image="/images/liber/u14/yellow.png"></li>
+                                <li style="background-color: #f58847" data-image="/images/liber/u14/orange.png"></li>
+                                <li style="background-color: #e9a1a8" data-image="/images/liber/u14/lightpink.png"></li>
+                                <li style="background-color: #dcdde2" data-image="/images/liber/u14/white.png"></li>
+                                <li style="background-color: #bea98d" data-image="/images/liber/u14/gold.png"></li>
+                                <li style="background-color: #1b1b1d" data-image="/images/liber/u14/black.png"></li>
+                                <li style="background-color: #c1c0b8" data-image="/images/liber/u14/lightsilver.png"></li>
+                                <li style="background-color: #7d7e82" data-image="/images/liber/u14/silver.png"></li>
+                            </ul>
+                        </a>
+                        @endif
+
+                        <a class="col text-center nav-link " data-toggle="tab" href="#spec-3" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(12.5-inch) @if( !$HAVE_LIBER_12) / @lang('site.coming_soon') @endif</div></div>
                             <img class="hidden-sm-down" src="/images/liber/12/pink.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
@@ -26,7 +70,7 @@
                                 <li style="background-color: #BAA1B9" data-image="/images/liber/12/purple.png"></li>
                             </ul>
                         </a>
-                        <a class="col text-center nav-link" data-toggle="tab" href="#spec-1" role="tab">
+                        {{-- <a class="col text-center nav-link" data-toggle="tab" href="#spec-1" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(13.3-inch)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/13/lightpurple.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
@@ -65,15 +109,32 @@
                                 <li style="background-color: #c1c0b8" data-image="/images/liber/14/lightsilver.png"></li>
                                 <li style="background-color: #7d7e82" data-image="/images/liber/14/silver.png"></li>
                             </ul>
-                        </a>
+                        </a> --}}
+
+
+
                     </nav>
                 </div>
             </div>
 
+            {{-- <div class="logo-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-md-1 col-4 col-md-3">
+                            <div class="mt-3">
+                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
+
             <!-- Tab panes -->
             <div class="tab-content">
-                <div class="tab-pane active" id="spec-3" role="tabpanel">
+                <div class="tab-pane " id="spec-3" role="tabpanel">
                     <div class="container">
+
+
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">作業系統<br>(Operating System)</div>
@@ -133,10 +194,10 @@
                                 <div>1.14 kg 起</div>
 
                             </li>
-                            <li class="spec-item d-flex">
+                            {{-- <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">電源供應器 <br>(Adapter)</div>
                                 <div>40W AC Adapter</div>
-                            </li>
+                            </li> --}}
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">電池容量 <br>(Battery)</div>
                                 <div>Li-ion Battery, 27.8 Wh</div>
@@ -219,7 +280,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">重量 <br>(Weight)</div>
-                                <div>1.37 kg 起</div>
+                                <div>1.35 kg 起</div>
 
                             </li>
                             <li class="spec-item d-flex">
@@ -309,7 +370,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">重量 <br>(Weight)</div>
-                                <div>1.49 kg 起</div>
+                                <div>1.46 kg 起</div>
 
                             </li>
                             <li class="spec-item d-flex">
@@ -335,6 +396,202 @@
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">配件 <br>(Accessories)</div>
                                 <div>AC Adapter, Mini HDMI to HDMI Adapter</div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane active" id="spec-4" role="tabpanel">
+                    <div class="container">
+
+                        <div class="logo-wrapper d-flex px-3 mt-4">
+                            <div class="offset-md-1">
+                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                            </div>
+                        </div>
+
+                        <ul class="list-unstyled spec-list">
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">作業系統<br>(Operating System)</div>
+                                <div>Windows 10 Home</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">處理器 <br>(CPU)</div>
+                                <div>
+                                    Intel® Core™ i7-8550U Processor, Intel® Core™ i5-8250U Processor, Intel® Core™ i3-8130U Processor, Intel® Pentium® N5000 Processor, Intel® Celeron® N4000 Processor, Intel® Core™ i7-7Y75 Processor, Intel® Core™ i5-7Y54 Processor, Intel® Pentium® N4200 Processor, Intel® Celeron® N3350 Processor
+                                </div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">螢幕 <br>(Display)</div>
+                                <div>13.3" FHD IPS (1920 x 1080)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">記憶體 <br>(Memory)</div>
+                                <div>8GB DDR4 2400MHz / 4GB LPDDR4 2400MHz / 8GB DDR3 1600MHz / 4GB DDR3 1600MHz </div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">顯示卡 <br>(Graphics)</div>
+                                <div>Intel® UHD Graphics / Intel® HD Graphics</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">儲存裝置 <br>(Storage)</div>
+                                <div>128GB / 256GB / 512GB SSD SATA M.2</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">攝影機 <br>(Integrated Camera)</div>
+                                <div>720p HD</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">音效 <br>(Audio)</div>
+                                <div>1W x 2 Stereo Speaker, Internal Dual Array Digital Mic</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">鍵盤 <br>(Keyboard)</div>
+                                <div>Island-type Keyboard (with Backlit)  <small>*For Intel® Core™ Processor model only</small></div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">無線網路 <br>(Wireless)</div>
+                                <div>IEEE 802.11 b/g/n (Wi-Fi 4) /ac (Wi-Fi 5)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">藍芽 <br>(Bluetooth)</div>
+                                <div>Bluetooth v4.2 / v4.0 </div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">輸出/輸入埠 <br>(I/O Ports)</div>
+                                <div>1 x 3.5mm Headphone, 1 x USB 3.0 Type-C (PD 2.0 Charging, Display out), 2 x USB 3.0, 1 x Micro-HDMI/Mini-HDMI, 1 x MicroSD Card Reader</div>
+                            </li>
+
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">尺寸 <br>(Dimension)</div>
+                                <div>315mm (W) x 212mm (D) x 15mm (H)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">重量 <br>(Weight)</div>
+                                <div>1.35 kg 起</div>
+                            </li>
+                            {{-- <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">電源供應器 <br>(Adapter)</div>
+                                <div>40W AC Adapter</div>
+                            </li> --}}
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">電池容量 <br>(Battery)</div>
+                                <div>Li-ion Battery, 36Wh</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">電池續航時間 <br>(Battery Life)</div>
+                                <div>Up to 10 hours</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">材質 <br>(Material)</div>
+                                <div>Aluminum</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">顏色 <br>(Colour)</div>
+                                <div>Angel Blue (天使藍) / AVITA Purple (AVITA紫) / Blossom Pink (花漾粉紅) / Champagne Gold (香檳金) / Cloud Silver (曙光銀) / Fragrant Lilac (丁香紫) / Himalayan Blue (澄空藍) / Matt Black (型酷黑) / Pearl White (珍珠白) / Shamrock Green (幸運草) / Space Grey (太空灰) / Sunflower Yellow (向日葵) / Sunrise Orange (旭日橙) / Urban Ruby (都市紅)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">配件 <br>(Accessories)</div>
+                                <div>AC Adapter and Power cord, Micro HDMI to HDMI Adapter/ Mini-HDMI to HDMI Adapter</div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane" id="spec-5" role="tabpanel">
+                    <div class="container">
+
+                        <div class="logo-wrapper d-flex px-3 mt-4">
+                            <div class="offset-md-1">
+                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                            </div>
+                        </div>
+
+                        <ul class="list-unstyled spec-list">
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">作業系統 <br>(Operating System)</div>
+                                <div>Windows 10 Home</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">處理器 <br>(CPU)</div>
+                                <div>
+                                    Intel® Core™ i7-8550U Processor, Intel® Core™ i5-8250U Processor, Intel® Core™ i3-8130U Processor, Intel® Pentium® N5000 Processor, Intel® Celeron® N4000 Processor, Intel® Core™ i7-7Y75 Processor, Intel® Core™ i5-7Y54 Processor, Intel® Pentium® N4200 Processor, Intel® Celeron® N3350 Processor
+                                </div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">螢幕 <br>(Display)
+                                </div>
+                                <div>14" FHD IPS (1920 x 1080)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">記憶體 <br>(Memory)</div>
+                                <div>8GB DDR4 2400MHz / 4GB LPDDR4 2400MHz / 8GB DDR3 1600MHz / 4GB DDR3 1600MHz </div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">顯示卡 <br>(Graphics)</div>
+                                <div>Intel® UHD Graphics / Intel® HD Graphics</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">儲存裝置 <br>(Storage)</div>
+                                <div>128GB / 256GB / 512GB SSD SATA M.2</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">攝影機 <br>(Integrated Camera)</div>
+                                <div>720p HD</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">音效 <br>(Audio)</div>
+                                <div>1W x 2 Stereo Speaker, Internal Dual Array Digital Mic</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">鍵盤 <br>(Keyboard)</div>
+                                <div>Island-type Keyboard (with Backlit) <small>*For Intel® Core™ Processor model only</small></div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">無線網路 <br>(Wireless)</div>
+                                <div>IEEE 802.11 b/g/n (Wi-Fi 4) /ac (Wi-Fi 5)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">藍芽 <br>(Bluetooth)</div>
+                                <div>Bluetooth v4.2 / v4.0 </div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">輸出/輸入埠 <br>(I/O Ports)</div>
+                                <div>1 x 3.5mm Headphone, 1 x USB 3.0 Type-C (PD 2.0 Charging, Display out), 2 x USB 3.0, 1 x Micro-HDMI</div>
+                            </li>
+
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">尺寸 <br>(Dimension)</div>
+                                <div>333mm (W) x 222mm (D) x 16mm (H)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">重量 <br>(Weight)</div>
+                                <div>1.46 kg 起</div>
+
+                            </li>
+                            {{-- <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">電源供應器 <br>(Adapter)</div>
+                                <div>40W AC Adapter</div>
+                            </li> --}}
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">電池容量 <br>(Battery)</div>
+                                <div>Li-ion Battery, 36Wh</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">電池續航時間 <br>(Battery Life)</div>
+                                <div>Up to 10 hours</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">材質 <br>(Material)</div>
+                                <div>Aluminum</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">顏色 <br>(Colour)</div>
+                                <div>Angel Blue (天使蓝) / AVITA Purple (AVITA紫) / Blossom Pink (花漾粉红) / Champagne Gold (香槟金) / Cloud Silver (曙光银) / Fragrant Lilac (丁香紫) / Himalayan Blue (澄空蓝) / Matt Black (型酷黑) / Pearl White (珍珠白) / Shamrock Green (幸运草) / Space Grey (太空灰) / Sunflower Yellow (向日葵) / Sunrise Orange (旭日橙) / Urban Ruby (都市红)</div>
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">配件 <br>(Accessories)</div>
+                                <div>AC Adapter and Power cord, Micro HDMI to HDMI Adapter/ Mini-HDMI to HDMI Adapter</div>
                             </li>
 
                         </ul>

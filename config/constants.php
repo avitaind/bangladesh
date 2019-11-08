@@ -24,7 +24,8 @@ return [
         'vn' => 'Vietnam',
         'id' => 'Indonesia',
         'in' => 'India',
-        'bd' => 'Bangladesh',
+        'uk' => 'United Kingdom',
+		'mu' => 'Mauritius',
     ]
 
 ];

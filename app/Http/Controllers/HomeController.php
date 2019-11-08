@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use    App\Country;
+use App\Country;
 use App\Product;
 use App\ProductModel;
 use App\RepairTerm;
@@ -13,9 +13,36 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-   public function redirectToHome( ) {
-        return view('home');
+
+    public function redirectToHome( ) {
+
+       /* $country = session('country', 'mu');
+
+        if ( $country ) {
+            return redirect('/'.$country);
+        } else {
+            return redirect()->route('country.picker');
+        } */
+	return view('home');
+
+    }	
+
+    public function getHome(){
+		$country = 'mu';
+        $supported_countries = array_keys( config('constants.countries') );
+
+        if (in_array($country, $supported_countries)) {
+            return view('home');
+        } else {
+
+            // unset country
+            session(['country' => null]);
+            return redirect()->to('/');
+        }
+
+
     }
+
     public function getTerms( ){
 
         $locale = app()->getLocale();
@@ -39,17 +66,16 @@ class HomeController extends Controller
 
         $productModels = ProductModel::all();
 
-        $country = session('country', 'hk');
+        $country = 'mu';
         $serviceCenters = ServiceCenter::whereCountry($country)->get();
 
         return view('pages.support', compact('productModels', 'serviceCenters'));
     }
 
     public function handleSupportRedirect(Request $request) {
-
         $this->validate($request, [
             'product_number'   => 'required',
-//           'product_model'  => 'required',
+//            'product_model'  => 'required',
             'type'             => 'required',
             'series'           => 'required',
             'marketing_number' => 'required',
@@ -105,13 +131,12 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-        $title = __('site.footer_repair_tnc');
-
+     $title = __('site.footer_repair_tnc');
+/*
         $content =  null;
 
         $country = session('country');
         $locale = \App::getLocale();
-
         $repair_term = RepairTerm::whereLocale($locale)->whereCountry($country)->first();
 
         if ( $repair_term ){
@@ -119,26 +144,27 @@ class HomeController extends Controller
         } else {
             return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
         }
+	*/
+	            return view('pages.repair_tnc', ['title' => $title]);
 
+	    
+
+	    
     }
 
-    public function handleSubscription(Request $request) {
-
-        echo "handleSubscription";
-
+      public function handleSubscription(Request $request) {
         $this->validate($request, ['subscription_email' => 'required|email']);
-
         $email = $request->get('subscription_email');
-
         // Store to DB.
         $subscription = Subscription::firstOrCreate(['email' => $email]);
-
+        $sub = new SendInMail;
+        $sub->createUser($email);
         $data = [
             'status' => 'success',
-            'message' => '謝謝你的訂閱'
+            'message' => 'Thank you for your subscription!'
         ];
-
         return response( $data );
+        
     }
 
     public function getImago(Request $request) {

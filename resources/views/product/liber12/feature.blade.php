@@ -10,40 +10,25 @@
         @include('partials.product-navbar')
 
         <section class="product-liber-banner">
-            
-    <div id="slideshow" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
-        <div class="carousel-inner" role="listbox">
-
-            <div class="carousel-item active">
-                <div class="responsive-block">
-                    <div class="banner-block responsive-item">
-                        <a href="{{ route('product.overview', ['liber']) }}">
-                            @if( App::isLocale('en') )
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
-                            @else
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
-                            @endif
-                            <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
-                        </a>
+            <div class="responsive-block">
+                <div class="banner-block responsive-item">
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
+                    <div class="banner-info">
+                        <div class="btn-group mt-3">
+                            {{--<img class="mx-auto" src="/images/liber/liber12_feature/brand.png">--}}
+                        </div>
+                        <div class="an-scroll-wrap">
+                            <div class="an-scroll">
+                                <span></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-           
-</section>
-        
-        
-@section('js')
-      
-    
-    
-@endsection
+        </section>
 
- <section class="product-liber-computer ls-0" id="test">
+        <section class="product-liber-computer ls-0" id="test">
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
@@ -137,8 +122,12 @@
                             <span class="d-md-block">LIBER is made for the best work and entertainment experience. </span>
 							<span class="d-md-block">It is marked with a high performance speed particularly useful in</span>
 							<span class="d-md-block">handling complicated operations and visual contents.</span>
-                        </div>
-                        <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
+                            </div>
+                            <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
+                            <div class="data-card my-3 text-left">
+                                <div class="badge-caption">Operating System</div>
+								<div class="badge-value">Windows 10 Home</div>
+                            </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
 								<div class="badge-value">Core i5</div>

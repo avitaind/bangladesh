@@ -6,9 +6,9 @@
             <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
-                        <a href="http://www.nexstgo.buzz/avita/prebook/">
-                            <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpeg')"></div>
-                            <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpeg')"></div>
+                        <a href="{{ route('product.overview', ['liber']) }}">
+                            <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpg')"></div>
+                            <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
                         </a>
                     </div>
                 </div>

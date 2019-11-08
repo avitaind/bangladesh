@@ -12,6 +12,8 @@
 
 <main class="top-nav-padding">
 
+	@include('partials.product-navbar')
+
 	<section class="product-support-section">
 		<div class="tab-product-support">
 			<div class="container px-0 ls-0">
@@ -35,16 +37,11 @@
 						<div class="my-3 my-md-5 py-1 px-3 px-sm-0 ls-0">
 							<div class="mb-2 text-left">@lang('site.product_support_1_option_1')</div>
 
-							<select id="product_type_field" class="custom-select rounded-0 w-100 mb-1">
-					<option>Select</option>
-                    <option>Laptops</option>
-                    <option>Smart Devices</option>
-                    <option>Accessories</option>
-                    
+							<select id="product_type_field" class="custom-select rounded-0 w-100 mb-1" data-init-val="{{ $json_data['product_type'] }}">
 
 							</select>
 
-							<!--- <select id="product_series_field" class="custom-select rounded-0 w-100 mb-1" data-init-val="{{ $json_data['product_series'] }}" style="display: none;">
+							<select id="product_series_field" class="custom-select rounded-0 w-100 mb-1" data-init-val="{{ $json_data['product_series'] }}" style="display: none;">
 
 							</select>
 
@@ -55,7 +52,7 @@
 							<select id="product_number_field" class="custom-select rounded-0 w-100 mb-1" data-init-val="{{ $json_data['product_number'] }}" style="display: none;">
 
 							</select>
-                        ------->
+
 							{{--<select id="product_model_field" name="product_model" class="custom-select rounded-0 w-100 mb-1" data-init-val="{{ $json_data['product_model'] }}" style="display: none;">--}}
 
 							{{--</select>--}}

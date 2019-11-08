@@ -13,7 +13,7 @@ class ProductsController extends Controller
     //
 
     protected function productFromURL( $country, $slug ) {
-
+		$country = 'mu';
         $product = Product::whereCountry($country)->where('short_code', $slug)->first();
 
         // Fallback..
@@ -24,10 +24,31 @@ class ProductsController extends Controller
         return $product;
     }
 
-    public function showProductFeatures($country, $slug) {
-
+    public function showProductFeatures($slug) {
+		$country = 'mu';
         $product = $this->productFromURL($country, $slug);
-
+		if ( $slug == 'magus12-2in1-laptop' ) {
+			if ( $country == 'sg' ) {
+            return view('product.magus_sg', compact( 'product'));
+			} elseif ( $country == 'id' ) {
+            return view('product.magus_id', compact( 'product'));
+			} else {
+            return view('product.magus', compact( 'product'));
+			}
+        } 
+		if ( $slug == 'magus12-2in1-laptop-c' ) {
+            return view('product.magus_tc', compact( 'product'));
+        } 
+		if ( $slug == 'magus-spec' ) {
+			if ( $country == 'id' ) {
+            return view('product.magus_spec_id', compact( 'product'));
+			} else {
+            return view('product.magus_spec_hk', compact( 'product'));
+			}
+        } 
+		if ( $slug == 'magus-spec-c' ) {
+            return view('product.magus_spec_tc', compact( 'product'));
+        } 
         if ( !$product ) {
             abort(404);
         }
@@ -37,15 +58,19 @@ class ProductsController extends Controller
         if (!$view){
             abort(404);
         }
-
-        return view($view, compact('product'));
+        if ( $country == 'ph' ) {
+            return view('product.liber_feature_ph', compact( 'product'));
+        } else {
+        	return view($view, compact('product'));
+		}
     }
 
-    public function showProductSpec($country, $slug) {
-
+    public function showProductSpec( $slug) {
+		$country = 'mu';
         $product = $this->productFromURL($country, $slug);
 
-        if ( !$product ) {
+
+		if ( !$product ) {
             abort(404);
         }
 
@@ -54,12 +79,15 @@ class ProductsController extends Controller
         if (!$view){
             abort(404);
         }
-
-        return view($view, compact('product'));
+        if ( $country == 'ph' ) {
+            return view('product.liber_spec_ph', compact( 'product'));
+        } else {
+        	return view($view, compact('product'));
+		}
     }
 
-    public function showProductSupport(Request $request, $country, $slug) {
-
+    public function showProductSupport(Request $request, $slug) {
+		$country = 'mu';
         $product = $this->productFromURL($country, $slug);
 
         if ( !$product ) {
@@ -82,8 +110,8 @@ class ProductsController extends Controller
         return view('product.support', compact('product', 'slug', 'json_data'));
     }
 
-    public function whereToBuy($country, $slug){
-
+    public function whereToBuy($slug){
+		$country = "mu";
         $product = Product::where('short_code', $slug)->first();
 
         if ( !$product ) {
@@ -108,11 +136,11 @@ class ProductsController extends Controller
 
 //        dd( $shops );
 
-       if ( $country == 'cn' ) {
-     return view('product.baidu_map', compact( 'product', 'shops'));
-  } else {
-return view('product.map', compact( 'product', 'shops'));
-   }
+        if ( $country == 'cn' ) {
+            return view('product.baidu_map', compact( 'product', 'shops'));
+        } else {
+            return view('product.map', compact( 'product', 'shops'));
+        }
 
 
     }

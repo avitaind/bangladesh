@@ -12,8 +12,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpeg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpeg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/banner3.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             {{--<img class="mx-auto" src="/images/liber/liber12_feature/brand.png">--}}
@@ -122,6 +122,10 @@
                             <span class="d-md-block">亦能瞬间完成，同时运作顺畅无比。</span>
                         </div>
                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
+                            <div class="data-card my-3 text-left">
+                                <div class="badge-caption">作业系统</div>
+                                <div class="badge-value">Windows 10 Home</div>
+                            </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">最高</div>
                                 <div class="badge-value">Core i5</div>
