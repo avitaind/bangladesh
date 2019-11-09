@@ -15,9 +15,12 @@
                 <ul class="d-flex flex-column list-inline">
                     
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="/" class="pl-5 py-2">Mauritius</a>
+                        <a href="/" class="pl-5 py-2">Bangladesh</a>
                     </li>
-			<li class="list-inline-item p-1 mr-0">
+                   <li class="list-inline-item p-1 mr-0">
+                        <a href="https://avita-mauritius.com/" class="pl-5 py-2">Mauritius</a>
+                    </li>
+			        <li class="list-inline-item p-1 mr-0">
                         <a href="https://www.avita.com/hk" class="pl-5 py-2">Hong Kong (English)</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
