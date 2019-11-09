@@ -8,7 +8,7 @@
             <img src="/images/logo.png"/>
         </a>
 
-        @if( $user = Auth::user( ) )
+      <!--  @if( $user = Auth::user( ) )
             <div class="navbar-user-toggle navbar-toggler-right hidden-md-up d-flex align-items-center justify-content-center lead text-muted">
                 <a class="user-toggle" href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
             </div>
@@ -26,6 +26,7 @@
 
 
         @endif
+        -->
 
         <div class="navbar-collapse">
             <ul class="navbar-nav mr-auto d-md-flex flex-md-row align-items-md-center justify-content-md-between">
