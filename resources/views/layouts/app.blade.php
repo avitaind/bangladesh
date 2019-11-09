@@ -37,7 +37,7 @@
 
     @yield('meta')
 
-    <title>AVITA | AVITA BANGLADESH</title>
+    <title>AVITA | AVITA Bangladesh</title>
 
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
