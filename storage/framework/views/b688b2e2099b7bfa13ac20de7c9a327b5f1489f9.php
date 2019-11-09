@@ -8,26 +8,6 @@
             <img src="/images/logo.png"/>
         </a>
 
-      <!--  <?php if( $user = Auth::user( ) ): ?>
-            <div class="navbar-user-toggle navbar-toggler-right hidden-md-up d-flex align-items-center justify-content-center lead text-muted">
-                <a class="user-toggle" href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-            </div>
-        <?php else: ?>
-
-            <?php if( Request::is('login') || Request::is('register') ): ?>
-
-                
-
-            <?php else: ?>
-                <div class="navbar-user-toggle navbar-toggler-right hidden-md-up d-flex align-items-center justify-content-center lead text-muted">
-                    <a class="" href="<?php echo e(route('login' )); ?>"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-                </div>
-            <?php endif; ?>
-
-
-        <?php endif; ?>
-        -->
-
         <div class="navbar-collapse">
             <ul class="navbar-nav mr-auto d-md-flex flex-md-row align-items-md-center justify-content-md-between">
                 <li class="hidden-sm-down">
@@ -111,56 +91,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo e(route('support')); ?>"><?php echo app('translator')->getFromJson('site.service'); ?></a>
                 </li>
-<!---
-                <li class="nav-item hidden-sm-down">
-                <?php if( $user = Auth::user( ) ): ?>
-                 <li class="nav-item hidden-sm-down">
-                        <a class="user-toggle fa fa-user-o" href="#"></a>
-                     </li>
-                <?php else: ?>
-                     <li class="nav-item hidden-sm-down">
-                        <a class="" href="<?php echo e(route('login')); ?>"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-                    </li>
-                <?php endif; ?>
-                <?php if( $user = Auth::user( ) ): ?>
-                    <aside class="navbar-user-warp hidden-sm-down">
-                        <div class="navbar-user navbar-md-user">
-                            <div class="user-header pt-2 px-4">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <div class="username"><?php echo e($user->name); ?></div>
-                                    <div class="ml-auto">
-                                        <a href="" onclick="event.preventDefault();">
-                                            <span aria-hidden="true" class="close">&#10005;</span>
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                      <div class="user-content px-3">
-                                <div class="align-items-center px-2 pb-2">
-                                    <img src="../images/icon-member-small.jpg" alt="">
-                                    <div class="col-12 px-0 pb-3 useremail-border small"><a href="#" class="useremail pl-4"><?php echo e($user->email); ?></a></div>
-                                    <div class="col-12 px-0 mt-3 member-center"><a href="<?php echo e(route('member.profile')); ?>" class=" pl-4"><?php echo app('translator')->getFromJson('site.member_center'); ?></a></div>
-                                </div>
-                                <div class="justify-content-center">
-                                    <a class="px-4" href="<?php echo e(route('logout')); ?>"
-                                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                        <i class="" aria-hidden="true"><button type="submit" class="btn btn-primary my-3"><?php echo app('translator')->getFromJson('site.logout'); ?></button></i>
-                                    </a>
-                                    <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" style="display: none;">
-                                        <?php echo e(csrf_field()); ?>
-
-                                    </form>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </aside>
-
-                <?php endif; ?>
-                </li>
---->
 
             </ul>
         </div>
