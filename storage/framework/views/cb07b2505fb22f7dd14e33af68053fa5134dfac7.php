@@ -37,7 +37,7 @@
 
     <?php echo $__env->yieldContent('meta'); ?>
 
-    <title>AVITA | AVITA Bangladesh</title>
+    <title>AVITA | AVITA Bangladesh Official Website</title>
 
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>"/>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/font-awesome.min.css')); ?>"/>
@@ -92,12 +92,8 @@
 </head>
 <body class="lang_<?php echo e($lang); ?> country_<?php echo e($country); ?>">
 
-
-<?php if( View::exists('partials.header_'.$country) ): ?>
-    <?php echo $__env->make('partials.header_'.$country, array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-<?php else: ?>
     <?php echo $__env->make('partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-<?php endif; ?>
+
 
 <!-- Content -->
 <?php echo $__env->yieldContent('content'); ?>

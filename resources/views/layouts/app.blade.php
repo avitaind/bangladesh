@@ -37,7 +37,7 @@
 
     @yield('meta')
 
-    <title>AVITA | AVITA Bangladesh</title>
+    <title>AVITA | AVITA Bangladesh Official Website</title>
 
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
@@ -92,12 +92,8 @@
 </head>
 <body class="lang_{{$lang}} country_{{ $country }}">
 
-
-@if( View::exists('partials.header_'.$country) )
-    @include('partials.header_'.$country)
-@else
     @include('partials.header')
-@endif
+
 
 <!-- Content -->
 @yield('content')
