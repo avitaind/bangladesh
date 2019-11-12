@@ -17,9 +17,9 @@
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita-americas.com/" class="pl-5 py-2">America</a>
                     </li>
-                    <li class="list-inline-item p-1 mr-0">
+                   <!--- <li class="list-inline-item p-1 mr-0">
                         <a href="/" class="pl-5 py-2">Bangladesh</a>
-                    </li>
+                    </li> --->
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita.com/cn" class="pl-5 py-2">China 中国</a>
                     </li>
@@ -48,7 +48,7 @@
                         <a href="https://avita.com/tw" class="pl-5 py-2">Taiwan 台灣</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="https://www.avita.com/country/th" class="pl-5 py-2">Thailand</a> / <a href="https://www.avita.com/country/th?lang=th" class="py-2">ประเทศไทย</a>
+                        <a href="https://www.avita.com/country/th?lang=en" class="pl-5 py-2">Thailand</a> / <a href="https://www.avita.com/country/th?lang=th" class="py-2">ประเทศไทย</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita.com/uk" class="pl-5 py-2">United Kingdom</a>
