@@ -12,36 +12,16 @@ function bytesToHuman($bytes, $precision = 2)
 }
 
 function enabled_countries(  ) {
-    //return ['hk', 'sg', 'tw', 'my', 'cn', 'th', 'vn', 'in', 'id', 'ph', 'uk', 'mu'];
-	
-	return ['mu'];
+
+	return ['bd'];
 }
 
 function supported_language( $country ) {
 
     switch ( $country ) {
-        case 'hk':
-            return ['en', 'tc'];
-        case 'sg':
+        case 'bd':
             return ['en'];
-        case 'tw':
-            return ['tc'];
-        case 'cn':
-            return ['sc'];
-        case 'ph':
-            return ['en'];
-        case 'th':
-            return ['en', 'th'];
-        case 'vn':
-            return ['en', /* 'vn' */];
-        case 'id':
-            return ['en', 'id'];
-        case 'in':
-            return ['en'];
-        case 'uk':
-            return ['en'];
-	 case 'mu':
-            return ['en'];
+
         default:
             return ['en'];
     }
@@ -51,17 +31,8 @@ function supported_language( $country ) {
 function facebookLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'hk':  return "https://www.facebook.com/AVITAHongKong/";
-        case 'sg':  return "https://www.facebook.com/AvitaSG/";
-        case 'tw':  return "https://www.facebook.com/AVITATaiwan/";
-        case 'th':  return 'https://www.facebook.com/AvitaTH/';
-        case 'in':  return 'https://www.facebook.com/AvitaIndia/';
-        case 'cn':
-        case 'ph':
-        case 'vn':
-        case 'id':
-        case 'uk':
-        case 'mu': return 'https://www.facebook.com/';
+
+        case 'bd': return 'https://www.facebook.com/';
         default:    return "";
     }
 }
@@ -69,17 +40,8 @@ function facebookLinkForCountry( $country ) {
 function instagramLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'hk':  return "https://www.instagram.com/avitahongkong/";
-        case 'sg':  return "https://www.instagram.com/avitasingapore/";
-        case 'tw':  return "https://www.instagram.com/avita_taiwan/";
-        case 'th':  return 'https://www.instagram.com/avitathailand/';
-        case 'in':  return 'https://www.instagram.com/avitaind/';
-        case 'cn':
-        case 'ph':
-        case 'vn':
-        case 'id':
-        case 'uk':
-        case 'mu':  return 'https://www.instagram.com/';
+
+        case 'bd':  return 'https://www.instagram.com/';
         default:    return "";
     }
 }
@@ -87,17 +49,8 @@ function instagramLinkForCountry( $country ) {
 function twitterLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return 'https://twitter.com/AvitaIndia';
-        case 'hk':
-        case 'sg':
-        case 'tw':
-        case 'th':
-        case 'cn':
-        case 'ph':
-        case 'vn':
-        case 'id':
-        case 'uk':
-        case 'mu': return 'https://twitter.com/';
+
+        case 'bd': return 'https://twitter.com/';
         default:    return "";
     }
 }
@@ -173,15 +126,7 @@ function metaDescriptionByCountryAndLanguage( $country, $language ) {
 function googleAnalyticCode( $country ) {
 
     switch ( $country ) {
-        case 'id' : return "UA-128035503-8";
-        case 'ph' : return "UA-128035503-9";
-        case 'vn' : return 'UA-128035503-7';
-        case 'cn' : return 'UA-128035503-10';
-        case 'in' : return 'UA-128035503-6';
-        case 'my' : return 'UA-128035503-3';
-        case 'sg' : return 'UA-128035503-5';
-        case 'tw' : return 'UA-128035503-4';
-        case 'th' : return 'UA-128035503-11';
+        case 'bd' : return "UA-128035503-8";
 
     }
 
@@ -192,7 +137,7 @@ function googleAnalyticCode( $country ) {
 }
 function GoogleMap( $key ) {
 
-    return 'AIzaSyDkjCWGYO6wojvQEwcNm09P_H7XeYoji9I';    // Default
+    return 'AIzaSyCq2PLMQTBZ49VSccONiFUz_IcPcOOMGKQ';    // Default
 
 }
 function BaiduMap( $key ) {

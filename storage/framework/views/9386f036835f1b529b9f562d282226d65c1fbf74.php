@@ -186,7 +186,6 @@
 
 		function setMarkers( map ){
 
-
             $('.shop-row').each( function(index, element) {
 
 

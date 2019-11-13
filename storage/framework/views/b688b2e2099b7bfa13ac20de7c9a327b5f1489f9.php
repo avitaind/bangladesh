@@ -25,28 +25,24 @@
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.laptops'); ?></label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
-
-
                                             <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber'])); ?>">LIBER Series</a>
+                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber'])); ?>">LIBER</a>
                                             </li>
-                                        <?php if(!$HAVE_LIBER_12): ?>
-
                                             <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber12'])); ?>">LIBER Series 12.5"</a>
+                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber12'])); ?>">LIBER New Generation</a>
                                             </li>
+                                    <!---   <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>">PURA</a>
+                                        </li>
 
-                                         <?php else: ?>
-
-
-
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>">ADMIROR</a>
+                                        </li>
 
                                             <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus12-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a>
                                             </li>
-
-                                        <?php endif; ?>
-
+                                    --->
 
                                     </ul>
                                 </div>

@@ -16,19 +16,19 @@ class HomeController extends Controller
 
     public function redirectToHome( ) {
 
-       /* $country = session('country', 'mu');
+        /* $country = session('country', 'bd');
 
-        if ( $country ) {
-            return redirect('/'.$country);
-        } else {
-            return redirect()->route('country.picker');
-        } */
-	return view('home');
+         if ( $country ) {
+             return redirect('/'.$country);
+         } else {
+             return redirect()->route('country.picker');
+         } */
+        return view('home');
 
-    }	
+    }
 
     public function getHome(){
-		$country = 'mu';
+        $country = 'bd';
         $supported_countries = array_keys( config('constants.countries') );
 
         if (in_array($country, $supported_countries)) {
@@ -66,7 +66,7 @@ class HomeController extends Controller
 
         $productModels = ProductModel::all();
 
-        $country = 'mu';
+        $country = 'bd';
         $serviceCenters = ServiceCenter::whereCountry($country)->get();
 
         return view('pages.support', compact('productModels', 'serviceCenters'));
@@ -92,11 +92,11 @@ class HomeController extends Controller
         $short_code = 'liber';
 
         $params = ['slug'   => $short_code,
-                   'model'  => $product_model,
-                   'pn'     => $product_number,
-                   'type'   => $product_type,
-                   'series' => $product_series,
-                   'marketing_number' => $request->get('marketing_number')];
+            'model'  => $product_model,
+            'pn'     => $product_number,
+            'type'   => $product_type,
+            'series' => $product_series,
+            'marketing_number' => $request->get('marketing_number')];
 
         return redirect()->route('product.support', $params);
     }
@@ -131,28 +131,28 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-     $title = __('site.footer_repair_tnc');
-/*
-        $content =  null;
+        $title = __('site.footer_repair_tnc');
+        /*
+                $content =  null;
 
-        $country = session('country');
-        $locale = \App::getLocale();
-        $repair_term = RepairTerm::whereLocale($locale)->whereCountry($country)->first();
+                $country = session('country');
+                $locale = \App::getLocale();
+                $repair_term = RepairTerm::whereLocale($locale)->whereCountry($country)->first();
 
-        if ( $repair_term ){
-            return view('pages.terms', ['title' => $title, 'content' => $repair_term->message ]);
-        } else {
-            return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
-        }
-	*/
-	            return view('pages.repair_tnc', ['title' => $title]);
+                if ( $repair_term ){
+                    return view('pages.terms', ['title' => $title, 'content' => $repair_term->message ]);
+                } else {
+                    return view('pages.terms', ['title' => $title, 'content' => 'Content not found.']);
+                }
+            */
+        return view('pages.repair_tnc', ['title' => $title]);
 
-	    
 
-	    
+
+
     }
 
-      public function handleSubscription(Request $request) {
+    public function handleSubscription(Request $request) {
         $this->validate($request, ['subscription_email' => 'required|email']);
         $email = $request->get('subscription_email');
         // Store to DB.
@@ -164,7 +164,7 @@ class HomeController extends Controller
             'message' => 'Thank you for your subscription!'
         ];
         return response( $data );
-        
+
     }
 
     public function getImago(Request $request) {

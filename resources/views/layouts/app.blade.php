@@ -94,7 +94,6 @@
 
     @include('partials.header')
 
-
 <!-- Content -->
 @yield('content')
 <!-- ./Content -->

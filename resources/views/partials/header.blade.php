@@ -25,28 +25,24 @@
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">@lang('site.laptops')</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
-
-
                                             <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber']) }}">LIBER Series</a>
+                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber']) }}">LIBER</a>
                                             </li>
-                                        @if(!$HAVE_LIBER_12)
-
                                             <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">LIBER Series 12.5"</a>
+                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">LIBER New Generation</a>
                                             </li>
+                                    <!---   <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura']) }}">PURA</a>
+                                        </li>
 
-                                         @else
-
-
-
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['admiror']) }}">ADMIROR</a>
+                                        </li>
 
                                             <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus12-2in1-laptop') }}">@lang('magus.name')</a>
                                             </li>
-
-                                        @endif
-
+                                    --->
 
                                     </ul>
                                 </div>

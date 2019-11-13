@@ -94,7 +94,6 @@
 
     <?php echo $__env->make('partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-
 <!-- Content -->
 <?php echo $__env->yieldContent('content'); ?>
 <!-- ./Content -->
