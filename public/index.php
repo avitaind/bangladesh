@@ -17,8 +17,9 @@
 | into the script here so that we don't have to worry about manual
 | loading any of our classes later on. It feels great to relax.
 |
-*/
+
 require __DIR__.'/../routes/country.php';
+*/
 require __DIR__.'/../bootstrap/autoload.php';
 
 /*
