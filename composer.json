@@ -22,7 +22,8 @@
         "silber/bouncer": "v1.0.0-beta.2",
         "torann/geoip": "^1.0",
         "vinkla/alert": "^2.0",
-        "watson/bootstrap-form": "^1.1"
+        "watson/bootstrap-form": "^1.1",
+        "pusher/pusher-php-server": "^2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
