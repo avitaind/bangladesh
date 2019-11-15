@@ -54,7 +54,7 @@
                                 <input id="header_product_device" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">@lang('site.smart_device')</label></a>
                                 <div class="dropdown">
-                                    <ul class="list-unstyled">
+                                   <!--- <ul class="list-unstyled">
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['imago']) }}">@lang('site.imago_series')</a>
                                         </li>
@@ -62,6 +62,7 @@
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['modus']) }}">@lang('site.modus_scale')</a>
                                         </li>
                                     </ul>
+                                    --->
                                 </div>
                             </li>
                         </ul>
