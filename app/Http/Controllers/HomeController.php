@@ -17,7 +17,7 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function notification($alertType = null){
+   /* public function notification($alertType = null){
 
         switch ($alertType) {
 
@@ -31,6 +31,7 @@ class HomeController extends Controller
 
         return view('pages.global');
     }
+   */
 
     public function getHome(){
         $country = 'bd';
