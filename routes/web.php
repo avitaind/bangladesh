@@ -13,7 +13,7 @@
 
 Route::get('/', 'HomeController@redirectToHome');
 
-Route::get('/entry/{alertType?}', ['as'=>'entry','uses'=>'HomeController@notification']);
+//Route::get('/entry/{alertType?}', ['as'=>'entry','uses'=>'HomeController@notification']);
 
 
 Route::get('/lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
