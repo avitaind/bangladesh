@@ -14,12 +14,12 @@
         </div>
         <div class="countries-list">
             <div class="row">
-                <div class="col-md-offset-2 col-md-8">
+            <!--   <div class="col-md-offset-2 col-md-8">
 
                     @include('sweet::alert')
 
                 </div>
-
+--->
             </div>
             <div class="country-box">
                 <ul class="d-flex flex-column list-inline">
