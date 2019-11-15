@@ -23,7 +23,8 @@
         "torann/geoip": "^1.0",
         "vinkla/alert": "^2.0",
         "watson/bootstrap-form": "^1.1",
-        "pusher/pusher-php-server": "^2.2"
+        "pusher/pusher-php-server": "^2.2",
+        "uxweb/sweet-alert": "~1.4"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

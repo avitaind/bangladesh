@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.4.36 on 2019-11-08 15:08:34.
+ * Generated for Laravel 5.4.36 on 2019-11-14 21:43:36.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -13958,142 +13958,6 @@ namespace Torann\GeoIP\Facades {
  
 }
 
-namespace FarhanWazir\GoogleMaps\Facades { 
-
-    class GMapsFacade {
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function initialize($config = array())
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::initialize($config);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function add_marker($params = array())
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::add_marker($params);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function add_polyline($params = array())
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::add_polyline($params);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function add_polygon($params = array())
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::add_polygon($params);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function add_circle($params = array())
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::add_circle($params);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function add_rectangle($params = array())
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::add_rectangle($params);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function add_ground_overlay($params = array())
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::add_ground_overlay($params);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function create_map()
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::create_map();
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function is_lat_long($input)
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::is_lat_long($input);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function get_lat_long_from_address($address, $attempts = 0)
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::get_lat_long_from_address($address, $attempts);
-        }
-        
-        /**
-         * This method will check markers are inside geofence or not
-         *
-         * @param $polygon array() -- polygon first and last value of array should be same otherwise result will be accurate
-         * @param $latlngs array()
-         * 
-         * return @array
-         * 
-         * EXAMPLE:::
-         * $latlngs = array("50,70","70,40","-20,30","100,10","-10,-10","40,-20","110,-20");
-         * $polygon = array("-50,30","50,70","100,50","80,10","110,-10","110,-30","-20,-50","-30,-40","10,-10","-10,10","-30,-20","-50,30");
-         * @static 
-         */ 
-        public static function isMarkerInsideGeofence($polygon, $latlngs)
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::isMarkerInsideGeofence($polygon, $latlngs);
-        }
-        
-        /**
-         * 
-         *
-         * @static 
-         */ 
-        public static function getMapName()
-        {
-            return \FarhanWazir\GoogleMaps\GMaps::getMapName();
-        }
-         
-    }
- 
-}
-
 
 namespace  { 
 
@@ -16198,8 +16062,6 @@ namespace  {
     class Excel extends \Maatwebsite\Excel\Facades\Excel {}
 
     class GeoIP extends \Torann\GeoIP\Facades\GeoIP {}
-
-    class GMaps extends \FarhanWazir\GoogleMaps\Facades\GMapsFacade {}
  
 }
 

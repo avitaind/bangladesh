@@ -13,24 +13,46 @@
             @lang('site.localization_title')
         </div>
         <div class="countries-list">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+
+                    @include('sweet::alert')
+
+                </div>
+
+            </div>
             <div class="country-box">
                 <ul class="d-flex flex-column list-inline">
                     {{-- <li class="list-inline-item py-3 mr-0 text-center" style="font-size: 1.5em;">@lang('site.global_asia')</li> --}}
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita-americas.com/" class="pl-5 py-2">America</a>
                     </li>
-                   <!--- <li class="list-inline-item p-1 mr-0">
-                        <a href="/" class="pl-5 py-2">Bangladesh</a>
-                    </li> --->
+                   <!--
+                   <li class="list-inline-item p-1 mr-0">
+                        <a href="/entry/success" class="pl-5 py-2">Australia</a>
+                    </li>
+                    --->
+                     <li class="list-inline-item p-1 mr-0">
+                        <a href="https://avita-bangladesh.com/" class="pl-5 py-2">Bangladesh</a>
+                    </li>
+                    <!--
+
+                    <li class="list-inline-item p-1 mr-0">
+                        <a href="/entry/success" class="pl-5 py-2">Bhootan</a>
+                    </li>
+                    --->
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita.com/cn" class="pl-5 py-2">China 中国</a>
                     </li>
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://www.avita.com/country/hk?lang=en" class="pl-5 py-2">Hong Kong</a> / <a href="https://www.avita.com/country/hk?lang=tc" class="py-2">香港</a>
                     </li>
+                    <!--
+
                     <li class="list-inline-item p-1 mr-0">
-                        <a href="https://www.avita-india.com/" class="pl-5 py-2">India</a>
+                        <a href="/entry/success" class="pl-5 py-2">India</a>
                     </li>
+                    --->
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita.com/country/id?lang=en" class="pl-5 py-2">Indonesia</a> / <a href="https://www.avita.com/country/id?lang=id" class="py-2">Bahasa Indonesia</a>
                     </li>
@@ -46,6 +68,12 @@
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://www.avita.com/sg" class="pl-5 py-2">Singapore</a>
                     </li>
+                    <!--
+
+                    <li class="list-inline-item p-1 mr-0">
+                        <a  href='/entry/success' class="pl-5 py-2">Sri Lanka</a>
+                    </li>
+                    --->
                     <li class="list-inline-item p-1 mr-0">
                         <a href="https://avita.com/tw" class="pl-5 py-2">Taiwan 台灣</a>
                     </li>

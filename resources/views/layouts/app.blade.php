@@ -30,7 +30,7 @@
     <meta property="og:image:height" content="630">
 
     <meta property="fb:app_id" content="{{ env('FACEBOOK_CLIENT_ID') }}" />
-    
+
     <meta name="google-site-verification" content="R1kH74ny5l80vabgxtYCz8X_wkcj4wW5Z-wT31L4Qrg" />
 
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -42,6 +42,10 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"  >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
 
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -164,7 +168,6 @@
 
 
 </script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw&libraries=places&sensor=false"></script>
 
     <noscript>
     <div style="display:inline;">

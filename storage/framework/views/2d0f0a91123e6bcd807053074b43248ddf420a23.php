@@ -74,7 +74,12 @@
         </form>
         <p style="text-align: center;"><a href="/" target="_blank" download="/"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
          -->
+
+            </div>
+   </form>
+
     </section>
+
 
 
 <?php $__env->stopSection(); ?>

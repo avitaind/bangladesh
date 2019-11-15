@@ -2,29 +2,34 @@
 
 namespace App\Http\Controllers;
 
-use App\Country;
-use App\Product;
 use App\ProductModel;
-use App\RepairTerm;
 use App\ServiceCenter;
-use App\Settings;
 use App\Subscription;
 use Illuminate\Http\Request;
+use Alert;
+
 
 class HomeController extends Controller
 {
 
     public function redirectToHome( ) {
 
-        /* $country = session('country', 'bd');
-
-         if ( $country ) {
-             return redirect('/'.$country);
-         } else {
-             return redirect()->route('country.picker');
-         } */
         return view('home');
+    }
 
+    public function notification($alertType = null){
+
+        switch ($alertType) {
+
+            case 'success':
+                Alert::success('Welcome', 'Demo success alert');
+                break;
+
+            default:
+                break;
+        }
+
+        return view('pages.global');
     }
 
     public function getHome(){
