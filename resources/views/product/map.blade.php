@@ -46,7 +46,7 @@
 
 
 		<section class="map-panel">
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw&callback=initMap">
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw&callback=initMap" async defer>
 	</script>
 			<div class="container py-5 ls-0">
 				<div class="row mx-2">
