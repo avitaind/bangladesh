@@ -27,6 +27,28 @@ class ProductsController extends Controller
     public function showProductFeatures($slug) {
         $country = 'bd';
         $product = $this->productFromURL($country, $slug);
+
+        if ( $slug == 'admiror' ){
+
+            switch ( $country ) {
+                case 'bd':
+                        return view('product.admiror.feature_hk_en', compact( 'product'));
+                         break;
+
+            }
+        }
+
+        if ( $slug == 'pura' ){
+
+            switch ( $country ) {
+                case 'bd':
+                    return view('product.pura.feature_hk_en', compact( 'product'));
+
+                    break;
+
+            }
+        }
+
         if ( $slug == 'magus12-2in1-laptop' ) {
             if ( $country == 'sg' ) {
                 return view('product.magus_sg', compact( 'product'));
@@ -63,6 +85,9 @@ class ProductsController extends Controller
         } else {
             return view($view, compact('product'));
         }
+
+
+
     }
 
     public function showProductSpec( $slug) {

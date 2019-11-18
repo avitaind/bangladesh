@@ -8,6 +8,14 @@ $(document).ready(function() {
 		}
 	});
 
+	if($(".cookies_msg_box").length > 0){
+
+		$(".cookies_msg_box a.cookie-close").click(function(e) {
+			$(".cookies_msg_box").addClass('hide');
+		});
+
+	}
+
 // Returns width of HTML document
 // $( document ).width();)
 
@@ -77,7 +85,7 @@ $(document).ready(function() {
 			$chk_user_target = true;
 
 			var $header = $('.header'),
-			$html = $('html');
+				$html = $('html');
 			if ($header.hasClass('active')){
 				$header.removeClass('active');
 				$html.removeClass('open-nav');
@@ -138,15 +146,15 @@ $(document).ready(function() {
 
 		$('.tab-product-support nav>a').on('click', function(e) {
 			// if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-				e.preventDefault();
-				var target = $(this.hash),
-					$header = $('.header');
-				if (target.length) {
-					$('html,body').stop().animate({
-						scrollTop: target.offset().top
-					}, 600);
-					return false;
-				}
+			e.preventDefault();
+			var target = $(this.hash),
+				$header = $('.header');
+			if (target.length) {
+				$('html,body').stop().animate({
+					scrollTop: target.offset().top
+				}, 600);
+				return false;
+			}
 			// }
 		});
 
@@ -193,7 +201,9 @@ $(document).ready(function() {
 				$.post('/subscription', form);
 			}
 
-			alert('Thank you for your subscription!');
+			alert($('#alertMsg').val());
+
+			//alert('感謝您的訂閱!');
 		});
 	});
 
