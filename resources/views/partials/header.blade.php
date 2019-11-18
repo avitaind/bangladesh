@@ -24,6 +24,8 @@
                                 <input id="header_product_liber" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">@lang('site.laptops')</label></a>
                                 <div class="dropdown">
+                                <!---
+
                                     <ul class="list-unstyled">
 
                                         <li class="nav-item">
@@ -47,6 +49,8 @@
 
 
                                     </ul>
+
+                                    --->
                                 </div>
                             </li>
 
