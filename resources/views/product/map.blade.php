@@ -115,9 +115,7 @@
                     @endforeach
                 </div>
             </div><!--container-->
-<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw&callback=initMap">
-	</script>
+
 		</section>
 
 		<section class="product-statement mt-4 mt-sm-0">
