@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 @php
-	$country = 'mu';
+	$country = 'bd';
     $xml_lang = ($lang == 'en') ? 'en' : 'zh-hk';
 
     $keyword = metaKeywordByCountryAndLanguage( $country, $lang);
@@ -42,6 +42,8 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}"/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}"/>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"  >
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
@@ -49,23 +51,80 @@
 
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-    
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
+    @php
+        $ga_code = googleAnalyticCode( $country );
+    @endphp
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133345635-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    @if( $ga_code )
 
-  gtag('config', 'UA-133345635-5');
-</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga_code }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{ $ga_code }}');
+        </script>
+
+    @endif
 
 
-    <!-- End  Global site tag (gtag.js) - Google Analytics  -->
+    @if( $country == 'cn' )
+
+        <script>
+            (function(){
+                var bp = document.createElement('script');
+                var curProtocol = window.location.protocol.split(':')[0];
+                if (curProtocol === 'https') {
+                    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                }
+                else {
+                    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                }
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(bp, s);
+            })();
+
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?07f31adf8ff8ee029e737419e08d0b72";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+
+        </script>
+
+
+
+    @endif
+
+
+<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WLGC2FG');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLGC2FG"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 878181922 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-878181922');
+    </script>
 
     <!-- Facebook Pixel -->
     <script>
@@ -90,13 +149,49 @@
 
 
 
+    @if( $country == 'hk' )
+
+    <!-- Facebook Pixel Code -->
+
+        <script>
+
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1203699043110569');
+            fbq('track', 'PageView');
+
+        </script>
+
+        <noscript>
+            <img height="1" width="1" src="https://www.facebook.com/tr?id=1203699043110569&ev=PageView&noscript=1"/>
+        </noscript>
+
+        <!-- End Facebook Pixel Code -->
+
+    @endif
+
+
+
+
+
     @stack('css')
     @yield('css')
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 <body class="lang_{{$lang}} country_{{ $country }}">
 
+
+@if( View::exists('partials.header_'.$country) )
+    @include('partials.header_'.$country)
+@else
     @include('partials.header')
+@endif
 
 <!-- Content -->
 @yield('content')
@@ -112,49 +207,28 @@
 
 
 
-<script defer="defer" type="text/javascript" type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script defer="defer" type="text/javascript" type="text/javascript" src="{{ asset("js/demo.js") }}"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script type="text/javascript" src="{{ asset("js/demo.js") }}"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128035503-13"></script>
-
-<script>
-
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag(){dataLayer.push(arguments);}
-
-    gtag('js', new Date());
-
-
-
-    gtag('config', 'UA-128035503-13');
-
-</script>
 <!-- Facebook API -->
 <script>
     window.fbAsyncInit = function() {
         FB.init({
-            appId            : '{{ env('FACEBOOK_CLIENT_ID') }}',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v2.10'
+            appId      : '538642693536589',
+            xfbml      : true,
+            version    : 'v5.0'
         });
-
-        // FB.AppEvents.logPageView();
-
+        FB.AppEvents.logPageView();
     };
 
     (function(d, s, id){
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) {return;}
         js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-
 </script>
-
 
 <!-- Google Code for Remarketing Tag -->
 <script type="text/javascript">
@@ -165,11 +239,8 @@
     /* ]]> */
 </script>
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-
-
 </script>
-
-    <noscript>
+<noscript>
     <div style="display:inline;">
         <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
     </div>

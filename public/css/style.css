@@ -1,0 +1,491 @@
+.txt_white{
+    color:#fff !important;
+}
+
+.txt_black{
+    color:#000 !important;
+}
+
+.space30{
+    height:30px;
+}
+.space60{
+    height:60px;
+}
+.light_blue {
+    color:#7accc8;
+}
+
+.product-info {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-540 .banner-info {
+    max-width: 100%;
+    width: 540px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-540 .banner-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.product-540 .banner-bg {
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.4)), color-stop(50%, rgba(255,255,255,0.25)), color-stop(100%, rgba(0,0,0,0.1))), -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.25) 50%, rgba(0,0,0,0.1) 100%), linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+.product-540 .bc-computer-image {
+    position: absolute;
+    max-width: 100%;
+}
+.product-540 .admiror01 {
+    top: 100px;
+    right: 810px;
+    z-index: 1
+}
+
+.admiror_h1 {
+    color:#fff;
+    font-size:54px;
+    font-weight:300;
+    text-transform:uppercase;
+}
+
+
+.admiror_h2 {
+    color:#7accc8;
+    font-size:28px;
+    line-height:32px;
+    letter-spacing:0.1em;
+    font-weight:300;
+    text-transform:uppercase;
+    text-align:left;
+    padding-bottom:20px;
+}
+
+
+.admiror_h3 {
+    color:#fff;
+    font-size:28px;
+    font-weight:300;
+    letter-spacing:0.1em;
+}
+
+.size56{
+    font-size:56px;
+}
+
+.transform_normal{
+    text-transform:none;
+}
+
+
+.product-admiror-computer .h1{
+    font-family:'Times New Roman';
+    color:#FFF;
+    font-size:54px;
+}
+
+.product-admiror-computer .banner-para{
+    font-family:'Times New Roman';
+    color:#FFF;
+    font-size:20px;
+    line-height:36px !important;
+}
+
+
+
+.product-admiror-computer .data-card.my-3{
+
+}
+
+
+.product-admiror-computer .banner-block {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.product-admiror-computer .banner-data {
+    margin-top: 20px;
+    max-width: 100%;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+.product-admiror-computer .badge-caption {
+    font-size: 0.9rem;
+}
+.product-admiror-computer .badge-value .badge-caption {
+    font-size: 1.5rem;
+    vertical-align: super;
+    font-weight: 600;
+}
+
+.product-admiror-computer .badge-value .badge-sub-caption {
+    font-size: .9rem;
+    margin-left: -35px;
+}
+
+.product-admiror-computer .badge-value {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.product-admiror-computer .badge-title{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+
+.product-admiror-computer .bc-computer-image {
+    position: absolute;
+    max-width: 100%;
+}
+.product-admiror-computer .bc-computer-1 {
+    top: 94px;
+    left: 630px;
+}
+.product-admiror-computer .bc-computer-2 {
+    top: 900px;
+    left: 582px;
+}
+
+.product-liber-power .banner-block {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.product-liber-power .bc-computer-image {
+    position: absolute;
+    max-width: 100%;
+}
+.product-liber-power .bc-computer-1 {
+    top: 406px;
+    left: -293px;
+}
+
+.product-liber-power .banner-data {
+    color: #fff;
+    padding-bottom: 40px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 100%;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.product-liber-power .battery-wrap {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUgAAACMCAMAAAApxMAXAAAABGdBTUEAALGPC/xhBQAAAHhQTFRF19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXAAAA4eHh19fXxmW4gAAAACZ0Uk5TkjHWLvTY+gfzu+TlkSqOCZi9LwvUlZSTLCuQDDD9/NeP+PkGOABvryUfAAABfklEQVR42u3St1UEQRQAwUNzWmu5Yvj5Zwgu7Bg7HkZ1CPV6kH6azu5VqE/V82yacg1SanZXQAVdF/MsZDOMetKek/p0bvd1LJsc5DbGT4AKuoxjl4E83qoLnKJW1e3YhXzEA01hObPBPVoyhbVx70LW0ZAp7CPqLmQEmOIyaCBBggQpkCBBghRIkCBBggQJEqRAggQJUiBBggQJEiRIkAIJEiRIgQQJUiBB/kfIr9+BBAkSpECCBAlSIEGCBAkSJEiQAgkSJEiBBAkSJEiQIEEKJEiQIAUSJEiBBAkSpECCBAkSJEiQIAUSJEiQAgkSJEiQIEGCVA7yTyBBggQpkCBBghRIkCBBggQJEqRAggQJUiBBggQJEiRIkAIJEiRIgQQJUnnIOhowhZ3jswt5j5ZMYW1supCPGJApbB+nLuThVq3QFPVS3Q5dyLSN0QVOQZdRbFMGshlGPWnXgHq1bvd1LJscZGp211D/rot5ykKmdDy9vQPq1evmdMiu+g1yN/m9MYLlTAAAAABJRU5ErkJggg==') center no-repeat;
+    width: 329px;
+    height: 190px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #525252;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.product-liber-power .battery-wrap:before {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    bottom: 35px;
+    border-radius: 6px;
+    opacity: 1;
+    content: '';
+    display: block;
+    width: 0;
+    background-color: #d9534f;
+    -webkit-transition: width 1s ease-in, opacity 1s ease-in, background 1s cubic-bezier(0.68, 0.02, 0.99, 0.42);
+    -o-transition: width 1s ease-in, opacity 1s ease-in, background 1s cubic-bezier(0.68, 0.02, 0.99, 0.42);
+    transition: width 1s ease-in, opacity 1s ease-in, background 1s cubic-bezier(0.68, 0.02, 0.99, 0.42);
+}
+.product-liber-power .battery-wrap.charge:before {
+    background-color: #7fb041;
+    opacity: .3;
+    width: 291px;
+}
+
+.product-liber-power .battery-wrap .badge-caption {
+    position: relative;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+
+.admiror-content{
+    padding:100px 0px;
+    overflow:hidden;
+}
+
+.admiror-content .banner-image{
+    top:100px;
+}
+
+.banner-anchor{
+    padding-top: 60px;
+}
+
+.banner-anchor .h2{
+    width:100%;
+    text-align:center;
+}
+
+.banner-anchor a:hover .hover,
+.banner-anchor a .first,
+.banner-anchor a{
+    display:block;
+    float: left !important;
+    padding: 0 !important;
+    border: 0 !important;
+    margin: 0 !important;
+}
+
+.banner-anchor a:hover .first,
+.banner-anchor a .hover{
+    display:none;
+}
+
+
+.banner-anchor a img{
+    max-width:100%;
+    float:left;
+}
+
+
+.banner-anchor a:hover{
+    text-decoration:none;
+    background:#000;
+    border:1px solid #fff;
+    color:#fff;
+}
+
+
+.banner-anchor a.black{
+    font-size: 20px;
+    background: #000;
+    display: block;
+    min-height: 120px;
+    padding: 15px;
+    border:1px solid #000;
+    color: #fff;
+}
+
+
+
+.padding-bottom-l{
+    padding-bottom:200px
+}
+
+
+.worry-free .banner-block{
+    padding-top:200px
+}
+
+
+.float_img{
+    position: absolute;
+    z-index: 9;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.bottom-banner-bg{
+    padding: 200px 0px 100px 0px;
+}
+
+.float_img2{
+    position: absolute;
+    z-index: 9;
+    margin: auto;
+    position: absolute;
+    left: -100;
+    text-align: center;
+    top: 50px;
+    left: -100px;
+}
+
+
+.float_img2 img,
+.float_img img{
+    max-width:100%;
+}
+
+.product-liber-power .admiror-battery-wrap .battery-wrap{
+    width: 180px;
+    height:70px;
+    background-size: contain;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.product-liber-power .admiror-battery-wrap .badge-value{
+    font-weight:600;
+    color:#fff;
+    font-size: 1.5rem;
+}
+
+.product-liber-power .admiror-battery-wrap .battery-wrap.charge:before,
+.product-liber-power .admiror-battery-wrap .battery-wrap.charge:before{
+    width: 180px;
+}
+
+.product-liber-power .admiror-battery-wrap .battery-wrap .badge-caption{
+    padding-left: 0px;
+}
+
+.img-inline{
+    margin-top: 30px;
+}
+
+
+.img-inline ul{
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.img-inline ul li{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.img-inline ul li p{
+    margin-top:15px;
+}
+
+.product-liber-banner .admiror-banner{
+    opacity:1 !important;
+}
+
+section.color-choice .container{
+    padding: 10px 0px 400px 0px;
+}
+
+
+.admiror-video{
+    text-align:center;
+}
+
+.admiror-video iframe,
+.admiror-video video{
+    max-width: 100%;
+}
+
+.hide{
+    display:none;
+}
+
+@media (max-width: 767px) {
+
+    .mob-text-center,
+    .admiror_h2{
+        text-align:center !important;
+    }
+
+    .admiror_h1.banner-header,
+    .admiror_h1,
+    .product-admiror-computer .h1{
+        font-size: 30px !important;
+        margin-bottom: .5rem !important;
+        line-height: 34px;
+    }
+
+    .admiror_h3.banner-header,
+    .admiror_h3{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .product-admiror-computer .banner-para{
+        font-size: initial;
+        line-height:1.4;
+        text-align:center;
+    }
+
+    .banner-anchor a{
+        margin-bottom: 15px !important;
+    }
+
+    .product-admiror-computer .banner-block{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .admiror-content{
+        padding: 50px 0px;
+    }
+
+    .admiror-content .banner-info{
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    img{
+        max-width:100%;
+    }
+
+
+    section.artistic_design,
+    section.worry-free{
+        background-color:#000;
+    }
+
+
+    .outstanding .admiror_h1,
+    .outstanding .admiror_h3{
+        text-align:center;
+        color: #000 !important;
+    }
+
+    .outstanding .txt_white{
+        color: #000 !important;
+    }
+
+    .worry-free .banner-block{
+        padding-top: 10px;
+    }
+
+    .bottom-banner-bg{
+        padding:0px;
+    }
+
+    .float_img2{
+        position: relative;
+        margin-bottom: 60px;
+        top: 30px;
+        left: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    section.color-choice .container{
+        padding: 50px 15px;
+    }
+
+
+
+    .admiror-video iframe,
+    .admiror-video video{
+        height: 220px !important;
+    }
+
+}

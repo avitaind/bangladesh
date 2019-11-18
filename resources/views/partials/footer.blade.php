@@ -14,7 +14,7 @@
                       'instagram' => instagramLinkForCountry($country) ];
                 @endphp
 
-          <!--      @foreach( $sns_icons as $sns_name => $sns_url )
+              @foreach( $sns_icons as $sns_name => $sns_url )
 
                     @if( $sns_url )
                         <a class="ml-0 {{ $loop->first ? 'ml-md-auto' : 'ml-md-3' }}" href="{{ $sns_url }}" target="_blank"><i class="fa fa-{{ $sns_name }}" aria-hidden="true"></i></a>
@@ -22,7 +22,6 @@
 
                 @endforeach
 
-        -->
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@ function bytesToHuman($bytes, $precision = 2)
 
 function enabled_countries(  ) {
 
-	return ['bd'];
+	return ['bd','hk'];
 }
 
 function supported_language( $country ) {
@@ -32,7 +32,7 @@ function facebookLinkForCountry( $country ) {
 
     switch ( $country ) {
 
-        case 'bd': return 'https://www.facebook.com/';
+        case 'bd': return 'https://www.facebook.com/AvitaBD/';
         default:    return "";
     }
 }
@@ -41,7 +41,7 @@ function instagramLinkForCountry( $country ) {
 
     switch ( $country ) {
 
-        case 'bd':  return 'https://www.instagram.com/';
+        case 'bd':  return 'https://www.instagram.com/avitabd/';
         default:    return "";
     }
 }
@@ -50,7 +50,7 @@ function twitterLinkForCountry( $country ) {
 
     switch ( $country ) {
 
-        case 'bd': return 'https://twitter.com/';
+        case 'bd': return 'https://twitter.com/AvitaBangladesh';
         default:    return "";
     }
 }
