@@ -137,7 +137,7 @@ function googleAnalyticCode( $country ) {
 }
 function GoogleMap( $key ) {
 
-    return 'AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw';    // Default
+    return 'AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ';    // Default
 
 }
 function BaiduMap( $key ) {
