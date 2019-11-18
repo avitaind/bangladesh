@@ -30,7 +30,6 @@
     <meta property="og:image:height" content="630">
 
     <meta property="fb:app_id" content="{{ env('FACEBOOK_CLIENT_ID') }}" />
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ" type="text/javascript"></script>
 
     <meta name="google-site-verification" content="R1kH74ny5l80vabgxtYCz8X_wkcj4wW5Z-wT31L4Qrg" />
 
