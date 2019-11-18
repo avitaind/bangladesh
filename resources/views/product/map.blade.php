@@ -88,7 +88,7 @@ A new meta file was written to .phpstorm.m
 					<div class="col-12 col-lg-8 pull-lg-4 px-0">
 						<div class="map-wrap embed-responsive embed-responsive-1by1">
 							<div id="gmap-embed" class="embed-responsive-item">
-     							       {!! $map['html'] !!}
+
 							</div>
 						</div>
 					</div>
