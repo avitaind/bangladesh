@@ -326,13 +326,15 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                           <section class="product-liber-wifi">
                              <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center">
                                 
-                                <div class="banner-para text-center">
+                             <!--   <div class="banner-para text-center">
                                     <span class="d-lg-block">
                                         <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now
              ></a>&nbsp;&nbsp; 
                                         <a href="<?php echo e(route('product.map', 'pura')); ?>" style="color:#09F">Where to buy ></a> 
                                     </span>
                                 </div>
+
+                                --->
                                 
                             </div>
                           </section>

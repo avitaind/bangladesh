@@ -16,36 +16,28 @@
                 <li class="nav-item has-dropdown">
                     <input id="header_product" type="checkbox" hidden="">
                     <a class="nav-link"><label for="header_product"><?php echo app('translator')->getFromJson('site.products'); ?></label></a>
-
                     <div class="dropdown">
                         <ul class="list-unstyled">
-
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_liber" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.laptops'); ?></label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
-
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>">ADMIROR</a>
+                                        </li>
                                         <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber'])); ?>">LIBER</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber12'])); ?>">LIBER New Generation</a>
                                             </li>
-
                                     <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>">PURA</a>
                                         </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>">ADMIROR</a>
-                                        </li>
-
-                                            <li class="nav-item">
+                                      <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus12-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a>
                                             </li>
-
-
                                     </ul>
                                 </div>
                             </li>
@@ -54,7 +46,7 @@
                                 <input id="header_product_device" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.smart_device'); ?></label></a>
                                 <div class="dropdown">
-                                   <!--- <ul class="list-unstyled">
+                                   <ul class="list-unstyled">
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['imago'])); ?>"><?php echo app('translator')->getFromJson('site.imago_series'); ?></a>
                                         </li>
@@ -62,7 +54,7 @@
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['modus'])); ?>"><?php echo app('translator')->getFromJson('site.modus_scale'); ?></a>
                                         </li>
                                     </ul>
-                                    --->
+
                                 </div>
                             </li>
                         </ul>

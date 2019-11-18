@@ -94,6 +94,27 @@ class ProductsController extends Controller
         $country = 'bd';
         $product = $this->productFromURL($country, $slug);
 
+        $lang = app()->getLocale();
+
+        if ( $slug == 'admiror' ){
+            switch ( $country ) {
+                case 'bd':
+                      return view('product.admiror.spec_hk_en', compact( 'product'));
+
+                    break;
+            }
+        }
+
+        if ( $slug == 'pura' ){
+            switch ( $country ) {
+                case 'bd':
+
+                        return view('product.pura.spec_hk_en', compact( 'product'));
+
+
+            }
+        }
+
 
         if ( !$product ) {
             abort(404);
@@ -138,6 +159,13 @@ class ProductsController extends Controller
     public function whereToBuy($slug){
         $country = 'bd';
         $product = Product::where('short_code', $slug)->first();
+
+        if ( $slug == 'admiror' || $slug == 'pura' ){
+
+            $product = Product::where('short_code', 'liber')->first();
+
+        }
+
 
         if ( !$product ) {
             abort(404);
