@@ -58,7 +58,10 @@
 							<input type="text" name="search" class="form-control search-result-input search-input" id="map-search" required="">
 							<div class="input-group-addon search-result-button">
 								<button type="button" class=""><i class="fa fa-search" aria-hidden="true"></i></button>
-							</div>
+							</div>Tag Exists: @mixin \Illuminate\Database\Query\Builder in Illuminate\Database\Eloquent\Model
+Tag Exists: @mixin \Eloquent in Illuminate\Database\Eloquent\Model
+> php artisan ide-helper:meta
+A new meta file was written to .phpstorm.m
 						</div>
 
 						<div class="shop-list">
@@ -85,14 +88,15 @@
 					<div class="col-12 col-lg-8 pull-lg-4 px-0">
 						<div class="map-wrap embed-responsive embed-responsive-1by1">
 							<div id="gmap-embed" class="embed-responsive-item">
-
+     							       {!! $map['html'] !!}
 							</div>
 						</div>
 					</div>
 
 				</div>
 			</div>
-            
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw&callback=initMap">
+	</script>
             
             <div class="container py-5 ls-0">
                 <div class="shopsList" style="display:none;">
@@ -302,8 +306,6 @@
 
 
   </script>
-  <script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw&callback=initMap">
-	</script>
+
 
 @endsection
