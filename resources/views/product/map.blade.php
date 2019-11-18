@@ -58,10 +58,7 @@
 							<input type="text" name="search" class="form-control search-result-input search-input" id="map-search" required="">
 							<div class="input-group-addon search-result-button">
 								<button type="button" class=""><i class="fa fa-search" aria-hidden="true"></i></button>
-							</div>Tag Exists: @mixin \Illuminate\Database\Query\Builder in Illuminate\Database\Eloquent\Model
-Tag Exists: @mixin \Eloquent in Illuminate\Database\Eloquent\Model
-> php artisan ide-helper:meta
-A new meta file was written to .phpstorm.m
+							</div>
 						</div>
 
 						<div class="shop-list">
