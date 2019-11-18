@@ -60,6 +60,7 @@
                         <div align="center" class="col-lg-12" >
                         	<div class="h2 banner-header">AVAILABLE NOW</div>
                         </div>
+                            <!--
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
@@ -67,6 +68,7 @@
                             <a href="#offer" style="color:#09F">Offer > </a> 
                             </span>
                         </div>
+                            -->
                         <div class="space30"></div>
                     </div>
                 </div>

@@ -32,12 +32,14 @@
                         <div align="center" class="col-lg-12" >
                         	<div class="admiror_h1">AVAILABLE NOW</div>
                         </div>
+                         <!---
                             <span class="d-lg-block txt_white text-center">
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
 " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp; 
                             <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
                             <a href="#offer" class="txt_white">Offer ></a>
                             </span>
+                            --->
                         </div>
                 </div>
         </section>
@@ -508,12 +510,13 @@
                                 <img src="/images/admiror/pic_offer.png" width="100%">
                             </div>
                              <div class="banner-para">
-                                <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
+                              <!---  <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
                                       
                                     <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
         " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp; 
                                     <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>
                                 </span>
+                                --->
                             </div>
                         </div>
                     
