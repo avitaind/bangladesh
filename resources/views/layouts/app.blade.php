@@ -13,6 +13,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ $xml_lang }}" lang="{{ $xml_lang }}">
 <head>
+
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
@@ -243,6 +244,8 @@
 
 @stack('js')
 @yield('js')
-
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ&callback=initMap">
+</script>
 </body>
 </html>

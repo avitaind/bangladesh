@@ -44,7 +44,8 @@
 
 
 		<section class="map-panel">
-
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCios_R1Rq6u6B_k63v_6L0br2iXR3GaFw&callback=initMap" async defer>
+	</script>
 			<div class="container py-5 ls-0">
 				<div class="row mx-2">
 
@@ -83,16 +84,21 @@
 					</div>
 
 					<div class="col-12 col-lg-8 pull-lg-4 px-0">
-						<div class="map-wrap embed-responsive embed-responsive-1by1">
-							<div id="gmap-embed" class="embed-responsive-item">
 
+						<div class="map-wrap embed-responsive embed-responsive-1by1">
+							<!--
+							<div id="gmap-embed" class="embed-responsive-item">
 							</div>
+							-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.4710080277905!2d88.59928511499311!3d24.36491308429011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefaf3f950a61%3A0x35fd51fb98f7e9f!2sJamal%20Super%20Market!5e0!3m2!1sen!2sin!4v1574105123619!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
 						</div>
+						
 					</div>
 
 				</div>
 			</div>
-            
+           
             
             <div class="container py-5 ls-0">
                 <div class="shopsList" style="display:none;">
@@ -136,9 +142,7 @@
 		<div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
         </div>
-	<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ&callback=initMap">
-	</script>
+	
 	</main>
 
 <?php $__env->stopSection(); ?>
@@ -306,6 +310,7 @@
 
 
   </script>
+
 
 <?php $__env->stopSection(); ?>
 

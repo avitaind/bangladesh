@@ -84,9 +84,7 @@
         <div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
         </div>
-        <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ&callback=initMap">
-        </script>
+
     </main>
 
 <?php $__env->stopSection(); ?>
@@ -123,7 +121,9 @@
     </script>
 
 
-
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ&callback=initMap">
+    </script>
     <script src="<?php echo e(asset('/js/support.js')); ?>"></script>
 
 
