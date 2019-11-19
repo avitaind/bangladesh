@@ -5,7 +5,7 @@
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
     
-    	<?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <!---	<?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>--->
 
         <!-------------------Submenu-------------
         <div class="nav-product-panel">
@@ -123,7 +123,7 @@
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Operating System</div>
 								<div class="badge-value">Windows 10 in S Mode</div>
-                                <div class="badge-caption"><a href="https://support.microsoft.com/en-hk/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">Know more ></a></div>
+                                <div class="badge-caption"><a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">Know more ></a></div>
                             </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
@@ -250,7 +250,7 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
     						<span class="d-lg-block">Pre-installed Windows 10 (S Mode). Windows 10 in S mode is a version of Windows 10 that's streamlined for the best performance, while providing a fast startup and long life battery. To increase security, it allows apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. It's available to switch from S mode to Windows 10 as your preference.　
                             </span>
                             <span class="d-lg-block  py-3">
-                            <a href="https://support.microsoft.com/en-hk/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">How to switch to Windows 10 Home Edition for free　></a>
+                            <a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">How to switch to Windows 10 Home Edition for free　></a>
                             </span>
                             <span class="d-lg-block  mb-3">
 								<small>

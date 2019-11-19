@@ -16,7 +16,7 @@
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-3" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">12.5" (31.75 cm) @if( !$HAVE_LIBER_12) / @lang('site.coming_soon') @endif</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(12.5-inch) @if( !$HAVE_LIBER_12) / @lang('site.coming_soon') @endif</div></div>
                             <img class="hidden-sm-down" src="/images/liber/12/pink.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
                                 <li style="background-color: #DE9299" class="active" data-image="/images/liber/12/pink.png"></li>
@@ -27,7 +27,7 @@
                             </ul>
                         </a>
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-1" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">13.3" (33.78 cm)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(13.3-inch)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/13/silver.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
 
@@ -49,7 +49,7 @@
                             </ul>
                         </a>
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-2" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">14" (35.56 cm)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(14-inch)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/14/silver.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4">
 
@@ -95,7 +95,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                                <div>8GB DDR3</div>
+                                <div>8GB</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
@@ -164,7 +164,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                                <div>8GB DDR3</div>
+                                <div>8GB</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
@@ -232,7 +232,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                                <div> 8GB DDR3 </div>
+                                <div> 8GB</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>

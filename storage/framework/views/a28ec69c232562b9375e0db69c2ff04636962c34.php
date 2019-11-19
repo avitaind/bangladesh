@@ -5,7 +5,7 @@
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
 
-        <?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+      <!---  <?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>-->
          
         
           <section class="product-liber-banner">
@@ -32,14 +32,14 @@
                         <div align="center" class="col-lg-12" >
                         	<div class="admiror_h1">AVAILABLE NOW</div>
                         </div>
-                         <!---
+
                             <span class="d-lg-block txt_white text-center">
-                            <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp; 
+                             <!--- <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
+" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;   --->
                             <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
                             <a href="#offer" class="txt_white">Offer ></a>
                             </span>
-                            --->
+
                         </div>
                 </div>
         </section>
@@ -250,7 +250,7 @@
                         </div>
                         
                     </div>
-<!---3rd Row----------->                    
+<!---3rd Row----------->
                     <div class="row hidden-sm-down">
                         <div align="left" class="col-12 col-md-4" style="background:#f2f2f2;  padding:60px 30px; height:380px;">
                             <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Backlit keyboard for unbounded exploration</div>
@@ -510,13 +510,13 @@
                                 <img src="/images/admiror/pic_offer.png" width="100%">
                             </div>
                              <div class="banner-para">
-                              <!---  <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
+                            <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
                                       
-                                    <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp; 
+                                   <!---    <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
+        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;    --->
                                     <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>
                                 </span>
-                                --->
+
                             </div>
                         </div>
                     

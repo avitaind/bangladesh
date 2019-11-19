@@ -24,16 +24,17 @@
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>">ADMIROR</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>"><?php echo app('translator')->getFromJson('site.admiror'); ?></a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber'])); ?>">LIBER</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber12'])); ?>"><?php echo app('translator')->getFromJson('site.liber12'); ?></a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber'])); ?>"><?php echo app('translator')->getFromJson('site.liber'); ?></a>
                                             </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber12'])); ?>">LIBER New Generation</a>
-                                            </li>
+
                                     <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>">PURA</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>"><?php echo app('translator')->getFromJson('site.pura'); ?></a>
                                         </li>
                                      <!---
                                       <li class="nav-item">

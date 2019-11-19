@@ -1,7 +1,6 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-
             <div class="carousel-item active">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
@@ -10,10 +9,10 @@
                                  style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-tc.jpg')"></div>
+                                 style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/banner3_mob.jpeg')"></div>
+                             style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
                     </div>
                 </div>
             </div>
@@ -99,8 +98,6 @@
           <li data-target="#home_banner" data-slide-to="1"></li>
             <li data-target="#home_banner" data-slide-to="2"></li>
             <li data-target="#home_banner" data-slide-to="3"></li>
-
-
         </ol>
     </div>
 </section>
@@ -123,30 +120,17 @@
 @endsection
 @section('js')
     <script type="text/javascript">
-
         var imageTimer = null;
-
-        $('video').on('ended', function(){
-            $('#home_banner').carousel('next');
-        });
+        /*   $('video').on('ended', function(){
+               $('#home_banner').carousel('next');
+           });
+       */
         $('#home_banner').on('init slide.bs.carousel', function (e) {
-
             clearTimeout( imageTimer );
+            imageTimer = setTimeout( function( ){
+                $('#home_banner').carousel('next');
+            }, 6000 );
 
-            $(this).find('video')[0].pause();
-
-            var new_video = $(e.relatedTarget).find('video')[0];
-
-            if ( new_video ) {
-                new_video.play();
-            } else {
-
-                imageTimer = setTimeout( function( ){
-                    $('#home_banner').carousel('next');
-                }, 5000 );
-
-            }
         }).trigger('init');
-
     </script>
 @endsection

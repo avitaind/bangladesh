@@ -2,7 +2,11 @@
 
 return [
     // universal
-    'global_mu'                     => 'Mauritius',
+    'admiror'                      => 'AVITA ADMIROR',
+    'liber'                        => 'AVITA LIBER 13.3" & 14"',
+    'liber12'                      => 'AVITA LIBER 12.5"',
+    'pura'                         => 'AVITA PURA',
+    'global_bd'                     => 'Bangladesh',
     'accessories'                   =>'Accessories',
     'mouse'                         => 'UBIQUE MOUSE',
     'products'                      => 'Products',
