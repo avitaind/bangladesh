@@ -37,9 +37,9 @@
 
                             <span class="d-lg-block txt_white text-center">
                              <!--- <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;   --->
+" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
                             <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" class="txt_white">Offer ></a>
+                            <a href="#offer" class="txt_white">Offer ></a>--->
                             </span>
 
                         </div>
@@ -515,8 +515,9 @@
                             <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
                                       
                                    <!---    <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;    --->
+        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
                                     <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>
+                                    --->
                                 </span>
 
                             </div>
