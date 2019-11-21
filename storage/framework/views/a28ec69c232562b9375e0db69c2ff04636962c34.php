@@ -5,7 +5,7 @@
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
 
-      <!---  <?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>-->
+     <?php echo $__env->make('partials.admiror-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
          
         
           <section class="product-liber-banner">
@@ -32,12 +32,14 @@
                         <div align="center" class="col-lg-12" >
                         	<div class="admiror_h1">AVAILABLE NOW</div>
                         </div>
-
+<br/>
                             <span class="d-lg-block txt_white text-center">
+                                <span class="buy-now"><a href="http://127.0.0.1:8000/product/liber/where_to_buy">Buy Now</a></span>
+
                              <!--- <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;   --->
+" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
                             <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" class="txt_white">Offer ></a>
+                            <a href="#offer" class="txt_white">Offer ></a>--->
                             </span>
 
                         </div>
@@ -513,8 +515,9 @@
                             <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
                                       
                                    <!---    <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;    --->
+        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
                                     <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>
+                                    --->
                                 </span>
 
                             </div>

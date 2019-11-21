@@ -46,7 +46,8 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+        <!---
+        <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
@@ -61,6 +62,7 @@
                     </div>
                 </div>
             </div>
+            --->
          <!--   <div class="carousel-item ">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
@@ -97,7 +99,6 @@
             <li data-target="#home_banner" data-slide-to="0" class="active"></li>
           <li data-target="#home_banner" data-slide-to="1"></li>
             <li data-target="#home_banner" data-slide-to="2"></li>
-            <li data-target="#home_banner" data-slide-to="3"></li>
         </ol>
     </div>
 </section>

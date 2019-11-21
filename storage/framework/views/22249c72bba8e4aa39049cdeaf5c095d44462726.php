@@ -15,7 +15,7 @@
                 <?php else: ?>
 
 
-              <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'liber12')); ?>"><?php echo app('translator')->getFromJson('site.productnav_overview_12'); ?></a></li>
+                  <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'liber12')); ?>"><?php echo app('translator')->getFromJson('site.productnav_overview_12'); ?></a></li>
 
                     <?php if($HAVE_LIBER_U): ?>
                         <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'liber-new-generation')); ?>"><?php echo app('translator')->getFromJson('site.productnav_overview_u_series'); ?></a></li>   

@@ -8,7 +8,7 @@
 
     <main class="top-nav-padding">
 
-	@include('partials.product-navbar')
+	@include('partials.pura-navbar')
         
         <!-------------------Submenu------------ 
         <div class="nav-product-panel">

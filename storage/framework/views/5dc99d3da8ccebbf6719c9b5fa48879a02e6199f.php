@@ -5,9 +5,10 @@
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
     
-    <!---	<?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>--->
+    	<?php echo $__env->make('partials.pura-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-        <!-------------------Submenu-------------
+        <!-------------------Submenu------------->
+     <!--
         <div class="nav-product-panel">
             <div class="container">
                 <div class="product-nav-toggler h2 text-center my-1 hidden-sm-up">
@@ -32,7 +33,8 @@
                 </div>
             </div>
         </div>
-        <!--------------->
+
+        ---------->
 
 
         <section class="product-liber-banner">
@@ -58,15 +60,18 @@
                         <div align="center" class="col-lg-12" >
                         	<div class="h2 banner-header">AVAILABLE NOW</div>
                         </div>
-                            <!--
+<br/>
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
+                                   <span class="buy-now2"><a href="http://127.0.0.1:8000/product/liber/where_to_buy">Buy Now</a></span>
+                                     <!--
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
                             <a href="<?php echo e(route('product.map', 'pura')); ?>" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" style="color:#09F">Offer > </a> 
+                            <a href="#offer" style="color:#09F">Offer > </a>
+                                -->
                             </span>
                         </div>
-                            -->
+
                         <div class="space30"></div>
                     </div>
                 </div>

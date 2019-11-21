@@ -9,7 +9,7 @@
     <main class="top-nav-padding">
 
         
-        @include('partials.product-navbar')
+        @include('partials.admiror-navbar')
 
         <!-------------------Submenu----------
         <div class="nav-product-panel">

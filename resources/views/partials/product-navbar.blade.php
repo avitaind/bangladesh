@@ -15,7 +15,7 @@
                 @else
 
 
-              <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber12') }}">@lang('site.productnav_overview_12')</a></li>
+                  <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber12') }}">@lang('site.productnav_overview_12')</a></li>
 
                     @if ($HAVE_LIBER_U)
                         <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber-new-generation') }}">@lang('site.productnav_overview_u_series')</a></li>   
