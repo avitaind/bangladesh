@@ -46,9 +46,9 @@
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"  >
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-
+    <script src="<?php echo e(asset('/js/support.js')); ?>"></script>
 
     <script src="//use.typekit.net/wpk4iql.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -169,6 +169,8 @@
 
         </script>
 
+
+
         <noscript>
             <img height="1" width="1" src="https://www.facebook.com/tr?id=1203699043110569&ev=PageView&noscript=1"/>
         </noscript>
@@ -202,9 +204,10 @@
 
 
 
-
 <script type="text/javascript" src="<?php echo e(asset('js/vendor.js')); ?>"></script>
 <script type="text/javascript" src="<?php echo e(asset("js/demo.js")); ?>"></script>
+
+
 
 <!-- Facebook API -->
 <script>
@@ -244,8 +247,6 @@
 
 <?php echo $__env->yieldPushContent('js'); ?>
 <?php echo $__env->yieldContent('js'); ?>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ&callback=initMap">
-</script>
+
 </body>
 </html>

@@ -49,12 +49,16 @@
                                             <button class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">&nbsp;<i class="fa fa-search" aria-hidden="true"></i>&nbsp;</button>
 
                                         </div>
+
                                     </div>
 
                                 </div>
+
+
                             </form>
+
                               <br/>
-                      <!--  <img src="/images/contact.png" style="width:350px;">-->
+                            <div class="mb-2"><b>Email :</b> bd_support@avita.com </div>
 
                         </div>
                     </div>
@@ -90,7 +94,6 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
-
     <script>
         function initMap() {
 
@@ -119,12 +122,11 @@
 
         }
     </script>
-
-
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcUXTGsX48sxYZ_J91C_oWgvcv1oNFWEQ&callback=initMap">
-    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap">  </script>
     <script src="<?php echo e(asset('/js/support.js')); ?>"></script>
+
+
+
 
 
 

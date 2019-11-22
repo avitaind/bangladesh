@@ -20,7 +20,7 @@
 
                             <div class="mb-2">+8809638686868</div>
 
-                            <div class="mb-2"><b>Email :</b> mea_support@avita.com <br>
+                            <div class="mb-2"><b>Email :</b> bd_sale@avita.com <br>
                                 </div>
 
                             <div><b>@lang('site.contactus_operating') :</b><br>

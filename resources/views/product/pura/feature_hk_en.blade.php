@@ -34,7 +34,7 @@
                         <div align="center" class="col-lg-12" >
                         	<div class="h2 banner-header">AVAILABLE NOW</div>
                         </div>
-<br/>
+                    <br/>
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
                                    <span class="buy-now2"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>

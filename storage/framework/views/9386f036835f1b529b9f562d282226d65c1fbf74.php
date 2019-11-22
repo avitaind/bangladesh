@@ -44,8 +44,6 @@
 
 
 		<section class="map-panel">
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuzWLXeaK0D3boGIY5eVkVkmI3igKFpek&callback=initMap" async defer>
-	</script>
 			<div class="container py-5 ls-0">
 				<div class="row mx-2">
 
@@ -80,28 +78,28 @@
 
 								</div>
 							<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
 						</div>
 					</div>
 
 					<div class="col-12 col-lg-8 pull-lg-4 px-0">
 
 						<div class="map-wrap embed-responsive embed-responsive-1by1">
-							<!--
+
 							<div id="gmap-embed" class="embed-responsive-item">
 							</div>
-							-->
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.4710080277905!2d88.59928511499311!3d24.36491308429011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefaf3f950a61%3A0x35fd51fb98f7e9f!2sJamal%20Super%20Market!5e0!3m2!1sen!2sin!4v1574105123619!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 						</div>
 						
 					</div>
 
 				</div>
+
 			</div>
            
             
             <div class="container py-5 ls-0">
-                <div class="shopsList" style="display:none;">
+                <div class="shopsList">
         
                     <?php $__currentLoopData = $shops; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $shop): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
         
@@ -126,7 +124,9 @@
 
 		</section>
 
-		<section class="product-statement mt-4 mt-sm-0">
+
+
+	<section class="product-statement mt-4 mt-sm-0">
 			<div class="container">
 				<ul class="product-statement-list py-2 py-sm-5 mx-auto ls-0 pl-4 py-0">
 					<li>Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.</li>
@@ -310,7 +310,8 @@
 
 
   </script>
-
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap">  </script>
+	
 
 <?php $__env->stopSection(); ?>
 
