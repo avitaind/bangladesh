@@ -17,21 +17,6 @@ class HomeController extends Controller
         return view('home');
     }
 
-   /* public function notification($alertType = null){
-
-        switch ($alertType) {
-
-            case 'success':
-                Alert::success('Welcome', 'Demo success alert');
-                break;
-
-            default:
-                break;
-        }
-
-        return view('pages.global');
-    }
-   */
 
     public function getHome(){
         $country = 'bd';

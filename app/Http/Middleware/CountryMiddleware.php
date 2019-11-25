@@ -16,7 +16,7 @@ class CountryMiddleware
     public function handle($request, Closure $next)
     {
 
-        $country_code = 'mu';
+        $country_code = 'bd';
 
         $all_countries = enabled_countries();
 

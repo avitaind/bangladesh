@@ -38,7 +38,7 @@
 
     @yield('meta')
 
-    <title>AVITA | AVITA Bangladesh Official Website</title>
+    <title>@yield('title', 'AVITA') {{ $TITLE_SUFFIX or "" }}</title>
 
     <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>

@@ -16,7 +16,7 @@ class AppMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $country = 'mu';
+        $country = 'bd';
 
         /*if ( $country == 'us') {
             return redirect('https://avita-americas.com/');
@@ -133,37 +133,7 @@ class AppMiddleware
         $lang = app()->getLocale();
 
         switch ( $country ) {
-            case 'hk':
-
-                if ( $lang == 'en' ) {
-                    return '| AVITA Hong Kong Official Website';
-                } else {
-                    return '| AVITA 香港官方網站';
-                }
-
-            case 'sg':  return '| AVITA Singapore Official Website';
-			case 'mu':  return '| AVITA Mauritius Official Website';
-            case 'tw':  return '| AVITA 台灣官方網站';
-            case 'my':  return '| AVITA Malaysia Official Website';
-            case 'th':  return '| AVITA Thailand Official Website';
-            case 'cn':  return '| AVITA 中国官方网站';
-            case 'ph':  return '| AVITA Philippines Official Website';
-            case 'vn':
-                if ( $lang == 'en' ) {
-                    return '| AVITA Vietnam Official Website';
-                } else {
-                    return '| AVITA Vietnam Official Website';
-                }
-
-            case 'id':
-
-                if ( $lang == 'en') {
-                    return '| AVITA Indonesia Official Website';
-                } else {
-                    return '| Situs Resmi AVITA Indonesia';
-                }
-
-            case 'in':  return '| AVITA India Official Website';
+			case 'bd':  return '| AVITA Bangladesh Official Website';
             default:    return "";
         }
 
