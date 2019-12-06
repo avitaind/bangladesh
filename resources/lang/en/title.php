@@ -21,5 +21,6 @@ return [
     'repair_tnc'          => 'Repair Terms & Conditions',
     'tnc'                 => 'Terms of Use Notice and Privacy Policy',
     'MAGUS_home'          => 'AVITA MAGUS 12.2" 2-in-1 Laptop',
-
+    'Pura_home'          => 'AVITA PURA ',
+    'Admiror_home'          => 'AVITA ADMIROR ',
 ];

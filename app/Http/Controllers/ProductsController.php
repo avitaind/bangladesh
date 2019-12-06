@@ -108,9 +108,7 @@ class ProductsController extends Controller
         if ( $slug == 'pura' ){
             switch ( $country ) {
                 case 'bd':
-
                         return view('product.pura.spec_hk_en', compact( 'product'));
-
 
             }
         }

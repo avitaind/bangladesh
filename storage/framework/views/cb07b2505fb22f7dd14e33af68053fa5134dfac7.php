@@ -38,7 +38,7 @@
 
     <?php echo $__env->yieldContent('meta'); ?>
 
-    <title>AVITA | AVITA Bangladesh Official Website</title>
+    <title><?php echo $__env->yieldContent('title', 'AVITA'); ?> <?php echo e(isset($TITLE_SUFFIX) ? $TITLE_SUFFIX : ""); ?></title>
 
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>"/>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/font-awesome.min.css')); ?>"/>
