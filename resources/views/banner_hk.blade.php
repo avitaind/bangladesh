@@ -19,7 +19,7 @@
             </div>
             <div class="carousel-item">
             <div class="responsive-block">
-                  <a href="{{ route('product.overview', ['admiror']) }}">
+                  <a href="{{ route('product.overview', ['pura']) }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -36,7 +36,7 @@
             </div>
             <div class="carousel-item">
                 <div class="responsive-block">
-                    <a href="{{ route('product.overview', ['pura']) }}">
+                    <a href="{{ route('product.overview', ['admiror']) }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
