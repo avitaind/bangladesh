@@ -17,12 +17,9 @@
                     </div>
                 </div>
             </div>
-            
             <div class="carousel-item">
-            <a href="{{ route('product.overview', ['admiror']) }}">
-
             <div class="responsive-block">
-
+                  <a href="{{ route('product.overview', ['admiror']) }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -34,13 +31,12 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/pura (mobile)-01.jpg')"></div>
                     </div>
+                    </a>
                 </div>
-                </a>
             </div>
             <div class="carousel-item">
-                             <a href="{{ route('product.overview', ['pura']) }}">
-
                 <div class="responsive-block">
+                    <a href="{{ route('product.overview', ['pura']) }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
@@ -52,8 +48,8 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/admiror (mobile)-01.jpg')"></div>
                     </div>
+                    </a>
                 </div>
-                </a>
             </div>
         <!---
         <div class="carousel-item">
