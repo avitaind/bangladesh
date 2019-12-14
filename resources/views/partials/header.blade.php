@@ -32,7 +32,7 @@
                                         </li>
                                         --->
                                         <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber']) }}">@lang('site.liber')</a>
+                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-u-series']) }}">@lang('site.liber')</a>
                                             </li>
 
                                     <li class="nav-item">
