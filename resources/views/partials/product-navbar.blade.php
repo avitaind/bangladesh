@@ -8,9 +8,9 @@
             <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
 
 
-                @if(!$HAVE_LIBER_12)
+                @if($HAVE_LIBER_12)
 
-            <!---    <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber') }}">@lang('site.productnav_overview')</a></li> --->
+            <!---    <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber-u-series') }}">@lang('site.productnav_overview')</a></li> --->
 
                 @else
 
