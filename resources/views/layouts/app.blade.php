@@ -60,15 +60,15 @@
     @endphp
 
     @if( $ga_code )
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ $ga_code }}"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+  gtag('config', 'UA-154623067-1');
+</script>
 
-            gtag('config', '{{ $ga_code }}');
-        </script>
 
     @endif
 
