@@ -71,10 +71,8 @@ function metaKeywordByCountryAndLanguage( $country, $language ) {
     $keyword = "AVITA LIBER 12.5\", Core i5 Intel CPU, Windows Hello, fingerprint, USB 3.0 ports, USB Type-C, USB-C";
 
     switch ( $country ) {
-        case 'hk':
-            if ( $language == 'tc') {
-                $keyword = "AVITA LIBER 12.5\", Core i5 Intel CPU, Windows Hello, 指紋辨識, USB 3.0連接埠, USB Type-C, USB-C";
-            } else {
+        case 'bd':
+		    {
                 $keyword = "AVITA LIBER 12.5\", Core i5 Intel CPU, Windows Hello, fingerprint, USB 3.0 ports, USB Type-C, USB-C";
             }
             break;
@@ -90,10 +88,8 @@ function metaDescriptionByCountryAndLanguage( $country, $language ) {
     $description = "LIBER is a new journey of self-discovery through art and humanity in technology.  Where the form of a laptop remains, it on top features chic and interchangeable form factors to reveal your true colors.";
 
     switch ( $country ) {
-        case 'hk':
-            if ( $language == 'tc') {
-                $description = "LIBER是一趟發掘自我的全新旅程，是藝術、人文與科技的結合體。科技產品不一定只有一種個性，而應該更具靈性。LIBER不止是一台筆記型電腦。加入我們，認識更精彩的自己。";
-            } else {
+        case 'bd':
+           {
                 $description = "LIBER is a new journey of self-discovery through art and humanity in technology.  Where the form of a laptop remains, it on top features chic and interchangeable form factors to reveal your true colors.";
             }
             break;
