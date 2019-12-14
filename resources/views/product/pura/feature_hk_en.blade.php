@@ -9,7 +9,7 @@
     
     	@include('partials.pura-navbar')
 
-        <!-------------------Submenu------------->
+        <!--- Submenu ------>
 
         <section class="product-liber-banner">
             <div class="responsive-block">
@@ -32,13 +32,13 @@
                         <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
-                        	<div class="h2 banner-header">AVAILABLE NOW</div>
+                        	<div class="h2 banner-header">COMING SOON</div>
                         </div>
                     <br/>
                         <div class="banner-para text-center">
-                            <span class="d-lg-block">
+                         <!--     <span class="d-lg-block">
                                    <span class="buy-now2"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
-                                     <!--
+                                   
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
                             <a href="{{ route('product.map', 'pura') }}" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
                             <a href="#offer" style="color:#09F">Offer > </a>
