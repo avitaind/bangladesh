@@ -32,13 +32,13 @@
                         <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
-                        	<div class="admiror_h1">AVAILABLE NOW</div>
+                        	<div class="admiror_h1">COMING SOON</div>
                         </div>
 <br/>
-                            <span class="d-lg-block txt_white text-center">
+                         <!---   <span class="d-lg-block txt_white text-center">
                                 <span class="buy-now"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
 
-                             <!--- <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
+                            <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
 " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
                             <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
                             <a href="#offer" class="txt_white">Offer ></a>--->
