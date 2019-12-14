@@ -48,6 +48,17 @@ class ProductsController extends Controller
 
             }
         }
+        
+        if ( $slug == 'liber-u-series' ){
+
+            switch ( $country ) {
+                case 'bd':
+                        return view('product.liber-u-series.feature_hk_en', compact( 'product'));
+                         break;
+
+            }
+        }
+
 
         if ( $slug == 'magus12-2in1-laptop' ) {
             if ( $country == 'sg' ) {
