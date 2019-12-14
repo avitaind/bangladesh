@@ -19,7 +19,8 @@
         </div>
     </section>
 
-    <section class="other-event py-5">
+  <!--
+  <section class="other-event py-5">
         <div class="container">
             <div class="d-flex flex-wrap mb-3">
                 <h4 class="section-title font-weight-bold align-self-end ls-3 mb-0">@lang('site.news_other_event')</h4>
@@ -46,7 +47,7 @@
 
         </div>
     </section>
-
+--->
     <div class="gotop-wrap">
         <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
     </div>
