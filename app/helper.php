@@ -28,6 +28,15 @@ function supported_language( $country ) {
 
 }
 
+function youtubeLinkForCountry( $country ) {
+
+    switch ( $country ) {
+
+        case 'bd': return 'https://www.youtube.com/channel/UCJBDDclYWXT4WLRw8CnnP4Q';
+        default:    return "";
+    }
+}
+
 function facebookLinkForCountry( $country ) {
 
     switch ( $country ) {
@@ -37,7 +46,7 @@ function facebookLinkForCountry( $country ) {
     }
 }
 
-function instagramLinkForCountry( $country ) {
+/*function instagramLinkForCountry( $country ) {
 
     switch ( $country ) {
 
@@ -54,6 +63,7 @@ function twitterLinkForCountry( $country ) {
         default:    return "";
     }
 }
+*/
 
 function metaKeywordByCountryAndLanguage( $country, $language ) {
 
