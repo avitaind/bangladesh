@@ -225,7 +225,8 @@
         	</div>
         </section>
 
-        <section>
+     <!---
+     <section>
             <div class="container">
                 <div class="py-5">
                     <h5 class="font-weight-bold my-2">{{ __('site.imago_retail_store') }}</h5>
@@ -244,6 +245,7 @@
                 </div>
             </div>
         </section>
+	--->
 
         <div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
