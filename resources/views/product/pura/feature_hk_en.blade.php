@@ -55,7 +55,7 @@
         	<div class="banner-block">
                 <div class="container"> 
                  <div class="space30"></div> 
-			    <iframe id="ytplayer" type="text/html" width="1110" height="630" src="/videos/AVITA_PURA.mp4?controls=1&rel=0&showinfo=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe> 
+			    <iframe id="ytplayer" type="text/html" width="1110" height="630" src="https://avita-bangladesh.com/videos/AVITA_PURA.mp4?controls=1&rel=0&showinfo=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe> 
 	            </div>
             </div>
             <div class="space60"></div>
