@@ -56,7 +56,7 @@
                  <div class="space60"></div> 
 			    <!--<iframe id="ytplayer" type="text/html" width="1110" height="630" src="/videos/AVITA_ADMIROR_HK.mp4?controls=1&rel=0&showinfo=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
                  	<video width="1110" height="625" controls  autoplay loop muted> 
-                    	<source src="https://avita.com/videos/AVITA_ADMIROR_HK.mp4" type="video/mp4">
+                    	<source src="https://avita.com/videos/AVITA_ADMIROR_Banner.mp4" type="video/mp4">
                     </video> 
 	            </div>
             </div>
