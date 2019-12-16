@@ -24,7 +24,7 @@
                                 </div>
 
                             <div><b>@lang('site.contactus_operating') :</b><br>
-                                Saturday to Thursday : From 8:00 am - 8:00 pm</div>
+                                Saturday to Thursday : 8:00 am - 8:00 pm</div>
 
 
                             <div class="mb-2"><b>Address :</b><br>
