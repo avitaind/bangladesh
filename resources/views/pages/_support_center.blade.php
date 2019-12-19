@@ -21,10 +21,10 @@
                 {{--<div class="col-12 col-sm-8 col-md-8 col-lg-9">{{ $center->fax }}</div>--}}
             {{--</div>--}}
 
-            <div class="row my-2 my-sm-1 ls-0">
+          {{--- <div class="row my-2 my-sm-1 ls-0"> ---}}
                 <div class="col-12 col-sm-4 col-md-4 col-lg-3">@lang('site.form_mail')</div>
                 <div class="col-12 col-sm-8 col-md-8 col-lg-9"><a href="mailto:{{ $center->email }}">{{ $center->email }}</a></div>
-            </div>
+          {{---  </div> ---}}
         </div>
  <div class="col-12 col-md-5">
         <div class="map-wrap embed-responsive embed-responsive-16by9">
