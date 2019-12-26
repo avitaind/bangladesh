@@ -23,4 +23,7 @@ return [
     'MAGUS_home'          => 'AVITA MAGUS 12.2" 2-in-1 Laptop',
     'Pura_home'          => 'AVITA PURA ',
     'Admiror_home'          => 'AVITA ADMIROR ',
+    'Pura_home'          => 'AVITA PURA ',
+     'Admiror_spec'          =>'AVITA ADMIROR',
+     'Pura_spec'          =>'AVITA PURA',
 ];
