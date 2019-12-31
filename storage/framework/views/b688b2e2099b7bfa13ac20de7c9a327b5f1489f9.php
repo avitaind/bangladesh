@@ -26,11 +26,13 @@
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>"><?php echo app('translator')->getFromJson('site.admiror'); ?></a>
                                         </li>
+                                        <!--
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber12'])); ?>"><?php echo app('translator')->getFromJson('site.liber12'); ?></a>
                                         </li>
+                                        --->
                                         <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber'])); ?>"><?php echo app('translator')->getFromJson('site.liber'); ?></a>
+                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-u-series'])); ?>"><?php echo app('translator')->getFromJson('site.liber'); ?></a>
                                             </li>
 
                                     <li class="nav-item">

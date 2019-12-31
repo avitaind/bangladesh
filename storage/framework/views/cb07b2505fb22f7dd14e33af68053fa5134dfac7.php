@@ -60,15 +60,15 @@
      ?>
 
     <?php if( $ga_code ): ?>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo e($ga_code); ?>"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+  gtag('config', 'UA-154623067-1');
+</script>
 
-            gtag('config', '<?php echo e($ga_code); ?>');
-        </script>
 
     <?php endif; ?>
 
@@ -205,7 +205,7 @@
 
 
 <script type="text/javascript" src="<?php echo e(asset('js/vendor.js')); ?>"></script>
-<script type="text/javascript" src="<?php echo e(asset("js/demo.js")); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('js/demo.js')); ?>"></script>
 
 
 

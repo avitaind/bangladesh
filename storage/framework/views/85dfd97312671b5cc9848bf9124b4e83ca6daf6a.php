@@ -1,19 +1,21 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
+           <div class="carousel-item active">
                 <div class="responsive-block">
+                    <a href="<?php echo e(route('product.overview', ['admiror'])); ?>">
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
+                                 style="background-image: url('/images/banner/admiror-banner-home-web.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-en.jpg')"></div>
+                                 style="background-image: url('/images/banner/admiror-banner-home-web.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/banner3_mob.jpg')"></div>
+                             style="background-image: url('/images/banner/admiror-banner-home-mob.jpg')"></div>
                     </div>
+                    </a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -21,31 +23,34 @@
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-01.jpg')"></div>
+                                 style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-01.jpg')"></div>
+                                 style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/pura (mobile)-01.jpg')"></div>
+                             style="background-image: url('/images/banner/lifestyle_banner_mob1.jpg')"></div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="responsive-block">
+            <div class="responsive-block">
+                  <a href="<?php echo e(route('product.overview', ['pura'])); ?>">
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-01.jpg')"></div>
+                                 style="background-image: url('/images/banner/pura-banner-home-web.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-01.jpg')"></div>
+                                 style="background-image: url('/images/banner/pura-banner-home-web.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/admiror (mobile)-01.jpg')"></div>
+                             style="background-image: url('/images/banner/pura-banner-home-mob.jpg')"></div>
                     </div>
+                    </a>
                 </div>
             </div>
+         
         <!---
         <div class="carousel-item">
                 <div class="responsive-block">

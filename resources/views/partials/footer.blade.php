@@ -6,13 +6,10 @@
                 <span class="d-inline-block navbar-brand hidden-sm-down">
                     <img src="/images/logo.png"/>
                 </span>
-
-
                 @php
                     $sns_icons = [ 'facebook' => facebookLinkForCountry($country),
                       'youtube' => youtubeLinkForCountry($country) ];
-                @endphp
-
+               @endphp
               @foreach( $sns_icons as $sns_name => $sns_url )
 
                     @if( $sns_url )

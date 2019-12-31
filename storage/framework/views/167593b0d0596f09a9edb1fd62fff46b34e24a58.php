@@ -6,14 +6,10 @@
                 <span class="d-inline-block navbar-brand hidden-sm-down">
                     <img src="/images/logo.png"/>
                 </span>
-
-
                 <?php 
                     $sns_icons = [ 'facebook' => facebookLinkForCountry($country),
-                      'twitter' => twitterLinkForCountry($country),
-                      'instagram' => instagramLinkForCountry($country) ];
-                 ?>
-
+                      'youtube' => youtubeLinkForCountry($country) ];
+                ?>
               <?php $__currentLoopData = $sns_icons; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $sns_name => $sns_url): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
                     <?php if( $sns_url ): ?>
