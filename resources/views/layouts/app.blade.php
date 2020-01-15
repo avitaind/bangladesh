@@ -178,13 +178,15 @@
 </script>
 --->
 <!-- Google Code for Remarketing Tag -->
-<script type="text/javascript">
+<!--
+    <script type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 830592061;
     var google_custom_params = window.google_tag_params;
     var google_remarketing_only = true;
     /* ]]> */
 </script>
+-->
 <script type="text/javascript" src="{{ asset('js/conversion.js') }}"></script>
 
 <!-- 
