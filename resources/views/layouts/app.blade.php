@@ -46,7 +46,7 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}"/>
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>-->
    <!--- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script> -->
     
     <script>try{Typekit.load();}catch(e){}</script>
@@ -58,7 +58,11 @@
     @endphp
 
     @if( $ga_code )
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
+<!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
+    --->
+    <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -76,12 +80,16 @@
     <!-- End Google Tag Manager -->
 
     <!-- Google Tag Manager (noscript) -->
+<!--
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLGC2FG"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+-->
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Global site tag (gtag.js) - Google Ads: 878181922 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
+  <!--
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -89,7 +97,7 @@
 
         gtag('config', 'AW-878181922');
     </script>
-
+-->
     <!-- Facebook Pixel -->
   <!--  <script>
         !function(f,b,e,v,n,t,s)
