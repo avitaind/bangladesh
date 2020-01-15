@@ -48,9 +48,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"> -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>
    <!--- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script> -->
-    <script src="{{asset('/js/support.js')}}"></script>
-
-    <script src="{{asset('/js/wpk4iql.js')}}"></script>
+    
     <script>try{Typekit.load();}catch(e){}</script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -143,7 +141,8 @@
 
 <script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
-
+<script src="{{asset('/js/support.js')}}"></script>
+<script src="{{asset('/js/wpk4iql.js')}}"></script>
 
 
 <!-- Facebook API -->
