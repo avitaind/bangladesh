@@ -127,7 +127,15 @@
     @stack('css')
     @yield('css')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script async src="{{asset('/js/support.js')}}"></script>
+<script async src="{{asset('/js/wpk4iql.js')}}"></script>
+    <script type="text/javascript">
+window.addEventListener('load', 
+  function() { 
+    $('.preloader').fadeOut('slow');
+  },false);
 
+</script>
 </head>
 <body class="lang_{{$lang}} country_{{ $country }}">
 
@@ -153,9 +161,6 @@
 
 <script async type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
 <script async type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
-<script async src="{{asset('/js/support.js')}}"></script>
-<script async src="{{asset('/js/wpk4iql.js')}}"></script>
-
 
 <!-- Facebook API -->
 <!--

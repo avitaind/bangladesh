@@ -15,6 +15,8 @@
     <?php endif; ?>
 
     <section class="promo-banner mt-1">
+    <div id="preloaders" class="preloader"></div>
+
         <div class="row no-gutters">
             <div class="col-12 col-sm-6 col-xl-3">
                 <div class="banner-block s-banner">
