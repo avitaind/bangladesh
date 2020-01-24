@@ -7,13 +7,13 @@
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-banner-home-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/admiror-web-banner.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-banner-home-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/admiror-web-banner.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/admiror-banner-home-mob.jpg')"></div>
+                             style="background-image: url('/images/banner/admiror-mob-banner.jpg')"></div>
                     </div>
                     </a>
                 </div>
@@ -39,13 +39,13 @@
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-banner-home-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/pura-web-banner.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-banner-home-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/pura-web-banner.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/pura-banner-home-mob.jpg')"></div>
+                             style="background-image: url('/images/banner/pura-mob-banner.jpg')"></div>
                     </div>
                     </a>
                 </div>
