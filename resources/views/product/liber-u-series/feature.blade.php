@@ -193,6 +193,8 @@
                                     <span class="d-lg-block">some entertainment before sleep, </span>
                                     <span class="d-lg-block">LIBER can stay cordless for up to 10 hours*</span>
                                     <span class="d-lg-block">to handle all of your daytime activities.</span>
+                                    <span class="d-lg-block"><small>* Up to 8 hours on MobileMark 2014
+                                            (Up to 10 hours in the condition of Wi-Fi, Bluetooth, audio are off, brightness as 20, and Power in Battery saver mode)</small></span>
                                     
 
                                 </div>
