@@ -20,6 +20,8 @@ return [
 					<li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
                     <li>Battery life will vary depending on various factors including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage.</li>
+                    <li>*Under Test Conditions</li>
+
 ',
     'name'               			=> 'MAGUS 12.2" 2-in-1 Laptop',
     'os'               				=> 'Operating System',
