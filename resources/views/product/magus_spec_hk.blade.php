@@ -117,7 +117,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.life')</div>
-                                <div>Up to 8 hours</div>
+                                <div>Up to 8 hours*</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.color')</div>
@@ -141,6 +141,7 @@
                 <ul class="product-statement-list border-top py-2 py-sm-5 mx-auto ls-0 pl-4 py-0">
 				@lang('magus.terms')
                 </ul>
+                <span><small style="float:right;">*Under Test Conditions</small></span><br/>
             </div>
         </section>
 

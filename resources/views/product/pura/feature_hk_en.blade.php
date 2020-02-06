@@ -182,7 +182,7 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.344
                         </div>
                 <div class="space60 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-No more agonising wait for the laptop to power up! The AVITA PURA is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 10 hours, the AVITA PURA is the perfect companion to have your work and life seamlessly combined.<br />
+No more agonising wait for the laptop to power up! The AVITA PURA is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 10 hours*, the AVITA PURA is the perfect companion to have your work and life seamlessly combined.<br />
 <br />
 The AVITA PURA is pre-installed with the Windows 10 Home Edition operating system (in S mode), along with the 8th-generation Intel® Core™ i3-8145U or i5-8265U processor, up to 8GB RAM, 512GB SSD hard disk and various ports to meet your everyday needs.</span>                        </div>
                     </div>
@@ -339,6 +339,7 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                     <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
                 </ul>
+                <span><small style="float:right;">*Under Test Conditions</small></span><br/>
             </div>
         </section>
 

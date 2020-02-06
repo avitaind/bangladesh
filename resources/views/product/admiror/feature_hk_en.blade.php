@@ -451,7 +451,7 @@
                         <div align="left" class="col-12 col-md-5">
                             <div class="admiror_h2">Productivity maximized by Extended battery</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">Battery life lasts up to 10 hours. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.</span>    
+                                <span class="d-lg-block txt_white">Battery life lasts up to 10 hours*. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.</span>    
                             </div> 
                     		<div class="space30"></div>
                             <div class="admiror-battery-wrap txt_white">
@@ -541,6 +541,7 @@
                     <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
                 </ul>
+                <span><small style="float:right;">*Under Test Conditions</small></span><br/>
             </div>
         </section>
 
