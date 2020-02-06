@@ -1,14 +1,12 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.LIBER_spec'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.LIBER_spec')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <main class="top-nav-padding">
 
-        @include('partials.product-navbar')
+        <?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <section>
 
@@ -16,7 +14,7 @@
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
                       <!--  <a class="col text-center nav-link active" data-toggle="tab" href="#spec-3" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(12.5-inch) @if( !$HAVE_LIBER_12) / @lang('site.coming_soon') @endif</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(12.5-inch) <?php if( !$HAVE_LIBER_12): ?> / <?php echo app('translator')->getFromJson('site.coming_soon'); ?> <?php endif; ?></div></div>
                             <img class="hidden-sm-down" src="/images/liber/12/pink.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
                                 <li style="background-color: #DE9299" class="active" data-image="/images/liber/12/pink.png"></li>
@@ -79,7 +77,7 @@
                 <div class="tab-pane active" id="spec-3" role="tabpanel">
                     <div class="container">
                         <div class="offset-md-1">
-                            <img style="width: 200px; margin: 2% 0px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                            <img style="width: 200px; margin: 2% 0px;" src="<?php echo e(asset('images/win10_logo.png')); ?>" alt="Windows 10 Home">
                         </div>
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
@@ -148,7 +146,7 @@
                 <div class="tab-pane" id="spec-1" role="tabpanel">
                     <div class="container">
                         <div class="offset-md-1">
-                            <img style="width: 200px; margin: 2% 0px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                            <img style="width: 200px; margin: 2% 0px;" src="<?php echo e(asset('images/win10_logo.png')); ?>" alt="Windows 10 Home">
                         </div>
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
@@ -216,7 +214,7 @@
                 <div class="tab-pane" id="spec-2" role="tabpanel">
                     <div class="container">
                         <div class="offset-md-1">
-                            <img style="width: 200px; margin: 2% 0px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                            <img style="width: 200px; margin: 2% 0px;" src="<?php echo e(asset('images/win10_logo.png')); ?>" alt="Windows 10 Home">
                         </div>
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
@@ -307,4 +305,6 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
