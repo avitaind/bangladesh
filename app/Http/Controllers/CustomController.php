@@ -27,7 +27,7 @@ class CustomController extends Controller
             'position'=>'required'
         ]);
      
-      /*  Campus::create($request->all());
+        Campus::create($request->all());
 
         \Mail::send('emails.campus',
             array(
@@ -48,20 +48,9 @@ class CustomController extends Controller
 	    return redirect()->back()->with('message', 'Thank you for your submission . You shall receive a confirmation mail shortly');
        
 
-}*/
-$campus = new Campus([
-    'name' => $request->get('name'),
-    'email' => $request->get('email'),
-    'phone' => $request->get('phone'),
-    'internship' => $request->get('internship'),
-    'college' => $request->get('college'),
-    'fest' => $request->get('fest'),
-    'position' => $request->get('position'),
-
-]);
-$campus->save();
-return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly!');
-
 }
+
+
+
 
 }
