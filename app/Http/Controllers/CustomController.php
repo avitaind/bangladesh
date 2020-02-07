@@ -11,12 +11,7 @@ use App\Campus;
 class CustomController extends Controller
 {
 
-    public function chirstmasOffer()
-    {
-        return view('chirstmas-offer');
-    }
-
-    public function campus(){
+    public function index(){
         return view('campus');
     }
 
