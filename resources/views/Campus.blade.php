@@ -55,7 +55,7 @@
        {{ session()->get('message') }}
      </div>
     @endif
-    <form action="{{ route('campus.store') }}" method="POST" role="form" enctype="multipart/form-data">
+    <form action="/" method="POST" role="form" enctype="multipart/form-data">
      <!--Student Name Start-->
     <div class="form-group row">
      <label for="name">Name* :</label>

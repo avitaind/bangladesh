@@ -50,7 +50,23 @@
                     </a>
                 </div>
             </div>
-         
+            <div class="carousel-item">
+                <div class="responsive-block">
+                <a href="/cap">
+                    <div class="banner-block responsive-item">
+                            <?php if( App::isLocale('en') ): ?>
+                                <div class="banner-bg hidden-sm-down"
+                                     style="background-image: url('/images/banner/campus_ambassador_web.png')"></div>
+                            <?php else: ?>
+                                <div class="banner-bg hidden-sm-down"
+                                     style="background-image: url('/images/banner/campus_ambassador_web.png')"></div>
+                            <?php endif; ?>
+                            <div class="banner-bg hidden-md-up"
+                                 style="background-image: url('/images/banner/campus_ambassador_mob.png')"></div>
+                       </div>
+                       </a>
+                  </div>
+            </div>
    
 
         </div>
@@ -58,6 +74,8 @@
           <li data-target="#home_banner" data-slide-to="0" class="active"></li>
           <li data-target="#home_banner" data-slide-to="1"></li>
           <li data-target="#home_banner" data-slide-to="2"></li>
+          <li data-target="#home_banner" data-slide-to="3"></li>
+
         </ol>
     </div>
 </section>
