@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@redirectToHome');
 
 //Route::get('/entry/{alertType?}', ['as'=>'entry','uses'=>'HomeController@notification']);
-//Route::get('/cap', 'CustomController@index');
+Route::get('/cap', 'CustomController@index');
 //Route::post('/', ['as'=>'campus.store','uses'=>'CustomController@campusSaveData']);
 
 Route::get('/lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
