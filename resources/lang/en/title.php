@@ -26,4 +26,5 @@ return [
     'Pura_home'          => 'AVITA PURA ',
      'Admiror_spec'          =>'AVITA ADMIROR',
      'Pura_spec'          =>'AVITA PURA',
+     'campus'          => 'AVITA | Campus Ambassador Program',
 ];

@@ -1,0 +1,92 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #662d91;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=email] {
+    width: 100%;
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: #662d91;
+    border: 2px solid #662d91;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width:600px) {
+    .column,  input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  .footer-container {
+    text-align: center;
+  }
+  
+  .img-container {
+    text-align: center;
+    display: block;
+  }
+  
+  .img-container h3 {
+    text-align: center;
+    color: #d42127;
+  }
+  
+  .img-container h2 {
+    text-align: center;
+    text-align: center;
+    padding-top: 3%;
+  }
+  
+  .img-laptop1 {
+    float: right;
+  }
+  
+  .img-laptop1 img {
+    width: 350px;
+  }
+  
+  #data {
+    padding-top: 5%!important;
+  }
+  
+  .col-md-2 {
+    padding-top: 5%!important;
+  }
+  
+  .col-md-8 h1 {
+    text-align: center;
+  }

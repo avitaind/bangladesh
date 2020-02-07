@@ -14,7 +14,8 @@
 Route::get('/', 'HomeController@redirectToHome');
 
 //Route::get('/entry/{alertType?}', ['as'=>'entry','uses'=>'HomeController@notification']);
-
+Route::get('/cap', 'CustomController@index');
+Route::post('/cap', ['as'=>'campus.store','uses'=>'CustomController@campusSaveData']);
 
 Route::get('/lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 Route::get('/country/{country}', ['as' => 'country.switch', 'uses' => 'CountryController@switchCountry']);

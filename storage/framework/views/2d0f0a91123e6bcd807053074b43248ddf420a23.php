@@ -31,7 +31,7 @@
                 <div class="banner-block s-banner">
                     <div class="banner-inner">
                         <div class="banner-wrap">
-                            <a class="banner-bg" href="<?php echo e(route('news')); ?>" style="background-image: url('/images/demo/<?php echo app('translator')->getFromJson('site.home_photo2_image'); ?>')"></a>
+                            <a class="banner-bg" href="/cap" style="background-image: url('/images/campus.jpg')"></a>
                         </div>
                     </div>
                 </div>

@@ -33,7 +33,7 @@
                 <div class="banner-block s-banner">
                     <div class="banner-inner">
                         <div class="banner-wrap">
-                            <a class="banner-bg" href="{{ route('news')  }}" style="background-image: url('/images/demo/@lang('site.home_photo2_image')')"></a>
+                            <a class="banner-bg" href="/cap" style="background-image: url('/images/campus.jpg')"></a>
                         </div>
                     </div>
                 </div>
