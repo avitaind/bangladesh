@@ -1,4 +1,11 @@
-<h2>Hello <?php echo e($name); ?>,</h2>
-<p>Thank you for registering yourself with AVITA campus ambassador program We will be in touch with you for further communication.</p>
-
-<p>Thank You</p>
+<!DOCTYPE html>
+    <html lang="en-US">
+    	<head>
+    		<meta charset="utf-8">
+    	</head>
+    	<body>
+    		<h2>Dear <?php echo e($name); ?>,</h2>
+    		<div><?php echo e($body); ?></div>
+            
+    	</body>
+    </html>
