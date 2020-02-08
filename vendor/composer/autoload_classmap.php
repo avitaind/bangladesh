@@ -162,6 +162,7 @@ return array(
     'CountrySeeder' => $baseDir . '/database/seeds/CountrySeeder.php',
     'CreateAdminTable' => $baseDir . '/database/migrations/2017_06_24_180504_create_admin_table.php',
     'CreateBouncerTables' => $baseDir . '/database/migrations/2017_06_24_170310_create_bouncer_tables.php',
+    'CreateCampusTable' => $baseDir . '/database/migrations/2020_02_08_210255_create_campus_table.php',
     'CreateCountriesTable' => $baseDir . '/database/migrations/2017_06_24_152223_create_countries_table.php',
     'CreateDeviceDatasTable' => $baseDir . '/database/migrations/2018_01_25_153823_create_device_datas_table.php',
     'CreateEmailSubscriptionsTable' => $baseDir . '/database/migrations/2017_05_31_060416_create_email_subscriptions_table.php',

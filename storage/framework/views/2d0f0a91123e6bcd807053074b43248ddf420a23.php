@@ -31,7 +31,7 @@
                 <div class="banner-block s-banner">
                     <div class="banner-inner">
                         <div class="banner-wrap">
-                            <a class="banner-bg" href="/cap" style="background-image: url('/images/campus.jpg')"></a>
+                            <a class="banner-bg" style="background-image: url('/images/campus.jpg')"></a>
                         </div>
                     </div>
                 </div>

@@ -54,7 +54,9 @@
 
      </div>
     <?php endif; ?>
-    <form action="<?php echo e(url('campus')); ?>" method="POST" role="form" enctype="multipart/form-data">
+    <form action="/cap" method="POST" role="form" enctype="multipart/form-data">
+    <?php echo e(csrf_field()); ?>
+
      <!--Student Name Start-->
     <div class="form-group row">
      <label for="name">Name* :</label>
@@ -77,10 +79,10 @@
     <div class="form-group row">
      <label for="internship">Will you be interested in pursuing a summer internship with AVITA India? :</label>
      <label class="radio-inline">
-      <input type="radio" name="internship" checked> YES
+      <input type="radio" name="internship" value="YES" checked> YES
     </label>
     <label class="radio-inline">
-      <input type="radio" name="internship"> NO
+      <input type="radio" name="internship" value="NO"> NO
     </label>
     </div>
    <!-- College Name End-->

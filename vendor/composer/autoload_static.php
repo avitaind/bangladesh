@@ -644,6 +644,7 @@ class ComposerStaticInit7e737dd1fbd8321ab7eb66a5f67846e0
         'CountrySeeder' => __DIR__ . '/../..' . '/database/seeds/CountrySeeder.php',
         'CreateAdminTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_24_180504_create_admin_table.php',
         'CreateBouncerTables' => __DIR__ . '/../..' . '/database/migrations/2017_06_24_170310_create_bouncer_tables.php',
+        'CreateCampusTable' => __DIR__ . '/../..' . '/database/migrations/2020_02_08_210255_create_campus_table.php',
         'CreateCountriesTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_24_152223_create_countries_table.php',
         'CreateDeviceDatasTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_25_153823_create_device_datas_table.php',
         'CreateEmailSubscriptionsTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_31_060416_create_email_subscriptions_table.php',
