@@ -34,16 +34,16 @@ class CampusController extends Controller
 
         $campus->save();
 
-        \Mail::send('emails.campus',
+      \Mail::send('emails.campus',
         array(
             'name' => $request->get('name'),
-
+         
         ), function ($message) use ($request)
         {
             $email = $request->input('email');
             $name = $request->input('name');
-
-            $message->from('contact@avita-bangladesh.com');
+     
+            $message->from('contact@avita-india.com');
             $message->to($email, $name)->subject('Campus Ambesdor Program');
         });
 
