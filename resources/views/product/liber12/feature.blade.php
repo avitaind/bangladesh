@@ -177,22 +177,19 @@
                             <div class="banner-info  mx-auto">
 
                                 <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Full Battery for All-day Menu</div></div>
-    							<div class="banner-para ls-0">
-    								<span class="d-lg-block">From the first news feed you get in the morning, </span>
-    								<span class="d-lg-block">through a hectic day of work to finally </span>
-    								<span class="d-lg-block">some entertainment before sleep, </span>
-    								<span class="d-lg-block">LIBER can stay cordless for up to 8 hours*</span>
-    								<span class="d-lg-block">to handle all of your daytime activities.</span>
-                                    <span class="d-lg-block"><small>* Up to 8 hours on MobileMark 2014
-                                            (Up to 10 hours in the condition of Wi-Fi, Bluetooth, audio are off, brightness as 20, and Power in Battery saver mode)</small></span>
-
+                                <div class="banner-para ls-0">
+                                <span class="d-lg-block">From the first news feed you get in the morning, </span>
+                                    <span class="d-lg-block">through a hectic day of work to finally some entertainment before sleep, LIBER can stay cordless for up to 8 hours* </span>
+                                    <span class="d-lg-block">to handle all of your daytime activities.</span>
+                                    <span class="d-lg-block"><small>*Up to 8 hours on MobileMark 2014 (Up to 10 hours in the condition of Wi-Fi, Bluetooth, audio are off, brightness as 20, and Power in Battery saver mode)</small></span>
+                                <br/>
                                 </div>
                             </div>
                             <!-- <img class="ac-computer-image ac-computer-1" src="/images/liber/liber12_feature/sc5_fimg1.jpg"> -->
                         </div>
                         <div class="col-12 col-lg-7">
                             <div class="battery-wrap d-flex align-items-center">
-                                <div class="badge-caption">Up to <span class="badge-value px-1">8</span> hrs<br>Battery life</div>
+                                <div class="badge-caption">Up to <span class="badge-value px-1">8</span> hrs*<br>Battery life</div>
     						</div>
     						<div class="banner-data d-flex flex-wrap justify-content-center ls-0">
     							<div class="data-card">
