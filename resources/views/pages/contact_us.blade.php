@@ -18,7 +18,7 @@
                         <div class="col-sm-6">
                             <h2 class="contact_us_title">Sales Enquiry :</h2>
 
-                            <div class="mb-2">+8809638686868</div>
+                            <div class="mb-2">+880-9638686868</div>
 
                             <div class="mb-2"><b>Email :</b> bd_sale@avita.com <br>
                                 </div>
