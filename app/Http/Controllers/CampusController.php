@@ -37,7 +37,8 @@ class CampusController extends Controller
       \Mail::send('emails.campus',
         array(
             'name' => $request->get('name'),
-         
+             'email'=>$request->get('email'),
+                
         ), function ($message) use ($request)
         {
             $email = $request->input('email');
