@@ -37,18 +37,17 @@ class CampusController extends Controller
       \Mail::send('emails.campus',
         array(
             'name' => $request->get('name'),
-             'email'=>$request->get('email'),
+            'email'=>$request->get('email'),
                 
         ), function ($message) use ($request)
         {
             $email = $request->input('email');
-            $name = $request->input('name');     
+            $name = $request->input('name');
+
             $message->from('contact@avita-bangladesh.com');
             $message->to($email, $name)->subject('Campus Ambassador Program');
         });
 
-
-      
         return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly!');
 
     }
