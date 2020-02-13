@@ -72,7 +72,7 @@
 
                 <?php if( $shop_count >= 0 ): ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo e(route('product.map', ['liber'])); ?>"><?php echo app('translator')->getFromJson('site.header_where_to_buy'); ?></a>
+                        <a class="nav-link" href="/where-to-buy"><?php echo app('translator')->getFromJson('site.header_where_to_buy'); ?></a>
                     </li>
                 <?php endif; ?>
 

@@ -109,8 +109,10 @@ if ( Request::segment(1) != 'admin') {
         Route::get('/product/{slug}', 'ProductsController@showProductFeatures')->name('product.overview');
         Route::get('/product/{slug}/spec', 'ProductsController@showProductSpec')->name('product.spec');
         Route::get('/product/{slug}/support', 'ProductsController@showProductSupport')->name('product.support');
-        Route::get('/product/{slug}/where_to_buy', 'ProductsController@whereToBuy')->name('product.map');
-
+      //  Route::get('/product/{slug}/where_to_buy', 'ProductsController@whereToBuy')->name('product.map');
+      Route::get('/where-to-buy', 'ProductsController@whereToBuy')->name('product.map');
+  
+      
     //});
 
 }

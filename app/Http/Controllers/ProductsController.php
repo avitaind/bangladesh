@@ -20,7 +20,7 @@ class ProductsController extends Controller
         if ( !$product ) {
             $product = Product::where('short_code', $slug)->first();
         }
-
+       
         return $product;
     }
 
@@ -165,7 +165,7 @@ class ProductsController extends Controller
         return view('product.support', compact('product', 'slug', 'json_data'));
     }
 
-    public function whereToBuy($slug){
+  /*  public function whereToBuy($slug){
         $country = 'bd';
         $product = Product::where('short_code', $slug)->first();
 
@@ -206,7 +206,35 @@ class ProductsController extends Controller
 
 
     }
+    */
 
+    public function whereToBuy(){
+        $country = 'bd';
+        $product = Product::select();
+      
+        if ( !$product ) {
+            abort(404);
+        }
+        if ( \App::isLocale('en') ) {
+            $query = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
+                $join->on('shops.id', '=', 'shop_translations.shop_id');
+                $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
+            })
+            ->orderBy('shop_translations.name', 'asc');
+
+        } else {
+            $query = Shop::select();
+        }
+        $query->where('country', $country);
+        $query->where('enabled', true);
+        $shops = $query->get();
+//        dd( $shops );
+    
+            return view('product.map', compact( 'product', 'shops'));
+    
+    }
+    
+    
     public function showDriverComponent(Request $request) {
 
         $product_number = $request->get('product_number');
