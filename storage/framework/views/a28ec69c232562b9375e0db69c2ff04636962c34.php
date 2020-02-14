@@ -1,13 +1,11 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.Admiror_home'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.Admiror_home')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
 
-     @include('partials.admiror-navbar')
+     <?php echo $__env->make('partials.admiror-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
          
         
           <section class="product-liber-banner">
@@ -36,11 +34,11 @@
                         </div>
 <br/>
                       <span class="d-lg-block txt_white text-center">
-                                <span class="buy-now"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
+                                <span class="buy-now"><a href="<?php echo e(route('product.map', ['liber'])); ?>">Buy Now</a></span>
 
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
 " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
-                            <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
+                            <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
                             <a href="#offer" class="txt_white">Offer ></a>--->
                             </span>
 
@@ -518,7 +516,7 @@
                                       
                                    <!---    <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
         " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
-                                    <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>
+                                    <a href="<?php echo e(route('product.map', 'admiror')); ?>" class="txt_white">Where to buy ></a>
                                     --->
                                 </span>
 
@@ -551,19 +549,21 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/> 
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/animate.css') }}"/> 
-@endsection
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/> 
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/animate.css')); ?>"/> 
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
-    <script type="text/javascript" src="{{ asset('js/pura.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/wow.min.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/pura.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/wow.min.js')); ?>"></script>
 
 	<script>
     	new WOW().init();
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
