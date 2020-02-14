@@ -60,7 +60,7 @@
 
                               <br/>
                             <div class="mb-2"><b>Email :</b> bd_support@avita.com </div>
-                            <div class="mb-2"><b>General Query :</b> +8809638686868 </div>
+                            <div class="mb-2"><b>General Query :</b> +880-9638686868 </div>
 
                         </div>
                     </div>
