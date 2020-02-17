@@ -47,7 +47,7 @@
                                  style="background-image: url('/images/banner/pura-web-banner.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/pura-mob-banner.jpg')"></div>
+                             style="background-image: url('/images/banner/pura-mob-banner.png')"></div>
                     </div>
                     </a>
                 </div>
