@@ -81,11 +81,11 @@
                 <div class="col-12 col-md-6 pb-3 py-md-0 text-md-right">
                     <div class="d-flex flex-wrap h-100 align-content-between">
                         <div class="col-12 info-lang w-100 px-0 hidden-sm-down">
-                            <a class="col-6 px-0" href="{{ route('country.picker') }}"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">BANGLADESH</span></a>
+                            <a class="col-6 px-0" href="https://avita.com/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="">BANGLADESH</span></a>
                         </div>
 
                       <div class="col-12 info-lang w-100 px-0 hidden-md-up pb-sm-2">
-                            <a class="col-6 px-0" href="{{ route('country.picker') }}"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="pr-2">BANGLADESH</span></a>
+                            <a class="col-6 px-0" href="https://avita.com/entry"><i class="fa fa-globe mr-2" aria-hidden="true"></i><span class="pr-2">BANGLADESH</span></a>
 
 
                         </div>
