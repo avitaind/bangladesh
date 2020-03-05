@@ -51,7 +51,7 @@
                 <div class="banner-block s-banner">
                     <div class="banner-inner">
                         <div class="banner-wrap">
-                            <a class="banner-bg" href="{{ route('support') }}" style="background-image: url('/images/demo/@lang('site.home_photo4_image')')"></a>
+                            <a class="banner-bg" href="https://avita.com/login" style="background-image: url('/images/demo/@lang('site.home_photo4_image')')"></a>
                         </div>
                     </div>
                 </div>
