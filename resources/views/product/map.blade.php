@@ -283,5 +283,5 @@
 
 	</script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCADQg9g-bNGJjFcX_t23-j9v9M3wuCv58&callback=initMap">  </script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCADQg9g-bNGJjFcX_t23-j9v9M3wuCv58&callback=initMap">  </script> --->
 @endsection
