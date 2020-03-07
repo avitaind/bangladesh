@@ -124,8 +124,7 @@
 
         }
     </script>
-  <!---  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-nJUpMSCzA84jIss1RPTkzZSS3Sz1thc&callback=initMap">  </script>
-    <script src="{{asset('/js/support.js')}}"></script>
---->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-nJUpMSCzA84jIss1RPTkzZSS3Sz1thc&callback=initMap">  </script>
+
 
 @endsection
