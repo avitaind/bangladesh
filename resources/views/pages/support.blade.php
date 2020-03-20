@@ -61,9 +61,9 @@
                               <br/>
                             <div class="mb-2"><b>Email:</b> bd_support@avita.com </div>
                             <div class="mb-2"><b>General Query:</b> +880-9638686868 </div>
-                             <div class="mb-2"><b>Operation Time:</b> Sat-Thu: 08:00 -22:00<br/> Close on Fri & Public Holiday </div>
-
-
+                            <div class="mb-2"><b>Operation Time:</b> Sat-Thu: 08:00 -22:00<br/> Close on Fri & Public Holiday </div>
+                            <div class="mb-2"><b>Hotline:</b> (+230) 637-4500 </div>
+                            <div class="mb-2"><b>Operation Time:</b> 09:30 to 16:30 (Mon to Fri), <br/>close on Sunday and Public Holidays </div>
                         </div>
                     </div>
                 </div>
