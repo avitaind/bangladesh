@@ -8,10 +8,10 @@
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-banner-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-banner-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/pura-banner-mob.jpg')"></div>
@@ -26,10 +26,10 @@
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-banner-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/ADMIROR-Web-Banner-Dextop.png')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-banner-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/ADMIROR-Web-Banner-Dextop.png')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/admiror-banner-mob.png')"></div>
