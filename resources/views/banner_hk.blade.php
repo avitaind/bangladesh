@@ -2,22 +2,23 @@
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
         
-         <div class="carousel-item active">
+                <div class="carousel-item active">
                 <div class="responsive-block">
+                    <a href="{{ route('product.overview', ['pura']) }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/ramadan_banner_web.png')"></div>
+                                 style="background-image: url('/images/banner/pura-banner-web.jpg')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/ramadan_banner_web.png')"></div>
+                                 style="background-image: url('/images/banner/pura-banner-web.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/ramadan_banner_mob.png')"></div>
+                             style="background-image: url('/images/banner/pura-banner-mob.jpg')"></div>
                     </div>
+                    </a>
                 </div>
             </div>
-        
         
            <div class="carousel-item">
                 <div class="responsive-block">
@@ -25,13 +26,13 @@
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-web-banner.jpg')"></div>
+                                 style="background-image: url('/images/banner/admiror-banner-web.jpg')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/admiror-web-banner.jpg')"></div>
+                                 style="background-image: url('/images/banner/admiror-banner-web.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/admiror-mob-banner.jpg')"></div>
+                             style="background-image: url('/images/banner/admiror-banner-mob.jpg')"></div>
                     </div>
                     </a>
                 </div>
@@ -53,23 +54,7 @@
                     </a>
                 </div>
             </div>
-            <div class="carousel-item">
-            <div class="responsive-block">
-                  <a href="{{ route('product.overview', ['pura']) }}">
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-web-banner.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura-web-banner.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/pura-mob-banner.png')"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
+           
             <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="/cap">
