@@ -32,7 +32,7 @@
                                  style="background-image: url('/images/banner/admiror-banner-web.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/admiror-banner-mob.jpg')"></div>
+                             style="background-image: url('/images/banner/admiror-banner-mob.png')"></div>
                     </div>
                     </a>
                 </div>
