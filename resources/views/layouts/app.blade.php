@@ -1,11 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 @php
-	$country = 'bd';
+    $country = 'bd';
     $xml_lang = ($lang == 'en') ? 'en' : 'zh-hk';
-
     $keyword = metaKeywordByCountryAndLanguage( $country, $lang);
-
     $description = metaDescriptionByCountryAndLanguage( $country, $lang );
 
 
@@ -138,15 +136,22 @@ window.addEventListener('load',
 </script>
 </head>
 <body class="lang_{{$lang}} country_{{ $country }}">
-
+@if( View::exists('partials.header_'.$country) )
+    @include('partials.header_'.$country)
+@else
     @include('partials.header')
+@endif
 
 <!-- Content -->
 @yield('content')
 <!-- ./Content -->
 
+   
+@if( View::exists('partials.footer_'.$country) )
+    @include('partials.footer_'.$country)
+@else
     @include('partials.footer')
-
+@endif
 
 
 <script async type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
