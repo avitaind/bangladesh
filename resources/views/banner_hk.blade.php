@@ -21,7 +21,7 @@
             </div>
             
             
-                <div class="carousel-item active">
+                <div class="carousel-item">
                 <div class="responsive-block">
                     <a href="{{ route('product.overview', ['pura']) }}">
                     <div class="banner-block responsive-item">
