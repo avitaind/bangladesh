@@ -91,7 +91,7 @@
 .banner-image {
 	position: absolute;
 	top: 0;
-	left: 60%;
+	left: 50%;
 	right: 0;
 	bottom: 0;
 	width: 1140px;
@@ -291,6 +291,13 @@ margin-top: 0;
 	left: 1172px;
 }
 
+.product-liber-computer .bc-computer-7 {
+    width: 280px;
+    top: 701px;
+    right: 0px;
+}
+ 
+
 .product-liber-size .banner-block {
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -333,9 +340,17 @@ top: 335px;
     right: 1200px;
 }
 .product-liber-size .bc-computer-6 {
-top: 635px;
+	top: 635px;
     left: 911px;
 }
+
+.product-liber-size .new-bc-computer-6 {
+    top: 750px;
+    left: 850px;
+    width: 280px;
+    z-index: 2;
+}
+
 .product-liber-size .bc-computer-7 {
 	    top: 893px;
     right: 1052px;
@@ -675,13 +690,327 @@ body.lang_id .product-liber-power .battery-wrap .badge-caption {
 }
 .product-liber-wifi .bc-computer-2 {
 	top: 127px;
-	right: -96px;
+	right: -250px;
 	z-index: 1;
 }
 
 .product-statement .product-statement-list {
 	/*max-width: 800px;*/
 }
+
+.new-liber-size .data-card-1{
+	margin-top: 400px;
+    margin-bottom: 50px;		
+}
+
+.new-liber-size .data-card-2{
+	margin-bottom: 100px;	
+}
+
+.new-liber-size .banner-data{
+	padding-left:120px !important;
+}
+
+.new-liber-size .data-card,
+.new-liber-size .badge-value{
+    color: #fba3ab;
+    font-size: 4rem;
+}
+
+.new-liber-size .badge-caption{
+    font-size: 1.1rem;
+}
+
+section.product-liber-v-computer{
+    background-image: url(../images/liber-v/product-liber-v-computer-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+section.product-liber-v-computer .banner-image{
+    position: relative;
+    margin: 100px auto 0px;
+    left: 0;
+    width: auto;
+}
+
+section.product-liber-v-computer .banner-info{
+    max-width: 450px;
+    margin-left: 0; 
+}
+
+section.product-liber-v-computer .banner-info .banner-header{	
+    font-size: 2.4rem;
+}
+
+
+section.product-liber-v-computer .banner-info .banner-para{
+	font-size:1.3rem;
+}
+
+
+section.product-liber-v-computer .banner-image img{
+    width: 700px;
+    top: -600px;
+    right: -100px;
+}
+ 
+ 
+section.product-liber-v-view{
+    background-image: url(../images/liber-v/product-liber-v-view-bg.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+	overflow:hidden;
+}
+
+section.product-liber-v-view .banner-info{	
+    padding-top: 100px;
+    padding-bottom: 250px;
+    height: auto;
+	float:right;	
+}
+  
+section.product-liber-v-view .bc-view-1 {
+    top: 50px;
+    left: -300px;
+    width: 500px;
+}
+section.product-liber-v-view .bc-view-2 {
+    top: 200px;
+    right: -300px;
+    z-index: 1;
+    width: 600px;
+}
+
+
+section.product-liber-v-view .banner-bg{
+	background-color:#f0f0f0;
+} 
+
+section.product-liber-v-mon{
+    background-image: url(/images/liber-v/AVITA_liber_v_mon.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+}
+
+section.product-liber-v-mon .banner-block{
+	padding:280px 0px;
+}
+ 
+section.product-liber-v-mon .banner-info{ 	
+    margin-left: 55%;
+	padding-bottom:0px;
+    width: 500px;
+}
+
+section.product-liber-v-mon .bc-computer-1{
+    top: 0px;
+    left: -200px;
+}
+ 
+.product-liber-v-mon .banner-para{
+    color: #704594;
+    font-size: 1.3rem;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+  
+section.product-liber-v-color{
+    background-image: url(../images/liber-v/AVITA_liber_v_color.jpg);
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+section.product-liber-v-color .banner-block{ 
+    padding: 200px 0px 300px;	
+}
+
+section.product-liber-v-color .banner-info{
+	padding-bottom:0px;
+    margin: auto;
+}
+
+section.product-liber-v-color .bc-computer-1{ 
+    width: 100%;
+    bottom: 50px;
+    top: unset;
+    left: unset;
+}
+
+section.product-liber-v-color .banner-image{ 
+	margin-top:100px;
+}
+
+
+section.product-liber-v-screen .banner-image{ 
+    left: 0;
+    margin: auto;
+    text-align: left;
+}
+
+section.product-liber-v-screen .banner-info{
+    margin-left: 50%;
+}
+
+
+
+section.product-liber-v-screen .bc-computer-1{ 
+    top: 200px;
+    width: 650px;
+    left: -100px;
+} 
+
+section.product-liber-v-screen .bc-computer-2{ 
+    top: auto;
+    right: 150px;
+    width: 80px;
+    left: unset;
+    margin-top: 30px;
+}
+
+section.product-liber-v-performance .bc-computer-1{
+	top: 150px;
+    left: 600px;
+    width: 750px;
+} 
+
+
+section.product-liber-v-io .banner-block{	
+    padding: 150px 0px;
+}
+
+section.product-liber-v-io .banner-image{
+    position: relative;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+	text-align:center;
+}
+
+section.product-liber-v-io .bc-computer-1{
+	top:auto;
+	left:auto;
+    position: relative;
+}
+
+
+/** fade img **/
+
+.product-liber-v-computer .banner-image .fade-img{
+    width: 350px;
+    position: absolute;
+    margin-top: -500px;
+    left: -150px; 
+}
+ 
+ 
+.product-liber-v-banner .banner-image .fade-img{ 
+	
+    width: 350px;
+    position: absolute;
+    margin-top: 250px;
+    right: -120px;
+	
+}
+
+.product-liber-v-view .banner-image .fade-img-1{
+	width: 600px;
+    position: absolute;
+    margin-top: 50px;
+    left: -130px;
+}
+
+.product-liber-v-view .banner-image .fade-img-2{
+    width: 750px;
+    position: absolute;
+    margin-top: 300px;
+    left: -200px;
+}
+ 
+.product-liber-v-color .banner-image .fade-img{
+    width: 500px;
+    position: absolute;
+    margin-top: 0px;
+    left: -150px;
+}
+
+ 
+.product-liber-v-color .banner-image .fade-img-2{
+    width: 500px;
+    position: absolute;
+    margin-top: 0px;
+    right: -100px;
+}
+
+
+.product-liber-v-mon{
+    background-color: #deeaee;
+}
+
+.product-liber-v-mon .banner-image .fade-img{
+    width: 550px;
+    position: absolute;
+    margin-top: 400px;
+    right: -150px;
+}
+
+.product-liber-v-screen{
+    background-color: #d8c4c8;
+    background-image: url(/images/liber-v/product-liber-v-computer-bg2.png);
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.product-liber-v-screen .banner-data{
+	color:#525252;
+}
+
+ 
+section.product-liber-v-performance{
+    background-color: #dde2dd;
+    background-image: url(/images/liber-v/product-liber-v-computer-bg.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+section.product-liber-v-performance .banner-data{
+	color:#704594;
+} 
+
+.product-liber-v-screen .banner-image .fade-img{ 
+    width: 400px;
+    position: absolute;
+    margin-top: 550px;
+    LEFT: 50px;
+    transform: rotate(300deg);
+}
+
+.product-liber-v-performance .banner-image .fade-img{
+    width: 850px;
+    position: absolute;
+    margin-top: 650px;
+    right: -200px;
+}
+
+section.product-liber-v-io{    
+	background-color: #d7e8f1; 
+    background-image: url(/images/liber-v/product-liber-v-computer-bg2.png);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+
+/** end fade img **/
 
 @media (min-width: 576px) {
 
@@ -908,6 +1237,17 @@ body.lang_id .product-liber-power .battery-wrap .badge-caption {
 	.product-liber-banner .banner-info .brand, .product-liber-banner .banner-info .btn-group, .an-scroll-wrap{
 		margin-right: auto;
 	}
+	
+	section.product-liber-v-screen .bc-computer-1{ 
+		width: 600px;
+		left: -100px;
+	}
+	
+	section.product-liber-v-screen .banner-info{ 
+		margin-left: 50%;
+		width: 50%;
+	}
+	
 }
 .banner-header {
   font-size: 2rem
@@ -1000,5 +1340,50 @@ body.lang_id .product-liber-power .battery-wrap .badge-caption {
 		-o-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
+	
+	
+	section.product-liber-v-screen .banner-info{
+	    margin-left: 0%;
+	    width: 100%;
+	}
+	
+	.product-liber-v-screen .banner-block,
+	.product-liber-v-performance .banner-block{
+		padding-top: 60px;
+    	padding-bottom: 60px;
+	}
+	
+	.product-liber-v-performance .data-card{
+		width:100%;
+	}
+	.product-liber-v-performance .badge-value{
+	    font-size: 2rem;
+	} 
+	
+	section.product-liber-v-screen .bc-computer-2{
+	    visibility: visible !important;
+		right: 50px;
+		margin-top: 0;
+	}
+	
+	.product-liber-v-performance .data-card.data-card-mo1{
+		position: absolute;
+		margin-top: 35px !important; 
+		text-align: right !important;
+		padding-right: 130px;
+	}
+	
+	.product-liber-v-performance .data-card.data-card-mo2{
+		position: absolute;
+		margin-top:140px !important; 
+		text-align: right !important;
+		padding-right: 130px;
+		
+	}
+	
+	section.product-liber-v-io .banner-block{
+		padding:80px 0px;
+	}
+	 
 
 }
