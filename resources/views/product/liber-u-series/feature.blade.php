@@ -271,7 +271,7 @@
                 <div class="container">
                     <div class="banner-info mx-auto mr-lg-0">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/liber_u_feature/sc7_fimg1.png">
+                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc7_fimg1.png">
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">Built to be Secured</div>
 
