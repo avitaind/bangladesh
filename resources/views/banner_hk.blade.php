@@ -56,6 +56,7 @@
                     </a>
                 </div>
             </div>
+           
             <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['liber-u-series']) }}">
@@ -80,13 +81,13 @@
                     <div class="banner-block responsive-item">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/campus_ambassador_web.png')"></div>
+                                     style="background-image: url('/images/banner/campus_web_banner.png')"></div>
                             @else
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/campus_ambassador_web.png')"></div>
+                                     style="background-image: url('/images/banner/campus_web_banner.png')"></div>
                             @endif
                             <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/campus_ambassador_mob.png')"></div>
+                                 style="background-image: url('/images/banner/campus_mobile_banner.png')"></div>
                        </div>
                        </a>
                   </div>
