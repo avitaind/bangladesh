@@ -9,8 +9,8 @@
           <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item admiror-banner">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/campus_ambassador_web.png')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/campus_ambassador_web.png')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/campus_web_banner.png')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/campus_mobile_banner.png')"></div>
                     <div class="banner-info"> 
                       <!--  <div class="an-scroll-wrap">
                             <div class="an-scroll">
