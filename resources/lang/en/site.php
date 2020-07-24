@@ -3,7 +3,7 @@
 return [
     // universal
     'admiror'                      => 'AVITA ADMIROR',
-    'liber'                        => 'AVITA LIBER 13.3" & 14"',
+    'liber'                        => 'AVITA LIBER 13.3" ',
     'liber12'                      => 'AVITA LIBER 12.5"',
     'pura'                         => 'AVITA PURA',
     'global_bd'                     => 'Bangladesh',
@@ -69,8 +69,8 @@ return [
 
     'productnav_overview'           => 'Overview',
     'productnav_overview_12'        => 'Overview 12.5"',
-    'productnav_overview_13'        => 'Overview 13.3" & 14"',
-    'productnav_overview_u_series'  => 'Overview AVITA LIBER 13.3" & 14" New Generation',
+    'productnav_overview_13'        => 'Overview 13.3" ',
+    'productnav_overview_u_series'  => 'Overview 13.3" & 14" ',
 
     'productnav_spec'               => 'Tech Spec',
     'productnav_support'            => 'Support',

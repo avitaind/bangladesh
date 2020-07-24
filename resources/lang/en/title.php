@@ -5,7 +5,7 @@ return [
     'Homepage'            => 'AVITA',
     'mouse'                 =>'UBIQUE',
     'LIBER_12.5_home'     => 'AVITA LIBER 12.5” | Laptops',
-    'LIBER_13_home'       => 'AVITA LIBER 13.3" & 14"',
+    'LIBER_13_home'       => 'AVITA LIBER 13.3" ',
     'LIBER_u_series_home' => 'AVITA LIBER U Series',
     'LIBER_spec'          => 'AVITA LIBER Specification',
     'support'             => 'Service and Support',

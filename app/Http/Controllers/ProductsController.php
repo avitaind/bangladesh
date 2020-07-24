@@ -49,7 +49,7 @@ class ProductsController extends Controller
             }
         }
         
-        if ( $slug == 'liber-u-series' ){
+        if ( $slug == 'liber-new-generation' ){
 
             switch ( $country ) {
                 case 'bd':

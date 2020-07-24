@@ -1,13 +1,11 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.LIBER_u_series_home'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.LIBER_u_series_home')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
 
-        @include('partials.product-navbar')
+        <?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <section class="product-liber-banner">
             <div class="responsive-block">
@@ -16,7 +14,7 @@
                     <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber/liber_u_feature/banner_mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
-                            {{--<img class="mx-auto" src="/images/liber/liber_u_feature/brand.png">--}}
+                            
                         </div>
                         <div class="an-scroll-wrap">
                             <div class="an-scroll">
@@ -93,9 +91,7 @@
                                 <div class="badge-caption pt-1">Thin</div>
                             </div>
                             <div class="data-card data-card-2 col-6 my-2 my-sm-4">
-                                {{-- <span class="badge-value">180</span>
-                                <span style="font-size: 3rem; font-weight: 300;">&deg;</span>
-                                <div class="badge-caption pt-1">Hinge</div> --}}
+                                
                             </div>
                             <div class="data-card data-card-3 col-6 my-2 my-sm-4 pl-1 px-sm-4">
                                 <div class="badge-caption">Starting from</div>
@@ -200,7 +196,7 @@
                         </div>
                         <div class="col-12 col-lg-7">
                             <div class="battery-wrap d-flex align-items-center">
-                                <div class="badge-caption">Up to <span class="badge-value px-1">8</span> hrs*<br>Battery life</div>
+                                <div class="badge-caption">Up to <span class="badge-value px-1">10</span> hrs*<br>Battery life</div>
                             </div>
                             <div class="banner-data d-flex flex-wrap justify-content-center ls-0">
                                 <div class="data-card">
@@ -449,15 +445,17 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
-@endsection
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
-    <script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/liber.js')); ?>"></script>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
