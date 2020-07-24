@@ -1,14 +1,12 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.Pura_spec'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.Pura_spec')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <main class="top-nav-padding">
 
-	@include('partials.pura-navbar')
+	<?php echo $__env->make('partials.pura-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
         
         <!-------------------Submenu------------ 
         <div class="nav-product-panel">
@@ -21,13 +19,13 @@
                     <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
         
         
-                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'pura') }}">@lang('pura.name')</a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'pura')); ?>"><?php echo app('translator')->getFromJson('pura.name'); ?></a></li>
         
         
-                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', 'pura') }}">@lang('site.productnav_spec')</a></li>
-                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.spec', 'pura')); ?>"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?></a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
                         <li class="nav-item">
-                            <a class="nav-link py-1" href="{{ route('product.map', 'liber') }}">@lang('site.productnav_wheretobuy')</a>
+                            <a class="nav-link py-1" href="<?php echo e(route('product.map', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
                         </li>
                         
                     </ul>
@@ -76,7 +74,7 @@
 
                         <div class="logo-wrapper d-flex px-3 mt-4">
                             <div class="offset-md-1">
-                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                                <img style="width: 200px;" src="<?php echo e(asset('images/win10_logo.png')); ?>" alt="Windows 10 Home">
                             </div>
                         </div>
 
@@ -190,4 +188,6 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
