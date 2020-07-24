@@ -1,15 +1,13 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.Admiror_spec'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.Admiror_spec')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <main class="top-nav-padding">
 
         
-        @include('partials.admiror-navbar')
+        <?php echo $__env->make('partials.admiror-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <!-------------------Submenu----------
         <div class="nav-product-panel">
@@ -22,20 +20,20 @@
                     <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
         
         
-                         <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'admiror') }}">@lang('admiror.name')</a></li>
+                         <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'admiror')); ?>"><?php echo app('translator')->getFromJson('admiror.name'); ?></a></li>
          
-                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', 'admiror') }}">@lang('site.productnav_spec')</a></li>
-                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.spec', 'admiror')); ?>"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?></a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
                         
                         
-                        <li class="nav-item" style="display:none;"><a class="nav-link py-1" href="{{ route('product.support', 'admiror') }}">@lang('site.productnav_support')</a></li>
+                        <li class="nav-item" style="display:none;"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'admiror')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
                         
                         <li class="nav-item">
-                            <a class="nav-link py-1" href="{{ route('product.map', 'liber') }}">@lang('site.productnav_wheretobuy')</a>
+                            <a class="nav-link py-1" href="<?php echo e(route('product.map', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
                         </li>
                         
                         <li class="nav-item" style="display:none;">
-                            <a class="nav-link py-1" href="{{ route('product.map', 'admiror') }}">@lang('site.productnav_wheretobuy')</a>
+                            <a class="nav-link py-1" href="<?php echo e(route('product.map', 'admiror')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
                         </li>
                         
                     </ul>
@@ -80,7 +78,7 @@
                     
                         <div class="logo-wrapper d-flex px-3 mt-4">
                             <div class="offset-md-1">
-                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                                <img style="width: 200px;" src="<?php echo e(asset('images/win10_logo.png')); ?>" alt="Windows 10 Home">
                             </div>
                         </div>
 
@@ -109,7 +107,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div>512GB SSD SATA M.2</div>
+                                <div>256GB / 512GB SSD SATA M.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
@@ -142,20 +140,17 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.34 kg</div>
+                                <div>Starting from 1.32 kg</div>
 
                             </li>
-                            {{-- <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Adapter</div>
-                                <div>40W AC Adapter</div>
-                            </li> --}}
+                            
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
                                 <div>Li-ion Battery, 38.5Wh</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
-                                <div>Up to 8 hours*</div>
+                                <div>Up to 10 hours*</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Material</div>
@@ -200,4 +195,6 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
