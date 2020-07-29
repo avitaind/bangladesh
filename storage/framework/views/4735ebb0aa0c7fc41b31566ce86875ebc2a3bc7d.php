@@ -1,8 +1,24 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-        
-                <div class="carousel-item active">
+        <div class="carousel-item active">
+                <div class="responsive-block">
+                    <div class="banner-block responsive-item">
+                        <?php if( App::isLocale('en') ): ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/magus-lite-web-banner.jpg')"></div>
+                        <?php else: ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/magus-lite-web-banner.jpg')"></div>
+                        <?php endif; ?>
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/magus-lite-mob-banner.jpg')"></div>
+                    </div>
+                
+                </div>
+            </div>
+            
+                <div class="carousel-item">
                 <div class="responsive-block">
                   
                     <div class="banner-block responsive-item">
@@ -101,6 +117,8 @@
           <li data-target="#home_banner" data-slide-to="2"></li>
           <li data-target="#home_banner" data-slide-to="3"></li>
           <li data-target="#home_banner" data-slide-to="4"></li>
+          <li data-target="#home_banner" data-slide-to="5"></li>
+
 
         </ol>
     </div>
