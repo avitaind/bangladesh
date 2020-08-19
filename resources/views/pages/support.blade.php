@@ -129,5 +129,6 @@
     </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLahSLEkv2LXHSa55GgB_OddBNNx7iozo&callback=initMap">  </script>
 
+  <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
 @endsection
