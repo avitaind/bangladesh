@@ -228,5 +228,4 @@ $productNumberField.change(function() {
 // });
 
 
-
 $productTypeField.trigger('init');
