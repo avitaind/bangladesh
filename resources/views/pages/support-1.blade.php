@@ -3,36 +3,6 @@
 @section('title')
     @lang('title.service')
 @stop
-@section('css')
-<style>
-.shopsList {
-    display: inline-table;
-    width: 100%;
-}
-.shopsList .col-md-6:nth-child(2n+1) {
-    clear: both;
-}
-
-
-.shopsList .col-md-6 {
-    display: inline-grid;
-    width: 50%;
-    margin-bottom: 30px;
-}
-
-.shopsList .fa {
-    font-size: 18px;
-    weight:600;
-}
-</style>
-@stop
-
-@php
-
- $page = 'support';
-
-@endphp
-
 
 @section('content')
 
@@ -49,8 +19,6 @@
                                 <div class="support-search-mob-img">
                                     <img class="hidden-lg-up " src="/images/background/support-min.png"/>
                                 </div>
-
-                                
                                 <div class="h1 section-title my-4 ls-0 font-weight-light">@lang('site.support_title')</div>
 
                                 <div class="row no-gutters my-4 align-content-center justify-content-center col-12 col-sm-8 col-lg-12 mx-auto">
@@ -82,17 +50,20 @@
                                             <button class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">&nbsp;<i class="fa fa-search" aria-hidden="true"></i>&nbsp;</button>
 
                                         </div>
+
                                     </div>
 
                                 </div>
+
+
                             </form>
-                           
-                            <br/>
+
+                              <br/>
                             <div class="mb-2"><b>Email:</b> bd_support@avita.com </div>
                             <div class="mb-2"><b>General Query:</b> +880-9638686868 </div>
                             <div class="mb-2"><b>Operation Time:</b> Sat-Thu: 08:00 -22:00<br/> Close on Fri & Public Holiday </div>
                            
-                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="hidden-md-down panel-image">
@@ -102,47 +73,17 @@
 
             <div class="support-center-wrap py-5">
 
-             <div class="h1 text-center mt-4 mb-3 font-weight-light">Warranty Extension</div>
-                 <div class="text-center purchase_steps">
-              <a href="https://www.avita.global/warranty-extension" target="_blank" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">See More</a> 
-                </div>
-                
-                <br/>
-
                 <div class="container">
-                <div class="alert alert-dismissible alert-info">
+
+                       <div class="alert alert-dismissible alert-info">
                 Due to the global outbreak of the coronavirus (COVID-19), the service center will adjust the operation time or temporarily shut down for the time being. The adjustment will be subjected to local regulations and will be updated as soon as possible. We thank you for your patience and understanding.
                 </div>
-                   
-                    
-                    
-                <div class="h2 text-center section-title mb-3 ls-0 font-weight-light">@lang('site.support_title_2')</div>
-            
-                <div class="shopsList">
-                 @foreach( $serviceCenters as $center )
-
-                 <div class="col-md-6">
-                 
-                                <div>
-                                    <i class="fa fa-map icon"></i>
-                                    {{ $center->address }}
-                                </div>
-
-                                 <div>
-                                    <i class="fa fa-clock-o icon"></i>
-                                    {{ $center->opening_hour }}
-                                </div>
-
-                                <div>
-                                    <i class="fa fa-phone icon"></i>
-                                    {{ $center->phone }}
-                                </div>
-                                
-                            </div>
-                                  @endforeach
-
-                </div>
-               
+                        <div class="h3 section-title mb-3 ls-0">@lang('site.support_title_2')</div>
+   
+                    @foreach( $serviceCenters as $center )
+                        @component('pages._support_center', ['center' => $center])
+                        @endcomponent
+                    @endforeach
                 </div>
             </div>
 
@@ -186,12 +127,8 @@
 
         }
     </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLahSLEkv2LXHSa55GgB_OddBNNx7iozo&callback=initMap">  </script>
 
-
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2du53CNS9kfAQ1itk4kwF4aSBSjIgHE&callback=initMap"></script>
-
-    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
-
-
+  <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
 @endsection

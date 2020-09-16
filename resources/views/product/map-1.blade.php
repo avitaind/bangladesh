@@ -6,8 +6,6 @@
 
 @section('css')
 	<style>
-	
-	/** 
 		.shop-list {
 			min-height: 400px;
 			max-height: 565px;
@@ -36,41 +34,9 @@
 			top: 5px;
 
 		}
-		***/
 
-		.shopsList {
-   			 display: inline-table;
-    		 width: 100%;
-			}
-
-
-			.shopsList .pb-1 {
-    		font-size: 1.5rem;
-    		font-weight: 500;
-    		margin-bottom: .5rem;
-			}
-
-			.pb-1 {
-    			padding-bottom: .25rem!important;
-				weight:800;
-			}
-
-			.shopsList .col-md-6:nth-child(2n+1) {
-    			clear: both;
-				}
-
-			.shopsList .col-md-6 {
-    			display: inline-grid;
-    			width: 50%;
-    			margin-bottom: 30px;
-			}	
 	</style>
 @stop
-
-@php
-        $page = 'wheretobuy';
-
-@endphp
 
 @section('content')
 
@@ -78,10 +44,9 @@
 
 		@include('partials.product-navbar')
 
+
 		<section class="map-panel">
 
-		
-		<!---
 			<div class="container py-5 ls-0">
 				<div class="row mx-2">
 
@@ -91,7 +56,7 @@
 
 
 						<div class="input-group py-4">
-							<input type="text" name="search" placeholder="Enter Store Name" class="form-control search-result-input search-input" id="map-search" required="">
+							<input type="text" name="search" placeholder="Enter Your City" class="form-control search-result-input search-input" id="map-search" required="">
 							<div class="input-group-addon search-result-button">
 								<button type="button" class=""><i class="fa fa-search" aria-hidden="true"></i></button>
 							</div>
@@ -128,26 +93,6 @@
 
 				</div>
 			</div>
---->
-	<div class="container py-5 ls-0">
-                <div class="shopsList">
-				@foreach( $shops as $shop )
-					<div class="col-md-6">					
-                            <div class="pb-1"><strong>{{ $shop->name }}</strong></div>
-                            <div class="">
-                                <i class="fa fa-map icon"></i>
-                                {{ $shop->address }}
-                            </div>
-                            <div class="">
-                                <i class="fa fa-phone icon"></i>
-                                {{ $shop->phone }}
-                            </div>
-        
-                        </div>
-					@endforeach
-				</div>
-				
-		</div>
 
 		</section>
 
@@ -337,7 +282,5 @@
 
 
 	</script>
-
-
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLahSLEkv2LXHSa55GgB_OddBNNx7iozo&callback=initMap">  </script> 
 @endsection

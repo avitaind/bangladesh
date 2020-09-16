@@ -60,13 +60,13 @@
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/lifestyle_banner_web1.png')"></div>
+                                 style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/lifestyle_banner_web1.png')"></div>
+                                 style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/lifestyle_banner_mob1.png')"></div>
+                             style="background-image: url('/images/banner/lifestyle_banner_mob1.jpg')"></div>
                     </div>
                     </a>
                 </div>

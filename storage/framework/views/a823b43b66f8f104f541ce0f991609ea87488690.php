@@ -1,9 +1,7 @@
-@extends('layouts.app')
-
-@section('title')
-    @lang('title.service')
-@stop
-@section('css')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.service'); ?>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('css'); ?>
 <style>
 .shopsList {
     display: inline-table;
@@ -25,16 +23,16 @@
     weight:600;
 }
 </style>
-@stop
+<?php $__env->stopSection(); ?>
 
-@php
+<?php 
 
  $page = 'support';
 
-@endphp
+ ?>
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <main>
 
@@ -44,14 +42,15 @@
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-6 text-center">
-                            <form method="POST" action="{{ route('support') }}" class="">
-                                {{ csrf_field() }}
+                            <form method="POST" action="<?php echo e(route('support')); ?>" class="">
+                                <?php echo e(csrf_field()); ?>
+
                                 <div class="support-search-mob-img">
                                     <img class="hidden-lg-up " src="/images/background/support-min.png"/>
                                 </div>
 
                                 
-                                <div class="h1 section-title my-4 ls-0 font-weight-light">@lang('site.support_title')</div>
+                                <div class="h1 section-title my-4 ls-0 font-weight-light"><?php echo app('translator')->getFromJson('site.support_title'); ?></div>
 
                                 <div class="row no-gutters my-4 align-content-center justify-content-center col-12 col-sm-8 col-lg-12 mx-auto">
                                     <div class="col-12 col-md-12 col-md-12 ml-0 ml-md-4">
@@ -73,11 +72,11 @@
 
                                             </select>
 
-                                            {{--<select id="product_model_field" name="product_model" class="form-control custom-select mb-3" style="display: none;">--}}
+                                            
 
-                                            {{--</select>--}}
+                                            
 
-                                            {{--<p id="product_config_field"></p>--}}
+                                            
 
                                             <button class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">&nbsp;<i class="fa fa-search" aria-hidden="true"></i>&nbsp;</button>
 
@@ -116,30 +115,33 @@
                    
                     
                     
-                <div class="h2 text-center section-title mb-3 ls-0 font-weight-light">@lang('site.support_title_2')</div>
+                <div class="h2 text-center section-title mb-3 ls-0 font-weight-light"><?php echo app('translator')->getFromJson('site.support_title_2'); ?></div>
             
                 <div class="shopsList">
-                 @foreach( $serviceCenters as $center )
+                 <?php $__currentLoopData = $serviceCenters; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $center): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
                  <div class="col-md-6">
                  
                                 <div>
                                     <i class="fa fa-map icon"></i>
-                                    {{ $center->address }}
+                                    <?php echo e($center->address); ?>
+
                                 </div>
 
                                  <div>
                                     <i class="fa fa-clock-o icon"></i>
-                                    {{ $center->opening_hour }}
+                                    <?php echo e($center->opening_hour); ?>
+
                                 </div>
 
                                 <div>
                                     <i class="fa fa-phone icon"></i>
-                                    {{ $center->phone }}
+                                    <?php echo e($center->phone); ?>
+
                                 </div>
                                 
                             </div>
-                                  @endforeach
+                                  <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
                 </div>
                
@@ -155,9 +157,9 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
     <script>
         function initMap() {
 
@@ -190,8 +192,10 @@
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2du53CNS9kfAQ1itk4kwF4aSBSjIgHE&callback=initMap"></script>
 
-    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/support.js')); ?>"></script>
 
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
