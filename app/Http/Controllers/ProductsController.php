@@ -236,7 +236,7 @@ class ProductsController extends Controller
     
     
     public function showDriverComponent(Request $request) {
-
+        $country = 'bd';
         $product_number = $request->get('product_number');
 
         // Get drivers list from asp server.
