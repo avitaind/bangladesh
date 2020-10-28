@@ -44,7 +44,7 @@
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-6 text-center">
-                            <form method="POST" action="{{ route('support') }}" class="">
+                        <form method="POST" action="{{ route('support') }}" class="">
                                 {{ csrf_field() }}
                                 <div class="support-search-mob-img">
                                     <img class="hidden-lg-up " src="/images/background/support-min.png"/>
@@ -85,8 +85,7 @@
                                     </div>
 
                                 </div>
-                            </form>
-                           
+                            </form>                           
                             <br/>
                             <div class="mb-2"><b>Email:</b> bd_support@avita.com </div>
                             <div class="mb-2"><b>General Query:</b> +880-9638686868 </div>
