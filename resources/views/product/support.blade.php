@@ -13,6 +13,7 @@
 <main class="top-nav-padding">
 
 	@include('partials.product-navbar')
+	@include('partials.rolling-cta')
 
 	<section class="product-support-section">
 		<div class="tab-product-support">
@@ -60,23 +61,9 @@
 							{{--<p id="product_config_field" style="display: inline-block; max-width: 100%; height: calc(2.25rem + 2px); padding: .375rem 1.75rem .375rem .75rem; line-height: 1.25; color: #464a4c; vertical-align: middle;"></p>--}}
 							<div class="mt-4">
 
-								@if( $lang == 'th' )
-
-									<p class="text-left">สินค้าประเภทแล็ปท็อปทั้งหมดของเอวิต้าไม่รองรับอัพเดทของ Windows 10 S</p>
-									<p class="text-left">เอวิต้าไม่มีแผนที่จะผลิตแล็ปท็อปที่รองรับ Windows 10 S</p>
-
-								@elseif ( $lang == 'id')
-
-									<p class="text-left">Seluruh produk Laptop AVITA tidak tersedia pembaruan Windows 10 S.</p>
-									<p class="text-left">AVITA tidak mempunyai rencana untuk mengeluarkan produk Laptop dengan Windows 10 S </p>
-
-								@else
-
 									<p class="text-left">The entirety of AVITA Laptop products do not support update of Windows 10 S.</p>
 									<p class="text-left">AVITA does not have plans to release Windows 10 S based Laptop products.</p>
-								@endif
-
-
+							
 							</div>
 
 						</div>
@@ -192,7 +179,7 @@
 
 @section('js')
 
-<script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
 	<script>
 
@@ -216,6 +203,5 @@
 
 
 	</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLahSLEkv2LXHSa55GgB_OddBNNx7iozo&callback=initMap">  </script> 
 
 @stop
