@@ -174,7 +174,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'type' => $type
         ];
@@ -193,7 +193,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'series' => $series
         ];
@@ -212,7 +212,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'marketing_number' => $marketing_number
         ];
@@ -230,7 +230,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'series' => $product_series
         ];
@@ -254,7 +254,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'product_number' => $product_number,
             'marketing_number' => $marketing_number
