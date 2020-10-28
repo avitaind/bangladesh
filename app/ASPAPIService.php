@@ -10,9 +10,8 @@ class ASPAPIService
     protected static $brand = 'avita';
 
     protected static function asp_url( ) {
-       // return env('ASP_URL', 'http://avita_asp.dev');
-        return env('ASP_URL', 'https://asp.avita.global/');
-
+     //   return env('ASP_URL', 'http://avita_asp.dev');
+         return env('ASP_URL', 'https://asp.avita.global/');
     }
 
     protected static function getClient() {
@@ -175,7 +174,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'in'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'type' => $type
         ];
@@ -194,7 +193,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'in'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'series' => $series
         ];
@@ -213,7 +212,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'in'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'marketing_number' => $marketing_number
         ];
@@ -231,7 +230,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'in'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'series' => $product_series
         ];
@@ -255,7 +254,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'in'),
+            'country' => session('country', 'bd'),
             'brand' => self::$brand,
             'product_number' => $product_number,
             'marketing_number' => $marketing_number
