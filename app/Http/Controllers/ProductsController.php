@@ -235,8 +235,9 @@ class ProductsController extends Controller
     }
     
     
+ 
     public function showDriverComponent(Request $request) {
-        $country = 'bd';
+
         $product_number = $request->get('product_number');
 
         // Get drivers list from asp server.
@@ -276,14 +277,12 @@ class ProductsController extends Controller
         } else {
             return ASPAPIService::getProductNumbersByProductSeries( $request->get('series') );
         }
-
-
-
+      
     }
 
     public static function showProductModels(Request $request) {
 
-        return ASPAPIService::getProductModels( $request->get('product_number'), $request->get('marketing_number') );
+        return ASPAPIService::getProductModels( $request->get('product_number'), $request->get('marketing_number'));
 
     }
 
