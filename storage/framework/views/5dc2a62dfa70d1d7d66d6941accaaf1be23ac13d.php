@@ -59,6 +59,7 @@
 
    <script src="//use.typekit.net/wpk4iql.js"></script>
    <script>try{Typekit.load();}catch(e){}</script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 

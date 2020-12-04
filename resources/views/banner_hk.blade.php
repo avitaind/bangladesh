@@ -71,7 +71,7 @@
                     </a>
                 </div>
             </div>
-           
+    <!---       
             <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="/cap">
@@ -89,7 +89,7 @@
                        </a>
                   </div>
             </div>
-   
+    ---->
 
         </div>
         <ol class="carousel-indicators">
@@ -97,7 +97,6 @@
           <li data-target="#home_banner" data-slide-to="1"></li>
           <li data-target="#home_banner" data-slide-to="2"></li>
           <li data-target="#home_banner" data-slide-to="3"></li>
-          <li data-target="#home_banner" data-slide-to="4"></li>
         </ol>
     </div>
 </section>
