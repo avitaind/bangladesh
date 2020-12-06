@@ -239,4 +239,8 @@ return [
 
     'experience_liber125_here' => '? Experience LIBER 12.5" here! ',
     'coming_soon' => 'Coming Soon',
+    'essential' => 'Overview Essential',
+    'essential_spec' => 'Tech Spec',
+    'essential_name' => 'AVITA Essential',
+    'productnav_overview_essential' => 'Overview Essential',
 ];

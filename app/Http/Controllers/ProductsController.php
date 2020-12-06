@@ -38,6 +38,15 @@ class ProductsController extends Controller
             }
         }
 
+        if ( $slug == 'essential' ){  
+			
+			switch ( $country ) {
+				case 'bd':  
+                        return view('product.essential.feature_hk_en', compact( 'product')); 
+                        break;
+                    }
+                }
+
         if ( $slug == 'pura' ){
 
             switch ( $country ) {
@@ -107,6 +116,17 @@ class ProductsController extends Controller
 
         $lang = app()->getLocale();
 
+
+        if ( $slug == 'essential' ){  
+			
+			switch ( $country ) {
+				case 'bd': 
+                        return view('product.essential.spec_hk_en', compact( 'product')); 
+                        break;
+					}
+                } 
+
+                
         if ( $slug == 'admiror' ){
             switch ( $country ) {
                 case 'bd':

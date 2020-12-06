@@ -27,4 +27,6 @@ return [
      'Admiror_spec'          =>'AVITA ADMIROR',
      'Pura_spec'          =>'AVITA PURA',
      'campus'          => 'AVITA | Campus Ambassador Program',
+     'Essential_home'   	  => 'AVITA Essential',
+     'Essential_spec'  	  => 'AVITA Essential Spec',
 ];
