@@ -76,8 +76,6 @@
 
 	<main class="top-nav-padding">
 
-		@include('partials.product-navbar')
-
 		<section class="map-panel">
 
 		
