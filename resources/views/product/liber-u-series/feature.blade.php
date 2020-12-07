@@ -142,7 +142,7 @@
                             </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
-                                <div class="badge-value">Core i7</div>
+                                <div class="badge-value">Core i5 / i7</div>
                                 <div class="badge-caption">8th Gen INTEL® CORE™ PROCESSOR</div>
                             </div>
                             <div class="data-card my-3 text-left">

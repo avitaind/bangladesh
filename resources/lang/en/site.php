@@ -243,4 +243,7 @@ return [
     'essential_spec' => 'Tech Spec',
     'essential_name' => 'AVITA Essential',
     'productnav_overview_essential' => 'Overview Essential',
+    'liber-v' => 'AVITA LIBER V14',
+    'productnav_overview_liber_v'   => 'Overview LIBER V',	
+
 ];

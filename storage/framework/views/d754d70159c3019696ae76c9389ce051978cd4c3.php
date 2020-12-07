@@ -449,7 +449,7 @@
                         <div align="left" class="col-12 col-md-5">
                             <div class="admiror_h2">Productivity maximized by Extended battery</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">Battery life lasts up to 8 hours*. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.</span>    
+                                <span class="d-lg-block txt_white">Battery life lasts up to 10 hours*. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.</span>    
                             </div> 
                     		<div class="space30"></div>
                             <div class="admiror-battery-wrap txt_white">

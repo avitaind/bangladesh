@@ -103,7 +103,7 @@
                             </div>
                             <div class="data-card my-3 text-left" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
 				            <div class="badge-value">Intel<sup>®</sup> | AMD</div>
-                           <div class="badge-caption">CORE<sup>™</sup> i3-8145U / i5-8265U | AMD A9-9420E </div>
+                           <div class="badge-caption">CORE<sup>™</sup> i3-8145U / i5-8265U | AMD A9-9420E / R3-3200U </div>
 			                </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>

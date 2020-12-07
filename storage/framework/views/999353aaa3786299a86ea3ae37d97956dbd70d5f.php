@@ -21,6 +21,7 @@
                 </div>
             </div>
         </section> 
+                  
         
         
         <section class="product-liber-computer ls-0" id="test" style="background-color:#eee;">
@@ -31,7 +32,12 @@
                         <div class="banner-para">
                             <span class="d-lg-block">Versatile entry notebook for everyday use</span>
                         </div>
+                        <div class="space30"></div>
+                        <div class="banner-para">
+                        <span class="btn btn-secondary">Coming Soon</span>
+                         </div>
                         <div class="space60"></div>
+
                     </div>
                 </div>
         </section>
@@ -84,7 +90,7 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/essential/essential_bg2_en_mo.jpg" style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>                
-                        <div class="banner-para ls-0">Essential features an enormous capacity offered by the SATA SSD of up to 128GB for faster data processing and near-instant booting up, making it a work-friendly entry level laptop. With maximum power consumption as low as 2.6GHz, the laptop promises excellent power efficiency and guarantees a battery life longer than ever. Besides, the fan-less design eliminates distracting noises, allowing the device to run most silently so you can stay focused on the tasks on hand. Coupled with professional design, the unique cloth design of Matt White, Matt Black, and Concrete Grey is perfect for your home life!</span></div>                       
+                        <div class="banner-para ls-0">Essential features an enormous capacity offered by the SATA SSD of up to 256GB for faster data processing and near-instant booting up, making it a work-friendly entry level laptop. With maximum power consumption as low as 2.6GHz, the laptop promises excellent power efficiency and guarantees a battery life longer than ever. Besides, the fan-less design eliminates distracting noises, allowing the device to run most silently so you can stay focused on the tasks on hand. Coupled with professional design, the unique cloth design of Matt White, Matt Black, and Concrete Grey is perfect for your home life!</span></div>                       
                         
                     </div>
                 	<div class="col-12 col-lg-6" align="left"></div>
@@ -130,12 +136,12 @@
                             </div> 
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">128<span class="badge-caption pl-1">GB</span></div>
+								<div class="badge-value">256<span class="badge-caption pl-1">GB</span></div>
 								<div class="badge-caption">SSD</div>
 							</div>
 							<div class="data-card my-3 col-12 col-lg-6 text-left">
 								<div class="badge-caption">Up to</div>
-								<div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
+								<div class="badge-value">4<span class="badge-caption pl-1">GB</span></div>
 								<div class="badge-caption">RAM</div>
                             </div>
                         

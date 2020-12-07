@@ -37,6 +37,15 @@ class ProductsController extends Controller
 
             }
         }
+        if ( $slug == 'liber-v' ){
+
+            switch ( $country ) {
+                case 'bd':
+                    return view('product.liber-v.feature_hk_en', compact( 'product'));
+                    break;
+
+            }
+        }
 
         if ( $slug == 'essential' ){  
 			
@@ -126,6 +135,14 @@ class ProductsController extends Controller
 					}
                 } 
 
+
+        if ( $slug == 'liber-v' ){
+                    switch ( $country ) {
+                        case 'bd':
+                            return view('product.liber-v.spec_hk_en', compact( 'product'));
+                            break;
+                    }
+                }
                 
         if ( $slug == 'admiror' ){
             switch ( $country ) {

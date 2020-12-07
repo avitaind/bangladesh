@@ -29,4 +29,8 @@ return [
      'campus'          => 'AVITA | Campus Ambassador Program',
      'Essential_home'   	  => 'AVITA Essential',
      'Essential_spec'  	  => 'AVITA Essential Spec',
+     'LIBER_v_home'  	  => 'AVITA LIBER V',
+     'LIBER_v_home_intel'  => 'AVITA LIBER V Intel',
+     'LIBER_v_home_amd'    => 'AVITA LIBER V AMD',
+     'LIBER_v_spec'  	  => 'AVITA LIBER V Spec', 
 ];

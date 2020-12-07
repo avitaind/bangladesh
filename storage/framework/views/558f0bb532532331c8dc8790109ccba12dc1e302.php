@@ -107,7 +107,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div>256GB / 512GB SSD SATA M.2</div>
+                                <div>512GB SSD SATA M.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
@@ -140,7 +140,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.32 kg</div>
+                                <div>Starting from 1.34 kg</div>
 
                             </li>
                             
