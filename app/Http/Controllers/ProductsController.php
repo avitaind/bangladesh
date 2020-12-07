@@ -240,7 +240,7 @@ class ProductsController extends Controller
                 $join->on('shops.id', '=', 'shop_translations.shop_id');
                 $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
             })
-            ->sortBy('shop_translations.name', 'asc');
+            ->orderBy('shop_translations.name', 'asc');
 
         } else {
             $query = Shop::select();
