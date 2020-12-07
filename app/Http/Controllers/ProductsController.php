@@ -243,7 +243,7 @@ class ProductsController extends Controller
             ->orderBy('shop_translations.name', 'asc');
 
         } else {
-            $query = Shop::select()->sortBy("name");;
+            $query = Shop::select()->sortBy("name");
         }
         $query->where('country', $country);
         $query->where('enabled', true);
