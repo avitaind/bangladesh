@@ -240,7 +240,7 @@ class ProductsController extends Controller
                 $join->on('shops.id', '=', 'shop_translations.shop_id');
                 $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
             })
-            ->orderBy('shop_translations.name', 'asc');
+            ->orderBy('shop_translations.name', 'ASC');
 
         } else {
             $query = Shop::select();
@@ -248,7 +248,7 @@ class ProductsController extends Controller
         $query->where('country', $country);
         $query->where('enabled', true);
         $shops = $query->get();
-//        dd( $shops );
+        //dd( $shops );
     
             return view('product.map', compact( 'product', 'shops'));
     
