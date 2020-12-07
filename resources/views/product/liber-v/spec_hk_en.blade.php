@@ -26,6 +26,8 @@
                               <!---  <li style="background-color: #1f1f1f" data-image="/images/liber-v/1f1f1f.png"></li>
                                 <li style="background-color: #ebd9f2" data-image="/images/liber-v/ebd9f2.png"></li> --->
                                 <li style="background-color: #54a7d9" data-image="/images/liber-v/54a7d9.png"></li>
+                                  <li style="background-color: #8455aa" data-image="/images/liber-v/8455aa.png"></li>
+                                    <li style="background-color: #e5c7af" data-image="/images/liber-v/e5c7af.png"></li>
                                <!---
                                 <li style="background-color: #f6bdc8" data-image="/images/liber-v/f6bdc8.png"></li> 
                                 <li style="background-color: #787878" data-image="/images/liber-v/787878.png"></li>  
