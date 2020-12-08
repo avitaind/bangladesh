@@ -118,10 +118,14 @@
                 <div class="h2 text-center section-title mb-3 ls-0 font-weight-light">@lang('site.support_title_2')</div>
             
                 <div class="shopsList">
-                 @foreach( $serviceCenters as $center )
+                 @foreach( $centers as $center )
 
                  <div class="col-md-6">
                  
+                                <div>
+                                    <i class="fa fa-home icon"></i>
+                                    {{ $center->name }}
+                                </div>
                                 <div>
                                     <i class="fa fa-map icon"></i>
                                     {{ $center->address }}

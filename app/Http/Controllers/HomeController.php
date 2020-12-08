@@ -54,13 +54,30 @@ class HomeController extends Controller
     }
 
     public function getSupport( ){
+        $country = 'bd';
 
         $productModels = ProductModel::all();
-
-        $country = 'bd';
         $serviceCenters = ServiceCenter::whereCountry($country)->get();
 
-        return view('pages.support', compact('productModels', 'serviceCenters'));
+
+        if ( \App::isLocale('en') ) {
+            $query = ServiceCenter::select('service_centers.*')->leftJoin('service_center_translations', function ($join) {
+                $join->on('service_centers.id', '=', 'service_center_translations.service_center_id');
+                $join->on('service_center_translations.locale', '=', \DB::raw('"en"') );
+            })
+            ->orderBy('service_center_translations.name', 'ASC');
+
+        } else {
+            $query = ServiceCenter::select();
+        }
+
+        $query->where('country', $country);
+        $centers = $query->get();
+        //dd( $shops );
+    
+           // return view('product.map', compact( 'product', 'shops'));
+
+        return view('pages.support', compact('productModels', 'centers'));
     }
 
     public function handleSupportRedirect(Request $request) {
@@ -104,7 +121,7 @@ class HomeController extends Controller
 
         // Determine which contact_us page by region
 
-        $country_code = session('country', 'hk');
+        $country_code = session('country', 'bd');
 
         $view_name = 'pages.contact_us_'.$country_code;
 

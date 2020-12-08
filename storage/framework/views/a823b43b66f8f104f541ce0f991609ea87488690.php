@@ -117,10 +117,15 @@
                 <div class="h2 text-center section-title mb-3 ls-0 font-weight-light"><?php echo app('translator')->getFromJson('site.support_title_2'); ?></div>
             
                 <div class="shopsList">
-                 <?php $__currentLoopData = $serviceCenters; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $center): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                 <?php $__currentLoopData = $centers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $center): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
                  <div class="col-md-6">
                  
+                                <div>
+                                    <i class="fa fa-home icon"></i>
+                                    <?php echo e($center->name); ?>
+
+                                </div>
                                 <div>
                                     <i class="fa fa-map icon"></i>
                                     <?php echo e($center->address); ?>
