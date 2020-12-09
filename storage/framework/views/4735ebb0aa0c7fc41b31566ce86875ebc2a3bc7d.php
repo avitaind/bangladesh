@@ -3,20 +3,40 @@
         <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
                 <div class="responsive-block">
+                <a href="<?php echo e(route('product.overview', ['essential'])); ?>">
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/magus-lite-web-banner-new.jpg')"></div>
+                                 style="background-image: url('/images/banner/essential-web-banner.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/magus-lite-web-banner-new.jpg')"></div>
+                                 style="background-image: url('/images/banner/essential-web-banner.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/magus-lite-mob-banner-new.jpg')"></div>
+                             style="background-image: url('/images/banner/essential-mob-banner.jpg')"></div>
                     </div>
-                
+                    </a>
                 </div>
             </div>
+                 
+         <div class="carousel-item">
+                <div class="responsive-block">
+                <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
+                    <div class="banner-block responsive-item">
+                        <?php if( App::isLocale('en') ): ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
+                        <?php else: ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
+                        <?php endif; ?>
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        
             
          <div class="carousel-item">
                 <div class="responsive-block">
@@ -97,6 +117,8 @@
           <li data-target="#home_banner" data-slide-to="1"></li>
           <li data-target="#home_banner" data-slide-to="2"></li>
           <li data-target="#home_banner" data-slide-to="3"></li>
+          <li data-target="#home_banner" data-slide-to="4"></li>
+
         </ol>
     </div>
 </section>
