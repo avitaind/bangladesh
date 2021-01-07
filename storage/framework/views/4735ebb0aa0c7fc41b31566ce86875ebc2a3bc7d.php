@@ -3,6 +3,24 @@
         <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
                 <div class="responsive-block">
+               
+                    <div class="banner-block responsive-item">
+                        <?php if( App::isLocale('en') ): ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/new-year-web.png')"></div>
+                        <?php else: ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/new-year-web.png')"></div>
+                        <?php endif; ?>
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/new-year-mob.png')"></div>
+                    </div>
+                   
+                </div>
+            </div>
+
+          <div class="carousel-item">
+                <div class="responsive-block">
                 <a href="<?php echo e(route('product.overview', ['essential'])); ?>">
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
@@ -118,6 +136,7 @@
           <li data-target="#home_banner" data-slide-to="2"></li>
           <li data-target="#home_banner" data-slide-to="3"></li>
           <li data-target="#home_banner" data-slide-to="4"></li>
+          <li data-target="#home_banner" data-slide-to="5"></li>
 
         </ol>
     </div>
