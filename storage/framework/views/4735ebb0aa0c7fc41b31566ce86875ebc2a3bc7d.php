@@ -25,13 +25,13 @@
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/essential-web-banner.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/essential-web-banner.jpg')"></div>
+                                 style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/essential-mob-banner.jpg')"></div>
+                             style="background-image: url('/images/banner/avita-essential-mob-new.jpg')"></div>
                     </div>
                     </a>
                 </div>

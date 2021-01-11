@@ -32,13 +32,16 @@
                         <div class="banner-para">
                             <span class="d-lg-block">Versatile entry notebook for everyday use</span>
                         </div>
+                  
                         <div class="space30"></div>
+                          <!---
                         <div class="banner-para">
                         <span class="btn btn-secondary">Coming Soon</span>
                          </div>
                         <div class="space60"></div>
 
                     </div>
+                    --->
                 </div>
         </section>
         
