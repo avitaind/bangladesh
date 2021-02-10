@@ -49,13 +49,10 @@
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  
                                 <li class="active" style="background-color: #7d7e82" data-image="/images/pura/Pura_grey.png"></li>
                                 <li style="background-color: #1b1b1d" data-image="/images/pura/Pura_black.png"></li>
-                                <li style="background-color: #dcdde2" data-image="/images/pura/Pura_white.png"></li>
                                 <li style="background-color: #81b9db" data-image="/images/pura/Pura_blue.png"></li>
-                                <li style="background-color: #BAA1B9" data-image="/images/pura/Pura_purple.png"></li>
                                 <li style="background-color: #9e0b0f" data-image="/images/pura/Pura_red.png"></li>
-                                <li style="background-color: #e1d059" data-image="/images/pura/Pura_yellow.png"></li>
+                                <li style="background-color: #876796" data-image="/images/pura/Pura_purple.png"></li>
                                 <li style="background-color: #cf346d" data-image="/images/pura/Pura_sparklingPink.png"></li>
-                                <li style="background-color: #e9a1a8" data-image="/images/pura/Pura_pink.png"></li>
                             </ul>
                         </a>  
                         
@@ -143,7 +140,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
-                                <div> Upto 7 Hrs*</div>
+                                <div>Upto 7 Hrs*</div>
                             </li>
                             
                             <li class="spec-item d-flex">

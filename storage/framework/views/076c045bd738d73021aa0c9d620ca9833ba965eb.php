@@ -103,15 +103,15 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div> 256GB / 512GB SSD SATA M.2</div>
+                                <div>512GB SSD SATA M.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
-                                <div>VGA / 720HD </div>
+                                <div>720HD </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                <div>0.8W x 2 Speaker, Dual Microphones</div>
+                                <div>0.8W x2 Speaker , Dual Microphones</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
@@ -123,27 +123,27 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
-                                <div>Bluetooth v4.1 / v4.2</div>
+                                <div>Bluetooth v4.1</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                                <div>1 x 3.5mm Headphone Jack, 2 x Full Size USB 3.0, 1 x USB 3.0 Type-C (PD 2.0 Charging, Display out), 1 x MicroSD card slot (Max support 256GB), Micro HDMI x 1</div>
+                                <div>Full Size HDMI x 1, USB 3.0 Type-A x 2, USB 3.0 Type-C x 1, MicroSD card slot x 1, 3.5mm Headphone Jack x 1</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Dimension</div>
-                                <div>332(W) x 221(H) x 15(D) mm</div>
+                                <div>W332 x H222 x D20 mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.344kg </div>
+                                <div>1.344kg </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
-                                <div>7.6V 4830mAh</div>
+                                <div>7.6V 4830 mAH</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
-                                <div>Up to 8 hours*</div>
+                                <div>Up to 7 hours*</div>
                             </li>
                             
                             <li class="spec-item d-flex">
@@ -154,6 +154,10 @@
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
                                  <div>AC Adapter and Power cord</div>  
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">Warranty</div>
+                                 <div>2 years</div>  
                             </li>
 
                         </ul>
