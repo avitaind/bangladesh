@@ -88,7 +88,7 @@
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
                                 <div>
-                                	Intel® Core™ i3-8145U / Intel® Core™ i5-8265U | AMD A9-9420E / R3-3200U
+                                	Intel® Core™ i3-8145U / Intel® Core™ i5-8265U 
                                 </div>
                             </li>
                             <li class="spec-item d-flex">
@@ -101,7 +101,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
-                                <div>Intel® UHD Graphics 620 / AMD Radeon™ R5 Graphics</div>
+                                <div>Intel® UHD Graphics 620 </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>

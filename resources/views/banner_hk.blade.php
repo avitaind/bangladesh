@@ -1,25 +1,7 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-                <div class="responsive-block">
-               
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/new-year-web.png')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/new-year-web.png')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/new-year-mob.png')"></div>
-                    </div>
-                   
-                </div>
-            </div>
-
-          <div class="carousel-item">
+         <div class="carousel-item active">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['essential']) }}">
                     <div class="banner-block responsive-item">
