@@ -66,6 +66,17 @@ class ProductsController extends Controller
 
             }
         }
+
+        if ( $slug == 'pura-amd' ){
+
+            switch ( $country ) {
+                case 'bd':
+                    return view('product.pura.amd.feature_hk_en', compact( 'product'));
+
+                    break;
+
+            }
+        }
         
         if ( $slug == 'liber-new-generation' ){
 
@@ -161,6 +172,13 @@ class ProductsController extends Controller
             }
         }
 
+        if ( $slug == 'pura-amd' ){
+            switch ( $country ) {
+                case 'bd':
+                        return view('product.pura.amd.spec_hk_en', compact( 'product'));
+
+            }
+        }
 
         if ( !$product ) {
             abort(404);

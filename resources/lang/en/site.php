@@ -6,6 +6,8 @@ return [
     'liber'                        => 'AVITA LIBER 13.3" ',
     'liber12'                      => 'AVITA LIBER 12.5"',
     'pura'                         => 'AVITA PURA',
+    'pura_intel'                   => 'AVITA PURA Intel',
+    'pura_amd'                     => 'AVITA PURA AMD',
     'global_bd'                     => 'Bangladesh',
     'accessories'                   =>'Accessories',
     'mouse'                         => 'UBIQUE MOUSE',

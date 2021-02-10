@@ -41,10 +41,21 @@
                                             <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v']) }}">@lang('site.liber-v')</a>
                                        </li>
-                                 
-                                    <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura']) }}">@lang('site.pura')</a>
-                                        </li>
+                                       <li class="nav-item has-dropdown">
+                                             <input id="header_product" type="checkbox" hidden="">
+                                                 <a class="nav-link px-md-4 py-2"><label for="header_product">@lang('site.pura')</label></a>
+                                                   <div class="dropdown">
+                                                     <ul class="list-unstyled">
+                                                         <li class="nav-item has-dropdown">
+                                                              <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura']) }}">@lang('site.pura_intel')</a>
+                                                         </li>
+                                                         <li class="nav-item has-dropdown">
+                                                              <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura-amd']) }}">@lang('site.pura_amd')</a>
+                                                         </li>
+                                                      </ul>
+                                                  </div>
+                                            </li>
+
                                      <!---
                                       <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus12-2in1-laptop') }}">@lang('magus.name')</a>

@@ -1,12 +1,14 @@
-<?php $__env->startSection('title'); ?>
-    <?php echo app('translator')->getFromJson('title.Pura_spec'); ?>
-<?php $__env->stopSection(); ?>
+@extends('layouts.app')
 
-<?php $__env->startSection('content'); ?>
+@section('title')
+    @lang('title.Pura_spec')
+@stop
+
+@section('content')
 
     <main class="top-nav-padding">
 
-	<?php echo $__env->make('partials.pura-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	@include('partials.pura-navbar')
         
         <!-------------------Submenu------------ 
         <div class="nav-product-panel">
@@ -19,13 +21,13 @@
                     <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
         
         
-                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'pura')); ?>"><?php echo app('translator')->getFromJson('pura.name'); ?></a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'pura') }}">@lang('pura.name')</a></li>
         
         
-                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.spec', 'pura')); ?>"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?></a></li>
-                        <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', 'pura') }}">@lang('site.productnav_spec')</a></li>
+                        <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
                         <li class="nav-item">
-                            <a class="nav-link py-1" href="<?php echo e(route('product.map', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
+                            <a class="nav-link py-1" href="{{ route('product.map', 'liber') }}">@lang('site.productnav_wheretobuy')</a>
                         </li>
                         
                     </ul>
@@ -74,7 +76,7 @@
 
                         <div class="logo-wrapper d-flex px-3 mt-4">
                             <div class="offset-md-1">
-                                <img style="width: 200px;" src="<?php echo e(asset('images/win10_logo.png')); ?>" alt="Windows 10 Home">
+                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
                             </div>
                         </div>
 
@@ -86,32 +88,32 @@
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
                                 <div>
-                                	Intel® Core™ i3-8145U / Intel® Core™ i5-8265U 
+                                AMD R3 3200U
                                 </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>14" 16:9 FHD (1920x1080) TFT, IPS Anti-Glare Panel</div>
+                                <div>14" 16:9 FHD (1920x1080) TFT, IPS Anti-Glare Panel </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                                <div>4GB DDR4</div>
+                                <div>8GB DDR4</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
-                                <div>Intel® UHD Graphics 620 </div>
+                                <div>AMD Radeon Vega 3 Graphics</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div> 256GB / 512GB SSD SATA M.2</div>
+                                <div> 256GB SSD</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
-                                <div>VGA / 720HD </div>
+                                <div>VGA</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                <div>0.8W x 2 Speaker, Dual Microphones</div>
+                                <div>0.8W x2 Speaker , Dual Microphones</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
@@ -119,41 +121,45 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Wireless</div>
-                                <div>IEEE 802.11 b/g/n/ac</div>
+                                <div>IEEE 802.11a/b/g/n/ac</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
-                                <div>Bluetooth v4.1 / v4.2</div>
+                                <div>Bluetooth v4.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                                <div>1 x 3.5mm Headphone Jack, 2 x Full Size USB 3.0, 1 x USB 3.0 Type-C (PD 2.0 Charging, Display out), 1 x MicroSD card slot (Max support 256GB), Micro HDMI x 1</div>
+                                <div>Full Size HDMI x 1, USB 3.0 Type-A x 2, USB 3.0 Type-C x 1, MicroSD card slot x 1, 3.5mm Headphone Jack x 1</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Dimension</div>
-                                <div>332(W) x 221(H) x 15(D) mm</div>
+                                <div>W332 x H222 x D20 mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.344kg </div>
+                                <div>1.344 kg</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
-                                <div>7.6V 4830mAh</div>
+                                <div>7.6V 4830 mAH</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
-                                <div>Up to 8 hours*</div>
+                                <div>Upto 7 Hrs*</div>
                             </li>
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Glossy Purple / Metallic Black / Space Grey /  Silky White </div>
+                                <div>Space Grey/Metallic Black/ Crystal Blue/ Sugar Red/ Glossy Purple/ Sparkling Pink</div>
                             </li>
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
                                  <div>AC Adapter and Power cord</div>  
+                            </li>
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">Warranty</div>
+                                 <div>2 years</div>  
                             </li>
 
                         </ul>
@@ -188,6 +194,4 @@
 
     </main>
 
-<?php $__env->stopSection(); ?>
-
-<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+@endsection

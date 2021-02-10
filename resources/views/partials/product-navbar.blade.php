@@ -6,10 +6,8 @@
 
         <div class="product-nav-collapse">
             <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
-                <!---
+               
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber-new-generation') }}">@lang('site.productnav_overview_13')</a></li>   
-                ---->
-
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', 'liber') }}">@lang('site.productnav_spec')</a></li>
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
                     <li class="nav-item">

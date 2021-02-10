@@ -1,13 +1,11 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.Pura_home'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.Pura_home')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
     
-    	@include('partials.pura-navbar')
+    	<?php echo $__env->make('partials.pura-amd-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <!--- Submenu ------>
 
@@ -37,10 +35,10 @@
                     <br/>
                         <div class="banner-para text-center">
                        <span class="d-lg-block">
-                                   <span class="buy-now2"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
+                                   <span class="buy-now2"><a href="<?php echo e(route('product.map', ['liber'])); ?>">Buy Now</a></span>
                                    
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
-                            <a href="{{ route('product.map', 'pura') }}" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
+                            <a href="<?php echo e(route('product.map', 'pura')); ?>" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
                             <a href="#offer" style="color:#09F">Offer > </a>
                                 -->
                             </span>
@@ -94,7 +92,7 @@
 
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">The all-new AVITA PURA cleverly packs powerful functionalities inside a clean and sleek body design that is like no others. Forget the clumsiness of conventional laptop computers and welcome to a world of new experience!</span>
-                            <span class="d-lg-block"><a href="{{ route('product.spec', 'pura') }}" style="color:#09F">Tech Spec ></a></span>
+                            <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'pura')); ?>" style="color:#09F">Tech Spec ></a></span>
                         </div>
                         
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
@@ -104,8 +102,8 @@
                                 <div class="badge-caption"><a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">Know more ></a></div>
                             </div>
                             <div class="data-card my-3 text-left" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-				            <div class="badge-value">Intel<sup>®</sup> </div>
-                           <div class="badge-caption">CORE<sup>™</sup> i3-8145U / i5-8265U </div>
+				            <div class="badge-value">AMD
+                           <div class="badge-caption"> AMD R3 3200U </div></div>
 			                </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
@@ -181,7 +179,7 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.344
                 <div class="space60 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
 No more agonising wait for the laptop to power up! The AVITA PURA is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 8 hours*, the AVITA PURA is the perfect companion to have your work and life seamlessly combined.<br />
-<br />The AVITA PURA is pre-installed with the Windows 10 Home Edition operating system (in S mode), along with the 8th-generation Intel® Core™ i3-8145U / i5-8265U processor up to 8GB RAM, 512GB SSD hard disk and various ports to meet your everyday needs.</span> </div>
+<br />The AVITA PURA is pre-installed with the Windows 10 Home Edition operating system (in S mode), along with the AMD R3-3200U up to 8GB RAM, 512GB SSD hard disk and various ports to meet your everyday needs.</span> </div>
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
@@ -308,7 +306,7 @@ No more agonising wait for the laptop to power up! The AVITA PURA is the perfect
                                     <span class="d-lg-block">
                                         <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now
              ></a>&nbsp;&nbsp; 
-                                        <a href="{{ route('product.map', 'pura') }}" style="color:#09F">Where to buy ></a> 
+                                        <a href="<?php echo e(route('product.map', 'pura')); ?>" style="color:#09F">Where to buy ></a> 
                                     </span>
                                 </div>
 
@@ -347,15 +345,17 @@ No more agonising wait for the laptop to power up! The AVITA PURA is the perfect
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
-@endsection
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
-    <script type="text/javascript" src="{{ asset('js/pura.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/pura.js')); ?>"></script>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
