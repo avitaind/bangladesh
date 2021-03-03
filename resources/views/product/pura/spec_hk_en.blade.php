@@ -83,7 +83,7 @@
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Operating System</div>
-                                <div>Windows 10 Home in S mode (easy conversion to Windows 10 Home)</div>
+                                <div>Windows 10 Home in S mode(easy conversion to Windows 10 Home)</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>

@@ -1,7 +1,26 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-         <div class="carousel-item active">
+
+        <div class="carousel-item active">
+                <div class="responsive-block">
+                <a href="{{ route('product.overview', ['liber-v']) }}">
+                    <div class="banner-block responsive-item">
+                        @if( App::isLocale('en') )
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
+                        @else
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
+                        @endif
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/avita-liber-v-mob-new-v1.jpg')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        
+         <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['essential']) }}">
                     <div class="banner-block responsive-item">
@@ -19,25 +38,6 @@
                 </div>
             </div>
                  
-         <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="{{ route('product.overview', ['liber-v']) }}">
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-        
-            
          <div class="carousel-item">
                 <div class="responsive-block">
                     <a href="{{ route('product.overview', ['pura']) }}">
