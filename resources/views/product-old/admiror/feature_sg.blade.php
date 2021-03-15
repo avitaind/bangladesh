@@ -7,7 +7,7 @@
 @section('content')
     <main class="top-nav-padding">
 
-     @include('partials.admiror-navbar')
+        @include('partials.product-navbar')
          
         
           <section class="product-liber-banner">
@@ -30,20 +30,15 @@
         <section style="background-color:#000">
                 <div class="container">
                         <div class="space60"></div>
-                         <!---     <div class="banner-para">
+                        <div class="banner-para">
                         <div align="center" class="col-lg-12" >
                         	<div class="admiror_h1">AVAILABLE NOW</div>
                         </div>
-<br/>
-                      <span class="d-lg-block txt_white text-center">
-                                <span class="buy-now"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
-
-                            <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
+                            <span class="d-lg-block txt_white text-center">
+                            <a href="https://www.hachi.tech/pc-go/notebooks-desktops/notebooks-laptops?q=&hPP=48&idx=instant_product_listing_from&p=0&dFR%5Bbrand%5D%5B0%5D=AVITA&fR%5Bboutiquecates.subcategory%5D%5B0%5D=PC%20GO%20%3E%20NOTEBOOKS%20%26%20DESKTOPS%20%3E%20Notebooks%20%26%20Laptops&is_v=1" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp; 
                             <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" class="txt_white">Offer ></a>--->
+                            <a href="#offer" class="txt_white">Offer ></a>
                             </span>
-
                         </div>
                 </div>
         </section>
@@ -54,9 +49,9 @@
         	<div class="banner-block">
                 <div class="container"> 
                  <div class="space60"></div> 
-			    <!--<iframe id="ytplayer" type="text/html" width="1110" height="630" src="https://avita-bangladesh.com/videos/AVITA_ADMIROR_HK.mp4?controls=1&rel=0&showinfo=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
-                 	<video width="1110" height="625" controls  autoplay loop muted> 
-                    	<source src="https://avita-bangladesh.com/videos/AVITA_ADMIROR_Banner.mp4" type="video/mp4">
+			     <!--<iframe id="ytplayer" type="text/html" width="1110" height="630" src="/videos/AVITA_ADMIROR_HK.mp4?controls=1&rel=0&showinfo=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
+                 	<video width="1110" height="625" controls autoplay loop muted> 
+                    	<source src="https://avita.com/videos/AVITA_ADMIROR_Banner.mp4" type="video/mp4">
                     </video> 
 	            </div>
             </div>
@@ -185,7 +180,7 @@
                     <div align="left" class="col-12 col-md-6">
                         <div class="admiror_h2">Ultra-compact body for unsurpassed portability</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">The ultra-portable ADMIROR is housed in a light metallic chassis. At merely 9mm at its thinnest part, the device weighs from just 1.34kg, making it extremely handy to carry around as your favourite gadget to roam the world over.</span>
+                            <span class="d-lg-block">The ultra-portable ADMIROR is housed in a light metallic chassis. At merely 9mm at its thinnest part, the device weighs from just 1.32kg, making it extremely handy to carry around as your favourite gadget to roam the world over.</span>
 
                         </div>
                     </div>
@@ -220,17 +215,15 @@
                         </div>
                     </div>
                     <div class="space60"></div>
-                    <div class="row hidden-sm-down">
-
 <!-----9 box -------------->
+                    <div class="row hidden-sm-down">
                         <div align="left" class="col-12 col-md-8" style="background:url(/images/admiror/bg_A1.jpg) center no-repeat;">
     
                         </div>
-                        
                         <div align="left" class="col-12 col-md-4" style="background:#f2f2f2; padding:50px 30px; height:380px">
                             <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Realistic image with stunning clarity</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block" style="line-height:1.5rem;">The ADMIROR series offers a 35.56 cm screen size, with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
+                                <span class="d-lg-block" style="line-height:1.5rem;">The ADMIROR series offers a 14-inch and a 15.6-inch screen size, both with with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
     
                             </div>
                         </div>
@@ -254,7 +247,7 @@
                         </div>
                         
                     </div>
-<!---3rd Row----------->
+<!---3rd Row----------->                    
                     <div class="row hidden-sm-down">
                         <div align="left" class="col-12 col-md-4" style="background:#f2f2f2;  padding:60px 30px; height:380px;">
                             <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Backlit keyboard for unbounded exploration</div>
@@ -275,9 +268,10 @@
     
                             </div>
                         </div>
-<!-----End 9 box -------------->                    	
-                                              
                     </div>
+<!-----End 9 box -------------->      
+
+
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                 </div>
@@ -295,9 +289,9 @@
 						<div class="col-12 col-md-4">
 							<div class="admiror_h2">Realistic image with stunning clarity</div>
 							<div class="banner-para ls-0">
-								<span class="d-lg-block">The ADMIROR series offers a 35.56 cm and a 15.6-inch screen size, both with with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
+								<span class="d-lg-block">The ADMIROR series offers a 14-inch and a 15.6-inch screen size, both with with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
 								<p>
-                                <small>* The 35.56 cm FHD IPS display (1920 x 1080) is currently available. The 15.6-inch and other 4K with touchscreen models are launching soon.</small>
+                                <small>* The 14-inch FHD IPS display (1920 x 1080) is currently available. The 15.6-inch and other 4K with touchscreen models are launching soon.</small>
                                 </p>
                     	<div class="space30"></div>
 							</div>                                    
@@ -384,7 +378,7 @@
                         <div align="left" class="col-12 col-md-8">
                             <div class="admiror_h2">Incredible performance that brings superb productivity </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">ADMIROR is so much more than its look. Thanks to the new 8th generation Intel® Core<sup>TM</sup> i7-8565U processor and 8GB RAM, the processing speed is greatly enhanced. Supporting SSD of up to 512GB, the ADMIROR is your ideal storage solution.</span>
+                                <span class="d-lg-block txt_white">ADMIROR is so much more than its look. Thanks to the new 8th generation Intel® Core<sup>TM</sup> i5-8265U/i7-8565U processor and 8GB/16GB RAM, the processing speed is greatly enhanced. Supporting SSD of up to 512GB, the ADMIROR is your ideal storage solution.</span>
     
                             </div>
                         </div>
@@ -451,7 +445,7 @@
                         <div align="left" class="col-12 col-md-5">
                             <div class="admiror_h2">Productivity maximized by Extended battery</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">Battery life lasts up to 10 hours*. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.</span>    
+                                <span class="d-lg-block txt_white">Battery life lasts up to 10 hours. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.</span>    
                             </div> 
                     		<div class="space30"></div>
                             <div class="admiror-battery-wrap txt_white">
@@ -511,17 +505,13 @@
                     <div class="row">
                         <div align="left" class="col-12 col-md-5">
                             <div class="img-inline">
-                                <img src="/images/admiror/pic_offer.png" width="100%">
+                                <img src="/images/admiror/pic_offer_sg.png" width="100%">
                             </div>
-                             <div class="banner-para">
-                            <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
-                                      
-                                   <!---    <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
-                                    <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>
-                                    --->
+                            <div class="banner-para">
+                                <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
+                                <a href="https://www.hachi.tech/pc-go/notebooks-desktops/notebooks-laptops?q=&hPP=48&idx=instant_product_listing_from&p=0&dFR%5Bbrand%5D%5B0%5D=AVITA&fR%5Bboutiquecates.subcategory%5D%5B0%5D=PC%20GO%20%3E%20NOTEBOOKS%20%26%20DESKTOPS%20%3E%20Notebooks%20%26%20Laptops&is_v=1" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp; 
+                                <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>
                                 </span>
-
                             </div>
                         </div>
                     
@@ -540,7 +530,6 @@
                     <li>Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.</li>
                     <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
-                    <li>*Under Test Conditions</li>
                 </ul>
             </div>
         </section>

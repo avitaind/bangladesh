@@ -7,14 +7,13 @@
 @section('content')
     <main class="top-nav-padding">
 
-     @include('partials.admiror-navbar')
-         
-        
+    	@include('partials.product-navbar')
+  
           <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item admiror-banner">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/admiror/banner_admiror_e.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/admiror/banner_mob_admiror_e.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/admiror/banner_admiror_c.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/admiror/banner_mob_admiror_c.jpg')"></div>
                     <div class="banner-info"> 
                         <div class="an-scroll-wrap">
                             <div class="an-scroll">
@@ -30,33 +29,28 @@
         <section style="background-color:#000">
                 <div class="container">
                         <div class="space60"></div>
-                         <!---     <div class="banner-para">
+                        <div class="banner-para">
                         <div align="center" class="col-lg-12" >
-                        	<div class="admiror_h1">AVAILABLE NOW</div>
+                        	<div class="admiror_h1">現已隆重登場</div>
                         </div>
-<br/>
-                      <span class="d-lg-block txt_white text-center">
-                                <span class="buy-now"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
-
-                            <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-" target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
-                            <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" class="txt_white">Offer ></a>--->
+                            <span class="d-lg-block txt_white text-center">
+                            <a href="https://www.nexstmall.com/zh_hk/avita.html/avita-laptops/avita-admiror-laptop?___store=zh_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#7accc8">立即購買 > </a>&nbsp;&nbsp; 
+                            <a href="{{ route('product.map', 'admiror') }}" class="txt_white">銷售地點 ></a>&nbsp;&nbsp;
+                            
+                            <a href="#offer" class="txt_white">禮遇 > </a> 
                             </span>
-
                         </div>
                 </div>
         </section>
         
         
-        
-         <section class="admiror-video" style="background-color:#000;">
+        <section class="admiror-video" style="background-color:#000;">
         	<div class="banner-block">
                 <div class="container"> 
-                 <div class="space60"></div> 
-			    <!--<iframe id="ytplayer" type="text/html" width="1110" height="630" src="https://avita-bangladesh.com/videos/AVITA_ADMIROR_HK.mp4?controls=1&rel=0&showinfo=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
-                 	<video width="1110" height="625" controls  autoplay loop muted> 
-                    	<source src="https://avita-bangladesh.com/videos/AVITA_ADMIROR_Banner.mp4" type="video/mp4">
+                <div class="space60"></div> 
+			     <!--<iframe id="ytplayer" type="text/html" width="1110" height="630" src="/videos/AVITA_ADMIROR_HK.mp4?controls=1&rel=0&showinfo=0&autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
+                 	<video width="1110" height="625" controls autoplay loop muted> 
+                    	<source src="https://avita.com/videos/AVITA_ADMIROR_HK.mp4" type="video/mp4">
                     </video> 
 	            </div>
             </div>
@@ -68,16 +62,15 @@
                 <div class="container">
                     <div align="center" >
 
-                        <div class="h1">#YouCanBe Expressing Yourself</div>
+                        <div class="h1">釋放自我 展現個性 #YouCanBe</div>
                         <div class="space60 hidden-sm-down"></div>
-                        <div class="banner-para ls-0 col-sm-offset-2 col-sm-8">Be who you are and show your individuality. The choice is yours. #YouCanbe </div>
+                        <div class="banner-para ls-0 col-sm-offset-2 col-sm-8">是時候拒絕隨波逐流，AVITA 全新的 ADMIROR 系列</div>
                         <div class="space30"></div>
                         <div class="Fadein">
                             <img src="/images/admiror/pic_AMIROR01.png">
                         </div>
                         <div class="banner-para ls-0 col-sm-offset-2 col-sm-8">
-                            The all-new AVITA ADMIROR takes you on a journey of self-discovery. Shattering the norms and constraints of conventional laptops, the ADMIROR’s intricate designs and eye-catching colours are yours to embrace, because you deserve to be extraordinary!
-
+                           打破常規，以時尚典雅的獨特設計及奪目配色，與你超越平凡、大放異彩！
                         </div> 
                         <div class="space60 hidden-sm-down"></div>
                         <div class="banner-data text-center col-lg-12">
@@ -88,7 +81,7 @@
                         </div> 
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
-                        <div class="h1">AVITA ADMIROR brings you</div>
+                        <div class="h1">AVITA ADMIROR 為你帶來</div>
                         
                         
                    		<section class="banner-anchor">
@@ -98,24 +91,24 @@
                                 
                                 <div align="center" class="col-md-4">
                                     <a href="#artistic_design">
-                                        <img class="first" src='/images/admiror/btn_artistic_1.png' />
-                                        <img class="hover" src='/images/admiror/btn_artistic_2.png' />
+                                        <img class="first" src='/images/admiror/btn_artistic_1c.png' />
+                                        <img class="hover" src='/images/admiror/btn_artistic_2c.png' />
                                     </a>
                                 </div>
                                 
                                 
                                 <div align="center" class="col-md-4">
                                      <a href="#usage_experience">
-                                        <img class="first" src='/images/admiror/btn_pride_1.png' />
-                                        <img class="hover" src='/images/admiror/btn_pride_2.png' />
+                                        <img class="first" src='/images/admiror/btn_pride_1c.png' />
+                                        <img class="hover" src='/images/admiror/btn_pride_2c.png' />
                                      </a>
                                 </div>
                                 
                                 
                                 <div align="center" class="col-md-4">
                                     <a href="#outstanding">
-                                        <img class="first" src='/images/admiror/btn_outstanding_1.png' />
-                                        <img class="hover" src='/images/admiror/btn_outstanding_2.png' />
+                                        <img class="first" src='/images/admiror/btn_outstanding_1c.png' />
+                                        <img class="hover" src='/images/admiror/btn_outstanding_2c.png' />
                                     </a>
                                 </div>
                                 
@@ -143,8 +136,8 @@
                 	<div class="row">
                 	
                         <div align="center" class="col-lg-12" >
-                        <div class="admiror_h1">An artistic design</div>
-                        <div class="admiror_h3 mb-4 mb-sm-5" >to flaunt your identity</div>                        
+                        <div class="admiror_h1">盡顯自我的</div>
+                        <div class="admiror_h3 mb-4 mb-sm-5" >時尚典雅設計</div>                        
                             <div class="space60"></div>
                         </div>
                     </div> 
@@ -156,16 +149,21 @@
                 	<div class="row">
                     	<div class="col-sm-7"></div>
                         <div class="banner-info col-sm-5">
-                            <div class="admiror_h2">Exquisite design that combines Gothic architectural aesthetics</div>
+                            <div class="admiror_h2">雅緻設計  揉合哥德式建築美學</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white text-left">Inspired by the magnificence of the Gothic architecture, the brand new AVITA ADMIROR series combines contemporary architectural aesthetics into its state-of-the-art technology. The ADMIROR features an ultra-slim body in a modern design, paying attention to the smallest detail. The hinge concealed between the screen and the keyboard references the renowned flying buttress of the Gothic design. The essence of the grand and tall Gothic architecture is reflected in the laptop's slender body that contrasts with the rounded hedge, mimicking the iconic pointed arches. With a unique appearance inspired by epoch-making architectural art, ADMIROR is an iconic design for fashionistas and those who crave for an individual style.</span>
+                                <span class="d-lg-block txt_white text-left">AVITA ADMIROR 以典雅的哥德式建築設計概念，融入 時尚風格，每個細節都別具匠心。螢幕與鍵盤之間的拱頂裝飾參照哥德式建築的飛扶壁設計，讓與眾不同的 ADMIROR 成為觸目焦點。其修長筆挺的機身與 圓角鉸位渾然天成，完美演繹哥德式建築的尖拱美學。機身的裝飾細節仿如哥德教堂內的花窗玻璃，將典雅時尚風格推向極致。</span>
                             </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
                             <div class="space60"></div>
-                            <div class="admiror_h2">Stand out with colors</div>
+                            <div class="admiror_h2">大放異彩  盡顯風格</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white text-left">ADMIROR makes sure your individuality gets all the attention. The new series offers 5 unique color options to express your personal style. Be it the rebellious Blazing Brown or Flaming Copper, the eye-catching Delight Pink or Pride Blue, or the soothing Traveler Green, the ADMIROR simply compliments any outfit you choose to wear.
-    (Choice of 3 colours available now: Flaming Copper, Delight Pink and Blazing Brown)</span>
+                                <span class="d-lg-block txt_white text-left">"以ADMIROR 的5種破格配色 -- 極具玩味的 「火焰銅」 及 「炫酷啡」，率性的「燃亮紅」及 「冰傲藍」 ， 祟尚自然 的「旅者綠」，配上個性穿搭，讓你贏盡 目光！
+（3款已登場配色：火焰銅、燃亮紅、炫酷啡）"</span>
                             </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
                         </div><!--banner-info col-sm-6-->
                    </div><!--row-->
                 </div>
@@ -183,23 +181,24 @@
                     <div class="space60"></div>
                     <div class="row">
                     <div align="left" class="col-12 col-md-6">
-                        <div class="admiror_h2">Ultra-compact body for unsurpassed portability</div>
+                        <div class="admiror_h2">纖細機身  輕巧便攜</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">The ultra-portable ADMIROR is housed in a light metallic chassis. At merely 9mm at its thinnest part, the device weighs from just 1.34kg, making it extremely handy to carry around as your favourite gadget to roam the world over.</span>
+                            <span class="d-lg-block">以輕量金屬製作的ADMIROR，纖細精巧，最薄處只有9毫米，重量僅1.32千克起，方便隨身攜帶，是你探索世界的絕佳良伴。</span>
 
                         </div>
                     </div>
                     <div align="left" class="col-12 col-md-6">
-                        <div class="admiror_h2">Push your limits with a wider view</div>
+                        <div class="admiror_h2">窄邊框設計  工作娛樂專心致志</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Push the limits by garnering a wider view. The 7mm narrow bezel on the ADMIROR gives your maximised screen areas and eliminates distraction for an immersive viewing experience, whether you are at work or just want to sit back and chill.</span>
+                            <span class="d-lg-block">要突破界限，首先要擴闊視野。ADMIROR的窄邊框僅7毫米闊，減低視覺障礙和干擾，屏幕亦變得更廣更闊，讓你全情投入工作或娛樂。</span>
 
                         </div>
                     </div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60"></div>
                                         
-                   
+                    <!-----3 Button-1--------------> 
+                       
                         
                     <!-----End 3 Button-1-------------->
                     
@@ -215,22 +214,22 @@
                     <div class="space60"></div>
                     <div class="row">
                         <div align="center" class="col-12 col-md-12">
-                        <div class="admiror_h3 txt_black">Usage Experience that you can feel </div>
-                        <div class="admiror_h1 txt_black">PRIDE & DELIGHTED</div>
+                        <div class="admiror_h3 txt_black">引以為傲的</div>
+                        <div class="admiror_h1 txt_black">使用體驗</div>
                         </div>
                     </div>
                     <div class="space60"></div>
-                    <div class="row hidden-sm-down">
-
+                    
 <!-----9 box -------------->
-                        <div align="left" class="col-12 col-md-8" style="background:url(/images/admiror/bg_A1.jpg) center no-repeat;">
+                    <div class="row hidden-sm-down">
+                        <div align="left" class="col-12 col-md-8" style="background:url(/images/admiror/bg_A1c.jpg) center no-repeat;">
     
                         </div>
                         
-                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2; padding:50px 30px; height:380px">
-                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Realistic image with stunning clarity</div>
+                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2; padding:80px 30px; height:380px">
+                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0.2rem;">逼真畫面  細緻清晰</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block" style="line-height:1.5rem;">The ADMIROR series offers a 35.56 cm screen size, with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
+                                <span class="d-lg-block" style="line-height:1.9rem;">ADMIROR系列提供14吋及15.6吋兩款屏幕選擇，均可選配4K超高清IPS觸控屏（3840 x 2160）*， 其清晰銳利的影像畫面，可上觸控屏幕，不論瀏覽網頁或觀看影片，都能享受細緻流暢的體驗。</span>
     
                             </div>
                         </div>
@@ -241,10 +240,10 @@
     
                         </div>
                         
-                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2;  padding:80px 30px; height:380px">
-                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Easy and smooth navigation</div>
+                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2;  padding:100px 30px; height:380px">
+                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0.2rem;">流暢操控  得心應手</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block" style="line-height:1.5rem;">Explore endless possibilities with ADMIROR's intelligent touchscreen that allows you to navigate websites and videos with greater ease.
+                                <span class="d-lg-block" style="line-height:1.9rem;">ADMIROR 配備特大觸控板，支援多點觸控，靈活度及精準度大大提升，應付大小任務都能得心應手。
                                 </span>
     
                             </div>
@@ -254,12 +253,12 @@
                         </div>
                         
                     </div>
-<!---3rd Row----------->
+<!---3rd Row----------->                    
                     <div class="row hidden-sm-down">
-                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2;  padding:60px 30px; height:380px;">
-                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Backlit keyboard for unbounded exploration</div>
+                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2;  padding:100px 30px; height:380px;">
+                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0.2rem;">背光鍵盤  不受環境束縛</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block" style="line-height:1.5rem;">The backlit design of the keyboard enables you to locate each keycap in dimly-lit environments. Work and entertainment are no longer constrained by time and place. This feature makes uninterrupted workflow possible and helps you explore the world anytime anywhere.
+                                <span class="d-lg-block" style="line-height:1.9rem;">鍵盤使用背光設計，即是在昏暗的環境中每個鍵帽仍然能清晰易見，工作娛樂從此不受時間及環境限制。
                                 </span>
     
                             </div>
@@ -267,22 +266,23 @@
                         <div align="left" class="col-12 col-md-4" style="background:url(/images/admiror/bg_C2.jpg) center no-repeat;">
     
                         </div>
-                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2; padding:80px 30px;">
-                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Exceptional audio-visual experience</div>
+                        <div align="left" class="col-12 col-md-4" style="background:#f2f2f2; padding:100px 30px;">
+                            <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0.2rem;">極致音質  震撼人心</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block" style="line-height:1.5rem;">Music is a big part of an identity. ADMIROR's 4 passive boosters and 2 full range speakers are set to bring out the best audio-visual experience for your enjoyment.
+                                <span class="d-lg-block" style="line-height:1.9rem;">ADMIROR將你的音樂品味完美無瑕地呈現，配以四個被動式加兩個全頻的高品質喇叭，帶來精彩絕倫的視聽享受。
                                 </span>
     
                             </div>
                         </div>
+                      </div>
 <!-----End 9 box -------------->                    	
-                                              
-                    </div>
+
+
+
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                 </div>
-        </section> 
-        
+        </section>
 <!-----PRIDE & DELIGHTED Mobile -------------->
         <section class="hidden-md-up" style="background-color:#FFF;" >
         	<div class="banner-block">
@@ -293,11 +293,11 @@
                     	<div class="space30"></div>
 						</div>
 						<div class="col-12 col-md-4">
-							<div class="admiror_h2">Realistic image with stunning clarity</div>
+							<div class="admiror_h2">逼真畫面  細緻清晰</div>
 							<div class="banner-para ls-0">
-								<span class="d-lg-block">The ADMIROR series offers a 35.56 cm and a 15.6-inch screen size, both with with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
+								<span class="d-lg-block">ADMIROR系列提供14吋及15.6吋兩款屏幕選擇，均可選配4K超高清IPS觸控屏（3840 x 2160）*， 其清晰銳利的影像畫面，可上觸控屏幕，不論瀏覽網頁或觀看影片，都能享受細緻流暢的體驗。</span>
 								<p>
-                                <small>* The 35.56 cm FHD IPS display (1920 x 1080) is currently available. The 15.6-inch and other 4K with touchscreen models are launching soon.</small>
+                                <small>*現率先提供 14吋全高清 IPS（1920 x 1080）型號，15.6吋及其他4K觸控屏型號快將推出。</small>
                                 </p>
                     	<div class="space30"></div>
 							</div>                                    
@@ -308,9 +308,9 @@
                     	<div class="space30"></div>
 						</div>
 						<div class="col-12 col-md-4">
-							<div class="admiror_h2">Easy and smooth navigation</div>
+							<div class="admiror_h2">流暢操控  得心應手</div>
 							<div class="banner-para ls-0">
-								<span class="d-lg-block">Productivity is further boosted with the extra-large touch panel that supports multi-touch control, significantly enhancing the overall flexibility and accuracy.</span>
+								<span class="d-lg-block">ADMIROR 配備特大觸控板，支援多點觸控，靈活度及精準度大大提升，應付大小任務都能得心應手。</span>
 							</div>    
                     	<div class="space30"></div>
 						</div>
@@ -320,9 +320,9 @@
                     	<div class="space30"></div>
 						</div>
 						<div class="col-12 col-md-4">
-							<div class="admiror_h2">Exceptional audio-visual experience</div>
+							<div class="admiror_h2">極致音質  震撼人心</div>
 							<div class="banner-para ls-0">
-								<span class="d-lg-block">Music is a big part of an identity. ADMIROR's 4 passive boosters and 2 full range speakers are set to bring out the best audio-visual experience for your enjoyment.</span>
+								<span class="d-lg-block">ADMIROR將你的音樂品味完美無瑕地呈現，配以四個被動式加兩個全頻的高品質喇叭，帶來精彩絕倫的視聽享受。</span>
 							</div>
                     	<div class="space30"></div>
 						</div>
@@ -332,9 +332,9 @@
                     	<div class="space30"></div>
 						</div>
 						<div class="col-12 col-md-4">
-							<div class="admiror_h2">Backlit keyboard for unbounded exploration</div>
+							<div class="admiror_h2">背光鍵盤  不受環境束縛</div>
 							<div class="banner-para ls-0">
-								<span class="d-lg-block">The backlit design of the keyboard enables you to locate each keycap in dimly-lit environments. Work and entertainment are no longer constrained by time and place. This feature makes uninterrupted workflow possible and helps you explore the world anytime anywhere.</span>
+								<span class="d-lg-block">鍵盤使用背光設計，即是在昏暗的環境中每個鍵帽仍然能清晰易見，工作娛樂從此不受時間及環境限制。</span>
 							</div>         
                     	<div class="space30"></div>
 						</div>
@@ -355,8 +355,7 @@
                 <div class="container">
                 	<div class="padding-bottom-l">                    
         <!-----3 Button-1-------------->
-                
-                      
+                 
         <!-----End 3 Button-1-------------->        
         			
                     <div class="space60"></div>
@@ -373,8 +372,8 @@
 
                              <div align="left" class="col-12 col-md-4"></div>
                             <div align="left" class="col-12 col-md-8">
-                            <div class="admiror_h1 txt_white" >OUTSTANDING </div>
-                            <div class="admiror_h3 txt_white" >Performance that you can count on </div>
+                            <div class="admiror_h1 txt_white" >安全可靠的</div>
+                            <div class="admiror_h3 txt_white" >卓越性能</div>
                             </div>
                         </div>
 
@@ -382,9 +381,9 @@
                         <div class="row">
                         <div align="left" class="col-12 col-md-4"></div>
                         <div align="left" class="col-12 col-md-8">
-                            <div class="admiror_h2">Incredible performance that brings superb productivity </div>
+                            <div class="admiror_h2">出色效能  無與倫比</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">ADMIROR is so much more than its look. Thanks to the new 8th generation Intel® Core<sup>TM</sup> i7-8565U processor and 8GB RAM, the processing speed is greatly enhanced. Supporting SSD of up to 512GB, the ADMIROR is your ideal storage solution.</span>
+                                <span class="d-lg-block txt_white">ADMIROR 外型出眾，其功能配置亦同樣出色。搭載 第8代 Intel® Core<sup>TM</sup> i5-8265U 或 i7-8565U處理器及8GB記憶體，效能大大提升。最高可搭載512GB SSD，可儲存大量檔案。即使創意再多，ADMIROR都可以一一收錄。</span>
     
                             </div>
                         </div>
@@ -415,9 +414,9 @@
                     <div class="space60"></div>
                     <div class="row">
                     <div align="left" class="col-12 col-md-6">
-                        <div class="admiror_h2">Worry-free login and data security </div>
+                        <div class="admiror_h2">指紋登入  輕鬆安全</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block txt_white">Gone are the days when password is used for login. ADMIROR incorporates fingerprint reader and works seamlessly with Windows Hello for both convenient log-in and strengthened privacy protection. You can rest assured that every piece of work and personal data is well protected.</span> 
+                            <span class="d-lg-block txt_white">ADMIROR支援 Windows Hello及指紋識別功能，一指登入，過程輕鬆簡便。指紋識別亦保障你的工作檔案及個人資料不易外洩，更安全更放心。</span> 
                         </div>
                         <div class="img-inline">
                         	<ul>
@@ -449,27 +448,27 @@
                             <img src="/images/admiror/ADMIROR05.png">
                         </div>
                         <div align="left" class="col-12 col-md-5">
-                            <div class="admiror_h2">Productivity maximized by Extended battery</div>
+                            <div class="admiror_h2">持久電量  釋放潛能</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">Battery life lasts up to 10 hours*. Without the need to look around for a power source, let your creativity flow and stay uninterrupted during your work or a favourite show.</span>    
+                                <span class="d-lg-block txt_white">長達10小時的電池續航力，工作娛樂從此不受電量限制，讓你無間斷釋放潛能。</span>    
                             </div> 
                     		<div class="space30"></div>
                             <div class="admiror-battery-wrap txt_white">
-                                    Up to <br />
+                                    最高<br />
                                     <img src='/images/admiror/10hr_e.png' />
                                     <br />
-                                    Battery life
+                                    電池續航力
                             </div>
                         </div>
                         <div align="left" class="col-12 col-md-2"> 
                     		<div class="space60 hidden-md-up"></div>
                         </div>
                         <div align="left" class="col-12 col-md-5">
-                            <div class="admiror_h2">Connectivity that fits your needs</div>
+                            <div class="admiror_h2">全方位連接  無拘無束</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">With two built-in USB-C ports, the ADMIROR is the perfect for work on the go. The ADMIROR comes with a USB-C to USB, HDMI and 3.5mm audio jack adapter, ensuring the highest connectivity. Meanwhile, the USB-C to 3.5mm headphone jack cable allows you to indulge in your favorite jam.<br />
+                                <span class="d-lg-block txt_white">出外工作要靈活輕便，ADMIROR 內置兩個USB-C連接埠，配上隨機附送的USB-C至USB、HDMI及3.5 mm全方位外置轉換器，連接不同裝置亦毫無難度。另附加USB-C至3.5mm連接線，讓你沉醉於音樂世界。<br />
     <br />
-    Colour-coordinated wireless mouse and portable bluetooth speaker will be launched soon.</span>
+    同款時尚色系無線滑鼠及手提藍芽喇叭即將登場</span>
     
                             </div>
                              <div class="img-inline">
@@ -486,42 +485,40 @@
                         </div>
                     
                     </div>
+                    <div class="space60"></div>
                 </div>
         	</div>
             </div>
         </section>
-        
-        
         
 <!-----Section 6 -------------->
 
         <section class="color-choice" id="offer">
         	<div class="banner-block">
                 <div class="banner-bg hidden-sm-down" style="background:url(/images/admiror/bg_admiror06.jpg) top center no-repeat;"></div>
-                <div class="banner-bg hidden-sm-up" style="background-color:#000"></div>
+                <div class="banner-bg hidden-sm-up" style="background-color:#000;"></div>
                 <div class="container">  
+
                     <div class="row">
                         <div class="col-12 col-md-8">
-                            <div class="admiror_h2">Choice of 3 colours available now</div>
+                            <div class="admiror_h2">3款已登場配色</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white">Blazing Brown, Flaming Copper and Delight Pink (Coming soon: Pride Blue, Traveler Green)</span>    
+                                <span class="d-lg-block txt_white">火焰銅、炫酷啡、燃亮紅(即將推出: 冰傲藍, 旅者綠)</span>    
                             </div> 
                         </div>
                     </div>        
                     <div class="row">
                         <div align="left" class="col-12 col-md-5">
                             <div class="img-inline">
-                                <img src="/images/admiror/pic_offer.png" width="100%">
-                            </div>
-                             <div class="banner-para">
-                            <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
-                                      
-                                   <!---    <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-admiror-laptop?___store=en_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage
-        " target="_blank" style="color:#7accc8">Buy now > </a>&nbsp;&nbsp;
-                                    <a href="{{ route('product.map', 'admiror') }}" class="txt_white">Where to buy ></a>
-                                    --->
+                            <img src="/images/admiror/pic_offer_c.png" width="100%">
+                        </div>
+                            <div class="banner-para">
+                                <span class="d-lg-block txt_white text-center" style="margin-top:15px;">
+                                    
+                                    <a href="https://www.nexstmall.com/zh_hk/avita.html/avita-laptops/avita-admiror-laptop?___store=zh_hk?___store=zh_hk&utm_source=brandsiteadmirorproductpage&utm_medium=web&utm_campaign=admirorLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#7accc8">立即購買 > </a>&nbsp;&nbsp; 
+                            		<a href="{{ route('product.map', 'admiror') }}" class="txt_white">銷售地點 ></a>
+                                  
                                 </span>
-
                             </div>
                         </div>
                     
@@ -534,13 +531,11 @@
         <section class="product-statement">
             <div class="container">
                 <ul class="product-statement-list py-2 py-sm-5 mx-auto ls-0 pl-4 py-0 mt-0 mt-sm-5">
-                    <li>Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.</li>
-                    <li>Models or specifications may vary from country to country. Check with your local distributors or retailers for any updates on the current product.</li>
-                    <li>Weights vary depending on configuration and manufacturing variability.</li>
-                    <li>Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.</li>
-                    <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
-                    <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
-                    <li>*Under Test Conditions</li>
+                     <li>Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside 等 trademarks 屬於美國及其他國家的Intel 公司所有。</li>
+                    <li>產品規格可能會依國家地區而有所變動，我們誠摯的建議您與當地的經銷商或零售商確認目前販售產品的規格。</li>
+                    <li>重量會因組態及製造差異而有所不同。</li>
+                    <li>產品顏色可能會因拍照光線誤差或螢幕設定而與實際產品有所差異。</li>
+                    <li>我們會盡力提供正確與完整的資料於網頁上，並保留更動、修正頁面資訊的權利，恕不另行通知。</li>
                 </ul>
             </div>
         </section>
@@ -555,15 +550,11 @@
 
 @section('css')
     <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/> 
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/animate.css') }}"/> 
 @endsection
 
 @section('js')
 
     <script type="text/javascript" src="{{ asset('js/pura.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/wow.min.js') }}"></script>
 
-	<script>
-    	new WOW().init();
-    </script>
+
 @endsection

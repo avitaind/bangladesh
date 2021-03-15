@@ -42,7 +42,7 @@
                            
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-35.56 cm-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
+                            <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-14-inch-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
                             <a href="/where-to-buy" style="color:#09F">Where to buy ></a> 
                             </span>
                         </div>
@@ -147,7 +147,7 @@
                         <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Prompt Portability</div></div>
                         <div class="banner-para ls-0">
                             <span class="d-md-block">The smart design and sophisticated engineering behind </span>
-                            <span class="d-md-block">LIBER V ensures that the 35.56 cm visage of</span>
+                            <span class="d-md-block">LIBER V ensures that the 14-inch visage of</span>
                             <span class="d-md-block">LIBER V weighs merely 1.25 kgs, 14% lighter than</span>
                             <span class="d-md-block">previous LIBER models, LIBER V achieves the ideal</span>
                             <span class="d-md-block">in terms of easy mobility factor. Combine that</span>
@@ -177,7 +177,7 @@
                                 <div class="badge-caption pb-1">
                                     <div class="badge-value d-inline pr-1">1.25</div>kg
                                 </div>
-                                <div class="badge-caption">35.56 cm weight</div>
+                                <div class="badge-caption">14-inch weight</div>
                             </div>
                         </div>
                     </div>

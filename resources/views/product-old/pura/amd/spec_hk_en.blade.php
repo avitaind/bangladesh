@@ -43,9 +43,9 @@
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
 
-<!-------------- PURA 35.56 cm-------------->
+<!-------------- PURA 14-inch-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA PURA</div><div class="d-sm-block">(35.56 cm)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA PURA</div><div class="d-sm-block">(14-inch)</div></div>
                             <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
                             <img class="hidden-sm-down" src="/images/pura/Pura_grey.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  
@@ -67,7 +67,7 @@
 <!-- Tab panes PRODUCT SPEC-->
             <div class="tab-content">
              
-<!------------------ PURA 35.56 cm ------------------------------------->
+<!------------------ PURA 14-inch ------------------------------------->
                 <div class="tab-pane active" id="spec-4" role="tabpanel">
                     <div class="container">
 
@@ -90,7 +90,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>14 16:9 FHD (1920x1080) TFT, IPS Anti-Glare Panel </div>
+                                <div>14" 16:9 FHD (1920x1080) TFT, IPS Anti-Glare Panel </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
@@ -163,7 +163,7 @@
                     </div>
                 </div> 
 
-<!------------------ End PURA 35.56 cm------------------------------------->
+<!------------------ End PURA 14-inch------------------------------------->
             </div>
 
         </section>

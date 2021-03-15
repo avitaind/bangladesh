@@ -17,9 +17,9 @@
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
 
-<!-------------- PURA 14-inch-------------->
+<!-------------- PURA 35.56 cm-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
-                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA Essential</div><div class="d-sm-block">(14-inch)</div></div>
+                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA Essential</div><div class="d-sm-block">(35.56 cm)</div></div>
                              <img class="hidden-sm-down" src="/images/essential/eeeeee.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  
                                 <li class="active" style="background-color: #eeeeee" data-image="/images/essential/eeeeee.png"></li>
@@ -38,7 +38,7 @@
 <!-- Tab panes PRODUCT SPEC-->
             <div class="tab-content">
              
-<!------------------ PURA 14-inch ------------------------------------->
+<!------------------ PURA 35.56 cm ------------------------------------->
                 <div class="tab-pane active" id="spec-4" role="tabpanel">
                     <div class="container">
 
@@ -134,7 +134,7 @@
                     </div>
                 </div> 
 
-<!------------------ End PURA 14-inch------------------------------------->
+<!------------------ End PURA 35.56 cm------------------------------------->
             </div>
 
         </section>

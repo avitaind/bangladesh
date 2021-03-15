@@ -7,12 +7,14 @@
 @section('content')
     <main class="top-nav-padding">
     
-    	@include('partials.essential-product-navbar')
+    	@include('partials.product-navbar')
+ 
+
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/essential/AVITA_essential_banner_hk_en.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/essential/AVITA_essential_banner_hk_en_mo.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/essential/AVITA_essential_banner_en.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/essential/AVITA_essential_banner_id_mo.jpg')"></div>
                     <div class="banner-info">
                         <div class="an-scroll-wrap">
                             <div class="an-scroll">
@@ -22,8 +24,26 @@
                     </div>
                 </div>
             </div>
-        </section> 
-                  
+        </section>
+        <!--
+        <section class="product-liber-computer ls-0" id="test" style="background-color:#fff;">
+                <div class="container">
+                        <div class="space60"></div>
+                        <div class="banner-para">
+                        <div align="center" class="col-lg-12" >
+                        	<div class="h2 banner-header">全新上市</div>
+                        </div>
+                        <div class="banner-para text-center">
+                            <span class="d-lg-block">
+                            <a href=" https://www.nexstmall.com/products/avita-pura-14?utm_source=brandsite&utm_medium=kv&utm_campaign=pura" target="_blank" style="color:#09F">立即購買 ></a>&nbsp;&nbsp; 
+                            <a href="{{ route('product.map', 'pura') }}" style="color:#09F">銷售地點 ></a>
+                            </span>
+                        </div>
+                        <div class="space30"></div>
+                    </div>
+                </div>
+        </section>
+        -->
         
         
         <section class="product-liber-computer ls-0" id="test" style="background-color:#eee;">
@@ -34,16 +54,8 @@
                         <div class="banner-para">
                             <span class="d-lg-block">Versatile entry notebook for everyday use</span>
                         </div>
-                  
-                        <div class="space30"></div>
-                          <!---
-                        <div class="banner-para">
-                        <span class="btn btn-secondary">Coming Soon</span>
-                         </div>
                         <div class="space60"></div>
-
                     </div>
-                    --->
                 </div>
         </section>
         
@@ -95,7 +107,7 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/essential/essential_bg2_en_mo.jpg" style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>                
-                        <div class="banner-para ls-0">Essential features an enormous capacity offered by the SATA SSD of up to 256GB for faster data processing and near-instant booting up, making it a work-friendly entry level laptop. With maximum power consumption as low as 2.6GHz, the laptop promises excellent power efficiency and guarantees a battery life longer than ever. Besides, the fan-less design eliminates distracting noises, allowing the device to run most silently so you can stay focused on the tasks on hand. Coupled with professional design, the unique cloth design of Matt White, Matt Black, and Concrete Grey is perfect for your home life!</span></div>                       
+                        <div class="banner-para ls-0">Essential features an enormous capacity offered by the SATA SSD of up to 128GB for faster data processing and near-instant booting up, making it a work-friendly entry level laptop. With maximum power consumption as low as 2.6GHz, the laptop promises excellent power efficiency and guarantees a battery life longer than ever. Besides, the fan-less design eliminates distracting noises, allowing the device to run most silently so you can stay focused on the tasks on hand. Coupled with professional design, the unique cloth design of Matt White, Matt Black, and Concrete Grey is perfect for your home life!</span></div>                       
                         
                     </div>
                 	<div class="col-12 col-lg-6" align="left"></div>
@@ -124,7 +136,7 @@
                         </div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Measuring merely 20mm for the 14 model, the lightweight, effortlessly portable Essential is designed to accompany you wherever you go. The thin bezel design in both models offers a maximized screen area that makes graphics more immersive. Outstanding visuals and being easy to carry around means conducting presentations or streaming movies on the go can never be easier.</span>
+                            <span class="d-lg-block">Measuring merely 20mm for the 14" model, the lightweight, effortlessly portable Essential is designed to accompany you wherever you go. The thin bezel design in both models offers a maximized screen area that makes graphics more immersive. Outstanding visuals and being easy to carry around means conducting presentations or streaming movies on the go can never be easier.</span>
                             <span class="d-lg-block"><a href="{{ route('product.spec', 'essential') }}" style="color:#09F">@lang('site.productnav_spec') ></a></span>
                         </div>
                         
@@ -132,7 +144,7 @@
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Operating System</div>
 								<div class="badge-value">Windows 10 in S Mode</div>
-                                <div class="badge-caption"><a href="https://support.microsoft.com/en-hk/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">Know more ></a></div>
+                                <div class="badge-caption"><a href="https://support.microsoft.com/en-us/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">Know more ></a></div>
                             </div>
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 <div class="badge-caption">Up to</div>
@@ -141,12 +153,12 @@
                             </div> 
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">256<span class="badge-caption pl-1">GB</span></div>
+								<div class="badge-value">128<span class="badge-caption pl-1">GB</span></div>
 								<div class="badge-caption">SSD</div>
 							</div>
 							<div class="data-card my-3 col-12 col-lg-6 text-left">
 								<div class="badge-caption">Up to</div>
-								<div class="badge-value">4<span class="badge-caption pl-1">GB</span></div>
+								<div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
 								<div class="badge-caption">RAM</div>
                             </div>
                         
@@ -176,14 +188,14 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/essential/essential_bg3_en_mo.jpg">
                         </div>                
-                        <div class="banner-para ls-0">The 14 model comes with a full-sized screen for maximized viewing comfort even after a long day of use. Its stunning performance and capabilities make it an ideal device for everyday office work or an e-learning notebook for students.</span></div>
+                        <div class="banner-para ls-0">The 14" model comes with a full-sized screen for maximized viewing comfort even after a long day of use. Its stunning performance and capabilities make it an ideal device for everyday office work or an e-learning notebook for students.</span></div>
                         
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                             <div class="data-card mx-3 text-left">
                                 <span class="badge-value">1.377</span>
 								<span class="badge-caption">kg</span>
-								<div class="badge-caption">35.56 cm weight</div>
+								<div class="badge-caption">14-inch weight</div>
                             </div>
                         </div>
 						</section>  
