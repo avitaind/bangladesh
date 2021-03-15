@@ -3,8 +3,8 @@
 return [
     // universal
     'admiror'                      => 'AVITA ADMIROR',
-    'liber'                        => 'AVITA LIBER 13.3" ',
-    'liber12'                      => 'AVITA LIBER 12.5"',
+    'liber'                        => 'AVITA LIBER 13.3 ',
+    'liber12'                      => 'AVITA LIBER 12.5',
     'pura'                         => 'AVITA PURA',
     'pura_intel'                   => 'AVITA PURA Intel',
     'pura_amd'                     => 'AVITA PURA AMD',
@@ -70,14 +70,14 @@ return [
     'home_subscribe'                => 'Subscribe Now',
 
     'productnav_overview'           => 'Overview',
-    'productnav_overview_12'        => 'Overview 12.5"',
-    'productnav_overview_13'        => 'Overview 13.3" ',
-    'productnav_overview_u_series'  => 'Overview 13.3" & 14" ',
+    'productnav_overview_12'        => 'Overview 12.5',
+    'productnav_overview_13'        => 'Overview 13.3 ',
+    'productnav_overview_u_series'  => 'Overview 13.3 & 14 ',
 
     'productnav_spec'               => 'Tech Spec',
     'productnav_support'            => 'Support',
     'productnav_wheretobuy'         => 'Where to buy',
-    'productnav_magus'      		=> 'AVITA MAGUS 12.2" 2-in-1 Laptop',
+    'productnav_magus'      		=> 'AVITA MAGUS 12.2 2-in-1 Laptop',
 
     'aboutus_about'                 => 'About AVITA',
     'aboutus_content'               => [
@@ -239,7 +239,7 @@ return [
 
     ],
 
-    'experience_liber125_here' => '? Experience LIBER 12.5" here! ',
+    'experience_liber125_here' => '? Experience LIBER 12.5 here! ',
     'coming_soon' => 'Coming Soon',
     'essential' => 'Overview Essential',
     'essential_spec' => 'Tech Spec',
