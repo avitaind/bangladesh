@@ -3,7 +3,7 @@
 return [
     // universal
     '2in1'               				=> '2-in-1 detachable design',
-    '2in1-detail'                      	=> 'MAGUS is both a recreational gadget and the best partner in the office. The 2-in-1 comes vivid color line-up with a 12.2” 1920x1200 IPS touch screen that offers ultra-wide viewing angle.  With a keyboard cover, the MAGUS 12.2&quot; 2-in-1 transforms from a tablet into a laptop by simply opening the built-in stand, enabling users to stay productive with ease anytime, anywhere.',
+    '2in1-detail'                      	=> 'MAGUS is both a recreational gadget and the best partner in the office. The 2-in-1 comes vivid color line-up with a 30.98 cm 1920x1200 IPS touch screen that offers ultra-wide viewing angle.  With a keyboard cover, the MAGUS 12.2, 2-in-1 transforms from a tablet into a laptop by simply opening the built-in stand, enabling users to stay productive with ease anytime, anywhere.',
 	'inside-out'               			=> 'Inside-out Vibrancy',
 	'inside-out-detail'               	=> 'MAGUS combines minimalistic design with a metallic casing. Be it in tablet form or laptop mode, MAGUS allows users to express their personal styles with the four color options available – Seashell Pink, Steel Blue, Charcoal Grey, and Pastel Violet.',
 	'accommodate'               		=> 'Accommodate daily work and entertainment needs',
@@ -23,12 +23,13 @@ return [
                     <li>*Under Test Conditions</li>
 
 ',
-    'name'               			=> 'MAGUS 12.2" 2-in-1 Laptop',
+    'name'               			=> 'MAGUS 12.2 | 2-in-1 Laptop',
     'os'               				=> 'Operating System',
     'cpu'               			=> 'CPU',
     'dis'               			=> 'Display',
     'mem'               			=> 'Memory',
     'graphic'            			=> 'Graphics',
+    'camera'            			=> 'Integrated Camera',
     'storage'             			=> 'Storage',
     'audio'               			=> 'Audio',
     'key'               			=> 'Keyboard',

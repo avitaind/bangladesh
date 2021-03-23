@@ -228,7 +228,7 @@
                         <div align="left" class="col-12 col-md-4" style="background:#f2f2f2; padding:50px 30px; height:380px">
                             <div class="admiror_h2" style="font-size: 26px; line-height: 28px;letter-spacing: 0rem;">Realistic image with stunning clarity</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block" style="line-height:1.5rem;">The ADMIROR series offers a 14-inch screen size, with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
+                                <span class="d-lg-block" style="line-height:1.5rem;">The ADMIROR series offers a 35.56 cm screen size, with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
     
                             </div>
                         </div>
@@ -293,9 +293,9 @@
 						<div class="col-12 col-md-4">
 							<div class="admiror_h2">Realistic image with stunning clarity</div>
 							<div class="banner-para ls-0">
-								<span class="d-lg-block">The ADMIROR series offers a 14-inch and a 15.6-inch screen size, both with with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
+								<span class="d-lg-block">The ADMIROR series offers a 35.56 cm and a 15.6-inch screen size, both with with 4K ULTRA HD IPS display (3840 x 2160) touchscreen functionalities. The lifelike image quality, combined with the versatile touchscreen capabilities, offers an enjoyable viewing experience browsing websites or watching video clips.</span>
 								<p>
-                                <small>* The 14-inch FHD IPS display (1920 x 1080) is currently available. The 15.6-inch and other 4K with touchscreen models are launching soon.</small>
+                                <small>* The 35.56 cm FHD IPS display (1920 x 1080) is currently available. The 15.6-inch and other 4K with touchscreen models are launching soon.</small>
                                 </p>
                     	<div class="space30"></div>
 							</div>                                    

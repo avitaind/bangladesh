@@ -25,7 +25,7 @@
                         </a>
                         --->
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-1" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(13.3-inch)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(33.78 cm)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/13/silver.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
 
@@ -92,7 +92,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>1920x1080</div>
+                                <div>13.3 1920x1080</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>

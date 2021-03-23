@@ -20,6 +20,8 @@ return [
     'battery_life'           => 'Battery Life',
     'security'               => 'Security',
     'colour'                 => 'Color',
+    'warranty'                 => 'Warranty',
+
 
 
 ];

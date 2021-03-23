@@ -6,8 +6,7 @@
 
     <main class="top-nav-padding">
 
-        
-        <?php echo $__env->make('partials.admiror-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+   <?php echo $__env->make('partials.admiror-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <!-------------------Submenu----------
         <div class="nav-product-panel">
@@ -50,9 +49,9 @@
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
 
-<!------------- AVITA ADMIROR (14-inch) -------------->
+<!------------- AVITA ADMIROR (35.56 cm) -------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA ADMIROR</div><div class="d-sm-block">(14-inch)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA ADMIROR</div><div class="d-sm-block">(35.56 cm)</div></div>
                             <img class="hidden-sm-down" src="/images/admiror/admiror_brown.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">   
                                 <li style="background-color: #b1816b"  class="active"  data-image="/images/admiror/admiror_brown.png"></li> 
@@ -74,7 +73,7 @@
 <!-- Tab panes PRODUCT SPEC-->
             <div class="tab-content">
             
-<!------------------ AVITA ADMIROR (14-inch) -------------------------------------------------->
+<!------------------ AVITA ADMIROR (35.56 cm) -------------------------------------------------->
                 <div class="tab-pane active" id="spec-4" role="tabpanel">
                     <div class="container">
                     
@@ -91,13 +90,12 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
-                                <div>Intel® Core™ i7-8565U Processor<br />
-                                	 
-								</div>
+                                <div>Intel® Core™ i5-10210U Processor<br />
+                            </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>14" TFT (1920x1080) IPS</div>
+                                <div>14 16:9 Full HD (1920 x 1080) IPS Panel with 72% NTSC 178 degree wide viewing angle</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
@@ -117,7 +115,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                <div>2W x 2 + passive booster x 4, Dual Microphones</div>
+                                <div>1.5W x 2 + passive booster x 4, Dual Microphones</div>
                             </li>
                             <!--<li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
@@ -133,7 +131,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                                <div>USB 3.0 Type-C x 2 (PD 2.0 charging, Display out)</div>
+                                <div>USB 3.0 Type-C x 2 (PD 2.0 charging, Display out), Finger print reader</div>
                             </li>
 
                             <li class="spec-item d-flex">
@@ -142,10 +140,13 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.34 kg</div>
+                                <div>Starting from 1.32 kg</div>
 
                             </li>
-                            
+                          <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">Material</div>
+                                <div>Aluminum, Magnesium</div>
+                            </li> 
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
                                 <div>Li-ion Battery, 38.5Wh</div>
@@ -160,17 +161,20 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Blazing Brown, Flaming Copper, Delight Pink </div>
+                                <div>Blazing Brown, Flaming Copper, Delight Pink</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
-                                <div>AC Adapter, Power cord, USB-C to USB + HDMI + Headphone Jack Adapter, USB-C to 3.5mm Converter Cable</div>
+                                <div>AC Adapter, Power cord, Optional USB-C to USB + HDMI + Headphone Jack Adapter, USB-C to 3.5mm Converter Cable</div>
                             </li>
-
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">Warranty</div>
+                                <div>2 years</div>
+                            </li>
                         </ul>
                     </div>
                 </div>
-<!------------------ End AVITA ADMIROR (14-inch) ------------------------------------>
+<!------------------ End AVITA ADMIROR (35.56 cm) ------------------------------------>
  
             </div>
 

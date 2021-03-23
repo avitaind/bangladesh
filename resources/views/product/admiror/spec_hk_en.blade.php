@@ -8,8 +8,7 @@
 
     <main class="top-nav-padding">
 
-        
-        @include('partials.admiror-navbar')
+   @include('partials.admiror-navbar')
 
         <!-------------------Submenu----------
         <div class="nav-product-panel">
@@ -93,13 +92,12 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
-                                <div>Intel® Core™ i7-8565U Processor<br />
-                                	 
-								</div>
+                                <div>Intel® Core™ i5-10210U Processor<br />
+                            </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>14 TFT (1920x1080) IPS</div>
+                                <div>14 16:9 Full HD (1920 x 1080) IPS Panel with 72% NTSC 178 degree wide viewing angle</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
@@ -119,7 +117,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                <div>2W x 2 + passive booster x 4, Dual Microphones</div>
+                                <div>1.5W x 2 + passive booster x 4, Dual Microphones</div>
                             </li>
                             <!--<li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
@@ -135,7 +133,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                                <div>USB 3.0 Type-C x 2 (PD 2.0 charging, Display out)</div>
+                                <div>USB 3.0 Type-C x 2 (PD 2.0 charging, Display out), Finger print reader</div>
                             </li>
 
                             <li class="spec-item d-flex">
@@ -144,13 +142,13 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.34 kg</div>
+                                <div>Starting from 1.32 kg</div>
 
                             </li>
-                            {{-- <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Adapter</div>
-                                <div>40W AC Adapter</div>
-                            </li> --}}
+                          <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">Material</div>
+                                <div>Aluminum, Magnesium</div>
+                            </li> 
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
                                 <div>Li-ion Battery, 38.5Wh</div>
@@ -165,13 +163,16 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Blazing Brown, Flaming Copper, Delight Pink </div>
+                                <div>Blazing Brown, Flaming Copper, Delight Pink</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
-                                <div>AC Adapter, Power cord, USB-C to USB + HDMI + Headphone Jack Adapter, USB-C to 3.5mm Converter Cable</div>
+                                <div>AC Adapter, Power cord, Optional USB-C to USB + HDMI + Headphone Jack Adapter, USB-C to 3.5mm Converter Cable</div>
                             </li>
-
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">Warranty</div>
+                                <div>2 Years</div>
+                            </li>
                         </ul>
                     </div>
                 </div>

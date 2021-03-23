@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('title')
+
     @lang('title.MAGUS_home')
+    
 @stop
 
 @section('content')

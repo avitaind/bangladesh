@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    @lang('title.MAGUS_spec')
+    @lang('title.MAGUS_home')
 @stop
 
 @section('content')
@@ -61,7 +61,7 @@
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.os') </div>
-                                <div>Windows 10 Home</div>
+                                <div>Windows 10 Home in S Mode</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.cpu')</div>
@@ -69,23 +69,23 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.dis')</div>
-                                <div>12.2&quot; TFT,  (1920 x 1200) IPS Touch Screen</div>
+                                <div>12.2 TFT,  (1920 x 1200) IPS Touch Screen</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.mem')</div>
-                                <div>4GB DDR3</div>
+                                <div>4GB LPDDR3</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.graphic')</div>
-                                <div>Intel® HD Graphics 500</div>
+                                <div>Intel® UHD Graphics 500</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.storage')</div>
-                                <div>64GB eMMC + 64GB microSD card</div>
+                                <div>64GB eMMC + 64GB microSD card (128 SSD)</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.audio')</div>
-                                <div>1 x Speaker </div>
+                                <div>0.7W x 1 Speaker</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.key')</div>
@@ -100,12 +100,16 @@
                                 <div>Bluetooth v4.0 </div>
                             </li>
                             <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">@lang('magus.camera')</div>
+                                <div>2 MP</div>
+                            </li>
+                            <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.ports')</div>
-                                <div>1 x 3.5mm Headphone, 1 x USB 3.0, 1 x Mini-HDMI, 1 x microSD card Slot</div>
+                                <div>USB 3.0 x 1, Mini-HDMI x 1, microSD card Slot x 1, 3.5mm Headphone Jack x 1</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.dim')</div>
-                                <div>299mm (W) x 206mm (D) x 22mm (H)</div>
+                                <div>299(W) x 206(H) x 22(D) mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.weight')</div>
@@ -113,7 +117,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.battery')</div>
-                                <div>Li-ion Battery </div>
+                                <div>7.6V 4830mAh; Li-ion Battery </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.life')</div>
@@ -125,7 +129,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.access')</div>
-                                <div>AC Adapter and  Power cord, English Travel Keyboard, 64GB microSD card</div>
+                                <div>AC Adapter and Power cord, English Travel Keyboard, 64GB microSD card</div>
                             </li>
 
                         </ul>

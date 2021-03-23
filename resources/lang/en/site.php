@@ -246,6 +246,12 @@ return [
     'essential_name' => 'AVITA Essential',
     'productnav_overview_essential' => 'Overview Essential',
     'liber-v' => 'AVITA LIBER V14',
-    'productnav_overview_liber_v'   => 'Overview LIBER V',	
+    'liber_v_intel' => 'AVITA LIBER V14 Intel',
+    'liber_v_amd' => 'AVITA LIBER V14 AMD',
+
+
+    'productnav_overview_liber_v'   => 'Overview LIBER V Intel',	
+    'productnav_overview_liber_v_amd'   => 'Overview LIBER V AMD',	
+
 
 ];

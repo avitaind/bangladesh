@@ -17,20 +17,26 @@
  
 <!--------------LIBER v 14"(New Generation)-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-140" role="tab">
-                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V</div><div class="d-sm-block">(14-inch)</div></div>
+                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V</div><div class="d-sm-block">(35.56 cm)</div></div>
                             <img class="hidden-sm-down" src="/images/liber-v/c2c2c2.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4"> 
                                 <li style="background-color: #c2c2c2" class="active" data-image="/images/liber-v/c2c2c2.png"></li>
-                              <!---  <li style="background-color: #1f1f1f" data-image="/images/liber-v/1f1f1f.png"></li>
-                                <li style="background-color: #ebd9f2" data-image="/images/liber-v/ebd9f2.png"></li> --->
+                                <li style="background-color: #1f1f1f" data-image="/images/liber-v/1f1f1f.png"></li>
+
+                                <!---
+                                <li style="background-color: #ebd9f2" data-image="/images/liber-v/ebd9f2.png"></li> 
                                 <li style="background-color: #54a7d9" data-image="/images/liber-v/54a7d9.png"></li>
-                                  <li style="background-color: #8455aa" data-image="/images/liber-v/8455aa.png"></li>
+                                <li style="background-color: #8455aa" data-image="/images/liber-v/8455aa.png"></li>
+                                    ------->
                                     <li style="background-color: #e5c7af" data-image="/images/liber-v/e5c7af.png"></li>
+                                    <li style="background-color: #1f1f1f" data-image="/images/liber-v/7a7062.png"></li>
+
                                <!---
                                 <li style="background-color: #f6bdc8" data-image="/images/liber-v/f6bdc8.png"></li> 
                                 <li style="background-color: #787878" data-image="/images/liber-v/787878.png"></li>  
+                                ------>
                                 <li style="background-color: #f7f7f7" data-image="/images/liber-v/f7f7f7.png"></li> 
-                                --->
+                               
                             </ul>
                         </a>
   
@@ -63,15 +69,15 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.cpu'); ?></div>
-                                <div>Intel® Core™ i5-10210U </div>
+                                <div>Intel® Core™ i5-10210U/ i7-10510U </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.display'); ?></div>
-                                <div>14" 16:9 Full HD (1920 x 1080) <!-- Anti-Glare IPS Panel with 178 degree wide viewing angle --> </div>
+                                <div>14 16:9 Full HD (1920 x 1080) Anti-Glare IPS Panel with 178 degree wide viewing angle <!-- Anti-Glare IPS Panel with 178 degree wide viewing angle --> </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.memory'); ?></div>
-                                <div>8GB DDR4 2400MHz</div>
+                                <div>8 GB DDR4 /16 Gb DDR4</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.graphics'); ?></div>
@@ -79,7 +85,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.storage'); ?></div>
-                                <div>512GB </div>
+                                <div>512GB SSD / 1TB SSD</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.camera'); ?></div>
@@ -103,15 +109,15 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.ports'); ?></div>
-                                <div>USB 3.0 x 2, USB3.0 Type-C x 1 (PD 2.0 charging, Display out) /  USB 3.0 x 1, USB2.0 x 1 USB3.0 Type-C x 1 (PD 3.0 charging, Display out), 1 x 3.5mm Headphone Jack, DC in, 1 x MicroSD card slot, 1 x Micro HDMI Type D</div>
+                                <div>USB 3.0 x 2 , USB 3.0 Type-C (PD 2.0 Charging, Display out) x 1, 3.5mm Headphone Jack x 1, DC in, MicroSD card slot x 1, 1 x Micro HDMI Type D.</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.dimension'); ?></div>
-                                <div>W317.5 X H215.9 X D 18.8 mm</div>
+                                <div>W315 X H218 X D 15.9 mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.weight'); ?></div>
-                                <div>Starting from 1.25kg</div>
+                                <div>Starting from 1.28kg</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.battery'); ?></div>
@@ -131,12 +137,16 @@
                             </li> -->
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.colour'); ?></div>
-                                <div>Champagne Gold/ Cloud Silver/ Himalayan Blue / Avita Purple</div>
+                                <div>Cloud Silver / Matt Black / Golden Matte Black / Champgane Gold / Pearl White</div>
                             </li>
-                           <!-- <li class="spec-item d-flex">
+                           <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.accessories'); ?></div>
-                                <div><?php echo app('translator')->getFromJson('prod_spec_hk.liber140_accessories'); ?></div>
-                            </li> -->
+                                <div>AC Adapter and Power cord</div>
+                            </li> 
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.warranty'); ?></div>
+                                <div>2 years</div>
+                            </li> 
                         </ul>
                     </div>
                 </div>

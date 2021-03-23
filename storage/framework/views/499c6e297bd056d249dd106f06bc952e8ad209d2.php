@@ -15,13 +15,13 @@
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
 
-<!-------------- PURA 14-inch-------------->
+<!-------------- PURA 35.56 cm-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
-                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA Essential</div><div class="d-sm-block">(14-inch)</div></div>
-                             <img class="hidden-sm-down" src="/images/essential/eeeeee.png">
+                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA Essential</div><div class="d-sm-block">(35.56 cm)</div></div>
+                             <img class="hidden-sm-down" src="/images/essential/000000.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  
-                                <li class="active" style="background-color: #eeeeee" data-image="/images/essential/eeeeee.png"></li>
-                                <li style="background-color: #878787" data-image="/images/essential/878787.png"></li>
+                            <!---    <li class="active" style="background-color: #eeeeee" data-image="/images/essential/eeeeee.png"></li>
+                                <li style="background-color: #878787" data-image="/images/essential/878787.png"></li> --->
                                 <li style="background-color: #000000" data-image="/images/essential/000000.png"></li>
                                
                             </ul>
@@ -36,7 +36,7 @@
 <!-- Tab panes PRODUCT SPEC-->
             <div class="tab-content">
              
-<!------------------ PURA 14-inch ------------------------------------->
+<!------------------ PURA 35.56 cm ------------------------------------->
                 <div class="tab-pane active" id="spec-4" role="tabpanel">
                     <div class="container">
 
@@ -53,13 +53,11 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
-                                <div>
-                                	Intel® Celeron N4000
-                                </div>
+                                <div>Intel® Celeron N4000 </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>16:9 Full HD (1920 x 1080) IPS viewing angle</div>
+                                <div>14 16:9 Full HD (1920 x 1080) IPS viewing angle</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
@@ -71,7 +69,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div>128GB / 256GB SSD SATA M.2</div>
+                                <div>128GB SSD </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
@@ -85,17 +83,17 @@
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
                                 <div>Island style non-backlit keyboard</div>
                             </li>
-                           <!-- <li class="spec-item d-flex">
+                           <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Wireless</div>
-                                <div>IEEE 802.11 b/g/n/ac</div>
+                                <div>IEEE 802.11b/g/n/ac</div>
                             </li> 
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
-                                <div>Bluetooth v4.1</div>
-                            </li>-->
+                                <div>Yes</div>
+                            </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                                <div>Full size HDMI x 1, USB 3.0 Type-A x 2, Micro SD card, Headphone Jack, Power Jack</div>
+                                <div>Full size HDMI x 1, USB 3.0 Type-A x 2, Micro SD card, Headphone Jack</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Dimension</div>
@@ -117,7 +115,7 @@
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Concrete grey / Matt black / Matt white</div>
+                                <div>Matt Black</div>
                             </li>
                             
                             <li class="spec-item d-flex">
@@ -125,11 +123,16 @@
                                  <div>AC Adapter and Power cord</div>  
                             </li>
 
+                            <li class="spec-item d-flex">
+                                <div class="offset-md-1 col-4 col-md-3">Warranty</div>
+                                 <div>2 years</div>  
+                            </li>
+
                         </ul>
                     </div>
                 </div> 
 
-<!------------------ End PURA 14-inch------------------------------------->
+<!------------------ End PURA 35.56 cm------------------------------------->
             </div>
 
         </section>

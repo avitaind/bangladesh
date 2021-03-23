@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Measuring merely 20mm for the 14" model, the lightweight, effortlessly portable Essential is designed to accompany you wherever you go. The thin bezel design in both models offers a maximized screen area that makes graphics more immersive. Outstanding visuals and being easy to carry around means conducting presentations or streaming movies on the go can never be easier.</span>
+                            <span class="d-lg-block">Measuring merely 20mm for the 14 model, the lightweight, effortlessly portable Essential is designed to accompany you wherever you go. The thin bezel design in both models offers a maximized screen area that makes graphics more immersive. Outstanding visuals and being easy to carry around means conducting presentations or streaming movies on the go can never be easier.</span>
                             <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'essential')); ?>" style="color:#09F"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?> ></a></span>
                         </div>
                         
@@ -174,14 +174,14 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/essential/essential_bg3_en_mo.jpg">
                         </div>                
-                        <div class="banner-para ls-0">The 14" model comes with a full-sized screen for maximized viewing comfort even after a long day of use. Its stunning performance and capabilities make it an ideal device for everyday office work or an e-learning notebook for students.</span></div>
+                        <div class="banner-para ls-0">The 14 model comes with a full-sized screen for maximized viewing comfort even after a long day of use. Its stunning performance and capabilities make it an ideal device for everyday office work or an e-learning notebook for students.</span></div>
                         
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                             <div class="data-card mx-3 text-left">
                                 <span class="badge-value">1.377</span>
 								<span class="badge-caption">kg</span>
-								<div class="badge-caption">14-inch weight</div>
+								<div class="badge-caption">35.56 cm weight</div>
                             </div>
                         </div>
 						</section>  
