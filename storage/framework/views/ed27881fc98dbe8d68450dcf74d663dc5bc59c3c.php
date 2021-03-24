@@ -49,11 +49,11 @@
                                                          <li class="nav-item has-dropdown">
                                                               <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v'])); ?>"><?php echo app('translator')->getFromJson('site.liber_v_intel'); ?></a>
                                                          </li>
-                                                       <!---
+                                                     
                                                           <li class="nav-item has-dropdown">
                                                               <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-amd'])); ?>"><?php echo app('translator')->getFromJson('site.liber_v_amd'); ?></a>
                                                          </li>
-                                                         ---->
+                                                        
                                                       </ul>
                                                   </div>
                                             </li>
@@ -68,10 +68,10 @@
                                                          <li class="nav-item has-dropdown">
                                                               <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>"><?php echo app('translator')->getFromJson('site.pura_intel'); ?></a>
                                                          </li>
-                                                        <!--- <li class="nav-item has-dropdown">
+                                                        <li class="nav-item has-dropdown">
                                                               <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura-amd'])); ?>"><?php echo app('translator')->getFromJson('site.pura_amd'); ?></a>
                                                          </li>
-                                                         --------->
+                                                       
                                                       </ul>
                                                   </div>
                                             </li>

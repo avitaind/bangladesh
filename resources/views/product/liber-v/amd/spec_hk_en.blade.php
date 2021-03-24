@@ -8,7 +8,7 @@
 
     <main class="top-nav-padding">
 
-        @include('partials.liber-v-amd-navbar')
+        @include('partials.product-navbar')
 
         <section>
 
@@ -19,20 +19,16 @@
  
 <!--------------LIBER v 14"(New Generation)-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-140" role="tab">
-                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V</div><div class="d-sm-block">(35.56 cm)</div></div>
-                            <img class="hidden-sm-down" src="/images/liber-v/c2c2c2.png">
+                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V - AMD Ryzen™</div><div class="d-sm-block">(14-inch)</div></div>
+                             <img class="hidden-sm-down" src="/images/liber-v/ff6082.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4"> 
-                                <li style="background-color: #c2c2c2" class="active" data-image="/images/liber-v/c2c2c2.png"></li>
-                              {{-- <li style="background-color: #1f1f1f" data-image="/images/liber-v/1f1f1f.png"></li>
-                                <li style="background-color: #ebd9f2" data-image="/images/liber-v/ebd9f2.png"></li>
-                                <li style="background-color: #54a7d9" data-image="/images/liber-v/54a7d9.png"></li>
-                                  <li style="background-color: #8455aa" data-image="/images/liber-v/8455aa.png"></li>
-                                    <li style="background-color: #e5c7af" data-image="/images/liber-v/e5c7af.png"></li>
-                               
-                                <li style="background-color: #f6bdc8" data-image="/images/liber-v/f6bdc8.png"></li>  --}}
-                                <li style="background-color: #787878" data-image="/images/liber-v/787878.png"></li>  
-                                {{-- <li style="background-color: #f7f7f7" data-image="/images/liber-v/f7f7f7.png"></li>  --}}
-                                
+                                <li style="background-color: #ff6082" class="active" data-image="/images/liber-v/ff6082.png"></li>
+                                <li style="background-color: #c54343" data-image="/images/liber-v/c54343.png"></li>
+                                <li style="background-color: #b55cba" data-image="/images/liber-v/b55cba.png"></li>
+                                <li style="background-color: #31496d" data-image="/images/liber-v/31496d.png"></li>
+                                <li style="background-color: #94c880" data-image="/images/liber-v/94c880.png"></li> 
+                                <li style="background-color: #9bbfe3" data-image="/images/liber-v/9bbfe3.png"></li>  
+                                <li style="background-color: #9b5abe" data-image="/images/liber-v/9b5abe.png"></li> 
                             </ul>
                         </a>
   
@@ -69,11 +65,11 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.display')</div>
-                                <div>14 16:9 Full HD (1920 x 1080) Anti-Glare IPS Panel with 178 degree wide viewing angle <!-- Anti-Glare IPS Panel with 178 degree wide viewing angle --> </div>
+                                <div>14" 16:9 Full HD (1920 x 1080) Anti-Glare IPS Panel with 178 degree wide viewing angle	</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.memory')</div>
-                                <div>8 GB DDR4 2400MHz</div>
+                                <div>8GB DDR4 2400MHz</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.graphics')</div>
@@ -81,7 +77,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.storage')</div>
-                                <div>512GB SSD </div>
+                                <div>512GB SSD SATA M.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.camera')</div>
@@ -105,26 +101,26 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.ports')</div>
-                                <div>USB 3.0 x 2 , USB 3.0 Type-C (PD 2.0 Charging, Display out) x 1, 3.5mm Headphone Jack x 1, DC in, MicroSD card slot x 1, 1 x Micro HDMI Type D.</div>
+                                <div>2 x USB 3.0, 1 x USB 3.0 Type-C (PD 3.0 charging, Display out), 1 x 3.5mm Headphone Jack, DC in, 1 x MicroSD card slot, 1 x HDMI Type A</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.dimension')</div>
-                                <div>W315 X H218 X D 15.9 mm</div>
+                                <div>W318 X H218 X D 17.4 mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.weight')</div>
-                                <div>Starting from 1.28kg</div>
+                                <div>Starting from 1.30kg</div>
                             </li>
-                            <li class="spec-item d-flex">
+                           <!-- <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.battery')</div>
                                 <div>7.6V 4830mAh</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.battery_life')</div>
                                 <div>Up to 10 hours<sup>*</sup></div>
-                            </li>
+                            </li>-->
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.security')</div>
+                                <div class="offset-md-1 col-4 col-md-3">Security</div>
                                 <div>With Fingerprint Reader</div>
                             </li>
                            <!-- <li class="spec-item d-flex">
@@ -133,16 +129,12 @@
                             </li> -->
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.colour')</div>
-                                <div>Anchor Grey/ Star Silver</div>
+                                <div>Soft Lavender, Summer Pink, Azure Blue, Charming Red, Unicorn Gold, Star Silver, Infinite Black, Shinning White, Original Purple, Anchor Grey<br/>(14+ colours are coming soon, please stay close to our updates)</div>
                             </li>
-                            <li class="spec-item d-flex">
+                           <!-- <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.accessories')</div>
-                                <div>AC Adapter and Power cord</div>
-                            </li>
-                            <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.warranty')</div>
-                                <div>2 years</div>
-                            </li>
+                                <div>@lang('prod_spec_hk.liber140_accessories')</div>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -159,8 +151,10 @@
                     <li>Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.</li>
                     <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
-                    
-                    <li><sup>*</sup> Up to 10 hours on MobileMark 2014</li>
+                     
+                    <li>Availability of colors may vary by retailers.</li>
+                    <li>Product appearance design, color, matching, may vary according to different models and configurations.</li>
+                    <li>In the event of any disputes, Nexstgo Company Limited reserves the right of the final decision.</li>
                 </ul>
             </div>
         </section>
