@@ -42,8 +42,8 @@
 
 
                                        <li class="nav-item has-dropdown">
-                                             <input id="header_product" type="checkbox" hidden="">
-                                                 <a class="nav-link px-md-4 py-2"><label for="header_product">@lang('site.liber-v')</label></a>
+                                             <input id="liber_v_product" type="checkbox" hidden="">
+                                                 <a class="nav-link px-md-4 py-2"><label for="liber_v_product">@lang('site.liber-v')</label></a>
                                                    <div class="dropdown">
                                                      <ul class="list-unstyled">
                                                          <li class="nav-item has-dropdown">
@@ -61,8 +61,8 @@
 
 
                                        <li class="nav-item has-dropdown">
-                                             <input id="header_product" type="checkbox" hidden="">
-                                                 <a class="nav-link px-md-4 py-2"><label for="header_product">@lang('site.pura')</label></a>
+                                             <input id="pura_product" type="checkbox" hidden="">
+                                                 <a class="nav-link px-md-4 py-2"><label for="pura_product">@lang('site.pura')</label></a>
                                                    <div class="dropdown">
                                                      <ul class="list-unstyled">
                                                          <li class="nav-item has-dropdown">
