@@ -5,7 +5,7 @@
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
     
-    	<?php echo $__env->make('partials.pura-amd-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <?php echo $__env->make('partials.pura-amd-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <section class="product-liber-banner">
             <div class="responsive-block">
@@ -119,7 +119,7 @@
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/pura/pic_pura02.png">
                         </div>
                 
-                        <div class="banner-para ls-0">The 14 AVITA PURA embraces a slim outfit and weighs from 1.34kg. The non-slip cover effectively reduces the risks of falling, offering you the greatest portability and the ease of use.</div>
+                        <div class="banner-para ls-0">The 14  AVITA PURA embraces a slim outfit and weighs from 1.34kg. The non-slip cover effectively reduces the risks of falling, offering you the greatest portability and the ease of use.</div>
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                             <!--<div class="data-card mx-3 text-left">
@@ -132,7 +132,7 @@
                                 <div class="badge-caption">Starting from</div>
                                 <span class="badge-value">1.34</span>
 								<span class="badge-caption">kg</span>
-								<div class="badge-caption">14 weight</div>
+								<div class="badge-caption">14  weight</div>
                             </div>
                         </div>
 						</section>  

@@ -191,7 +191,7 @@
                         <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Well-Balancing Lightness and Fun</div></div>
                         <div class="banner-para ls-0">
                             <span class="d-md-block">LIBER V is sophisticatedly engineered by compacting</span>
-                            <span class="d-md-block">a 14 screen inside the 13.3 that weights</span>
+                            <span class="d-md-block">a 14  screen inside the 13.3-inch that weights</span>
                             <span class="d-md-block">from just 1.30kg, 14% less than previous models and</span>
                             <span class="d-md-block">well-balancing lightness and durability, bringing you</span>
                             <span class="d-md-block">an easy and convenient experience. LIBER V incorporates</span>
@@ -208,7 +208,7 @@
                                 <div class="badge-caption pb-1">
                                     <div class="badge-value d-inline pr-1">1.30</div>kg
                                 </div>
-                                <div class="badge-caption">14 weight</div>
+                                <div class="badge-caption">14  weight</div>
                             </div>
                         </div>
                     </div>
