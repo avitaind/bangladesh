@@ -44,7 +44,8 @@
                         </div>
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <a href="https://www.nexstmall.com/en/products/avita-liber-v-14-amd-version" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
+                           <!---
+                            <a href="https://www.nexstmall.com/en/products/avita-liber-v-14-amd-version" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; --->
                             <a href="<?php echo e(route('product.map', 'liber-v')); ?>" style="color:#09F">Where to buy ></a>
                             </span>
                         </div>

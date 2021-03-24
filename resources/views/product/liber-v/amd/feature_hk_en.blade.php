@@ -46,7 +46,8 @@
                         </div>
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <a href="https://www.nexstmall.com/en/products/avita-liber-v-14-amd-version" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
+                           <!---
+                            <a href="https://www.nexstmall.com/en/products/avita-liber-v-14-amd-version" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; --->
                             <a href="{{ route('product.map', 'liber-v') }}" style="color:#09F">Where to buy ></a>
                             </span>
                         </div>
@@ -91,9 +92,9 @@
                         </div>
                 <div class="space60 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-                              <span class="d-lg-block">The new LIBER V AMD version is equipped up to Ryzen™ 7 3700U mobile processors and augmented by a RX Radeon Vega 10 graphics card, allowing users to have an immersive visual experience and fully dive into PC gaming, video editing, 4K movies, and multi-tasking, anytime and anywhere.</span>
+                              <span class="d-lg-block">The new LIBER V AMD version is equipped up to Ryzen™ 5 3500U / Ryzen™ 7 3700U mobile processors and augmented by a RX Radeon Vega 10 graphics card, allowing users to have an immersive visual experience and fully dive into PC gaming, video editing, 4K movies, and multi-tasking, anytime and anywhere.</span>
                        <span class="d-lg-block">&nbsp;</span> 
-                       <span class="d-lg-block">AMD Ryzen™ 7 3700U and Ryzen™ 5 3500U have up to 4 sensitive "Zen 2" cores, with 2X floating point capabilities and up to 15% higher instructions per cycle, cache capacity, operation access capacity, bandwidth and other features compared to the previous "Zen". User can complete their work efficiently and enjoy a good time for gaming and entertainment. </span> 
+                       <span class="d-lg-block">AMD Ryzen™ 5 3500U / Ryzen™ 7 have up to 4 sensitive "Zen 2" cores, with 2X floating point capabilities and up to 15% higher instructions per cycle, cache capacity, operation access capacity, bandwidth and other features compared to the previous "Zen". User can complete their work efficiently and enjoy a good time for gaming and entertainment. </span> 
                        </div>   
                        
                         </div>                  
@@ -191,7 +192,7 @@
                         <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Well-Balancing Lightness and Fun</div></div>
                         <div class="banner-para ls-0">
                             <span class="d-md-block">LIBER V is sophisticatedly engineered by compacting</span>
-                            <span class="d-md-block">a 14  screen inside the 13.3-inch that weights</span>
+                            <span class="d-md-block">a 14  screen inside the 13.3 that weights</span>
                             <span class="d-md-block">from just 1.30kg, 14% less than previous models and</span>
                             <span class="d-md-block">well-balancing lightness and durability, bringing you</span>
                             <span class="d-md-block">an easy and convenient experience. LIBER V incorporates</span>
