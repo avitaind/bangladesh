@@ -8,13 +8,13 @@
                 <div class="banner-block responsive-item">
                     @if( App::isLocale('en') )
                         <div class="banner-bg hidden-sm-down"
-                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.jpg')"></div>
+                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
                     @else
                         <div class="banner-bg hidden-sm-down"
-                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.jpg')"></div>
+                             style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
                     @endif
                     <div class="banner-bg hidden-md-up"
-                         style="background-image: url('/images/banner/MAGUS-MOB-BANNER-NEW.jpg')"></div>
+                         style="background-image: url('/images/banner/MAGUS-MOB-BANNER-NEW.png')"></div>
                 </div>
                 </a>
             </div>
