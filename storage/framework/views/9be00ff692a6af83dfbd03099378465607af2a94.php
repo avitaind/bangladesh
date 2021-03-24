@@ -32,9 +32,9 @@
                         </div>
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <a href="https://www.nexstmall.com/en/products/avita-pura-14-amd-version-with-3-in-1-sleeve?variant=34661178245284" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
+                          <!---  <a href="https://www.nexstmall.com/en/products/avita-pura-14-amd-version-with-3-in-1-sleeve?variant=34661178245284" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; --->
                             <a href="<?php echo e(route('product.map', 'pura-amd')); ?>" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" style="color:#09F">Offer > </a> 
+                           <!--- <a href="#offer" style="color:#09F">Offer > </a> ---->
                             </span>
                         </div>
                         <div class="space30"></div>
@@ -85,10 +85,10 @@
                         </div>
                 <div class="space60 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-                              <span class="d-lg-block">The AMD Ryzen™ 3 3200U and Ryzen™ 5 3500U mobile processors are augmented by a Radeon Vega graphics card, allowing users to have an immersive visual experience and fully dive into PC gaming, video editing, 4K movies, and multi-tasking, anytime and anywhere.</span>
+                              <span class="d-lg-block">The AMD Ryzen™ 3 3200U mobile processors are augmented by a Radeon Vega graphics card, allowing users to have an immersive visual experience and fully dive into PC gaming, video editing, 4K movies, and multi-tasking, anytime and anywhere.</span>
                                <span class="d-lg-block">&nbsp;</span>
                                
-                               <span class="d-lg-block">Ryzen™ 5 3500U has up to 4 sensitive "Zen 2" cores, with 2X floating point capabilities and up to 15% higher instructions per cycle, cache capacity, operation access capacity, bandwidth and other features compared to the previous "Zen". User can complete their work efficiently and enjoy a good time for entertainment. Ryzen™ 5 3500U is also good for experience PC games. Gamer can record while playing games, enjoy the smooth vision and fast response speed.</span>
+                               <span class="d-lg-block">AMD Ryzen™ 3 3200U has up to 4 sensitive "Zen 2" cores, with 2X floating point capabilities and up to 15% higher instructions per cycle, cache capacity, operation access capacity, bandwidth and other features compared to the previous "Zen". User can complete their work efficiently and enjoy a good time for entertainment. Ryzen™ 5 3500U is also good for experience PC games. Gamer can record while playing games, enjoy the smooth vision and fast response speed.</span>
                                
                         </div>  
                         
@@ -122,12 +122,12 @@
                         <div class="banner-para ls-0">The 14  AVITA PURA embraces a slim outfit and weighs from 1.34kg. The non-slip cover effectively reduces the risks of falling, offering you the greatest portability and the ease of use.</div>
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                            <!--<div class="data-card mx-3 text-left">
+                            <div class="data-card mx-3 text-left">
                                 <div class="badge-caption">&nbsp;</div>
                                 <span class="badge-value">5</span>
 								<span class="badge-caption">mm</span>
 								<div class="badge-caption">Thinnest part</div>
-                            </div> -->
+                            </div> 
                             <div class="data-card mx-3 text-left"> 
                                 <div class="badge-caption">Starting from</div>
                                 <span class="badge-value">1.34</span>
@@ -211,7 +211,7 @@
 
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">The all-new AVITA PURA cleverly packs powerful functionalities in a clean and minimalist body design that is like no others. Forget the clumsiness of conventional laptop computers and welcome to a world of new experience!</span>
-                            <span class="d-lg-block">The AVITA PURA is pre-installed with the Windows 10 Home Edition operating system (in S mode). Along with the AMD Ryzen™ 3 3200U and Ryzen™ 5 3500U processor with up to 8GB RAM, 512GB SSD and various ports that guarantee high performance and connectivity to meet your everyday needs.</span>
+                            <span class="d-lg-block">The AVITA PURA is pre-installed with the Windows 10 Home Edition operating system (in S mode). Along with the AMD Ryzen™ 3 3200U processor with up to 8GB RAM, 256GB SSD and various ports that guarantee high performance and connectivity to meet your everyday needs.</span>
                             <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'pura-amd')); ?>" style="color:#09F">Tech Spec ></a></span>
                         </div>
                         
@@ -225,12 +225,12 @@
                             
                             <div class="data-card my-3 col-12 col-lg-12 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">Ryzen 5 3500U</div>
+								<div class="badge-value">AMD R3 3200U</div>
                                 <div class="badge-caption">AMD</div>
                             </div> 
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">512<span class="badge-caption pl-1">GB</span></div>
+								<div class="badge-value">256<span class="badge-caption pl-1">GB</span></div>
 								<div class="badge-caption">SSD</div>
 							</div>
 							<div class="data-card my-3 col-12 col-lg-6 text-left">
@@ -339,8 +339,8 @@
                                 
                                 <div class="banner-para text-center">
                                     <span class="d-lg-block">
-                                        <a href="https://www.nexstmall.com/en/products/avita-pura-14?utm_source=brandsite&utm_medium=kv&utm_campaign=pura" target="_blank" style="color:#09F">Buy now
-             ></a>&nbsp;&nbsp; 
+                                <!---        <a href="https://www.nexstmall.com/en/products/avita-pura-14?utm_source=brandsite&utm_medium=kv&utm_campaign=pura" target="_blank" style="color:#09F">Buy now
+             ></a>&nbsp;&nbsp; --->
                                         <a href="<?php echo e(route('product.map', 'pura-amd')); ?>" style="color:#09F">Where to buy ></a> 
                                     </span>
                                 </div>
