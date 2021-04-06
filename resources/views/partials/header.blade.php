@@ -125,6 +125,10 @@
                     <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('blog') }}">@lang('site.blog')</a>
+                </li>
+
             </ul>
         </div>
 

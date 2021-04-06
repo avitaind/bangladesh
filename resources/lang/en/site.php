@@ -50,6 +50,12 @@ return [
     'gender_m'                      => 'Male',
     'gender_f'                      => 'Female',
     // universal
+    
+    // universal
+    'blog'                          => 'Blogs',
+    'blog_title'                    =>'Blogs',
+    'blog_published'                => 'Published',
+
 
     'header_store'                  => 'AVITA Store',
     'header_where_to_buy'           => 'Where To Buy',

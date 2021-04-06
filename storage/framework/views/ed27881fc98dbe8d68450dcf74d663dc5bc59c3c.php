@@ -125,6 +125,10 @@
                     <a class="nav-link" href="<?php echo e(route('support')); ?>"><?php echo app('translator')->getFromJson('site.service'); ?></a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo e(route('blog')); ?>"><?php echo app('translator')->getFromJson('site.blog'); ?></a>
+                </li>
+
             </ul>
         </div>
 

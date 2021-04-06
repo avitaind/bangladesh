@@ -21,6 +21,12 @@ Route::get('/cap','CampusController@index');
 Route::post('/cap','CampusController@storeDevice');
 // Campus Controller
 
+//Blogs
+Route::get('/blog', 'BlogController@showBlogList')->name('blog');
+Route::get('/blog/detail/{slug}', 'BlogController@showBlogDetail')->name('blog.detail');
+//
+
+
 Route::get('/lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController@switchLang']);
 Route::get('/country/{country}', ['as' => 'country.switch', 'uses' => 'CountryController@switchCountry']);
 

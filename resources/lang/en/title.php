@@ -15,6 +15,7 @@ return [
     'IMAGO_spec'          => 'IMAGO Series Smart Mirror Specification | Smart Device',
     'MODUS_home'          => 'MODUS Smart Scale | Smart Device',
     'whats_new'           => 'What\'s New',
+    'blogs'               => 'Blogs',
     'member'              => 'AVITA Member',
     'about_us'            => 'About AVITA',
     'contact_us'          => 'Contact Us',
