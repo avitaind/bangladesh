@@ -6,12 +6,14 @@
 
 @section('content')
     <main class="top-nav-padding">
+
         @include('partials.liber-v-navbar')
-          <section class="product-liber-banner">
-             <div class="responsive-block">
+
+        <section class="product-liber-banner">
+            <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/avita-liber-v-mob-new-v1.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             {{--<img class="mx-auto" src="/images/liber-v/brand.png">--}}
@@ -26,27 +28,25 @@
             </div>
         </section>
 
+        
+        
          <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
-                     
-                       <!--- 
-                          <div class="space60"></div>
-                       
+                        <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
                       <span class="h1"> COMING SOON</span>
                         </div>
                       
-                           
+                        <!---     
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-35.56 cm-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
+                            <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-14-inch-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
                             <a href="/where-to-buy" style="color:#09F">Where to buy ></a> 
                             </span>
                         </div>
-                      
+                       --->
                         <div class="space60"></div>
-                         --->
                     </div>
                 </div>
         </section>
@@ -75,12 +75,16 @@
         
        <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
-                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div>
-                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div> 
+                {{-- <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div> --}}
+                {{-- <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div>  --}}
+                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Web.jpg')"></div>
+                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Mob.jpg')"></div> 
             </div>
         </section>
     
         <section class="product-liber-wifi product-liber-v-view">
+            <div class="h1 banner-header mb-sm-5 container  text-center pt-3">Statement by the Red Dot Jury</div>
+            <div class=" container text-center banner-para ls-0"><span class="d-lg-block">LIBER V impressively combines expressive individuality with state-of-the-art technology, paying attention to carefully crafted details such as the webcam that is beautifully integrated into the frame.</span></div>
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image"> 
@@ -145,7 +149,7 @@
                         <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Prompt Portability</div></div>
                         <div class="banner-para ls-0">
                             <span class="d-md-block">The smart design and sophisticated engineering behind </span>
-                            <span class="d-md-block">LIBER V ensures that the 35.56 cm visage of</span>
+                            <span class="d-md-block">LIBER V ensures that the 14-inch visage of</span>
                             <span class="d-md-block">LIBER V weighs merely 1.25 kgs, 14% lighter than</span>
                             <span class="d-md-block">previous LIBER models, LIBER V achieves the ideal</span>
                             <span class="d-md-block">in terms of easy mobility factor. Combine that</span>
@@ -175,7 +179,7 @@
                                 <div class="badge-caption pb-1">
                                     <div class="badge-value d-inline pr-1">1.25</div>kg
                                 </div>
-                                <div class="badge-caption">35.56 cm weight</div>
+                                <div class="badge-caption">14-inch weight</div>
                             </div>
                         </div>
                     </div>

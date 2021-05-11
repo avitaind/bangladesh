@@ -7,11 +7,11 @@
 
     <?php echo $__env->make('partials.liber-v-amd-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-        <section class="product-liber-banner">
+    <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_amd_banner_en.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_amd_banner_en_mo.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             
@@ -25,34 +25,30 @@
                 </div>
             </div>
         </section>
+
         
-        <section class="product-liber-video ls-0" style="background-color:#ebf3f5;">
-                <div class="container">
-                        <div class="space60"></div>
-                         
-                          <iframe src="https://www.facebook.com/v2.3/plugins/video.php?allowfullscreen=true&amp;autoplay=true&amp;container_width=800&amp;href=https%3A%2F%2Fwww.facebook.com%2FAVITAHongKong%2Fvideos%2F815011582567548%2F" width="1100" height="620" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
-                            
-                </div>
-        </section>
         
-         <section class="product-liber-computer ls-0" id="test" style="background-color:#ebf3f5;">
+         <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
                         <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
-                        	<div class="h2 banner-header">AVAILABLE NOW</div>
+                      <span class="h1"> COMING SOON</span>
                         </div>
+                      
+                        <!---     
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
-                           <!---
-                            <a href="https://www.nexstmall.com/en/products/avita-liber-v-14-amd-version" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; --->
-                            <a href="<?php echo e(route('product.map', 'liber-v')); ?>" style="color:#09F">Where to buy ></a>
+                            <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-14-inch-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
+                            <a href="/where-to-buy" style="color:#09F">Where to buy ></a> 
                             </span>
                         </div>
+                       --->
                         <div class="space60"></div>
                     </div>
                 </div>
         </section>
+
         
 
         <section class="product-liber-computer product-liber-v-computer">
@@ -61,76 +57,43 @@
                 <div class="container">
                 
                     <div class="banner-info">
-                    	<div class="h1 banner-header mb-4 mb-sm-5">The Avant-Garde Post-Modern Style</div>
+                    	<div class="h1 banner-header mb-4 mb-sm-5">Avant Garde Design</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Taking "Limitless Evolution" as its concept, LIBER V's design is inspired by the creativity of the avant-garde post-modern fortress La Muralla Roja in Spain. LIBER V installs its high-quality webcam out of the screen with neat geometric lines, perfectly interprets the epistemology of geometry. Paired with the vibrant color options of LIBER V, the geometric chassis realizes a slimmer body and an easy-to-open clip, thereby offering a new interpretation of design in laptop fashion.</span> 
+                            <span class="d-lg-block">Inspired by the neat geometric lines of La Muralla Roja (The Red Wall) fortress in Spain, the perfect embodiment of Post-Modern architecture, LIBER V’s design completely justifies its slogan ‘Limitless evolution’. Its high-quality webcam stands out quite literally, perfectly completing the picture of a sleek and angular body with pleasing aesthetics. LIBER V comes in 14 vibrant color options* encasing an ultra-slim Aluminum build and equipped with an easy-to-open clip thereby achieving the trifecta of design, durability and function.</span> 
                         </div> 
                     </div>
                     
                     <div class="banner-image">
-                    	<img class="bc-computer-image bc-computer-1" src="/images/liber-v/LiberV_14colors_hk_en.png">
+                    	<img class="bc-computer-image bc-computer-1" src="/images/liber-v/LiberV_14colors_hk_en2.png">
                     </div>
                     
                 </div>
             </div>
         </section>
         
-          
-       <section>
-        <div class="banner-block" style="padding: 50px 0px;" >
-        <div class="banner-bg hidden-sm-down" style="background:url(/images/liber-v/liber_v_amd_ryzen_bg1_en.jpg) center no-repeat;background-size: contain;    background-color: #000;"></div>
-            <div class="container">
-                <div class="row">
-                	<div class="col-12 col-lg-6" align="left" style="background-color:#000;color: #fff;"> 
-                        <div class="space60 hidden-sm-down"></div>
-                        <div class="space60"></div>
-                    	<div class="h2 banner-header mob-text-center"><div class="d-sm-inline" style="text-transform:uppercase; color:#fff;">Immersive visual experience</div></div>
-                        <div class="ac-computer-wrap hidden-sm-up">
-                          <img class="ac-computer-image ac-computer-2" src="/images/liber-v/liber_v_amd_ryzen_bg1_en_m.jpg" style="margin-top:15px;">
-                        </div>
-                <div class="space60 hidden-sm-down"></div>
-                        <div class="banner-para ls-0">
-                              <span class="d-lg-block">The new LIBER V AMD version is equipped up to Ryzen™ 7 3700U mobile processors and augmented by a RX Radeon Vega 10 graphics card, allowing users to have an immersive visual experience and fully dive into PC gaming, video editing, 4K movies, and multi-tasking, anytime and anywhere.</span>
-                       <span class="d-lg-block">&nbsp;</span> 
-                       <span class="d-lg-block">AMD Ryzen™ 7 3700U and Ryzen™ 5 3500U have up to 4 sensitive "Zen 2" cores, with 2X floating point capabilities and up to 15% higher instructions per cycle, cache capacity, operation access capacity, bandwidth and other features compared to the previous "Zen". User can complete their work efficiently and enjoy a good time for gaming and entertainment. </span> 
-                       </div>   
-                       
-                        </div>                  
-                        <div class="space60 hidden-sm-down"></div>
-                        <div class="space60"></div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-        </section>
-       
-        
-        
-         
-         
-         <section class="product-liber-banner product-liber-v-banner">
+       <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
-                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div>
-                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div> 
+                
+                
+                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Web.jpg')"></div>
+                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Mob.jpg')"></div> 
             </div>
         </section>
- 
-         
-        
-        
-        
+    
         <section class="product-liber-wifi product-liber-v-view">
+            <div class="h1 banner-header mb-sm-5 container  text-center pt-3">Statement by the Red Dot Jury</div>
+            <div class=" container text-center banner-para ls-0"><span class="d-lg-block">LIBER V impressively combines expressive individuality with state-of-the-art technology, paying attention to carefully crafted details such as the webcam that is beautifully integrated into the frame.</span></div>
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image"> 
 	                <img class="bc-computer-image fade-img-1" src="/images/liber-v/Features_hk_en.png"> 
-                    <img class="bc-computer-image fade-img-2" src="/images/liber-v/p03_amd.png"> 
+                    <img class="bc-computer-image fade-img-2" src="/images/liber-v/p03.png"> 
                 </div>
                 <div class="container">
                     <div class="banner-info">
-                        <div class="h1 banner-header mb-4 mb-sm-5">Extraordinary Viewing Experience</div>
+                        <div class="h1 banner-header mb-4 mb-sm-5">Experience Visual Transcendence</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Slimmer but greater. The LIBER V series has a 3.7mm unbound ultra-narrow bezel which has been reduced by about 63% compared with previous LIBER series notebooks, one step closer to perfection with its 78.2% screen-to-body ratio. With a full HD 16:9 IPS display with anti-glare, presenting detailed images clearly with a stable response time under various ambient indoor and outdoor lighting conditions, allowing you to enjoy the LIBER V's big world with the ultra-wide viewing angle of 178 degrees. Whether you are studying, working, or simply having fun, LIBER V brings you an extraordinary viewing experience that you have never seen.</span> 
+                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra-narrow bezel which gives its screen a larger viewing area compared to the previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite stable response time with LIBER V.<br/><br/></span> 
                         </div> 
                     </div>
 
@@ -141,32 +104,26 @@
         <section class="product-liber-performance product-liber-v-color">
             <div class="banner-block">
                 <div class="banner-bg"></div>
-                <div class="banner-image">  
-	                <img class="bc-computer-image fade-img" src="/images/liber-v/p04_amd.png" style="max-width:450px;"> 
-                    <img class="bc-computer-image fade-img-2" src="/images/liber-v/p05_amd.png" style="max-width: 350px;margin-right: 100px;"> 
+                <div class="banner-image"> 
+                    <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_all.png"> 
+	                <img class="bc-computer-image fade-img" src="/images/liber-v/p04.png"> 
+                    <img class="bc-computer-image fade-img-2" src="/images/liber-v/p05.png"> 
                 </div>
                 <div class="container">
                     <div class="banner-info"> 
-                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Stand Out From The Crowd</div></div>
+                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Kaleidoscopic Expression</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">Appealing to different style personalities, LIBER V debuts</span>
-                            <span class="d-md-block">with over 14 distinguishably attractive colors. You can</span>
-                            <span class="d-md-block">also customize your LIBER V with a laser engraving service,</span>
-                            <span class="d-md-block">engraving names or words onto the chassis to reflect your</span> 
-                            <span class="d-md-block">unique personal statement, like a fashion accessory tailored</span>
-                            <span class="d-md-block">just for you. You can fully release your personal charm</span>
-                            <span class="d-md-block">and stand out from the crowd.</span>
+                            <span class="d-md-block">The 14 distinctive and flamboyant color options* of </span>
+                            <span class="d-md-block">LIBER V boost its uniqueness as a personality statement accessory. </span>
+                            <span class="d-md-block">Now, put your own mark further on LIBER V by opting for</span>
+                            <span class="d-md-block">Laser Engraving Service for the chassis. We will keep</span> 
+                            <span class="d-md-block">adding more colors and patterns to LIBER V catalog,</span>
+                            <span class="d-md-block">keeping you spoilt for choices.</span>
                             <span class="d-md-block">&nbsp;</span>
                             <span class="d-md-block"></span>
                             <p class="hidden-md-up">&nbsp;</p>
-                            <span class="d-md-block">More color combinations will be coming soon to suit</span>
-                            <span class="d-md-block">your every day needs. Whether you are a professional</span>
-                            <span class="d-md-block">or a fashionista, LIBER V makes you shine even more.</span>
-                            
                         </div>
-                          
                     </div>
-                     
                 </div>
             </div>
         </section>
@@ -180,34 +137,47 @@
                 <div class="banner-bg"></div>
                 <div class="banner-image">
                     
-                    <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_screen_amd.jpg"> 
+                    <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_screen.jpg"> 
                 </div>
                 <div class="container">
                     <div class="banner-info" style="background-image:none;">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber-v/AVITA_liber_v_screen_amd.jpg">  
+                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber-v/AVITA_liber_v_screen.jpg">  
                         </div>
-                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Well-Balancing Lightness and Fun</div></div>
+                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Prompt Portability</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">LIBER V is sophisticatedly engineered by compacting</span>
-                            <span class="d-md-block">a 14  screen inside the 13.3-inch that weights</span>
-                            <span class="d-md-block">from just 1.30kg, 14% less than previous models and</span>
-                            <span class="d-md-block">well-balancing lightness and durability, bringing you</span>
-                            <span class="d-md-block">an easy and convenient experience. LIBER V incorporates</span>
-                            <span class="d-md-block">a Windows Hello fingerprint reader, which strengthens</span>
-                            <span class="d-md-block">privacy protection. LIBER V can always accompany you</span>
-                            <span class="d-md-block">while traveling or working effortlessly.</span>
+                            <span class="d-md-block">The smart design and sophisticated engineering behind </span>
+                            <span class="d-md-block">LIBER V ensures that the 14-inch visage of</span>
+                            <span class="d-md-block">LIBER V weighs merely 1.25 kgs, 14% lighter than</span>
+                            <span class="d-md-block">previous LIBER models, LIBER V achieves the ideal</span>
+                            <span class="d-md-block">in terms of easy mobility factor. Combine that</span>
+                            <span class="d-md-block">with the fingerprint lock powered by Windows Hello,</span>
+                            <span class="d-md-block">and LIBER V becomes the perfect technology weapon,</span>
+                            <span class="d-md-block">easy to carry and ready to be unleashed with a snap and a touch.</span>
                         </div>
                         <div class="banner-data d-flex flex-wrap text-left mx-auto pl-sm-5">
                         	
-		                    <img class="bc-computer-image bc-computer-2" src="/images/liber-v/FaceUnlock.png">
+		                   
                             
-                            
+                            <div class="data-card data-card-1 col-6 my-2 my-sm-4 px-0 pr-1 px-sm-3">
+                                <div class="badge-caption pb-1">
+                                    <div class="badge-value d-inline pr-1">15.9</div>mm
+                                </div>
+                                <div class="badge-caption">Thin</div>
+                            </div>
+                            <img class="bc-computer-image bc-computer-2"  style="padding-top:20%;" src="/images/liber-v/FaceUnlock.png">
+
+                            <div class="data-card data-card-2 col-1 my-2 my-sm-4 px-0 px-sm-3">
+                            <div class="badge-caption pb-1">
+                                    <div class="h1">Fingerprint Reader</div>
+                                </div>
+
+                            </div> 
                             <div class="data-card data-card-4 col-6 my-2 my-sm-4 px-0 px-sm-3">
                                 <div class="badge-caption pb-1">
-                                    <div class="badge-value d-inline pr-1">1.30</div>kg
+                                    <div class="badge-value d-inline pr-1">1.25</div>kg
                                 </div>
-                                <div class="badge-caption">14  weight</div>
+                                <div class="badge-caption">14-inch weight</div>
                             </div>
                         </div>
                     </div>
@@ -220,65 +190,91 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_performance_amd.jpg"> 
-	                <img class="bc-computer-image fade-img" src="/images/liber-v/p02_amd_en.png"> 
+                    <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_performance.jpg"> 
+	                <img class="bc-computer-image fade-img" src="/images/liber-v/p02_hk_en.png"> 
                 </div>
                 <div class="container">
                     <div class="banner-info" style="background-image:none;">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber-v/AVITA_liber_v_performance_amd.jpg">
+                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber-v/AVITA_liber_v_performance.jpg">
                         </div>
-                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Meet Your Different Needs</div></div>
+                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Sensational Performance and Productivity</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">Not only LIBER V is unique in appearance but also in </span>
-                            <span class="d-md-block">performance. Adapting the AMD Ryzen™ 7 3700U and Ryzen™ 5 3500U</span>
-                            <span class="d-md-block">processors, 8GB RAM and large storage up to 512GB SSD,</span>
-                            <span class="d-md-block">LIBER V can swiftly process and access files,</span>
-                            <span class="d-md-block">allowing you to work with ease, even with complex workflows.</span>
+                            <span class="d-md-block">LIBER V takes an evolutionary step forward in terms of </span>
+                            <span class="d-md-block">performance parameter by adapting the new 10<sup>th</sup> Gen Intel® </span>
+                            <span class="d-md-block">Core™ i5-10210U processors </span>
+                           <!-- <span class="d-md-block">3500U- AMD Ryzen™ 7 3700U with 8 GB RAM,</span> --->
+                            <span class="d-md-block">an ultra-fast SSD Drive up to 512GB and </span>
+                            <span class="d-md-block">preloaded Windows 10 home enabling you to tackle even</span>
+                            <span class="d-md-block">the most complex tasks with practiced ease.</span>
                             <span class="d-md-block">&nbsp;</span>
-                            <span class="d-md-block">LIBER V’s full-size backlit keyboard with 1.5mm key</span>
-                            <span class="d-md-block">travel and 19mm key pitch delivers the ultimate word</span>
-                            <span class="d-md-block">processing experience that you could ever ask for.</span>
-                            <span class="d-md-block">Along with AVITA’s extra-large touchpad, support</span>
-                            <span class="d-md-block">for 4 fingers gestures perfectly, you can have more</span>
-                            <span class="d-md-block">space to control. Making it possible to simultaneously</span> 
-                            <span class="d-md-block">charge, transfer data, display, and connect to various</span>
-                            <span class="d-md-block">devices to meet your different needs.</span> 
+                            <span class="d-md-block"></span>
+                            <p class="hidden-md-up">&nbsp;</p>
+                            <span class="d-md-block"></span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block"></span>
+                            <p class="hidden-md-up">&nbsp;</p>
+                            <span class="d-md-block"></span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block"></span>
+                            <p class="hidden-md-up">&nbsp;</p>
+                            <span class="d-md-block"></span>
+                            <span class="d-md-block">&nbsp;</span>
                         </div>
                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
                                 
-                                <div class="data-card my-3 text-left col-12">
+                                <div class="data-card my-3 text-left">
                                     <div class="badge-caption">Operating System</div>
                                     <div class="badge-value">Windows 10 Home</div>
                                 </div>
-                                <div class="data-card my-3 text-left col-12">
+                                <div class="data-card my-3 text-left">
                                     <div class="badge-caption">Up to</div>
-                                    <div class="badge-value">Ryzen 7 3700U</div>
-                                    <div class="badge-caption">AMD</div>
+                                    <div class="badge-value">Core i5</div>
+                                    <div class="badge-caption">10th Gen INTEL® CORE™ PROCESSOR</div>
                                 </div>
                                
-                                <div class="data-card my-3 text-left col-6">
+                                <div class="data-card my-3 text-left">
                                     <div class="badge-caption">Up to</div>
                                     <div class="badge-value">8<span class="badge-caption">GB</span></div>
                                     <div class="badge-caption">RAM</div>
                                 </div>
-                                 <div class="data-card my-3 text-left col-6">
+                                 <div class="data-card my-3 text-left">
                                     <div class="badge-caption">Up to</div>
                                     <div class="badge-value">512<span class="badge-caption">GB</span></div>
                                     <div class="badge-caption">SSD</div>
                                 </div>
                                 
-                                 <div class="data-card my-3 text-left col-6"> 
+                                 <div class="data-card my-3 text-left data-card-mo1 hidden-md-up"> 
                                     <div class="badge-value">1.5<span class="badge-caption">mm</span></div>
                                     <div class="badge-caption">key travel</div>
                                 </div>
-                                <div class="data-card my-3 text-left col-6"> 
+                                <div class="data-card my-3 text-left data-card-mo2 hidden-md-up" style="margin-right: -20px;"> 
                                     <div class="badge-value">19<span class="badge-caption">mm</span></div>
                                     <div class="badge-caption">key pitch</div>
                                 </div>
-                                  
-                             </div>
+                                 
+                            </div>
+                              <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between hidden-sm-down" style="margin-top:0px;">
                               
+                              
+                             <div class="data-card my-3 text-left hidden-sm-down" style="padding-right: 100px;"> 
+                                <div class="banner-header" style="font-size:1.5rem; opacity:0;">全尺寸背光鍵盤<br/>特大觸控板<br/>支援四指觸控</div>
+                            </div> 
+                              
+                            <div class="data-card my-3 text-left"> 
+                                <div class="badge-value">1.5<span class="badge-caption">mm</span></div>
+                                <div class="badge-caption">key travel</div>
+                            </div>
+                            <div class="data-card my-3 text-left" style="margin-right: -20px;"> 
+                                <div class="badge-value">19<span class="badge-caption">mm</span></div>
+                                <div class="badge-caption">key pitch</div>
+                            </div>
+                             
+                               
+                            
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -288,7 +284,7 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-1" src="/images/liber-v/AVITA_liber_v_io_amd.png">  
+                    <img class="bc-computer-1" src="/images/liber-v/AVITA_liber_v_io.png">  
                 </div> 
             </div>
          </section>
@@ -302,9 +298,8 @@
                     <li>Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.</li>
                     <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
-                     <li>Availability of colors may vary by retailers.</li>
-                    <li>Product appearance design, color, matching, may vary according to different models and configurations.</li>
-                    <li>In the event of any disputes, Nexstgo Company Limited reserves the right of the final decision.</li>
+                    <li>color options are subject to product availability.</li>
+
                 </ul>
             </div>
         </section>
@@ -325,7 +320,5 @@
 
     <script type="text/javascript" src="<?php echo e(asset('js/liber.js')); ?>"></script>
 
-
 <?php $__env->stopSection(); ?>
-
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
