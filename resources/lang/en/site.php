@@ -14,6 +14,8 @@ return [
     'products'                      => 'Products',
     'news'                          => 'What\'s New',
     'service'                       => 'Service',
+    'offline_stores'                => 'Offline Stores',
+    'buy_online'                    => 'Buy Online',
     'member_center'                 => 'Member Center',
     'logout'                        => 'Logout',
     'login'                         => 'Login',

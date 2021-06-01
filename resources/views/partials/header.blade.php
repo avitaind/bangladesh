@@ -108,11 +108,44 @@
                 </li>
 
                 @if( $shop_count >= 0 )
-                    <li class="nav-item">
-                        <a class="nav-link" href="/where-to-buy">@lang('site.header_where_to_buy')</a>
-                    </li>
+                {{-- <a class="nav-link" href="/where-to-buy">@lang('site.header_where_to_buy')</a> --}}
+                    {{-- <li class="nav-item"> --}}
+                        <li class="nav-item has-dropdown">
+                            <input id="where_to_buy" type="checkbox" hidden="">
+                              <a class="nav-link"><label for="where_to_buy">{{ __('site.header_where_to_buy') }}</label></a>
+                          
+                              <div class="dropdown">
+                                 <ul class="list-unstyled">
+                                      <li class="nav-item">
+                                            <a  class="nav-link px-md-4 py-2" href="/where-to-buy" >{{ __('site.offline_stores') }}</a>
+                                      </li>
+                                 
+          
+                                   <li class="nav-item has-dropdown">
+                                      <input id="header_buy_online" type="checkbox" hidden="">
+                                         <a class="nav-link px-md-4 py-2"> <label for="header_buy_online" class="d-block mb-0">{{ __('site.buy_online') }}</label></a>
+          
+                                          <div class="dropdown">
+                                              <ul class="list-unstyled">
+          
+                                              <li class="nav-item">
+                                                  <a class="nav-link px-md-4 py-2" target="_blank" href="https://www.daraz.com.bd/shop/b-trac-technologies-ltd">Daraz</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                  <a class="nav-link px-md-4 py-2" target="_blank" href="https://www.pickaboo.com/computer-pc/laptop-notebook.html?manufacturer=10605">Pickaboo</a>
+                                              </li>
+          
+                                             </ul>
+                                         </div>
+                                    </li>  
+          
+                                 
+                                  </ul>
+                              </li>
+      
                 @endif
 
+                
 
                 @if( $storeURL )
 
