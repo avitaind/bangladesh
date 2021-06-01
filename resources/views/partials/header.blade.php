@@ -145,8 +145,6 @@
       
                 @endif
 
-                
-
                 @if( $storeURL )
 
                     <li class="nav-item">
