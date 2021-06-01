@@ -7,7 +7,7 @@ use App\Blog;
 
 class BlogController extends Controller
 {
-    //
+    
         //
         public function showBlogList(){
 
