@@ -109,7 +109,7 @@
 
                 @if( $shop_count >= 0 )
                 {{-- <a class="nav-link" href="/where-to-buy">@lang('site.header_where_to_buy')</a> --}}
-                    {{-- <li class="nav-item"> --}}
+                    
                         <li class="nav-item has-dropdown">
                             <input id="where_to_buy" type="checkbox" hidden="">
                               <a class="nav-link"><label for="where_to_buy">{{ __('site.header_where_to_buy') }}</label></a>
