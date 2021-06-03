@@ -145,8 +145,6 @@
       
                 <?php endif; ?>
 
-                
-
                 <?php if( $storeURL ): ?>
 
                     <li class="nav-item">
