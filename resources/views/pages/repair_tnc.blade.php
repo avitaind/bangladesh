@@ -38,6 +38,23 @@
 <p><span lang="EN-US">23.&nbsp;</span><span lang="EN-US">The Terms and Conditions shall be governed by the laws of the Hong Kong Special Administration Region and the Customer and We agree to submit to the exclusive jurisdiction of the Hong Kong courts.</span></p>
 <p><span lang="EN-US">24.&nbsp;</span><span lang="EN-US">Should there be any inconsistency between Chinese and English versions, the English version shall prevail.</span></p>
                     </div>
+
+
+                    <div class=" py-4">
+                    <h4 class="mb-4 font-weight-light ls-0"> Linked Warranty Plan</h4>
+                       <div class="terms-wrap ls-0">
+                         <p><span lang="EN-US">*Regions include: Hong Kong, China, Macau, Taiwan, Singapore, Malaysia, India, Bangladesh and Middle East countries.</span></p>
+                         <p><span lang="EN-US">1. Asian District Maintenance Plan enables customers who travel with, or relocate Avita laptop to receive warranty service in specific regions (above mentioned) where their product is announced and sold and supported by Nexstgo or a Nexstgo authorized reseller under Nexstgo Computer Limited Warranty and/or the destination region Warranty Services Agreement.</span></p>
+                         <p><span lang="EN-US">2. The length of Asian District Maintenance Plan is based upon the original warranty period assigned in the region of origin where the laptop was first sold by Nexstgo or a Nexstgo authorized reseller.</span></p>
+                         <p><span lang="EN-US">3. The phone support languages and the method of service will be determined by the destination region. For customers who have on-site repair warranty, on-site service will be delivered where it is available.</span></p>
+                         <p><span lang="EN-US">4. Some service and/or parts may not be available in all regions. Nexstgo or a Nexstgo authorized reseller may repair the laptop with comparable Avita parts. For example, if the product was purchased with a Japanese keyboard, default US keyboard may be as an option for repair upon your agreement.</span></p>
+                         <p><span lang="EN-US">5. Some regions may have fees and restrictions that apply at the time of service such as packaging, shipping and handling fees. You will be advised of your responsibility to pay these fees at the time of service.</span></p>
+                         <p><span lang="EN-US">6. The standard international warranty on all AVITA products are registered and applicable in only the following countries: Hong Kong, Taiwan, Singapore, India, Malaysia, and China. All localised and color parts such as keyboard, power cord, hinge-up/C/D cover/TP, etc. are excluded under the aegis of AVITA’s international warranty.</span></p>
+
+
+                </div>
+            </div>
+
                 </div>
             </div>
             
