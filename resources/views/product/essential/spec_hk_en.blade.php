@@ -71,7 +71,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div>128GB SSD </div>
+                                <div>128GB SSD / 256GB SSD </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
@@ -120,7 +120,7 @@
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Matt Black</div>
+                                <div>Matt Black / Matt white / concrete Grey</div>
                             </li>
                             
                             <li class="spec-item d-flex">

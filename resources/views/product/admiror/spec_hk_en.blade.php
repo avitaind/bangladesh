@@ -58,7 +58,7 @@
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">   
                                 <li style="background-color: #b1816b"  class="active"  data-image="/images/admiror/admiror_brown.png"></li> 
                                 <li style="background-color: #d08364" data-image="/images/admiror/admiror_gold.png"></li>
-                                <li style="background-color: #efa4a1" data-image="/images/admiror/admiror_pink.png"></li>
+                                {{-- <li style="background-color: #efa4a1" data-image="/images/admiror/admiror_pink.png"></li> --}}
                               <!---
                                 <li style="background-color: #75779b"data-image="/images/admiror/admiror_blue.png"></li>
                                 <li style="background-color: #b7b189" data-image="/images/admiror/admiror_green.png"></li>
@@ -92,7 +92,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
-                                <div>Intel® Core™ i5-10210U Processor<br />
+                                <div>Intel® Core™ i7-10510U Processor<br />
                             </div>
                             </li>
                             <li class="spec-item d-flex">
@@ -101,7 +101,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                                <div>8GB DDR4</div>
+                                <div>16GB DDR4</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
@@ -109,7 +109,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                <div>512GB SSD SATA M.2</div>
+                                <div>1TB SSD SATA M.2</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
@@ -163,7 +163,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Blazing Brown, Flaming Copper, Delight Pink</div>
+                                <div>Blazing Brown, Flaming Copper</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
