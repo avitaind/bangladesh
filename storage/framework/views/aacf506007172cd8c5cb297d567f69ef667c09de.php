@@ -28,14 +28,13 @@
                                 <li style="background-color: #54a7d9" data-image="/images/liber-v/54a7d9.png"></li>
                                 <li style="background-color: #8455aa" data-image="/images/liber-v/8455aa.png"></li>
                                     ------->
-                                    <li style="background-color: #e5c7af" data-image="/images/liber-v/e5c7af.png"></li>
-                                    <li style="background-color: #1f1f1f" data-image="/images/liber-v/7a7062.png"></li>
+                                    
 
                                <!---
                                 <li style="background-color: #f6bdc8" data-image="/images/liber-v/f6bdc8.png"></li> 
                                 <li style="background-color: #787878" data-image="/images/liber-v/787878.png"></li>  
                                 ------>
-                                <li style="background-color: #f7f7f7" data-image="/images/liber-v/f7f7f7.png"></li> 
+                                
                                
                             </ul>
                         </a>
@@ -69,7 +68,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.cpu'); ?></div>
-                                <div>Intel® Core™ i5-10210U/ i7-10510U </div>
+                                <div>Intel® Core™ i5-10210U</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.display'); ?></div>
@@ -77,15 +76,15 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.memory'); ?></div>
-                                <div>8 GB DDR4 /16 Gb DDR4</div>
+                                <div>8 GB DDR4</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.graphics'); ?></div>
-                                <div>Intel® UHD Graphics 620 </div>
+                                <div>Intel® UHD Graphics 620</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.storage'); ?></div>
-                                <div>512GB SSD / 1TB SSD</div>
+                                <div>512GB SSD</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.camera'); ?></div>
@@ -137,7 +136,7 @@
                             </li> -->
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.colour'); ?></div>
-                                <div>Cloud Silver / Matt Black / Golden Matte Black / Champgane Gold / Pearl White</div>
+                                <div>Cloud Silver / Matt Black</div>
                             </li>
                            <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.accessories'); ?></div>
