@@ -20,8 +20,8 @@
                              <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA Essential</div><div class="d-sm-block">(35.56 cm)</div></div>
                              <img class="hidden-sm-down" src="/images/essential/000000.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  
-                            <!---    <li class="active" style="background-color: #eeeeee" data-image="/images/essential/eeeeee.png"></li>
-                                <li style="background-color: #878787" data-image="/images/essential/878787.png"></li> --->
+                            -    <li class="active" style="background-color: #eeeeee" data-image="/images/essential/eeeeee.png"></li>
+                                <li style="background-color: #878787" data-image="/images/essential/878787.png"></li> -
                                 <li style="background-color: #000000" data-image="/images/essential/000000.png"></li>
                                
                             </ul>
@@ -115,7 +115,7 @@
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Matt Black</div>
+                                <div>Concrete grey / Matt black / Matt white</div>
                             </li>
                             
                             <li class="spec-item d-flex">
