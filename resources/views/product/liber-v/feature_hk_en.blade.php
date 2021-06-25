@@ -32,13 +32,16 @@
         
          <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
-                        <div class="space60"></div>
+                      <!---
+                      
+                           <div class="space60"></div>
                         <div class="banner-para">
+                                         
                         <div align="center" class="col-lg-12" >
                       <span class="h1"> COMING SOON</span>
                         </div>
                       
-                        <!---     
+     
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
                             <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-14-inch-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
