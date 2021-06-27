@@ -42,13 +42,14 @@ Route::get('/tnc', 'HomeController@getTerms');
 // Route::get('/modus', 'HomeController@getModus')->name('modus');
 
 //redirect to https://avita-americas.com/
-Route::get('/us', function(){
-    return redirect('https://avita-americas.com/');
-});
+// Route::get('/us', function(){
+//     return redirect('https://avita-americas.com/');
+// });
 
-Route::get('/accessories/mouse', function(){
-    return view('product.mouse');
-});
+Route::get('/products', 'ProductsController@getProducts')->name('products');
+
+Route::get('/accessories/mouse', 'ProductsController@mouse');
+
 
 
 // User Login

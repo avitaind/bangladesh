@@ -85,6 +85,34 @@ class ProductsController extends Controller
 
             }
         }
+
+        if ( $slug == 'liber-v-gold' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_en_demo', compact( 'product'));
+                    break;
+
+            }
+        }
+        if ( $slug == 'liber-v-gold-black' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_black_en', compact( 'product'));
+                    break;
+
+            }
+        }
+        if ( $slug == 'liber-v-gold-blue' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_blue_en', compact( 'product'));
+                    break;
+
+            }
+        }
         
         if ( $slug == 'liber-new-generation' ){
 
@@ -167,6 +195,15 @@ class ProductsController extends Controller
                     switch ( $country ) {
                         case 'bd':
                             return view('product.liber-v.amd.spec_hk_en', compact( 'product'));
+                            break;
+                    }
+                }
+
+                if ( $slug == 'liber-v-gold' ){
+                    switch ( $country ) {
+                        case 'in':
+                            return view('product.liber-v-gold.spec_hk_en', compact( 'product'));
+        
                             break;
                     }
                 }
