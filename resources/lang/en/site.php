@@ -258,6 +258,7 @@ return [
     'liber_v_amd' => 'AVITA LIBER V14 AMD',
     'liber-v-gold'=>'AVITA LIBER V Gold',
 
+    'productnav_overview_liber_v_gold'   => 'Overview LIBER V Gold',	
 
     'productnav_overview_liber_v'   => 'Overview LIBER V Intel',	
     'productnav_overview_liber_v_amd'   => 'Overview LIBER V AMD',	

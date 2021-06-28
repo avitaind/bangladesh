@@ -100,10 +100,10 @@
         </section>
 
      
-        <div class="color-opt">
+        <!-- <div class="color-opt">
             <button class="btn-opt"></button>
             <div class="slide-text"><a href="{{ route('product.overview', ['liber-v-gold-black']) }}">Midnight Black</a></div> 
-        </div>
+        </div> -->
       
         <div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>

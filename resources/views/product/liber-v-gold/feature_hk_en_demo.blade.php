@@ -131,10 +131,10 @@
             </div>
         </section>
 
-        <div class="color-opt">
+        <!-- <div class="color-opt">
             <button class="btn-opt"></button>
             <div class="slide-text"><a href="{{ route('product.overview', ['liber-v-gold-blue']) }}">Royal Blue</a></div> 
-        </div>
+        </div> -->
 
 
         <div class="gotop-wrap">
