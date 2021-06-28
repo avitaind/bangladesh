@@ -60,7 +60,7 @@
 
 
                                            <li class="nav-item">
-                                          <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v-gold-blue']) }}">@lang('site.liber-v-gold')</a>
+                                          <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v-gold']) }}">@lang('site.liber-v-gold')</a>
                                        </li> 
 
                                        <li class="nav-item has-dropdown">
