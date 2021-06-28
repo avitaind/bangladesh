@@ -90,7 +90,7 @@ class ProductsController extends Controller
 
             switch ( $country ) {
                 case 'in':
-                    return view('product.liber-v-gold.feature_hk_en_demo', compact( 'product'));
+                    return view('product.liber-v-gold.feature_hk_en', compact( 'product'));
                     break;
 
             }
