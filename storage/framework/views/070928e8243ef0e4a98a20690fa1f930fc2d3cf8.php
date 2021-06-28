@@ -1,22 +1,20 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.LIBER_v_home_amd'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.LIBER_v_home')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
 
-        @include('partials.liber-v-navbar')
+    <?php echo $__env->make('partials.liber-v-amd-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-        <section class="product-liber-banner">
+    <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/avita-liber-v-mob-new-v1.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
-                            {{--<img class="mx-auto" src="/images/liber-v/brand.png">--}}
+                            
                         </div>
                         <div class="an-scroll-wrap">
                             <div class="an-scroll">
@@ -32,16 +30,13 @@
         
          <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
-                      <!---
-                      
-                           <div class="space60"></div>
+                   <!---          <div class="space60"></div>
                         <div class="banner-para">
-                                         
                         <div align="center" class="col-lg-12" >
                       <span class="h1"> COMING SOON</span>
                         </div>
                       
-     
+                        
                         <div class="banner-para text-center">
                             <span class="d-lg-block">
                             <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-14-inch-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
@@ -78,8 +73,8 @@
         
        <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
-                {{-- <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div> --}}
-                {{-- <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div>  --}}
+                
+                
                 <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Web.jpg')"></div>
                 <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Mob.jpg')"></div> 
             </div>
@@ -315,14 +310,15 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
-@endsection
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
-    <script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/liber.js')); ?>"></script>
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

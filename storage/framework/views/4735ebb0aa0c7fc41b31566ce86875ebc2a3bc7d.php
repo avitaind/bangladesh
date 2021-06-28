@@ -4,15 +4,15 @@
             
         <div class="carousel-item active">
             <div class="responsive-block">
-            <a href="{{ route('product.overview', ['magus12-2in1-laptop']) }}">
+            <a href="<?php echo e(route('product.overview', ['magus12-2in1-laptop'])); ?>">
                 <div class="banner-block responsive-item">
-                    @if( App::isLocale('en') )
+                    <?php if( App::isLocale('en') ): ?>
                         <div class="banner-bg hidden-sm-down"
                              style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
-                    @else
+                    <?php else: ?>
                         <div class="banner-bg hidden-sm-down"
                              style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
-                    @endif
+                    <?php endif; ?>
                     <div class="banner-bg hidden-md-up"
                          style="background-image: url('/images/banner/MAGUS-MOB-BANNER-NEW.png')"></div>
                 </div>
@@ -22,15 +22,15 @@
 
         <div class="carousel-item ">
                 <div class="responsive-block">
-                <a href="{{ route('product.overview', ['liber-v']) }}">
+                <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
+                        <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
-                        @else
+                        <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
-                        @endif
+                        <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/avita-liber-v-mob-new-v1.jpg')"></div>
                     </div>
@@ -40,15 +40,15 @@
 
         <!-- <div class="carousel-item ">
                 <div class="responsive-block">
-                <a href="{{ route('product.overview', ['liber-v']) }}">
+                <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
+                        <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/avita-liber-v-web-new-v2.jpg')"></div>
-                        @else
+                        <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/avita-liber-v-web-new-v2.jpg')"></div>
-                        @endif
+                        <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/avita-liber-v-mob-new-v2.jpg')"></div>
                     </div>
@@ -58,15 +58,15 @@
         
          <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="{{ route('product.overview', ['essential']) }}">
+                <a href="<?php echo e(route('product.overview', ['essential'])); ?>">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
+                        <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
-                        @else
+                        <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
-                        @endif
+                        <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/avita-essential-mob-new.jpg')"></div>
                     </div>
@@ -76,15 +76,15 @@
                  
          <div class="carousel-item">
                 <div class="responsive-block">
-                    <a href="{{ route('product.overview', ['pura']) }}">
+                    <a href="<?php echo e(route('product.overview', ['pura'])); ?>">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
+                        <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
-                        @else
+                        <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
-                        @endif
+                        <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/pura-banner-mob.jpg')"></div>
                     </div>
@@ -94,15 +94,15 @@
         
            <div class="carousel-item">
                 <div class="responsive-block">
-                    <a href="{{ route('product.overview', ['admiror']) }}">
+                    <a href="<?php echo e(route('product.overview', ['admiror'])); ?>">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
+                        <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/ADMIROR-Web-Banner-Dextop.png')"></div>
-                        @else
+                        <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/ADMIROR-Web-Banner-Dextop.png')"></div>
-                        @endif
+                        <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/ADMIROR-MOB-BANNER.png')"></div>
                     </div>
@@ -112,15 +112,15 @@
            
             <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="{{ route('product.overview', ['liber-u-series']) }}">
+                <a href="<?php echo e(route('product.overview', ['liber-u-series'])); ?>">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
+                        <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
-                        @else
+                        <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
-                        @endif
+                        <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/lifestyle_banner_mob1.jpg')"></div>
                     </div>
@@ -130,15 +130,15 @@
 
             <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="{{ route('support') }}">
+                <a href="<?php echo e(route('support')); ?>">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
+                        <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/warranty_banner1_web.jpg')"></div>
-                        @else
+                        <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
                                  style="background-image: url('/images/banner/warranty_banner1_web.jpg')"></div>
-                        @endif
+                        <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/warranty_banner1_mob.jpg')"></div>
                     </div>
@@ -151,13 +151,13 @@
                 <div class="responsive-block">
                 <a href="/cap">
                     <div class="banner-block responsive-item">
-                            @if( App::isLocale('en') )
+                            <?php if( App::isLocale('en') ): ?>
                                 <div class="banner-bg hidden-sm-down"
                                      style="background-image: url('/images/banner/campus_web_banner.png')"></div>
-                            @else
+                            <?php else: ?>
                                 <div class="banner-bg hidden-sm-down"
                                      style="background-image: url('/images/banner/campus_web_banner.png')"></div>
-                            @endif
+                            <?php endif; ?>
                             <div class="banner-bg hidden-md-up"
                                  style="background-image: url('/images/banner/campus_mobile_banner.png')"></div>
                        </div>
@@ -180,7 +180,7 @@
     </div>
 </section>
 
-@section('css')
+<?php $__env->startSection('css'); ?>
     <style type="text/css">
         #home_banner video{
             position: absolute;
@@ -195,8 +195,8 @@
             height: auto;
         }
     </style>
-@endsection
-@section('js')
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('js'); ?>
     <script type="text/javascript">
         var imageTimer = null;
       
@@ -208,4 +208,4 @@
 
         }).trigger('init');
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
