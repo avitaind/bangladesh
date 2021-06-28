@@ -109,9 +109,9 @@ if ( Request::segment(1) != 'admin') {
         Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
 
         // Products
-        Route::get('/products', function () {
-            return redirect()->route('product.overview', ['liber']);
-        } )->name('products');
+        // Route::get('/products', function () {
+        //     return redirect()->route('product.overview', ['liber']);
+        // } )->name('products');
 
         Route::get('/product/{slug}', 'ProductsController@showProductFeatures')->name('product.overview');
         Route::get('/product/{slug}/spec_new', 'ProductsController@showProductSpecNew')->name('product.spec_new');
