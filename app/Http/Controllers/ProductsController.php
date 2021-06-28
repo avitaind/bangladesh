@@ -89,7 +89,7 @@ class ProductsController extends Controller
         if ( $slug == 'liber-v-gold' ){
 
             switch ( $country ) {
-                case 'in':
+                case 'bd':
                     return view('product.liber-v-gold.feature_hk_en', compact( 'product'));
                     break;
 
@@ -98,7 +98,7 @@ class ProductsController extends Controller
         if ( $slug == 'liber-v-gold-black' ){
 
             switch ( $country ) {
-                case 'in':
+                case 'bd':
                     return view('product.liber-v-gold.feature_hk_black_en', compact( 'product'));
                     break;
 
@@ -107,7 +107,7 @@ class ProductsController extends Controller
         if ( $slug == 'liber-v-gold-blue' ){
 
             switch ( $country ) {
-                case 'in':
+                case 'bd':
                     return view('product.liber-v-gold.feature_hk_blue_en', compact( 'product'));
                     break;
 
@@ -201,7 +201,7 @@ class ProductsController extends Controller
 
                 if ( $slug == 'liber-v-gold' ){
                     switch ( $country ) {
-                        case 'in':
+                        case 'bd':
                             return view('product.liber-v-gold.spec_hk_en', compact( 'product'));
         
                             break;
