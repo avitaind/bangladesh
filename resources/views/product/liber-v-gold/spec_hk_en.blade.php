@@ -9,7 +9,6 @@
     <main class="top-nav-padding">
 
         @include('partials.liber-v-gold-navbar')
-		@include('partials.rolling-cta-liber-v-gold')
 
         <section>
 
