@@ -20,6 +20,8 @@ Route::get('/', 'HomeController@redirectToHome');
 Route::get('/cap','CampusController@index'); 
 Route::post('/cap','CampusController@storeDevice');
 // Campus Controller
+Route::post('subscribe', 'HomeController@handleSubscription');
+
 
 //Blogs
 Route::get('/blog', 'BlogController@showBlogList')->name('blog');
