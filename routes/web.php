@@ -19,6 +19,7 @@ Route::get('/', 'HomeController@redirectToHome');
 // Campus Controller
 Route::get('/cap','CampusController@index'); 
 Route::post('/cap','CampusController@storeDevice');
+
 // Campus Controller
 Route::post('subscribe', 'HomeController@handleSubscription');
 
