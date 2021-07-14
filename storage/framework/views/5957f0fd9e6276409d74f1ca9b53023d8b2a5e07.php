@@ -58,8 +58,12 @@
     </section>
 
   <section class="email-subscription py-5 ls-0">
-   <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto">
-        <h2 class="text-center mt-4 mb-3 font-weight-light"><?php echo app('translator')->getFromJson('site.home_join'); ?></h2>
+   <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST" action="<?php echo e(url('/subscribe')); ?>"  enctype="multipart/form-data" >
+    <?php echo csrf_field(); ?>
+
+
+    <?php echo $__env->make('includes.flash', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>    
+    <h2 class="text-center mt-4 mb-3 font-weight-light"><?php echo app('translator')->getFromJson('site.home_join'); ?></h2>
             <div class="text-center mt-3 mb-4 lead"><?php echo app('translator')->getFromJson('site.home_receiving'); ?></div>
             <div class="row my-4 no-gutters justify-content-center">
             <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">

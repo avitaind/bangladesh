@@ -190,21 +190,21 @@ $(document).ready(function() {
 	});
 
 	/***************** Form  ******************/
-	$(function() {
-		$('.email-subscription-form').on('submit', function(e){
-			e.preventDefault();
+	// $(function() {
+	// 	$('.email-subscription-form').on('submit', function(e){
+	// 		e.preventDefault();
 
-			var form = $(this).serializeArray();
-			this.reset();
+	// 		var form = $(this).serializeArray();
+	// 		this.reset();
 
-			if(!$.isEmptyObject(form)) {
-				$.post('/subscription', form);
-			}
+	// 		if(!$.isEmptyObject(form)) {
+	// 			$.post('/subscription', form);
+	// 		}
 
-			alert($('#alertMsg').val());
+	// 		alert($('#alertMsg').val());
 
-			//alert('感謝您的訂閱!');
-		});
-	});
+	// 		//alert('感謝您的訂閱!');
+	// 	});
+	// });
 
 });

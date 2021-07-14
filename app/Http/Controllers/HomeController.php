@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
 use App\ProductModel;
 use App\ServiceCenter;
 use App\Subscription;
+use App\Mailers\AppMailer;
 use Illuminate\Http\Request;
 use Alert;
 
@@ -160,18 +162,22 @@ class HomeController extends Controller
 
     }
 
-    public function handleSubscription(Request $request) {
+    public function handleSubscription(Request $request, AppMailer $mailer) {
         $this->validate($request, ['subscription_email' => 'required|email']);
         $email = $request->get('subscription_email');
         // Store to DB.
         $subscription = Subscription::firstOrCreate(['email' => $email]);
-        $sub = new SendInMail;
-        $sub->createUser($email);
-        $data = [
-            'status' => 'success',
-            'message' => 'Thank you for your subscription!'
-        ];
-        return response( $data );
+        // $sub = new SendInMail;
+        // $sub->createUser($email);
+        // $data = [
+        //     'status' => 'success',
+        //     'message' => 'Thank you for your subscription!'
+        // ];
+        // return response( $data );
+           
+        $subscription->save();
+        // $mailer->sendSubscriberInformation(Auth::user(), $subscription);
+        return redirect()->back()->with("status", "Thanks for Subscribing, We will connect you shortly.");
 
     }
 
