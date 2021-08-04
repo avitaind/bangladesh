@@ -2,7 +2,43 @@
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
             
-        <div class="carousel-item active">
+            <div class="carousel-item active">
+                <div class="responsive-block">
+                
+                    <div class="banner-block responsive-item">
+                        <?php if( App::isLocale('en') ): ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/iamavita_web.gif')"></div>
+                        <?php else: ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/iamavita_web.gif')"></div>
+                        <?php endif; ?>
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/iamavita_mob.gif')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="responsive-block">
+                
+                    <div class="banner-block responsive-item">
+                        <?php if( App::isLocale('en') ): ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/iamavita_web-1.gif')"></div>
+                        <?php else: ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/iamavita_web-1.gif')"></div>
+                        <?php endif; ?>
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/iamavita_mob-1.gif')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        
+            <div class="carousel-item ">
             <div class="responsive-block">
             <a href="<?php echo e(route('product.overview', ['magus12-2in1-laptop'])); ?>">
                 <div class="banner-block responsive-item">

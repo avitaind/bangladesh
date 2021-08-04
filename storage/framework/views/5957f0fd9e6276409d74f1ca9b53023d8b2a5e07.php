@@ -63,6 +63,7 @@
 
 
     <?php echo $__env->make('includes.flash', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>    
+    
     <h2 class="text-center mt-4 mb-3 font-weight-light"><?php echo app('translator')->getFromJson('site.home_join'); ?></h2>
             <div class="text-center mt-3 mb-4 lead"><?php echo app('translator')->getFromJson('site.home_receiving'); ?></div>
             <div class="row my-4 no-gutters justify-content-center">
