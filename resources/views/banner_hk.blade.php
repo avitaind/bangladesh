@@ -5,7 +5,7 @@
             <div class="carousel-item active">
                 <div class="responsive-block">
                 {{--  <a href="{{ route('product.overview', ['magus12-2in1-laptop']) }}">  --}}
-                <a href="https://promotion.avita.com/?utm_source=minisite&utm_medium=brandsite&utm_campaign=liveitup">
+                <a href="https://promotion.avita.com/?utm_source=minisite&utm_medium=brandsite&utm_campaign=liveitup" target="_blank">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
