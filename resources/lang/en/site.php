@@ -96,6 +96,16 @@ return [
         'As a team we truly live by our ethos to ‘live it up’ - this is part of our company DNA and what makes our products like no other.',
     ],
 
+    'aboutus_content_1'             => 'At AVITA we believe in the wonder and power of the individual. We make premium technology products that not only fit your lifestyle but are representations of you.',
+    'aboutus_content_2'             => 'The AVITA product series which ranges from PC, smart home and IoT devices has come to realization based on three core values: Liberty, Diversity and Individualism for an exceptional and highly personal experience to the new generation of tech users.',
+    'aboutus_content_3'             => 'Your ideas, passions, personal style and what makes you uniquely you inspires us. And we believe that your choice in technology shouldn\'t define you, it should reflect you.',
+    'aboutus_content_4'             => 'Our team is comprised of talented individuals who, before starting up AVITA, worked in product development for some big name tech companies. It was their collective enthusiasm for outstanding design and meaningful technology that brought them together to form AVITA. You can learn more about the company behind AVITA here.',
+    'aboutus_content_5'             => 'In 2021, we got the Intel Titanium Partner Award, the top tier of the Intel’s alliance membership, in recognition of our extraordinary growth in AVITA business in Asian regions. Same year, AVITA LIBER V, has been awarded a highly-coveted international design award – the distinctive “Red Dot Award: Product Design 2021” which stands for superior design quality.',
+    'aboutus_content_6'             => 'As a team we truly live by our ethos to ‘live it up’ - this is part of our company DNA and what makes our products like no other.',
+
+    'img_1'           		        => '/images/background/reddot_winner_2021.png',
+    'img_2'           		        => '/images/background/intel_Titanium_partner.jpg',
+
 
     'contactus_contactus'           => 'Contact Us',
     'contactus_operating'           => 'Operating hours',
