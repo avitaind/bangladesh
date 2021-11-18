@@ -107,9 +107,14 @@ if ( Request::segment(1) != 'admin') {
         Route::post('/support', 'HomeController@handleSupportRedirect');
         Route::get('/search_result', 'HomeController@getSearch_result');
 
+        //News and Media | Article
+        Route::get('news', 'ArticleController@showArticleList')->name('news');
+        Route::get('/news/detail/{slug}', 'ArticleController@showArticleDetail')->name('news.detail');
+
+
         // News
-        Route::get('/news/{month?}', 'NewsController@showNewsList')->name('news');
-        Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
+        // Route::get('/news/{month?}', 'NewsController@showNewsList')->name('news');
+        // Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
 
         // Products
         // Route::get('/products', function () {
@@ -167,7 +172,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
     Route::get('subscriptions', 'SubscriptionsController@showSubcriptionList');
 //    Route::get('registrations', 'RegistrationsController@showRegistrationList');
 
-    Route::resource('news', 'NewsController');
+    // Route::resource('news', 'NewsController');
 
 
     Route::get('export', 'CustomersController@export')->name('customers.export');

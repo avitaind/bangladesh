@@ -5,6 +5,25 @@
             <div class="carousel-item active">
                 <div class="responsive-block">
                 {{--  <a href="{{ route('product.overview', ['magus12-2in1-laptop']) }}">  --}}
+                <a href="https://avita-bangladesh.com/news/detail/1">
+                    <div class="banner-block responsive-item">
+                        @if( App::isLocale('en') )
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_5TH_KV.jpg')"></div>
+                        @else
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_5TH_KV.jpg')"></div>
+                        @endif
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/AVITA_5TH_KV_vert.jpg')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="responsive-block">
+                {{--  <a href="{{ route('product.overview', ['magus12-2in1-laptop']) }}">  --}}
                 <a href="https://promotion.avita.com/?utm_source=minisite&utm_medium=brandsite&utm_campaign=liveitup" target="_blank">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )

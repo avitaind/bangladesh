@@ -6,7 +6,7 @@
 
 @section('meta')
 
-    <meta property="og:url"                content="{{ route('news.detail', [$country, $news_detail->id] ) }}" />
+    <meta property="og:url"                content="{{ route('news.detail', [ $news_detail->id] ) }}" />
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="AVITA - {{ $news_detail->title }}" />
     <meta property="og:description"        content="{{ $news_detail->introduction }}" />
@@ -21,41 +21,83 @@
                 <h3 class="section-title ls-0 my-4 mt-5">@lang('site.news_title')</h3>
                 <div class="row p-3 align-items-center">
                     <div class="event-date color-required h5 mb-0 pr-3">
-                        <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>{{ $news_detail->eventDateString() }}
+                        <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>JAN 8-11, 2019
                     </div>
                     <div class="event-status px-4 py-1 {{ $news_detail->status }}">
-                        @lang('site.news_status_'.$news_detail->status)
+                        Finished
                     </div>
                 </div>
                 <div class="row p-3 align-items-center">
-                    <div class="event-detail-title h3">
+                <!--- <div class="event-detail-title h3">
                         {{ $news_detail->title }}
-                    </div>
+                        </div>
+                        --->
+               
 
-                    @if( $country != 'cn')
+                        <div class="event-share ml-auto">
+                            <span class="px-2">@lang('site.share'):</span>
+                            <a href="#" class="ml-0 ml-md-auto fb_share_btn"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" class="ml-0 ml-md-2 twitter_share_btn"><i class="fa fa-twitter pl-1" aria-hidden="true"></i></a>
+                        </div>
+                  
 
-                    <div class="event-share ml-auto">
-                        <span class="px-2">@lang('site.share'):</span>
-                        <a href="#" class="ml-0 ml-md-auto fb_share_btn"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#" class="ml-0 ml-md-2 twitter_share_btn"><i class="fa fa-twitter pl-1" aria-hidden="true"></i></a>
-                    </div>
-
-                    @endif
                 </div>
-
-                @if( $image_url = $news_detail->image_url() )
-                    <div class="event-banner">
+            @if( $image_url = $news_detail->image_url() )
+                <!--- <div class="event-banner">
                         <img src="{{ $image_url }}" class="img-responsive" />
+                    </div>--->
+
+
+
+                    <div class="row">
+                        <div class="column">
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5024.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5025.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5027.jpg" />
+
+                        </div>
+                        <div class="column">
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5028.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5033.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5034.jpg" />
+
+                        </div>
+                        <div class="column">
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5035.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5036.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5037.jpg" />
+
+
+                        </div>
+                        <div class="column">
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5038.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5039.jpg" />
+                            <img style="width: 30%;" src="https://nexstgo.buzz/images/events/CES/IMG_5040.jpg" />
+
+                        </div>
+
+                        <div class="column">
+                            <img style="width: 45%;" src="https://nexstgo.buzz/images/events/CES/IMG_5026.jpg" />
+                            <img style="width: 45%;" src="https://nexstgo.buzz/images/events/CES/IMG_5032.jpg" />
+
+                        </div>
                     </div>
+
+
+
+
+
+
+
+
                 @endif
                 <div class="event-desc py-3 mb-5">
                     <div class="event-desc-block pb-5">
                         <p class="event-desc-content">
-                            {!! $news_detail->content !!}
+                            Avita @ Consumer Electronics Show 2019
                         </p>
                     </div>
                 </div>
-
 
 
             </div>
@@ -101,3 +143,5 @@
     </script>
 
 @stop
+
+

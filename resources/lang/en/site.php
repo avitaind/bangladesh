@@ -272,6 +272,14 @@ return [
 
     'productnav_overview_liber_v'   => 'Overview LIBER V Intel',	
     'productnav_overview_liber_v_amd'   => 'Overview LIBER V AMD',	
+    'article_title' => 'Events',
+    'article_status_finished'=>'Finished',
+    'article_status_processing'=>'Processing',
+    'news_status_processing'=>'Processing',
+    'article_status_coming_soon'=>'Coming Soon',
+    'blog_title'=>'Blogs',
+    'blog_published' => 'Published',
+    'publish_title'=>'News',
 
 
 ];
