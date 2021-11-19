@@ -9,7 +9,7 @@
             <h5 class="font-weight-bold mb-0"><a href="{{ route('news.detail', $news->id) }}">{{ $news->title }}</a></h5>
         </div>
         <div class="ml-auto hidden-sm-down">
-            <span class="status status-md {{ $news->status }}">@lang('site.news_status_'.$news->status)</span>
+ <!---           <span class="status status-md {{ $news->status }}">@lang('site.news_status_'.$news->status)</span> --->
         </div>
     </div>
     <div class="px-0">
