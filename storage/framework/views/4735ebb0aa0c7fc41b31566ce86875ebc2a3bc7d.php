@@ -43,6 +43,25 @@
             <div class="carousel-item ">
                 <div class="responsive-block">
                 
+                
+                    <div class="banner-block responsive-item">
+                        <?php if( App::isLocale('en') ): ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg')"></div>
+                        <?php else: ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg')"></div>
+                        <?php endif; ?>
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_mob.jpg')"></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="responsive-block">
+                
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"

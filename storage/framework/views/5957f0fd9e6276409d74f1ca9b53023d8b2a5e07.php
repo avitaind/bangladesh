@@ -14,6 +14,13 @@
         <?php echo $__env->make('banner_hk', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <?php endif; ?>
 
+    <div class="admiror-video">
+        <video autoplay="" controls="" muted="" loop=""> 
+        <source src="/images/Nexstgo_video/The_Success_Story_of_AVITA.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
     <section class="promo-banner mt-1">
     <div id="preloaders" class="preloader"></div>
 
