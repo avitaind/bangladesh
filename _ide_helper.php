@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.4.36 on 2019-11-14 21:43:36.
+ * Generated for Laravel 5.4.36 on 2021-12-29 19:35:38.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -2730,7 +2730,29 @@ namespace Illuminate\Support\Facades {
          */ 
         public static function flush()
         {
-            return \Illuminate\Cache\ArrayStore::flush();
+            return \Illuminate\Cache\FileStore::flush();
+        }
+        
+        /**
+         * Get the Filesystem instance.
+         *
+         * @return \Illuminate\Filesystem\Filesystem 
+         * @static 
+         */ 
+        public static function getFilesystem()
+        {
+            return \Illuminate\Cache\FileStore::getFilesystem();
+        }
+        
+        /**
+         * Get the working directory of the cache.
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function getDirectory()
+        {
+            return \Illuminate\Cache\FileStore::getDirectory();
         }
         
         /**
@@ -2741,7 +2763,7 @@ namespace Illuminate\Support\Facades {
          */ 
         public static function getPrefix()
         {
-            return \Illuminate\Cache\ArrayStore::getPrefix();
+            return \Illuminate\Cache\FileStore::getPrefix();
         }
          
     }
@@ -2997,86 +3019,6 @@ namespace Illuminate\Support\Facades {
         public static function getQueuedCookies()
         {
             return \Illuminate\Cookie\CookieJar::getQueuedCookies();
-        }
-         
-    }
-
-    class Crypt {
-        
-        /**
-         * Determine if the given key and cipher combination is valid.
-         *
-         * @param string $key
-         * @param string $cipher
-         * @return bool 
-         * @static 
-         */ 
-        public static function supported($key, $cipher)
-        {
-            return \Illuminate\Encryption\Encrypter::supported($key, $cipher);
-        }
-        
-        /**
-         * Encrypt the given value.
-         *
-         * @param mixed $value
-         * @param bool $serialize
-         * @return string 
-         * @throws \Illuminate\Contracts\Encryption\EncryptException
-         * @static 
-         */ 
-        public static function encrypt($value, $serialize = true)
-        {
-            return \Illuminate\Encryption\Encrypter::encrypt($value, $serialize);
-        }
-        
-        /**
-         * Encrypt a string without serialization.
-         *
-         * @param string $value
-         * @return string 
-         * @static 
-         */ 
-        public static function encryptString($value)
-        {
-            return \Illuminate\Encryption\Encrypter::encryptString($value);
-        }
-        
-        /**
-         * Decrypt the given value.
-         *
-         * @param mixed $payload
-         * @param bool $unserialize
-         * @return string 
-         * @throws \Illuminate\Contracts\Encryption\DecryptException
-         * @static 
-         */ 
-        public static function decrypt($payload, $unserialize = true)
-        {
-            return \Illuminate\Encryption\Encrypter::decrypt($payload, $unserialize);
-        }
-        
-        /**
-         * Decrypt the given string without unserialization.
-         *
-         * @param string $payload
-         * @return string 
-         * @static 
-         */ 
-        public static function decryptString($payload)
-        {
-            return \Illuminate\Encryption\Encrypter::decryptString($payload);
-        }
-        
-        /**
-         * Get the encryption key.
-         *
-         * @return string 
-         * @static 
-         */ 
-        public static function getKey()
-        {
-            return \Illuminate\Encryption\Encrypter::getKey();
         }
          
     }
@@ -11586,81 +11528,169 @@ namespace Illuminate\Support\Facades {
  
 }
 
-namespace Vinkla\Alert\Facades { 
+namespace UxWeb\SweetAlert { 
 
-    class Alert {
+    class SweetAlert {
         
         /**
-         * Flash an alert.
+         * Display an alert message with a text and an optional title.
+         * 
+         * By default the alert is not typed.
          *
-         * @param string $message
-         * @param string $style
-         * @return \Vinkla\Alert\Alert 
+         * @param string $text
+         * @param string $type
+         * @param string $title
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
          * @static 
          */ 
-        public static function flash($message, $style = 'info')
+        public static function message($text, $title = '', $type = null)
         {
-            return \Vinkla\Alert\Alert::flash($message, $style);
+            return \UxWeb\SweetAlert\SweetAlertNotifier::message($text, $title, $type);
         }
         
         /**
-         * Flash a danger alert.
+         * Display a not typed alert message with a text and a title.
          *
-         * @param string $message
-         * @return \Vinkla\Alert\Alert 
+         * @param string $text
+         * @param string $title
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
          * @static 
          */ 
-        public static function danger($message)
+        public static function basic($text, $title)
         {
-            return \Vinkla\Alert\Alert::danger($message);
+            return \UxWeb\SweetAlert\SweetAlertNotifier::basic($text, $title);
         }
         
         /**
-         * Flash an error alert.
+         * Display an info typed alert message with a text and an optional title.
          *
-         * @param string $message
-         * @return \Vinkla\Alert\Alert 
+         * @param string $text
+         * @param string $title
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
          * @static 
          */ 
-        public static function error($message)
+        public static function info($text, $title = '')
         {
-            return \Vinkla\Alert\Alert::error($message);
+            return \UxWeb\SweetAlert\SweetAlertNotifier::info($text, $title);
         }
         
         /**
-         * Flash a info alert.
+         * Display a success typed alert message with a text and an optional title.
          *
-         * @param string $message
-         * @return \Vinkla\Alert\Alert 
+         * @param string $text
+         * @param string $title
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
          * @static 
          */ 
-        public static function info($message)
+        public static function success($text, $title = '')
         {
-            return \Vinkla\Alert\Alert::info($message);
+            return \UxWeb\SweetAlert\SweetAlertNotifier::success($text, $title);
         }
         
         /**
-         * Flash a success alert.
+         * Display an error typed alert message with a text and an optional title.
          *
-         * @param string $message
-         * @return \Vinkla\Alert\Alert 
+         * @param string $text
+         * @param string $title
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
          * @static 
          */ 
-        public static function success($message)
+        public static function error($text, $title = '')
         {
-            return \Vinkla\Alert\Alert::success($message);
+            return \UxWeb\SweetAlert\SweetAlertNotifier::error($text, $title);
         }
         
         /**
-         * Flash a warning alert.
+         * Display a warning typed alert message with a text and an optional title.
          *
-         * @param string $message
-         * @return \Vinkla\Alert\Alert 
+         * @param string $text
+         * @param string $title
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
          * @static 
          */ 
-        public static function warning($message)
+        public static function warning($text, $title = '')
         {
-            return \Vinkla\Alert\Alert::warning($message);
+            return \UxWeb\SweetAlert\SweetAlertNotifier::warning($text, $title);
+        }
+        
+        /**
+         * Set the duration for this alert until it autocloses.
+         *
+         * @param int $milliseconds
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
+         * @static 
+         */ 
+        public static function autoclose($milliseconds = null)
+        {
+            return \UxWeb\SweetAlert\SweetAlertNotifier::autoclose($milliseconds);
+        }
+        
+        /**
+         * Add a confirmation button to the alert.
+         *
+         * @param string $buttonText
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
+         * @static 
+         */ 
+        public static function confirmButton($buttonText = 'OK')
+        {
+            return \UxWeb\SweetAlert\SweetAlertNotifier::confirmButton($buttonText);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function cancelButton($buttonText = 'Cancel')
+        {
+            return \UxWeb\SweetAlert\SweetAlertNotifier::cancelButton($buttonText);
+        }
+        
+        /**
+         * Make this alert persistent with a confirmation button.
+         *
+         * @param string $buttonText
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
+         * @static 
+         */ 
+        public static function persistent($buttonText = 'OK')
+        {
+            return \UxWeb\SweetAlert\SweetAlertNotifier::persistent($buttonText);
+        }
+        
+        /**
+         * Make Message HTML view.
+         *
+         * @param bool|true $html
+         * @return \UxWeb\SweetAlert\SweetAlertNotifier $this
+         * @static 
+         */ 
+        public static function html()
+        {
+            return \UxWeb\SweetAlert\SweetAlertNotifier::html();
+        }
+        
+        /**
+         * Return the current alert configuration.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function getConfig()
+        {
+            return \UxWeb\SweetAlert\SweetAlertNotifier::getConfig();
+        }
+        
+        /**
+         * Return the current alert configuration as Json.
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function getJsonConfig()
+        {
+            return \UxWeb\SweetAlert\SweetAlertNotifier::getJsonConfig();
         }
          
     }
@@ -12838,7 +12868,7 @@ namespace Watson\BootstrapForm\Facades {
         }
         
         /**
-         * Create a Bootstrap email time input.
+         * Create a Bootstrap time field input.
          *
          * @param string $name
          * @param string $label
@@ -13740,224 +13770,6 @@ namespace Laravel\Socialite\Facades {
  
 }
 
-namespace Maatwebsite\Excel\Facades { 
-
-    class Excel {
-        
-        /**
-         * Create a new file
-         *
-         * @param $filename
-         * @param callable|null $callback
-         * @return \Maatwebsite\Excel\LaravelExcelWriter 
-         * @static 
-         */ 
-        public static function create($filename, $callback = null)
-        {
-            return \Maatwebsite\Excel\Excel::create($filename, $callback);
-        }
-        
-        /**
-         * Load an existing file
-         *
-         * @param string $file The file we want to load
-         * @param callback|null $callback
-         * @param string|null $encoding
-         * @param bool $noBasePath
-         * @param callback|null $callbackConfigReader
-         * @return \Maatwebsite\Excel\LaravelExcelReader 
-         * @static 
-         */ 
-        public static function load($file, $callback = null, $encoding = null, $noBasePath = false, $callbackConfigReader = null)
-        {
-            return \Maatwebsite\Excel\Excel::load($file, $callback, $encoding, $noBasePath, $callbackConfigReader);
-        }
-        
-        /**
-         * Set select sheets
-         *
-         * @param $sheets
-         * @return \Maatwebsite\Excel\LaravelExcelReader 
-         * @static 
-         */ 
-        public static function selectSheets($sheets = array())
-        {
-            return \Maatwebsite\Excel\Excel::selectSheets($sheets);
-        }
-        
-        /**
-         * Select sheets by index
-         *
-         * @param array $sheets
-         * @return $this 
-         * @static 
-         */ 
-        public static function selectSheetsByIndex($sheets = array())
-        {
-            return \Maatwebsite\Excel\Excel::selectSheetsByIndex($sheets);
-        }
-        
-        /**
-         * Batch import
-         *
-         * @param $files
-         * @param callback $callback
-         * @return \PHPExcel 
-         * @static 
-         */ 
-        public static function batch($files, $callback)
-        {
-            return \Maatwebsite\Excel\Excel::batch($files, $callback);
-        }
-        
-        /**
-         * Create a new file and share a view
-         *
-         * @param string $view
-         * @param array $data
-         * @param array $mergeData
-         * @return \Maatwebsite\Excel\LaravelExcelWriter 
-         * @static 
-         */ 
-        public static function shareView($view, $data = array(), $mergeData = array())
-        {
-            return \Maatwebsite\Excel\Excel::shareView($view, $data, $mergeData);
-        }
-        
-        /**
-         * Create a new file and load a view
-         *
-         * @param string $view
-         * @param array $data
-         * @param array $mergeData
-         * @return \Maatwebsite\Excel\LaravelExcelWriter 
-         * @static 
-         */ 
-        public static function loadView($view, $data = array(), $mergeData = array())
-        {
-            return \Maatwebsite\Excel\Excel::loadView($view, $data, $mergeData);
-        }
-        
-        /**
-         * Set filters
-         *
-         * @param array $filters
-         * @return \Excel 
-         * @static 
-         */ 
-        public static function registerFilters($filters = array())
-        {
-            return \Maatwebsite\Excel\Excel::registerFilters($filters);
-        }
-        
-        /**
-         * Enable certain filters
-         *
-         * @param string|array $filter
-         * @param bool|false|string $class
-         * @return \Excel 
-         * @static 
-         */ 
-        public static function filter($filter, $class = false)
-        {
-            return \Maatwebsite\Excel\Excel::filter($filter, $class);
-        }
-        
-        /**
-         * Get register, enabled (or both) filters
-         *
-         * @param string|boolean $key [description]
-         * @return array 
-         * @static 
-         */ 
-        public static function getFilters($key = false)
-        {
-            return \Maatwebsite\Excel\Excel::getFilters($key);
-        }
-         
-    }
- 
-}
-
-namespace Torann\GeoIP\Facades { 
-
-    class GeoIP {
-        
-        /**
-         * Get the location from the provided IP.
-         *
-         * @param string $ip
-         * @return \Torann\GeoIP\Location 
-         * @static 
-         */ 
-        public static function getLocation($ip = null)
-        {
-            return \Torann\GeoIP\GeoIP::getLocation($ip);
-        }
-        
-        /**
-         * Get the currency code from ISO.
-         *
-         * @param string $iso
-         * @return string 
-         * @static 
-         */ 
-        public static function getCurrency($iso)
-        {
-            return \Torann\GeoIP\GeoIP::getCurrency($iso);
-        }
-        
-        /**
-         * Get service instance.
-         *
-         * @return \Torann\GeoIP\Contracts\ServiceInterface 
-         * @throws Exception
-         * @static 
-         */ 
-        public static function getService()
-        {
-            return \Torann\GeoIP\GeoIP::getService();
-        }
-        
-        /**
-         * Get cache instance.
-         *
-         * @return \Torann\GeoIP\Cache 
-         * @static 
-         */ 
-        public static function getCache()
-        {
-            return \Torann\GeoIP\GeoIP::getCache();
-        }
-        
-        /**
-         * Get the client IP address.
-         *
-         * @return string 
-         * @static 
-         */ 
-        public static function getClientIP()
-        {
-            return \Torann\GeoIP\GeoIP::getClientIP();
-        }
-        
-        /**
-         * Get configuration value.
-         *
-         * @param string $key
-         * @param mixed $default
-         * @return mixed 
-         * @static 
-         */ 
-        public static function config($key, $default = null)
-        {
-            return \Torann\GeoIP\GeoIP::config($key, $default);
-        }
-         
-    }
- 
-}
-
 
 namespace  { 
 
@@ -13978,8 +13790,6 @@ namespace  {
     class Config extends \Illuminate\Support\Facades\Config {}
 
     class Cookie extends \Illuminate\Support\Facades\Cookie {}
-
-    class Crypt extends \Illuminate\Support\Facades\Crypt {}
 
     class DB extends \Illuminate\Support\Facades\DB {}
 
@@ -16047,7 +15857,7 @@ namespace  {
 
     class View extends \Illuminate\Support\Facades\View {}
 
-    class Alert extends \Vinkla\Alert\Facades\Alert {}
+    class Alert extends \UxWeb\SweetAlert\SweetAlert {}
 
     class Form extends \Collective\Html\FormFacade {}
 
@@ -16058,10 +15868,6 @@ namespace  {
     class Bouncer extends \Silber\Bouncer\BouncerFacade {}
 
     class Socialite extends \Laravel\Socialite\Facades\Socialite {}
-
-    class Excel extends \Maatwebsite\Excel\Facades\Excel {}
-
-    class GeoIP extends \Torann\GeoIP\Facades\GeoIP {}
  
 }
 
