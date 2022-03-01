@@ -4,6 +4,24 @@
             
             <div class="carousel-item active">
                 <div class="responsive-block">
+                <a href="/news/detail/9">
+                    <div class="banner-block responsive-item">
+                        <?php if( App::isLocale('en') ): ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/web_banner.jpg')"></div>
+                        <?php else: ?>
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/web_banner.jpg')"></div>
+                        <?php endif; ?>
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/mob_banner_jasmy.png')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="responsive-block">
                 
                 <a href="https://avita-bangladesh.com/news/detail/1">
                     <div class="banner-block responsive-item">

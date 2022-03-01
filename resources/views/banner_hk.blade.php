@@ -4,6 +4,24 @@
             
             <div class="carousel-item active">
                 <div class="responsive-block">
+                <a href="">
+                    <div class="banner-block responsive-item">
+                        @if( App::isLocale('en') )
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/web_banner.jpg')"></div>
+                        @else
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/web_banner.jpg')"></div>
+                        @endif
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/mob_banner_jasmy.png')"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="responsive-block">
                 {{--  <a href="{{ route('product.overview', ['magus12-2in1-laptop']) }}">  --}}
                 <a href="https://avita-bangladesh.com/news/detail/1">
                     <div class="banner-block responsive-item">
@@ -268,6 +286,7 @@
           <li data-target="#home_banner" data-slide-to="4"></li>
           <li data-target="#home_banner" data-slide-to="5"></li>
           <li data-target="#home_banner" data-slide-to="6"></li>
+          <li data-target="#home_banner" data-slide-to="7"></li>
 
         </ol>
     </div>
