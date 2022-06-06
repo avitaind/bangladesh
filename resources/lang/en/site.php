@@ -9,7 +9,7 @@ return [
     'pura_intel'                   => 'AVITA PURA Intel',
     'pura_amd'                     => 'AVITA PURA AMD',
     'global_bd'                     => 'Bangladesh',
-    'accessories'                   =>'Accessories',
+    'accessories'                   => 'Accessories',
     'mouse'                         => 'AVITA Mouse [Coming Soon]',
     'sleeve'                         => 'AVITA Sleeve [Coming Soon]',
     'products'                      => 'Products',
@@ -53,10 +53,10 @@ return [
     'gender_m'                      => 'Male',
     'gender_f'                      => 'Female',
     // universal
-    
+
     // universal
     'blog'                          => 'Blogs',
-    'blog_title'                    =>'Blogs',
+    'blog_title'                    => 'Blogs',
     'blog_published'                => 'Published',
 
 
@@ -86,7 +86,7 @@ return [
     'productnav_spec'               => 'Tech Spec',
     'productnav_support'            => 'Support',
     'productnav_wheretobuy'         => 'Where to buy',
-    'productnav_magus'      		=> 'AVITA MAGUS 12.2 2-in-1 Laptop',
+    'productnav_magus'              => 'AVITA MAGUS 12.2 2-in-1 Laptop',
 
     'aboutus_about'                 => 'About AVITA',
     'aboutus_content'               => [
@@ -104,8 +104,8 @@ return [
     'aboutus_content_5'             => 'In 2021, we got the Intel Titanium Partner Award, the top tier of the Intel’s alliance membership, in recognition of our extraordinary growth in AVITA business in Asian regions. Same year, AVITA LIBER V, has been awarded a highly-coveted international design award – the distinctive “Red Dot Award: Product Design 2021” which stands for superior design quality.',
     'aboutus_content_6'             => 'As a team we truly live by our ethos to ‘live it up’ - this is part of our company DNA and what makes our products like no other.',
 
-    'img_1'           		        => '/images/background/reddot_winner_2021.png',
-    'img_2'           		        => '/images/background/intel_Titanium_partner.jpg',
+    'img_1'                           => '/images/background/reddot_winner_2021.png',
+    'img_2'                           => '/images/background/intel_Titanium_partner.jpg',
 
 
     'contactus_contactus'           => 'Contact Us',
@@ -266,21 +266,24 @@ return [
     'productnav_overview_essential' => 'Overview Essential',
     'liber-v' => 'AVITA LIBER V14',
     'liber_v_intel' => 'AVITA LIBER V14 Intel',
+    'liber_v_new_collection' => 'AVITA LIBER V New Collection',
     'liber_v_amd' => 'AVITA LIBER V14 AMD',
-    'liber-v-gold'=>'AVITA LIBER V Gold',
+    'liber-v-gold' => 'AVITA LIBER V Gold',
 
-    'productnav_overview_liber_v_gold'   => 'Overview LIBER V Gold',	
+    'productnav_overview_liber_v_gold'   => 'Overview LIBER V Gold',
 
-    'productnav_overview_liber_v'   => 'Overview LIBER V Intel',	
-    'productnav_overview_liber_v_amd'   => 'Overview LIBER V AMD',	
+    'productnav_overview_liber_v'   => 'Overview LIBER V Intel',
+    'productnav_overview_liber_v_new_collection'   => 'Overview LIBER V New Collection',
+
+    'productnav_overview_liber_v_amd'   => 'Overview LIBER V AMD',
     'article_title' => 'Events',
-    'article_status_finished'=>'Finished',
-    'article_status_processing'=>'In Progress',
-    'news_status_processing'=>'In Progress',
-    'article_status_coming_soon'=>'Coming Soon',
-    'blog_title'=>'Blogs',
+    'article_status_finished' => 'Finished',
+    'article_status_processing' => 'In Progress',
+    'news_status_processing' => 'In Progress',
+    'article_status_coming_soon' => 'Coming Soon',
+    'blog_title' => 'Blogs',
     'blog_published' => 'Published',
-    'publish_title'=>'News',
+    'publish_title' => 'News',
 
 
 ];

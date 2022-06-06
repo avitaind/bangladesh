@@ -4,19 +4,19 @@
             
             <div class="carousel-item active ">
                 <div class="responsive-block">
-                {{-- <a href="{{ route('product.overview', ['liber-v']) }}"> --}}
+                <a href="{{ route('product.overview', ['liber-v-new-collection']) }}">
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
+                                 style="background-image: url('/images/banner/liber_v_new_collection_intel_en.jpg')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
+                                 style="background-image: url('/images/banner/liber_v_new_collection_intel_en.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/avita-liber-v-mob-new-v1.jpg')"></div>
+                             style="background-image: url('/images/banner/liber_v_new_collection_intel_en_mo.jpg')"></div>
                     </div>
-                    {{-- </a> --}}
+                    </a>
                 </div>
             </div>
 

@@ -35,4 +35,6 @@ return [
      'LIBER_v_home_intel'  => 'AVITA LIBER V Intel',
      'LIBER_v_home_amd'    => 'AVITA LIBER V AMD',
      'LIBER_v_spec'  	  => 'AVITA LIBER V Spec', 
+     'LIBER_v_new_collection_home'  	  => 'AVITA LIBER V New Collection', 
+     'LIBER_v_new_collection_spec'  	  => 'AVITA LIBER V New Collection Spec', 
 ];
