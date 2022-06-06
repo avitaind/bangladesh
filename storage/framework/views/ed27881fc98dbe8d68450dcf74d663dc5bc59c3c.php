@@ -42,17 +42,13 @@
 
 
                                        <li class="nav-item has-dropdown">
-                                             <input id="liber_v_product" type="checkbox" hidden="">
-                                                 <a class="nav-link px-md-4 py-2"><label for="liber_v_product"><?php echo app('translator')->getFromJson('site.liber-v'); ?></label></a>
+                                             
+                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v'); ?></a>
                                                    <div class="dropdown">
                                                      <ul class="list-unstyled">
-                                                         <li class="nav-item has-dropdown">
-                                                              <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v'])); ?>"><?php echo app('translator')->getFromJson('site.liber_v_intel'); ?></a>
-                                                         </li>
+                                                         
                                                      
-                                                          <li class="nav-item has-dropdown">
-                                                              <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-amd'])); ?>"><?php echo app('translator')->getFromJson('site.liber_v_amd'); ?></a>
-                                                         </li>
+                                                          
                                                         
                                                       </ul>
                                                   </div>
