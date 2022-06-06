@@ -212,7 +212,7 @@
                 <div class="space60"></div>
             </div>
         </section>
-        
+
         <section class="product-liber-computer product-liber-v-computer">
             <div class="banner-block">
                 <div class="banner-bg"></div>
@@ -297,7 +297,7 @@
 
                         <div class="mb-4 mb-sm-5 cpu_logo text-center">
                             <img src="/images/liber-v/icon_intel_cpu.png" style="margin-right: 10px;">
-                            <img src="/images/liber-v/icon_amd_ryzen.PNG" style="margin-left: 10px;">
+                            <img src="/images/liber-v/icon_amd_ryzen.png" style="margin-left: 10px;">
                         </div>
 
 
